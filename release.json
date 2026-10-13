@@ -1,0 +1,7 @@
+{
+  "product": "GolfSimHub",
+  "version": "0.9.0-beta.2",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/f6ef4351d18b5341afdb1727008e50bf7a454f6d/downloads/GolfSimHub-0.9.0-beta.2.exe",
+  "sha256": "a5d181cafae37249c9d9f75df45b1079716f9ac65a74f6a932329081e5b3f364",
+  "signingStatus": "unsigned-beta"
+}
