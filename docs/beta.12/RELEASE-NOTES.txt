@@ -10,3 +10,5 @@ Changes since beta.6:
 
 Existing settings and licensing storage are preserved during upgrades. No simulator software is bundled or reconfigured by this installer.
 Unsigned closed beta with test licensing. Physical hardware validation remains specific to tested combinations. Voice control is a future Pro roadmap item, not part of this release.
+
+Documentation refresh: English and Dutch guides now use beta.12 screenshots and menus; connector companion and download links updated. Automatic update feed offers beta.12. Installer unchanged by this documentation refresh.

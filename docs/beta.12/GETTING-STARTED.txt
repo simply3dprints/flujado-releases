@@ -3,5 +3,7 @@ Run the Windows installer. On first launch use Guided setup to find supported so
 For an existing setup, review the Overview in Settings. The guided wizard starts from your last saved settings; save editor changes before opening it. Existing workflows stay intact unless you explicitly choose replacement. Use Tiles & screens for names, artwork and displays; expand Advanced workflow steps only when needed.
 Use Back or Escape to return from Movies & TV to the golf tiles. Streaming services require your own account/subscription and regional availability varies.
 Save changes applies edits; Close without saving discards editor changes. Windows startup and administrator-code actions apply immediately as marked. Pro includes personalization, Presentation mode and local Backup & Restore. All editions support custom tiles and multiple saved setups.
-The included beta.6 guides cover the existing launcher, licensing, backup and connector functions. Their older settings screenshots differ from beta.12; use this quick start for the new layout.
+The included English and Dutch beta.12 guides contain current screenshots and instructions for discovery, connectors, the settings sidebar, advanced controls, Movies & TV and automatic updates. The connector companion includes current Hub navigation and the hardware-preset reference index.
 Request a beta license separately. Never send passwords or existing license keys with feedback. Export Diagnostic Report for support and describe the steps, expected result and actual result.
+
+Updates > Check for updates now offers beta.12 through the Hub. Current downloads and guides: https://github.com/simply3dprints/flujado-releases

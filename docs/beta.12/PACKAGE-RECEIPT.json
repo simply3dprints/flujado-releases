@@ -1,8 +1,10 @@
 {
   "version": "0.9.0-beta.12",
-  "sha256": "768e95825833b96d2381399c432847d972f1a84ae91e902eb3c382c92eb22648",
+  "sha256": "b313cb3ab030c8339df4b25a716e3c855ccb5e0c05ab9c07ff707970af2b648c",
   "installerSha256": "85d3a8921272cc228fff691b25b0d9967fb1b377c88aa9e6a7f44fdddcb41da6",
   "published": false,
   "signingStatus": "unsigned-beta",
-  "automaticUpdateFeedChanged": false
+  "documentationVersion": "beta.12",
+  "automaticUpdateFeedVersion": "0.9.0-beta.12",
+  "installerChanged": false
 }
