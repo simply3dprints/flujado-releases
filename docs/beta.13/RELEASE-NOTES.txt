@@ -1,0 +1,9 @@
+FluJado Golf Sim Hub beta.13 - 16 October 2026
+
+- The Windows installer now explains that simulator software and required connectors must be installed and activated first, and tested outside the Hub with a real shot.
+- Guided setup repeats this prerequisite on its welcome screen.
+- English/Dutch user guides and the connector companion updated to beta.13, with current welcome screenshots and download links.
+- Includes the guided discovery, optional Movies & TV, service logos, custom empty tile and redesigned settings introduced through beta.12.
+- Settings and licensing storage remain preserved on upgrade. No simulator or connector configuration is changed by this release.
+
+Unsigned closed beta with test licensing. No new physical hardware compatibility certification. Voice control remains a future optional Pro roadmap item.
