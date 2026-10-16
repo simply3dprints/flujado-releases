@@ -1,0 +1,10 @@
+FluJado Golf Sim Hub 0.9.0-beta.6 - 16 October 2026
+
+- Pro local backups now include named simulator configurations and their images.
+- Restore adds named setups as new copies, preserving existing saved setups. The automatic pre-restore backup includes the named library.
+- Beta.5 backups remain readable. New backup format 2 requires beta.6 or later to restore.
+- Missing program paths in restored named configurations disable dependent tiles until configured.
+- Diagnostics now report numeric installed executable versions and stable/legacy/default screen routing for built-in tiles. Paths, monitor identities, custom labels, raw logs and license details remain excluded.
+- English and Dutch guides updated. Home/Pro feature copy aligned locally.
+
+No new simulator compatibility claims. Unsigned closed beta. Test licensing remains enabled. No public update feed published by this build.
