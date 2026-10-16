@@ -1,0 +1,12 @@
+FluJado Golf Sim Hub 0.9.0-beta.12 - 16 October 2026
+
+Changes since beta.6:
+- Guided setup with automatic discovery of supported simulators and connectors, executable-location checks and screen selection. Detection is not hardware certification.
+- Optional Movies & TV folder with 22 services, local logos and US/Europe filters. Opens in the dashboard with Back navigation; websites use your default browser and your own subscriptions.
+- Optional standalone empty tile for your own app.
+- Cinema artwork for the Movies & TV folder.
+- Redesigned settings with an overview, sidebar navigation and collapsible technical controls. Dark tables, scrollbars and expander controls match the FluJado design.
+- Cancelled or stopped startup flows are represented correctly in diagnostic reports.
+
+Existing settings and licensing storage are preserved during upgrades. No simulator software is bundled or reconfigured by this installer.
+Unsigned closed beta with test licensing. Physical hardware validation remains specific to tested combinations. Voice control is a future Pro roadmap item, not part of this release.
