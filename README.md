@@ -10,7 +10,7 @@ Windows distribution files for FluJado Golf Sim Hub, by Simply 3D Prints.
 
 Beta.12 adds guided software and connector discovery, an optional Movies & TV folder with service logos, a standalone custom tile option, and redesigned settings. Upgrades preserve existing settings and license storage. The package includes the beta.6 guides for existing features; their settings screenshots predate the new layout. Read the beta.12 quick start for those changes. Voice control is a future roadmap item and is not included.
 
-The automatic-update feed is unchanged. These are versioned beta downloads.
+The automatic-update feed now offers beta.12 through the Hub. The installer is checked against its published SHA-256 before it is opened.
 
 ## Previous closed beta 0.9.0-beta.6
 
@@ -22,10 +22,11 @@ The automatic-update feed is unchanged. These are versioned beta downloads.
 
 This is an unsigned Windows beta with test licensing. Simulator software, connectors and their licenses are obtained separately. Catalog presets are not universal hardware compatibility certification. Community routes need model-specific checks. Request a test license from FluJado; no license keys or customer records are distributed here.
 
-The existing automatic-update manifest is retained independently of these versioned beta downloads. Publishing these files does not promote beta.6 through the old update feed.
+Beta.6 remains available as a previous download. The automatic-update feed now points to beta.12.
 
 ## Earlier build
 
 [0.9.0-beta.2 installer](downloads/GolfSimHub-0.9.0-beta.2.exe)
 
 Source is maintained in a separate private repository. All rights reserved.
+
