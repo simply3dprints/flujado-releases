@@ -1,0 +1,1304 @@
+Connector setup guide
+
+For closed-beta testers | 17 October 2026
+
+Windows / FluJado beta.15. Install and test the connection manually before giving FluJado control of the startup sequence.
+
+FluJado beta.15 setup and updates
+
+Use Settings > Overview > Open guided setup to find supported simulator and connector executables. Select the exact model and route, check locations and choose screens. Existing workflows stay unchanged unless you explicitly select replacement. Automatic updates now offer beta.15 through the Hub. Current FluJado downloads and guides. A discovered executable is not a verified hardware connection.
+
+Start with these three choices
+
+Write down your launch monitor model, simulator and connection route. A ProTee-to-ShotForge route through rela uses different software from its VX Connector route. A Square setup must not inherit ProTee settings.
+
+What a connector does
+
+A connector forwards launch-monitor data to the simulator. FluJado starts configured applications and checks workflow readiness; it does not replace the connector, install vendor software or turn a listed profile into a verified hardware integration.
+
+Read only the route you need
+
+Section 1: downloads. Section 2: ShotForge with rela. Section 3: ProTee alternatives. Section 4: GSPro direct routes. Section 5: GSPro vendor/community routes. Section 6: Awesome Golf. Section 7: troubleshooting. The model index covers all 97 presets currently in beta.15.
+
+Status and scope
+
+This is a setup companion, not a universal compatibility guarantee. Presets are a mixture of locally exercised, vendor-documented and community-assisted routes. Most need independent hardware testing. Keep the software maker's current model guide alongside this document.
+
+Before installing anything
+
+Finish your current simulator session. Note existing connector settings and versions. Download from the maker or the linked author page. Keep required vendor/simulator licenses active. If a file source or exact model is unclear, ask before replacing anything. Connector binaries are not included in the FluJado package.
+
+1. Downloads and source links
+
+GSPro
+
+Official installation guide | GSProInstaller.zip (linked by GSPro). Extract the ZIP and use the included installer. Keep your GSPro license available. Model connection guides.
+
+rela
+
+Maker installation instructions | User guide | Windows x64 beta download endpoint. The download endpoint was recorded from the developer's Discord announcement; its current file could not be retrieved in this session. Confirm the current installer in ShotForge Discord before using it.
+
+ShotForge
+
+Official website | Launch-monitor support Discord linked by ShotForge. Open the ShotForge Quick Start post for the shared PDF (Discord membership required). Use ShotForge Launcher to obtain game updates. A current installer binary was not retrieved here.
+
+ProTee Labs and VX Connector
+
+ProTee support centre for Labs installation and activation. Download VX Connector through its author repository and Releases link. Choose VxConnectorSetup.exe. Community software; exact current release and binary were not retrieved. Do not substitute an unrelated package named vx.
+
+Other software
+
+Square software, firmware and connector downloads | Uneekor third-party setup | Awesome Golf model guides | Awesome Golf Connect/download landing page. Use the model guide to reach the appropriate Windows installer; the Connect landing page was not retrieved here.
+
+Community routes
+
+VTrack-to-ShotForge author release | OpenSkyPlus2 author quick start. These are independent projects, not official manufacturer endorsements. The community plugin collection shared by eKsiSLe in Discord may supply device plugins; current contents/version were not downloaded or verified. rela Other API is developer documentation.
+
+Link checking
+
+Core documentation and the VTrack release page were read on 17 October 2026. A documentation link is not proof that an installer was downloaded, scanned or hardware-tested. Binary downloads were not installed or redistributed. Appendix model links are catalog references, not individually rechecked links.
+
+2. ShotForge with rela
+
+Install once
+
+Install your required manufacturer software and ShotForge first. Run normal vendor activation and updates. Install rela, select only your owned devices and the simulator output you use, and review the setup results. Resolve red setup results before continuing. Source: rela installation guide.
+
+Manufacturer prerequisites
+
+SkyTrak, GolfJoy and FlightScope Xi/X2 need the appropriate installed vendor app for rela's local checks. Install rela on the same disk when its setup requires compatibility linking. GC2 USB may need its driver. Square, Mevo+/Gen2, R10 and KIT do not require installer-managed vendor component links according to rela's FAQ; normal pairing and entitlement requirements still apply. Source: Device requirements.
+
+First connection
+
+Turn on the monitor, open ShotForge, then open rela. Select the correct Device and connection type, use Search, and check the Simulator selection. Wait for both sides to connect and verify one real shot. Auto Connect and Discover can automate subsequent device search. Source: First connection and settings.
+
+In FluJado
+
+Choose the ShotForge preset for your model and the rela route. Browse to the actual ShotForge launcher, game executable and rela.exe. Use your own folders. The built-in flow opens ShotForge before rela. Do not add VX Connector, VGPConnect or ProTee Labs to a Square route.
+
+Several launch monitors
+
+A saved rela default is not an automatic device switch for every setup. Confirm Device, connection type, simulator and plugin for the monitor you are about to use. The Hub has no Home/Pro hardware-count restriction.
+
+Pass this test before automating
+
+Device connected; simulator connected; real shots arrive. Repeat after restarting the PC. A green installation result or a running process alone is insufficient. Record exact versions and the chosen route.
+
+3. ProTee VX to ShotForge
+
+Route A - rela with a ProTee plugin
+
+This is a community plugin route. The community plugin collection was reposted by eKsiSLe in the ProTee channel on 8 October. Confirm the ProTee DLL and version with the author before installing: the collection contents were not downloaded or validated here.
+
+Plugin placement
+
+After closing rela, put only the selected Other-device plugin next to rela.exe, not inside the FluJado folder. The developer API discovers plugins from the application directory. Avoid multiple competing Other plugins. Source: rela Other plugin discovery.
+
+ProTee-specific configuration
+
+The route recorded for this beta uses Device = Other and the ProTee plugin's Socket Relay settings. Follow the plugin author's Find/Save/restart instructions for your version. This is not the Square connection setting. Start ShotForge before rela. The plugin may manage the Labs restart; finish updates before testing. Verify shots manually before enabling the Hub flow.
+
+Route B - VGPConnect / VX Connector
+
+The existing Hub preset starts ProTee Labs, waits for it, opens VGPConnect and VX Connector, opens ShotForge, then restarts VGPConnect after ShotForge becomes ready. Use the supplied executable paths from your working installation. Get VX Connector from the author repository. Its author documents tray selection Switch to Drills; the ShotForge community route uses that target. ProTee Labs 1.12.9.0 or later requires VX Connector 1.4.0 or later. The repository documents InfiniteTees/Drills; ShotForge use is community guidance, not manufacturer certification.
+
+Choose one route
+
+Select the matching connector-labelled preset in the Hub wizard. When switching between these ShotForge routes, end the session first: the Hub closes and restarts the configured apps/connectors. Entering Range quickly was checked locally, but other PCs still need testing.
+
+If a required file is missing
+
+Stop and obtain the correct file from the author. Do not remove the Hub preflight requirement to force a launch. Ask the tester to provide the pinned author post, version and successful manual connection result.
+
+4. GSPro - direct/native routes
+
+Common installation
+
+Use GSPro&#x27;s installer guide and the exact model connection page from GSPro setup documentation. Activate GSPro for the intended device and perform the initial connection in GSPro Connect. Configure GSPLauncher.exe in FluJado; selecting a Hub profile does not change your GSPro license type.
+
+ProTee VX
+
+Install and activate ProTee Labs and enable its GSPro connection through the vendor procedure. Keep the required GSPro/API connection available and configure Labs Game Options. Then select the ProTee VX GSPro preset in FluJado. Source: ProTee GSPro activation.
+
+Garmin R10 and R50
+
+Use the separate R10 or R50 guide. Do not assume the pairing/network steps are the same. The Hub's native presets launch GSPro; they do not run rela. Configure the monitor connection, firmware and simulator settings manually first. Open the matching guide from the model index.
+
+Rapsodo MLM2PRO
+
+Use the GSPro MLM2PRO guide for required authentication, entitlement and connection steps. The current Hub preset includes a manual preparation confirmation before launch. That preset is separate from the ShotForge Other-plugin route. Do not treat the presence of a plugin DLL as successful authentication.
+
+FlightScope, Foresight/Bushnell and GolfJoy
+
+Use the official model guide and current simulator entitlement. Native presets launch GSPro after conflict cleanup. Connection and license conversion must already be completed outside the Hub. Do not copy rēlā vendor-link instructions into a native GSPro setup.
+
+Square
+
+The local Omni GSPro setup used the native GSPro Connect route with a Square-enabled GSPro license. The separate Square GSPro Connector download is an alternative documented by Square; do not install it on top of a working direct route without choosing that route deliberately. Home Edition and Omni are distinct models.
+
+5. GSPro - vendor/community routes
+
+Uneekor Launcher / Third-party Connector
+
+In Uneekor Launcher, check the license includes Third-party Connector. Configure the GSPro executable in the third-party software section and complete the initial Start Now launch from Uneekor Launcher. Use the vendor's current instructions for VIEW and automatic launch choices. Point the Hub at your real Launcher and Connector executables. Source: Uneekor setup instructions.
+
+SkyTrak OG / + / MAX
+
+The catalog includes assisted community GSPro routes. OpenSkyPlus2&#x27;s guide documents its plugin environment and OpenConnect settings. It lists tested SkyTrak versions separately from newer versions with uncertain results. Check your exact SkyTrak app/plugin versions with the author; do not assume a current vendor update is compatible. MAX testing is distinct from OG/+.
+
+VTrack to ShotForge - separate bridge
+
+The author release instructs extracting its entire ZIP and selecting the bridge GSPLauncher.exe in VTrackToolKit's GSPro simulator settings. That is the bridge executable, not your real GSPro launcher. Follow the included QUICKSTART.txt. Keep a separate configuration for genuine GSPro; the Hub does not automatically rewrite Toolkit targets. This is a community beta.
+
+NVisage, OpenLaunch, Blue Tees and other models
+
+Use the model links in the index and the manufacturer's actual connector if required. Required Hub app entries describe what the preset launches, not every prerequisite that must be installed. When a guide is missing or the download cannot be verified, leave the route unconfigured and ask for a model-specific setup check.
+
+A route to avoid guessing
+
+Do not send Foresight users a generic GameChanger or Automat download merely because it appears in a Discord discussion. Current provenance, model support, licensing and installation instructions need confirmation before that can become a tester-ready route.
+
+6. Awesome Golf
+
+Download and choose your exact model
+
+Awesome Golf&#x27;s official compatibility list links individual connection guides. It currently includes models from Garmin, FlightScope, Foresight/Bushnell, Rapsodo, Square and Uneekor EYE MINI. Treat each model individually; EYE MINI documentation does not establish support for every Uneekor device.
+
+Prepare the connection
+
+Install the Windows simulator through the vendor's current download flow. Follow the model guide for network/USB/Bluetooth, sign-in and simulator entitlement. Connect in Awesome Golf and verify an actual shot before configuring FluJado.
+
+Direct versus assistant presets
+
+The catalog contains both direct and assistant routes for some monitors, notably R10 and MLM2PRO. Select the route matching the vendor instructions and your working installation. Do not start an extra connector solely because another launch monitor needs one.
+
+In the Hub
+
+Select the matching Awesome Golf preset. Most assisted routes open Awesome Golf and wait for you to confirm the manual connection. The existing Square Omni route has model-specific automatic selection. A running Awesome Golf process is not proof of a live device connection.
+
+Your acceptance check
+
+Confirm the right monitor name in the simulator, hit one real shot, restart and repeat. If manual confirmation appears, confirm only after connection is ready. Report app startup, monitor connection and shot delivery separately.
+
+7. Troubleshooting and handover
+
+App opens, but no shots
+
+Check the monitor connection first, then the simulator output and selected route. Ensure another connector is not already holding the device. For rela, confirm the Device and Simulator rows rather than repeatedly clicking Simulator Connect first. Source: rela connection troubleshooting.
+
+Plugin not found or wrong monitor appears
+
+Check the DLL is next to the correct rela.exe, matches the intended model and is the only competing Other plugin. Obtain the current release instructions from its author. Leave built-in dependencies alone.
+
+Vendor update just installed
+
+Finish activation/update prompts outside the Hub, then recheck the manual connection. Record old and new app, firmware and connector versions. Rela's red setup results may require rerunning its installer after vendor changes; see setup repair guidance.
+
+What to send with feedback
+
+Launch monitor model and firmware; simulator and connector versions; chosen Hub preset; connection type; exact order followed; expected result; actual result; whether a real shot arrived; a reviewed diagnostic report. Remove keys, passwords and private details. Send to info@flujado.com.
+
+What remains to be verified
+
+Current installer/plugin versions and binary contents; binary signatures/checksums; exact plugin/model version compatibility; fresh-PC and hardware tests for community routes. Documentation availability and physical compatibility are recorded separately.
+
+Model index on the next pages
+
+Each row refers to an existing beta.15 preset. Required app names come from the shipped catalog, not a promise that no other setup is needed. Sources marked catalog reference were not individually re-read in this session. No preset in this index should be read as a blanket Verified badge.
+
+8. Infinite Tees - beta.15 automatic and assisted routes
+
+Install and prepare
+
+Install and activate Infinite Tees and the correct connector first. FluJado does not ship vendor binaries, pair devices or provide simulator licenses. Select Infinite Tees in Guided setup, then choose the exact hardware preset and check program locations.
+
+rela: correct connection order
+
+Open Practice or a round in Infinite Tees and wait for the range/course to load. In rela select Simulator: Infinite Tees and the intended Device. Close other connector sessions. Use Device Search first; allow the device to connect and then the simulator. Simulator Connect is a recovery action after the device has connected. Confirm both show Connected and Ready, then check a real shot. The ProTee VX/plugin and Square Omni profiles now run Device Search and simulator recovery automatically, without Continue. For ProTee VX, rela starts Labs through its plugin; do not start Labs first.
+
+ProTee VX through rela - practically tested
+
+Use Other with the matching ProTeeVXPlugin.dll next to rela.exe. Use the configured Socket Relay and ProTee Labs. Keep only the intended Other plugin active. On 17 October 2026 the assisted beta.14 workflow, Connected/Ready status and a real shot in Infinite Tees Flat Range passed locally using an isolated connector copy.
+
+Square Omni through rela Bluetooth - practically tested
+
+Use the built-in Square Omni device and Bluetooth option. On 17 October 2026 the assisted beta.14 workflow, Connected/Ready status and a real shot in Infinite Tees Flat Range passed locally using an isolated connector copy.
+
+Other presets and limits
+
+The alternative ProTee VX Connector route and the other 10 Infinite Tees presets remain available but have not passed these hardware tests. A successful test for one connector does not transfer to another connector or monitor. Clean-install/reboot certification is still pending for the two tested routes.
+
+Switching simulators and recovery
+
+For these automatic profiles FluJado selects the expected Device and Simulator only while rela is closed, backing up its settings and retaining other values. Review the selection when using other assisted profiles. If no shots arrive, check Device first, then simulator output, plugin identity and other running connector sessions. Do not reset existing routes or license storage.
+
+Current public status
+
+See https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md for the complete 97-route table and practical evidence. Unlisted combinations are not covered by a FluJado preset and are not automatically unsupported by their maker.
+
+9. beta.15 - rela / ProTee startup order
+
+Applies to both profiles
+
+ShotForge / ProTee VX via rela and Infinite Tees / ProTee VX via rela now let the plugin own Labs startup. Install and configure ProTeeVXPlugin.dll and Socket Relay first. The Hub closes the conflicting sessions, starts the simulator and rela, searches for the device and lets the plugin start Labs. Do not add a preliminary Labs launch. The native GSPro and VX Connector routes retain their own order.
+
+Automatic status checks
+
+The Hub requires both device and simulator Connected and Ready, then checks Labs readiness and checks the connector again. Device Search precedes simulator Connect. Connection retries and timeouts are bounded; failure stops the route with diagnostics. Select a range or course yourself. First-use pairing, activation, plugin configuration and real-shot verification remain your responsibility.
+
+Existing settings and practical evidence
+
+Upgrades preserve saved user workflows and licenses. To use a newer preset in an existing setup, explicitly replace that route through Guided setup. Infinite Tees ProTee VX and Square Omni automatic startup/switching passed locally against the existing GSPro/ProTee VX tile and back. beta.14 real-shot evidence is historical; no new shot or GSPro/Square Omni hardware test is claimed. ShotForge startup order is covered by isolated tests in this release, not a new live hardware test.
+
+shotforge-default
+
+ProTee VX
+
+ProTee Labs, VGPConnect, VX Connector, Shot Forge Launcher, ShotForge
+
+shotforge-protee-rela
+
+ProTee VX (rēlā Socket Relay)
+
+ProTee Labs, Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+shotforge-square-omni
+
+Square Omni
+
+Shot Forge Launcher, ShotForge, rēlā
+
+shotforge-square-home
+
+Square Home Edition
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-flightscope-mevo-plus
+
+FlightScope Mevo+
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-garmin-r10
+
+Garmin R10
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-foresight-gc2
+
+Foresight GC2
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-golfjoy-spica3
+
+GolfJoy Spica 3
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-skytrak-og
+
+SkyTrak OG
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-skytrak-plus
+
+SkyTrak+
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-flightscope-gen2
+
+FlightScope Gen2
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-flightscope-xi
+
+FlightScope Xi
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-flightscope-x2
+
+FlightScope X2
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-full-swing-kit
+
+Full Swing KIT
+
+Shot Forge Launcher, ShotForge, rēlā
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/#devices
+
+https://docs.rela.golf/rela/installation/
+
+shotforge-uneekor-plugin
+
+Uneekor (community plugin)
+
+Shot Forge Launcher, ShotForge, rēlā
+
+shotforge-rapsodo-mlm2pro
+
+Rapsodo MLM2PRO
+
+Shot Forge Launcher, ShotForge, rēlā
+
+shotforge-vtrack-bridge
+
+LAON VTrack (assisted bridge)
+
+Shot Forge Launcher, ShotForge, VTrackToolKit (LPGAgent), VTrack → ShotForge bridge
+
+https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1
+
+https://github.com/teuluseren/vtrack-shot-tracker/blob/connector-v0.1.0-beta.1/shotforge_vtrack_connector/README.md
+
+gspro-default
+
+ProTee VX
+
+ProTee Labs, GSPro
+
+gspro-square-omni
+
+Square Omni
+
+GSPro
+
+gspro-garmin-r50
+
+Garmin Approach R50
+
+GSPro
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/garmin-approach-r50-connection-guide
+
+gspro-rapsodo-mlm2pro
+
+Rapsodo MLM2PRO
+
+GSPro
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/rapsodo-mlm2pro-connection-guide
+
+https://gsprogolf.com/home/
+
+gspro-garmin-r10
+
+Garmin Approach R10
+
+GSPro
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/garmin-approach-r10-connection-guide
+
+gspro-full-swing-kit
+
+Full Swing KIT
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://kitsupport.fullswinggolf.com/hc/en-us/sections/1500002193721-Guides
+
+gspro-uneekor-qed
+
+Uneekor QED (assisted)
+
+GSPro, Uneekor Launcher, Uneekor Third-party Connector
+
+https://gsprogolf.com/home/
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+gspro-uneekor-eye-xo
+
+Uneekor EYE XO (assisted)
+
+GSPro, Uneekor Launcher, Uneekor Third-party Connector
+
+https://gsprogolf.com/home/
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+gspro-uneekor-eye-xo2
+
+Uneekor EYE XO2 (assisted)
+
+GSPro, Uneekor Launcher, Uneekor Third-party Connector
+
+https://gsprogolf.com/home/
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+gspro-uneekor-eye-mini
+
+Uneekor EYE MINI (assisted)
+
+GSPro, Uneekor Launcher, Uneekor Third-party Connector
+
+https://gsprogolf.com/home/
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+gspro-uneekor-eye-mini-lite
+
+Uneekor EYE MINI LITE (assisted)
+
+GSPro, Uneekor Launcher, Uneekor Third-party Connector
+
+https://gsprogolf.com/home/
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+gspro-uneekor-eye-xr
+
+Uneekor EYE XR (assisted)
+
+GSPro, Uneekor Launcher, Uneekor Third-party Connector
+
+https://gsprogolf.com/home/
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+gspro-foresight-gc3
+
+Foresight GC3
+
+GSPro
+
+https://gsprogolf.com/foresight-bushnell.html
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide
+
+gspro-foresight-gcquad
+
+Foresight GCQuad
+
+GSPro
+
+https://gsprogolf.com/foresight-bushnell.html
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide
+
+gspro-foresight-quadmax
+
+Foresight QuadMAX
+
+GSPro
+
+https://gsprogolf.com/foresight-bushnell.html
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide
+
+gspro-foresight-gchawk
+
+Foresight GCHawk
+
+GSPro
+
+https://gsprogolf.com/foresight-bushnell.html
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide
+
+gspro-foresight-falcon
+
+Foresight Falcon
+
+GSPro
+
+https://gsprogolf.com/foresight-bushnell.html
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide
+
+gspro-foresight-launch-pro
+
+Bushnell Launch Pro
+
+GSPro
+
+https://gsprogolf.com/foresight-bushnell.html
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide
+
+gspro-flightscope-mevo-plus
+
+FlightScope Mevo+
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide
+
+gspro-flightscope-mevo-gen2
+
+FlightScope Mevo Gen2
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide
+
+gspro-flightscope-xi
+
+FlightScope Xi
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide
+
+gspro-flightscope-x2
+
+FlightScope X2
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide
+
+gspro-flightscope-x3
+
+FlightScope X3
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide
+
+gspro-golfjoy-spica3
+
+GolfJoy Spica 3
+
+GSPro
+
+https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/
+
+https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors
+
+https://gsprogolf.com/home/
+
+gspro-golfjoy-gds-pro
+
+GolfJoy GDS Pro
+
+GSPro
+
+https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/
+
+https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors
+
+https://gsprogolf.com/home/
+
+gspro-golfjoy-gr2
+
+GolfJoy GR2
+
+GSPro
+
+https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/
+
+https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors
+
+https://gsprogolf.com/home/
+
+gspro-golfjoy-gr3
+
+GolfJoy GR3
+
+GSPro
+
+https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/
+
+https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors
+
+https://gsprogolf.com/home/
+
+gspro-golfjoy-gr3-pro
+
+GolfJoy GR3 Pro
+
+GSPro
+
+https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/
+
+https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors
+
+https://gsprogolf.com/home/
+
+gspro-square-home
+
+Square Home Edition
+
+GSPro
+
+https://gsprogolf.com/home/
+
+https://squaregolf.com/pages/support
+
+gspro-golftrak
+
+GolfTrak (iPhone)
+
+GSPro
+
+https://help.golftrak.app/en-US/how-to-connect-to-gspro-5364306
+
+gspro-bluetees-rainmaker
+
+Blue Tees Rainmaker (assisted)
+
+GSPro
+
+https://blueteesgolf.gorgias.help/en-US/is-the-rainmaker-launch-monitor-compatible-with-golf-simulator-software-like-gspro-or-e6-5086127
+
+gspro-nvisage-n1
+
+NVisage N1 (assisted)
+
+GSPro, NVisage N-Connect
+
+https://nvisagetech.com/n1-launch-monitor-guide
+
+gspro-vtrack
+
+LAON VTrack (assisted)
+
+GSPro, VTrackToolKit (LPGAgent)
+
+https://swingcraft.golf/vtrack-setup/
+
+gspro-openlaunch-nova
+
+OpenLaunch NOVA (assisted)
+
+GSPro, OpenLaunch NOVA Windows app
+
+https://openlaunch.io/pages/troubleshooting
+
+https://openlaunch.io/pages/faq
+
+gspro-skytrak-og
+
+SkyTrak OG (OSP2 assisted)
+
+GSPro, SkyTrak with OpenSkyPlus2
+
+https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html
+
+https://openskyplus2.github.io/OpenSkyPlus2/FAQs-OpenSkyPlus2.html
+
+gspro-skytrak-plus
+
+SkyTrak + (OSP2 assisted)
+
+GSPro, SkyTrak with OpenSkyPlus2
+
+https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html
+
+https://openskyplus2.github.io/OpenSkyPlus2/FAQs-OpenSkyPlus2.html
+
+gspro-skytrak-max
+
+SkyTrak MAX (OSP2 assisted)
+
+GSPro, SkyTrak with OpenSkyPlus2
+
+https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html
+
+https://openskyplus2.github.io/OpenSkyPlus2/FAQs-OpenSkyPlus2.html
+
+awesomegolf-default
+
+Square Omni
+
+Awesome Golf
+
+awesomegolf-square-home
+
+Square Home Edition (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/square-golf-lm
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-garmin-r10
+
+Garmin Approach R10 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/garmin-approach-r10
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-garmin-r10-assistant
+
+Garmin Approach R10 via Assistant (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/garmin-approach-r10
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-garmin-r50
+
+Garmin Approach R50 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/garmin-approach-r50
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-rapsodo-mlm2pro
+
+Rapsodo MLM2PRO (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/rapsodo-mlm2pro
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-rapsodo-mlm2pro-assistant
+
+Rapsodo MLM2PRO via Assistant (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/rapsodo-mlm2pro
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-mevo-gen2
+
+FlightScope Mevo Gen2 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-mevo-gen2
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-mevo-plus
+
+FlightScope Mevo+ (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-mevo-plus
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-mevo-range
+
+FlightScope Mevo Range (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-mevo-range
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-x3c
+
+FlightScope X3C (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3c
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-x3
+
+FlightScope X3 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-xi-tour
+
+FlightScope Xi Tour (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-xi-tour
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-xi-plus
+
+FlightScope Xi+ (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-xi-plus
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-xi
+
+FlightScope Xi (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-xi
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-x2-elite
+
+FlightScope X2 Elite (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x2-elite
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-x2
+
+FlightScope X2 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x2
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-range-gen2
+
+FlightScope Range Gen2 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-range
+
+FlightScope Range (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-flightscope-xi-range
+
+FlightScope Xi Range (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-foresight-gc3
+
+Foresight GC3 (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gc3
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-foresight-gc3s
+
+Foresight GC3S (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gc3s
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-foresight-gcquad
+
+Foresight GCQuad (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gcquad
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-foresight-quadmax
+
+Foresight QuadMAX (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-quadmax
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-foresight-falcon
+
+Foresight Falcon (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-falcon
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-foresight-gchawk
+
+Foresight GCHawk (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gchawk
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-bushnell-lp
+
+Bushnell Launch Pro (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/bushnell-lp
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-bushnell-lpi
+
+Bushnell Launch Pro Indoor (LPi) (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/bushnell-lpi
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+awesomegolf-uneekor-eye-mini
+
+Uneekor EYE MINI (assisted)
+
+Awesome Golf
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+https://insights.awesome-golf.com/docs/guides/connection/uneekor-eye-mini
+
+https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor
+
+protee-default
+
+ProTee VX
+
+ProTee Labs
+
+infinite-tees-protee-vx
+
+ProTee VX — assisted beta
+
+Infinite Tees, VX Connector for Infinite Tees, ProTee Labs
+
+https://github.com/zonkey-acoustic/vx-connector
+
+infinite-tees-square-he-rela
+
+Square HE — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-square-omni-rela
+
+Square Omni — automatic beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-garmin-r10-rela
+
+Garmin R10 — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-skytrak-rela
+
+SkyTrak — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-skytrak-plus-rela
+
+SkyTrak+ — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-mevo-rela
+
+FlightScope Mevo+ / Gen2 — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-flightscope-xi-x2-rela
+
+FlightScope Xi / X2 — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-full-swing-kit-rela
+
+Full Swing KIT — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-foresight-gc2-rela
+
+Foresight GC2 — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-nova-rela
+
+Nova by Open Launch — assisted beta
+
+Infinite Tees, rēlā for Infinite Tees
+
+https://docs.rela.golf/rela/user-guide/
+
+https://docs.rela.golf/rela/faq/
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+infinite-tees-protee-rela
+
+ProTee VX (plugin) — automatic beta
+
+Infinite Tees, rēlā for Infinite Tees, ProTee Labs
+
+https://docs.rela.golf/rela/user-guide/
+
+https://github.com/eKsiSLe/rela-OtherLM
+
+infinite-tees-mlm2pro-bluetooth
+
+Rapsodo MLM2PRO — assisted beta
+
+Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees
+
+https://github.com/Duwaynef/MLM2PRO-BT-APP
+
+https://github.com/Duwaynef/MLM2PRO-BT-APP/releases
+
+LINK DIRECTORY
+rela-install: https://docs.rela.golf/rela/installation/
+rela-user: https://docs.rela.golf/rela/user-guide/
+rela-faq: https://docs.rela.golf/rela/faq/
+rela-download: https://downloads.rela.golf/get/rela/windows-x64/beta
+other-api: https://github.com/eKsiSLe/rela-OtherLM
+shotforge: https://www.shotforgegolf.com/
+shotforge-discord: https://discord.gg/RThChHHX2T
+shotforge-quickstart: https://discord.com/channels/1497254301511323728/1497256286918541332/1504241274394378302
+vx-author: https://github.com/zonkey-acoustic/vx-connector
+protee-plugins: https://gofile.io/d/wHAyzoy3
+gspro-install: https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install
+gspro-download: https://dvzg6a325ik1w.cloudfront.net/GSProInstaller.zip
+gspro-guides: https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation
+protee-support: https://csc.protee-united.com/hc/en-us
+protee-gspro: https://csc.protee-united.com/hc/en-us/articles/20293278989084-How-do-I-activate-the-GSPro-connection
+square: https://squaregolf.com/pages/support
+uneekor: https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+awesome-models: https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+awesome-download: https://awesome-golf.com/connect/
+vtrack: https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1
+skytrak: https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html

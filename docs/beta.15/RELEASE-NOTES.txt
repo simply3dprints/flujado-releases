@@ -1,0 +1,10 @@
+FluJado beta.15 - 17 October 2026
+
+
+- Both rela/ProTee setup profiles now use plugin-owned Labs startup: ShotForge and Infinite Tees start rela first, then verify Labs and recheck the connector. No preliminary Labs launch or repeated Continue prompts. Install and configure ProTeeVXPlugin.dll and Socket Relay first.
+- Infinite Tees with ProTee VX or Square Omni connects automatically with bounded device-first recovery. Other Infinite Tees presets remain assisted. Choose a range or course in the simulator yourself.
+- New/replaced simulator tiles close Infinite Tees and its connector when switching. Close all apps includes custom Infinite Tees routes. Existing saved workflows/settings are preserved on upgrade.
+- Faster cached Labs readiness reads prevent false timeouts on large session trees. Window/process, update, modal, timeout and stability checks remain in place.
+- Infinite Tees fills the selected simulator screen and receives foreground focus. Workflow sharing supports the new validated connector flags; diagnostic exports remain allowlisted and exclude keys and personal paths.
+- Local startup/switch checks passed for both Infinite Tees routes to the existing GSPro/ProTee VX tile and back. Prior beta.14 real-shot evidence is retained separately; no new shot test or GSPro/Omni hardware certification is claimed.
+- Guides, compatibility table and automatic update feed updated. No vendor connectors, tester data, saved configurations or license keys bundled.

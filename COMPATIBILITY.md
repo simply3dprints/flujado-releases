@@ -1,143 +1,123 @@
-# FluJado compatibility and test status - beta.14
+# FluJado compatibility and test status - beta.15
 
-Last updated: 17 October 2026. 97 implemented presets; 8 practically tested locally.
+Install and activate simulators and connectors first, and verify a real shot outside the Hub. Two Infinite Tees presets connect automatically; the other Infinite Tees presets remain assisted. Local beta.15 startup/switch follow-up used the existing GSPro/ProTee VX tile, not a GSPro/Square Omni route. Previous beta.14 real-shot evidence is distinguished below.
 
-## How to read this table
+# Golf Sim Hub compatibility matrix
 
-- **Practically tested**: local workflow/device testing is recorded. See the evidence below for the scope; this is not a guarantee for every PC or software version.
-- **Available - needs hardware test**: a FluJado startup preset exists, but this exact route has no recorded practical test.
-- **Research pending**: no complete Infinite Tees preset is shipped for the listed combination. This does not mean the simulator maker does not support it.
+Generated from the installer catalog and separately maintained hardware evidence. Do not edit this generated view.
 
-Install and activate your simulator and connectors first, then check a real shot outside FluJado. Guided setup discovers supported installed programs; it does not install them. Assisted routes require manual connection/confirmation. No route has completed the full fresh-PC, reboot and repeated-switching beta verification checklist.
+97 implemented routes. Tested means practical local testing; Verified requires the completed hardware beta checklist. No route is automatically Verified by a code test.
 
-A connector entry of "Simulator / vendor setup" means the Hub does not manage a separate connector for that preset; additional vendor setup or entitlement can still be required.
+| Launch monitor | Simulator | Connector / plugin | Status | Physical test | Verified | Profile |
+|---|---|---|---|---|---|---|
+| ProTee VX | GSPro | Native / simulator only | Tested | Yes | No | gspro-default |
+| ProTee VX | Shot Forge | VGPConnect, VX Connector | Tested | Yes | No | shotforge-default |
+| ProTee VX (rēlā Socket Relay) | Shot Forge | rēlā, ProTeeVXPlugin.dll | Needs Testing | No | No | shotforge-protee-rela |
+| Square Omni | Awesome Golf | Native / simulator only | Tested | Yes | No | awesomegolf-default |
+| ProTee VX | ProTee | Native / simulator only | Tested | Yes | No | protee-default |
+| Square Omni | GSPro | Native / simulator only | Tested | Yes | No | gspro-square-omni |
+| Square Omni | Shot Forge | rēlā | Tested | Yes | No | shotforge-square-omni |
+| Square Home Edition | Shot Forge | rēlā | Needs Testing | No | No | shotforge-square-home |
+| FlightScope Mevo+ | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-mevo-plus |
+| Garmin R10 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-garmin-r10 |
+| Foresight GC2 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-foresight-gc2 |
+| GolfJoy Spica 3 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-golfjoy-spica3 |
+| SkyTrak OG | Shot Forge | rēlā | Needs Testing | No | No | shotforge-skytrak-og |
+| SkyTrak+ | Shot Forge | rēlā | Needs Testing | No | No | shotforge-skytrak-plus |
+| FlightScope Gen2 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-gen2 |
+| FlightScope Xi | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-xi |
+| FlightScope X2 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-x2 |
+| Full Swing KIT | Shot Forge | rēlā | Needs Testing | No | No | shotforge-full-swing-kit |
+| Uneekor (community plugin) | Shot Forge | rēlā, OtherUneekorPlugin.dll | Needs Testing | No | No | shotforge-uneekor-plugin |
+| Rapsodo MLM2PRO | Shot Forge | rēlā, MLM2ProPlugin.dll | Needs Testing | No | No | shotforge-rapsodo-mlm2pro |
+| LAON VTrack (assisted bridge) | Shot Forge | VTrackToolKit (LPGAgent), VTrack → ShotForge bridge | Needs Testing | No | No | shotforge-vtrack-bridge |
+| Garmin Approach R50 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-garmin-r50 |
+| Rapsodo MLM2PRO | GSPro | Native / simulator only | Needs Testing | No | No | gspro-rapsodo-mlm2pro |
+| Garmin Approach R10 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-garmin-r10 |
+| Full Swing KIT | GSPro | Native / simulator only | Needs Testing | No | No | gspro-full-swing-kit |
+| Uneekor QED (assisted) | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Needs Testing | No | No | gspro-uneekor-qed |
+| Uneekor EYE XO (assisted) | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Needs Testing | No | No | gspro-uneekor-eye-xo |
+| Uneekor EYE XO2 (assisted) | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Needs Testing | No | No | gspro-uneekor-eye-xo2 |
+| Uneekor EYE MINI (assisted) | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Needs Testing | No | No | gspro-uneekor-eye-mini |
+| Uneekor EYE MINI LITE (assisted) | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Needs Testing | No | No | gspro-uneekor-eye-mini-lite |
+| Uneekor EYE XR (assisted) | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Needs Testing | No | No | gspro-uneekor-eye-xr |
+| Foresight GC3 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-foresight-gc3 |
+| Foresight GCQuad | GSPro | Native / simulator only | Needs Testing | No | No | gspro-foresight-gcquad |
+| Foresight QuadMAX | GSPro | Native / simulator only | Needs Testing | No | No | gspro-foresight-quadmax |
+| Foresight GCHawk | GSPro | Native / simulator only | Needs Testing | No | No | gspro-foresight-gchawk |
+| Foresight Falcon | GSPro | Native / simulator only | Needs Testing | No | No | gspro-foresight-falcon |
+| Bushnell Launch Pro | GSPro | Native / simulator only | Needs Testing | No | No | gspro-foresight-launch-pro |
+| FlightScope Mevo+ | GSPro | Native / simulator only | Needs Testing | No | No | gspro-flightscope-mevo-plus |
+| FlightScope Mevo Gen2 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-flightscope-mevo-gen2 |
+| FlightScope Xi | GSPro | Native / simulator only | Needs Testing | No | No | gspro-flightscope-xi |
+| FlightScope X2 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-flightscope-x2 |
+| FlightScope X3 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-flightscope-x3 |
+| GolfJoy Spica 3 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-golfjoy-spica3 |
+| GolfJoy GDS Pro | GSPro | Native / simulator only | Needs Testing | No | No | gspro-golfjoy-gds-pro |
+| GolfJoy GR2 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-golfjoy-gr2 |
+| GolfJoy GR3 | GSPro | Native / simulator only | Needs Testing | No | No | gspro-golfjoy-gr3 |
+| GolfJoy GR3 Pro | GSPro | Native / simulator only | Needs Testing | No | No | gspro-golfjoy-gr3-pro |
+| Square Home Edition | GSPro | Native / simulator only | Needs Testing | No | No | gspro-square-home |
+| GolfTrak (iPhone) | GSPro | Native / simulator only | Needs Testing | No | No | gspro-golftrak |
+| Blue Tees Rainmaker (assisted) | GSPro | Native / simulator only | Needs Testing | No | No | gspro-bluetees-rainmaker |
+| NVisage N1 (assisted) | GSPro | NVisage N-Connect | Needs Testing | No | No | gspro-nvisage-n1 |
+| LAON VTrack (assisted) | GSPro | VTrackToolKit (LPGAgent) | Needs Testing | No | No | gspro-vtrack |
+| OpenLaunch NOVA (assisted) | GSPro | OpenLaunch NOVA Windows app | Needs Testing | No | No | gspro-openlaunch-nova |
+| SkyTrak OG (OSP2 assisted) | GSPro | SkyTrak with OpenSkyPlus2 | Needs Testing | No | No | gspro-skytrak-og |
+| SkyTrak + (OSP2 assisted) | GSPro | SkyTrak with OpenSkyPlus2 | Needs Testing | No | No | gspro-skytrak-plus |
+| SkyTrak MAX (OSP2 assisted) | GSPro | SkyTrak with OpenSkyPlus2 | Needs Testing | No | No | gspro-skytrak-max |
+| Square Home Edition (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-square-home |
+| Garmin Approach R10 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-garmin-r10 |
+| Garmin Approach R10 via Assistant (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-garmin-r10-assistant |
+| Garmin Approach R50 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-garmin-r50 |
+| Rapsodo MLM2PRO (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-rapsodo-mlm2pro |
+| Rapsodo MLM2PRO via Assistant (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-rapsodo-mlm2pro-assistant |
+| FlightScope Mevo Gen2 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-mevo-gen2 |
+| FlightScope Mevo+ (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-mevo-plus |
+| FlightScope Mevo Range (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-mevo-range |
+| FlightScope X3C (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-x3c |
+| FlightScope X3 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-x3 |
+| FlightScope Xi Tour (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-xi-tour |
+| FlightScope Xi+ (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-xi-plus |
+| FlightScope Xi (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-xi |
+| FlightScope X2 Elite (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-x2-elite |
+| FlightScope X2 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-x2 |
+| FlightScope Range Gen2 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-range-gen2 |
+| FlightScope Range (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-range |
+| FlightScope Xi Range (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-flightscope-xi-range |
+| Foresight GC3 (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-foresight-gc3 |
+| Foresight GC3S (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-foresight-gc3s |
+| Foresight GCQuad (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-foresight-gcquad |
+| Foresight QuadMAX (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-foresight-quadmax |
+| Foresight Falcon (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-foresight-falcon |
+| Foresight GCHawk (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-foresight-gchawk |
+| Bushnell Launch Pro (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-bushnell-lp |
+| Bushnell Launch Pro Indoor (LPi) (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-bushnell-lpi |
+| Uneekor EYE MINI (assisted) | Awesome Golf | Native / simulator only | Needs Testing | No | No | awesomegolf-uneekor-eye-mini |
+| ProTee VX — assisted beta | Infinite Tees | Infinite Tees, VX Connector for Infinite Tees | Needs Testing | No | No | infinite-tees-protee-vx |
+| Square HE — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-square-he-rela |
+| Square Omni — automatic beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Tested | Yes | No | infinite-tees-square-omni-rela |
+| Garmin R10 — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-garmin-r10-rela |
+| SkyTrak — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-skytrak-rela |
+| SkyTrak+ — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-skytrak-plus-rela |
+| FlightScope Mevo+ / Gen2 — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-mevo-rela |
+| FlightScope Xi / X2 — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-flightscope-xi-x2-rela |
+| Full Swing KIT — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-full-swing-kit-rela |
+| Foresight GC2 — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-foresight-gc2-rela |
+| Nova by Open Launch — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-nova-rela |
+| ProTee VX (plugin) — automatic beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees, ProTeeVXPlugin.dll | Tested | Yes | No | infinite-tees-protee-rela |
+| Rapsodo MLM2PRO — assisted beta | Infinite Tees | Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees | Needs Testing | No | No | infinite-tees-mlm2pro-bluetooth |
 
-## Implemented routes
+## Practical evidence
 
-| Simulator | Launch monitor | Connector managed by Hub / plugin | Status | Preset |
-|---|---|---|---|---|
-| Awesome Golf | Square Omni | Simulator / vendor setup | Practically tested | `awesomegolf-default` |
-| Awesome Golf | Bushnell Launch Pro (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-bushnell-lp` |
-| Awesome Golf | Bushnell Launch Pro Indoor (LPi) (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-bushnell-lpi` |
-| Awesome Golf | FlightScope Mevo Gen2 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-mevo-gen2` |
-| Awesome Golf | FlightScope Mevo Range (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-mevo-range` |
-| Awesome Golf | FlightScope Mevo+ (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-mevo-plus` |
-| Awesome Golf | FlightScope Range (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-range` |
-| Awesome Golf | FlightScope Range Gen2 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-range-gen2` |
-| Awesome Golf | FlightScope X2 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-x2` |
-| Awesome Golf | FlightScope X2 Elite (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-x2-elite` |
-| Awesome Golf | FlightScope X3 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-x3` |
-| Awesome Golf | FlightScope X3C (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-x3c` |
-| Awesome Golf | FlightScope Xi (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-xi` |
-| Awesome Golf | FlightScope Xi Range (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-xi-range` |
-| Awesome Golf | FlightScope Xi Tour (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-xi-tour` |
-| Awesome Golf | FlightScope Xi+ (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-flightscope-xi-plus` |
-| Awesome Golf | Foresight Falcon (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-foresight-falcon` |
-| Awesome Golf | Foresight GC3 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-foresight-gc3` |
-| Awesome Golf | Foresight GC3S (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-foresight-gc3s` |
-| Awesome Golf | Foresight GCHawk (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-foresight-gchawk` |
-| Awesome Golf | Foresight GCQuad (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-foresight-gcquad` |
-| Awesome Golf | Foresight QuadMAX (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-foresight-quadmax` |
-| Awesome Golf | Garmin Approach R10 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-garmin-r10` |
-| Awesome Golf | Garmin Approach R10 via Assistant (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-garmin-r10-assistant` |
-| Awesome Golf | Garmin Approach R50 (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-garmin-r50` |
-| Awesome Golf | Rapsodo MLM2PRO (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-rapsodo-mlm2pro` |
-| Awesome Golf | Rapsodo MLM2PRO via Assistant (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-rapsodo-mlm2pro-assistant` |
-| Awesome Golf | Square Home Edition (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-square-home` |
-| Awesome Golf | Uneekor EYE MINI (assisted) | Simulator / vendor setup | Available - needs hardware test | `awesomegolf-uneekor-eye-mini` |
-| GSPro | ProTee VX | Simulator / vendor setup | Practically tested | `gspro-default` |
-| GSPro | Square Omni | Simulator / vendor setup | Practically tested | `gspro-square-omni` |
-| GSPro | Blue Tees Rainmaker (assisted) | Simulator / vendor setup | Available - needs hardware test | `gspro-bluetees-rainmaker` |
-| GSPro | Bushnell Launch Pro | Simulator / vendor setup | Available - needs hardware test | `gspro-foresight-launch-pro` |
-| GSPro | FlightScope Mevo Gen2 | Simulator / vendor setup | Available - needs hardware test | `gspro-flightscope-mevo-gen2` |
-| GSPro | FlightScope Mevo+ | Simulator / vendor setup | Available - needs hardware test | `gspro-flightscope-mevo-plus` |
-| GSPro | FlightScope X2 | Simulator / vendor setup | Available - needs hardware test | `gspro-flightscope-x2` |
-| GSPro | FlightScope X3 | Simulator / vendor setup | Available - needs hardware test | `gspro-flightscope-x3` |
-| GSPro | FlightScope Xi | Simulator / vendor setup | Available - needs hardware test | `gspro-flightscope-xi` |
-| GSPro | Foresight Falcon | Simulator / vendor setup | Available - needs hardware test | `gspro-foresight-falcon` |
-| GSPro | Foresight GC3 | Simulator / vendor setup | Available - needs hardware test | `gspro-foresight-gc3` |
-| GSPro | Foresight GCHawk | Simulator / vendor setup | Available - needs hardware test | `gspro-foresight-gchawk` |
-| GSPro | Foresight GCQuad | Simulator / vendor setup | Available - needs hardware test | `gspro-foresight-gcquad` |
-| GSPro | Foresight QuadMAX | Simulator / vendor setup | Available - needs hardware test | `gspro-foresight-quadmax` |
-| GSPro | Full Swing KIT | Simulator / vendor setup | Available - needs hardware test | `gspro-full-swing-kit` |
-| GSPro | Garmin Approach R10 | Simulator / vendor setup | Available - needs hardware test | `gspro-garmin-r10` |
-| GSPro | Garmin Approach R50 | Simulator / vendor setup | Available - needs hardware test | `gspro-garmin-r50` |
-| GSPro | GolfJoy GDS Pro | Simulator / vendor setup | Available - needs hardware test | `gspro-golfjoy-gds-pro` |
-| GSPro | GolfJoy GR2 | Simulator / vendor setup | Available - needs hardware test | `gspro-golfjoy-gr2` |
-| GSPro | GolfJoy GR3 | Simulator / vendor setup | Available - needs hardware test | `gspro-golfjoy-gr3` |
-| GSPro | GolfJoy GR3 Pro | Simulator / vendor setup | Available - needs hardware test | `gspro-golfjoy-gr3-pro` |
-| GSPro | GolfJoy Spica 3 | Simulator / vendor setup | Available - needs hardware test | `gspro-golfjoy-spica3` |
-| GSPro | GolfTrak (iPhone) | Simulator / vendor setup | Available - needs hardware test | `gspro-golftrak` |
-| GSPro | LAON VTrack (assisted) | VTrackToolKit (LPGAgent) | Available - needs hardware test | `gspro-vtrack` |
-| GSPro | NVisage N1 (assisted) | NVisage N-Connect | Available - needs hardware test | `gspro-nvisage-n1` |
-| GSPro | OpenLaunch NOVA (assisted) | OpenLaunch NOVA Windows app | Available - needs hardware test | `gspro-openlaunch-nova` |
-| GSPro | Rapsodo MLM2PRO | Simulator / vendor setup | Available - needs hardware test | `gspro-rapsodo-mlm2pro` |
-| GSPro | SkyTrak + (OSP2 assisted) | SkyTrak with OpenSkyPlus2 | Available - needs hardware test | `gspro-skytrak-plus` |
-| GSPro | SkyTrak MAX (OSP2 assisted) | SkyTrak with OpenSkyPlus2 | Available - needs hardware test | `gspro-skytrak-max` |
-| GSPro | SkyTrak OG (OSP2 assisted) | SkyTrak with OpenSkyPlus2 | Available - needs hardware test | `gspro-skytrak-og` |
-| GSPro | Square Home Edition | Simulator / vendor setup | Available - needs hardware test | `gspro-square-home` |
-| GSPro | Uneekor EYE MINI (assisted) | Uneekor Launcher, Uneekor Third-party Connector | Available - needs hardware test | `gspro-uneekor-eye-mini` |
-| GSPro | Uneekor EYE MINI LITE (assisted) | Uneekor Launcher, Uneekor Third-party Connector | Available - needs hardware test | `gspro-uneekor-eye-mini-lite` |
-| GSPro | Uneekor EYE XO (assisted) | Uneekor Launcher, Uneekor Third-party Connector | Available - needs hardware test | `gspro-uneekor-eye-xo` |
-| GSPro | Uneekor EYE XO2 (assisted) | Uneekor Launcher, Uneekor Third-party Connector | Available - needs hardware test | `gspro-uneekor-eye-xo2` |
-| GSPro | Uneekor EYE XR (assisted) | Uneekor Launcher, Uneekor Third-party Connector | Available - needs hardware test | `gspro-uneekor-eye-xr` |
-| GSPro | Uneekor QED (assisted) | Uneekor Launcher, Uneekor Third-party Connector | Available - needs hardware test | `gspro-uneekor-qed` |
-| Infinite Tees | ProTee VX (plugin) — assisted beta | Infinite Tees, rēlā for Infinite Tees, ProTeeVXPlugin.dll | Practically tested | `infinite-tees-protee-rela` |
-| Infinite Tees | Square Omni — assisted beta | Infinite Tees, rēlā for Infinite Tees | Practically tested | `infinite-tees-square-omni-rela` |
-| Infinite Tees | FlightScope Mevo+ / Gen2 — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-mevo-rela` |
-| Infinite Tees | FlightScope Xi / X2 — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-flightscope-xi-x2-rela` |
-| Infinite Tees | Foresight GC2 — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-foresight-gc2-rela` |
-| Infinite Tees | Full Swing KIT — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-full-swing-kit-rela` |
-| Infinite Tees | Garmin R10 — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-garmin-r10-rela` |
-| Infinite Tees | Nova by Open Launch — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-nova-rela` |
-| Infinite Tees | ProTee VX — assisted beta | Infinite Tees, VX Connector for Infinite Tees | Available - needs hardware test | `infinite-tees-protee-vx` |
-| Infinite Tees | Rapsodo MLM2PRO — assisted beta | Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees | Available - needs hardware test | `infinite-tees-mlm2pro-bluetooth` |
-| Infinite Tees | SkyTrak — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-skytrak-rela` |
-| Infinite Tees | SkyTrak+ — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-skytrak-plus-rela` |
-| Infinite Tees | Square HE — assisted beta | Infinite Tees, rēlā for Infinite Tees | Available - needs hardware test | `infinite-tees-square-he-rela` |
-| ProTee | ProTee VX | Simulator / vendor setup | Practically tested | `protee-default` |
-| Shot Forge | ProTee VX | VGPConnect, VX Connector | Practically tested | `shotforge-default` |
-| Shot Forge | Square Omni | rēlā | Practically tested | `shotforge-square-omni` |
-| Shot Forge | FlightScope Gen2 | rēlā | Available - needs hardware test | `shotforge-flightscope-gen2` |
-| Shot Forge | FlightScope Mevo+ | rēlā | Available - needs hardware test | `shotforge-flightscope-mevo-plus` |
-| Shot Forge | FlightScope X2 | rēlā | Available - needs hardware test | `shotforge-flightscope-x2` |
-| Shot Forge | FlightScope Xi | rēlā | Available - needs hardware test | `shotforge-flightscope-xi` |
-| Shot Forge | Foresight GC2 | rēlā | Available - needs hardware test | `shotforge-foresight-gc2` |
-| Shot Forge | Full Swing KIT | rēlā | Available - needs hardware test | `shotforge-full-swing-kit` |
-| Shot Forge | Garmin R10 | rēlā | Available - needs hardware test | `shotforge-garmin-r10` |
-| Shot Forge | GolfJoy Spica 3 | rēlā | Available - needs hardware test | `shotforge-golfjoy-spica3` |
-| Shot Forge | LAON VTrack (assisted bridge) | VTrackToolKit (LPGAgent), VTrack → ShotForge bridge | Available - needs hardware test | `shotforge-vtrack-bridge` |
-| Shot Forge | ProTee VX (rēlā Socket Relay) | rēlā, ProTeeVXPlugin.dll | Available - needs hardware test | `shotforge-protee-rela` |
-| Shot Forge | Rapsodo MLM2PRO | rēlā, MLM2ProPlugin.dll | Available - needs hardware test | `shotforge-rapsodo-mlm2pro` |
-| Shot Forge | SkyTrak OG | rēlā | Available - needs hardware test | `shotforge-skytrak-og` |
-| Shot Forge | SkyTrak+ | rēlā | Available - needs hardware test | `shotforge-skytrak-plus` |
-| Shot Forge | Square Home Edition | rēlā | Available - needs hardware test | `shotforge-square-home` |
-| Shot Forge | Uneekor (community plugin) | rēlā, OtherUneekorPlugin.dll | Available - needs hardware test | `shotforge-uneekor-plugin` |
+- **gspro-default**: Gert confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending.
+- **shotforge-default**: Gert tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.
+- **awesomegolf-default**: Gert confirmed Square Omni device selection and switching worked. This records workflow testing, not a separately documented real-shot test.
+- **protee-default**: Gert confirmed the standalone ProTee tile and switching worked on the local simulator PC.
+- **gspro-square-omni**: Gert explicitly confirmed a real Square Omni shot arrived in GSPro through the direct native route.
+- **shotforge-square-omni**: Gert confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.
+- **infinite-tees-square-omni-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.
+- **infinite-tees-protee-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with ProTee VX, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.
 
-## Practical test evidence
-
-- **gspro-default**: The local operator confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending.
-- **shotforge-default**: The local operator tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.
-- **awesomegolf-default**: The local operator confirmed Square Omni device selection and switching worked. This records workflow testing, not a separately documented real-shot test.
-- **protee-default**: The local operator confirmed the standalone ProTee tile and switching worked on the local simulator PC.
-- **gspro-square-omni**: The local operator explicitly confirmed a real Square Omni shot arrived in GSPro through the direct native route.
-- **shotforge-square-omni**: The local operator confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.
-- **infinite-tees-square-omni-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification.
-- **infinite-tees-protee-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with ProTee VX, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification.
-
-The two Infinite Tees real-shot tests used separate rela copies to preserve the existing connector settings. The alternative VX Connector preset was not tested by these tests. Simulator selection is stored by the connector itself; check that selection when switching simulators.
-
-## Infinite Tees research pending
-
-| Device / family | Status |
-|---|---|
-| VTrack | Research pending - awaiting-connector |
-| Uneekor | Research pending - awaiting-public-instructions |
-| Spectrum Element | Research pending - awaiting-connector-setup |
-| Bullseye | Research pending - awaiting-connector-setup |
-| FlightScope X3 | Research pending - needs-device-validation |
-| Foresight GC3 / Quad / Bushnell | Research pending - awaiting-plugin-details |
-
-## Beta feedback
-
-Send the exact preset ID, device model, simulator/connector versions, whether each side connected and whether a real shot arrived. Review diagnostics/screenshots first. Never include passwords, license keys, tokens or personal tester records. Contact: info@flujado.com.
+Full workflow steps, source references and route limitations are in `profiles/compatibility.json`.
+Missing combinations remain outside this inventory; their vendor support cannot be inferred from absence.
