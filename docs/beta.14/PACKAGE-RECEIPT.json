@@ -1,0 +1,9 @@
+{
+  "version": "0.9.0-beta.14",
+  "sha256": "1260bcc194cf176089cfdd477022cc35e3cead86e9007dfcd044c4dede968cfd",
+  "installerSha256": "d61a044ecce7a861a0439fc4f68703b5fb11bf8c6a76cdae43b63b5e21e9032a",
+  "published": false,
+  "signingStatus": "unsigned-beta",
+  "documentationVersion": "beta.14",
+  "note": "Packaging-time receipt; publication recorded separately."
+}

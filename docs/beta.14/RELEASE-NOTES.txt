@@ -1,0 +1,8 @@
+FluJado beta.14 - 17 October 2026
+
+
+- Adds 13 optional assisted Infinite Tees routes to Guided setup, with software and connector discovery. Install and activate simulator/connector software first and verify a real shot outside the Hub.
+- Practical local tests passed for Infinite Tees with ProTee VX via rela + ProTeeVXPlugin.dll, and Square Omni via rela Bluetooth. Both showed Connected/Ready and delivered a real shot in Flat Range. This does not cover the alternative VX Connector route or other monitors.
+- All 97 implemented routes are listed in COMPATIBILITY.md; practical evidence is separate from implementation status. Other new Infinite Tees routes still need hardware testing. Full clean-install/reboot certification remains pending.
+- Infinite Tees: open a range or round before connecting. Use Device Search first; simulator Connect is for recovery after the device connects. Existing connector selections are shared by the connector itself; check them when switching simulators.
+- Upgrade preserves Hub settings and licensing. No vendor connectors, tester records or license keys are bundled.

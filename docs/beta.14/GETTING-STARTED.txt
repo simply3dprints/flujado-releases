@@ -1,0 +1,14 @@
+FluJado beta.14 - start here
+
+1. First install and activate your simulator software and the connectors required for your launch monitor.
+2. Check that the complete setup works without FluJado, including a real shot.
+3. Install FluJado using GolfSimHub-0.9.0-beta.14.exe, then open Guided setup.
+
+FluJado finds existing programs; it does not install simulators or connectors. In Guided setup, choose your software and routes, confirm locations and screens, optionally add Movies & TV or an empty custom tile, and review before saving. Existing workflows are kept unless you explicitly choose replacement.
+Read the included beta.14 English or Dutch illustrated guide. The connector companion describes model-specific routes; discovery is not physical hardware certification.
+Existing testers: open Updates > Check for updates in the Hub, then Download and open verified update. The installer preserves settings, saved setups, artwork and licensing storage. Finish the installer normally.
+Unsigned Windows beta with test licensing. Obtain a beta license separately; no keys are included. Review diagnostics/screenshots before sharing and never send passwords or existing keys.
+Current downloads and guides: https://github.com/simply3dprints/flujado-releases
+Feedback: info@flujado.com
+
+Infinite Tees: open a range/round first; select the exact device and Infinite Tees in the connector; use Device Search first. ProTee VX through rela/plugin and Square Omni through rela Bluetooth passed local real-shot tests. Check COMPATIBILITY.md for all route statuses.
