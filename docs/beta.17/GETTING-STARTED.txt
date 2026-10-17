@@ -1,0 +1,2 @@
+FluJado beta.17
+Install and activate simulators/connectors first. Confirm a real shot outside Hub before setup. Install the beta.17 installer, preserving saved settings/licensing. Existing custom routes are not automatically replaced. Read VTRACK-BETA-TEST-EN.txt (or NL) before selecting the experimental VTrack profile. Other beta.15 general guidance remains applicable. No launch monitor/vendor connector binaries or licences are bundled.

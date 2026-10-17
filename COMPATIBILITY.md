@@ -1,12 +1,8 @@
-# FluJado compatibility and test status - beta.15
-
-Install and activate simulators and connectors first, and verify a real shot outside the Hub. Two Infinite Tees presets connect automatically; the other Infinite Tees presets remain assisted. Local beta.15 startup/switch follow-up used the existing GSPro/ProTee VX tile, not a GSPro/Square Omni route. Previous beta.14 real-shot evidence is distinguished below.
-
 # Golf Sim Hub compatibility matrix
 
 Generated from the installer catalog and separately maintained hardware evidence. Do not edit this generated view.
 
-97 implemented routes. Tested means practical local testing; Verified requires the completed hardware beta checklist. No route is automatically Verified by a code test.
+99 implemented routes. Tested means practical local testing; Verified requires the completed hardware beta checklist. No route is automatically Verified by a code test.
 
 | Launch monitor | Simulator | Connector / plugin | Status | Physical test | Verified | Profile |
 |---|---|---|---|---|---|---|
@@ -107,6 +103,8 @@ Generated from the installer catalog and separately maintained hardware evidence
 | Nova by Open Launch — assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-nova-rela |
 | ProTee VX (plugin) — automatic beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees, ProTeeVXPlugin.dll | Tested | Yes | No | infinite-tees-protee-rela |
 | Rapsodo MLM2PRO — assisted beta | Infinite Tees | Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees | Needs Testing | No | No | infinite-tees-mlm2pro-bluetooth |
+| LAON VTrack — assisted, hardware untested | Infinite Tees | Infinite Tees, Infinite Tees VTrack Bridge (untested) | Needs Testing | No | No | infinite-tees-vtrack-bridge |
+| LAON VTrack — automatic buttons, hardware untested | Infinite Tees | Infinite Tees, Infinite Tees VTrack Bridge (untested) | Needs Testing | No | No | infinite-tees-vtrack-auto |
 
 ## Practical evidence
 

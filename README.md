@@ -1,33 +1,19 @@
-# FluJado downloads
+# FluJado Golf Sim Hub — beta.17
 
-## Latest closed beta: 0.9.0-beta.15
+[Download installer](downloads/GolfSimHub-0.9.0-beta.17.exe) · [Complete beta package](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.17.zip)
 
-[Complete beta package](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.15.zip) | [Windows installer](downloads/GolfSimHub-0.9.0-beta.15.exe)
+Install and activate simulator software and connectors first; verify a real shot outside the Hub. Upgrades preserve settings, licence and saved workflows. Connector/vendor binaries and licences are not included. This beta installer remains unsigned.
 
-**Before installing FluJado:** install and activate your simulator software and required connectors first. Check that your setup works without the Hub, including a real shot. Then install FluJado and run Guided setup. FluJado finds existing programs; it does not install simulators or connectors.
+## New in beta.17
 
-[English guide](docs/beta.15/FluJado-Beta-User-Guide-EN.pdf) | [Dutch guide](docs/beta.15/FluJado-Beta-Handleiding-NL.pdf) | [Connector guide](docs/beta.15/FluJado-Connector-Setup-Guide-EN.pdf)
+- Automatic background update notices; installation remains your choice. Beta/stable policy is respected and notices do not interrupt flows or presentation.
+- Infinite Tees VTrack Bridge v8: assisted fallback and experimental automatic tab/Connect/Start button recognition. **Not tested with VTrack hardware.** Game connection + running bridge are not proof of device readiness; real-shot confirmation remains required.
+- Infinite Tees connector/game cleanup when switching simulator routes and through Close all apps.
 
-[Getting started](docs/beta.15/GETTING-STARTED.txt) | [Release notes](docs/beta.15/RELEASE-NOTES.txt) | [SHA-256 hashes](docs/beta.15/PACKAGE-RECEIPT.json)
+Read the [VTrack test instructions (English)](docs/beta.17/VTRACK-BETA-TEST-EN.txt) or [Nederlands](docs/beta.17/VTRACK-BETA-TEST-NL.txt) before enabling the experimental profile. Existing users must deliberately choose the new profile in Guided setup; saved custom flows are not silently replaced.
 
-Existing testers can update through **Updates > Check for updates** in the Hub. Installer downloads are verified with SHA-256 before opening. Upgrades preserve existing settings and licensing storage.
+[Compatibility and test status](COMPATIBILITY.md) · [Getting started](docs/beta.17/GETTING-STARTED.txt) · [Release notes](docs/beta.17/RELEASE-NOTES.txt)
 
-Unsigned Windows beta with test licensing. Simulator software, connectors and their licenses are separate. Listed presets and software discovery are not universal hardware certification. Request a beta key separately; no license keys or tester records are distributed here.
+General illustrated guides (beta.15; use the beta.17 supplement above for VTrack and update notices): [English](docs/beta.15/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.15/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.15/FluJado-Connector-Setup-Guide-EN.pdf).
 
-## Software, devices and test results
-
-[View the full compatibility table](COMPATIBILITY.md): 97 implemented presets, 8 locally practically tested. Each row distinguishes a tested route from an available preset that still needs hardware testing. Research gaps are listed separately.
-
-**New in beta.15:** rela/ProTee presets start rela before its plugin starts Labs. Infinite Tees with ProTee VX or Square Omni connects without Continue. Startup/switching tests passed locally against the existing GSPro/ProTee VX route and back. Prior beta.14 real-shot evidence is retained separately; ShotForge changes are isolated-test coverage, not a new hardware certification.
-
-## Previous beta downloads
-
-[Beta.14 package](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.14.zip) | [Beta.14 installer](downloads/GolfSimHub-0.9.0-beta.14.exe)
-
-[Beta.13 package](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.13.zip) | [Beta.13 installer](downloads/GolfSimHub-0.9.0-beta.13.exe)
-
-[Beta.12 package](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.12.zip) | [Beta.12 installer](downloads/GolfSimHub-0.9.0-beta.12.exe)
-
-[Beta.6 package](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.6.zip) | [Beta.6 installer](downloads/GolfSimHub-0.9.0-beta.6.exe)
-
-Source is maintained in a separate private repository. All rights reserved.
+Older beta downloads are retained in the downloads folder. Older builds need one manual Updates > Check for updates before the new automatic notice is available.

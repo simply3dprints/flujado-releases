@@ -1,0 +1,4 @@
+FluJado beta.17
+Automatic update notice at startup and every six hours; idle/presentation deferral, beta/stable separation, verified installer review.
+Optional VTrack Bridge v8 assisted route and experimental automatic OCR button profile; no hardware validation claim. Tab/Connect/Start automated; one real-shot confirmation remains. Guarded executable, version, window, fresh bounds/status and bounded retries. English Windows OCR required. Unknown builds/unreadable UI use the assisted fallback.
+Infinite Tees game/connectors included in switching cleanup and shutdown. Existing settings/licensing preserved; no tester records or keys shipped.

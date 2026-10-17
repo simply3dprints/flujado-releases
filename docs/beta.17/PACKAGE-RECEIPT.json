@@ -1,0 +1,8 @@
+{
+  "version": "0.9.0-beta.17",
+  "sha256": "c72d6ea5c11671771a872b8558f84c45c6d6604e9b26104be0a2d75f02c8e04d",
+  "installerSha256": "362ed15fa792eeabf3324e61afd0e27430ca7fb797e54959ec3d9acd167aee0a",
+  "signingStatus": "unsigned-beta",
+  "vtrackHardwareTested": false,
+  "automaticClicksLiveEndToEndTested": false
+}
