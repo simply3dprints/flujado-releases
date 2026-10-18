@@ -1,0 +1,8 @@
+FluJado Golf Sim Hub 0.9.0-beta.18 - 18 October 2026
+
+- Guided setup now activates a selected previously disabled built-in tile, including GSPro after a ShotForge-only setup. Choose the correct launch monitor/connector profile, review the paths and save. Existing active routes remain preserved unless replacement is explicitly selected.
+- Missing required programs/connectors are reported when continuing from Golf setup, before screen selection and Movies & TV. Correct the path on that page and continue; nothing is saved until the final Save button.
+- Update version comparison supports beta repair revisions such as beta.17.1 and beta.17.10 in numeric order. Stable users are not offered beta releases.
+
+No new simulator or connector routes. No changes to the experimental VTrack/MSIX work or Uneekor-specific connection logic. Existing beta.17 hardware limitations remain.
+Settings, saved configurations and licences are preserved during upgrades. No vendor binaries or licences are included. Unsigned beta installer.

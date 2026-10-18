@@ -1,0 +1,7 @@
+FluJado Golf Sim Hub 0.9.0-beta.18
+
+Install and activate your simulator software and connectors first. Confirm they work without the Hub.
+Run GolfSimHub-0.9.0-beta.18.exe. Your existing settings and licence are retained.
+To add GSPro after a previous setup: open Guided setup, select GSPro, choose your launch monitor/connector route, confirm the program paths and Save. Existing active routes stay preserved with Replace off.
+If a required connector/program is missing, you now stay on Golf setup. Install it separately or locate its .exe and continue.
+General illustrated beta.15 guides remain available; use these release notes for the two wizard fixes and beta.17 VTrack instructions for existing experimental functionality.

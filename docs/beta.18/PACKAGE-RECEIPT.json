@@ -1,0 +1,8 @@
+{
+  "version": "0.9.0-beta.18",
+  "sha256": "694e0b637c7e9018f2772b91157090e35d410a86cb3d372aecd2577906b25135",
+  "installerSha256": "26bdf92fcac33995e807720d92612e5a4630b88fab67246eb66d60f866179f56",
+  "signingStatus": "unsigned-beta",
+  "isolatedTestsPassed": true,
+  "newHardwareClaims": false
+}
