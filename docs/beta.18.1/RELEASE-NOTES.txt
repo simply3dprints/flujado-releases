@@ -1,0 +1,27 @@
+FluJado beta.18.1 - MSI release, 19 October 2026
+
+MSI is now the standard installer. This release includes the externally tested
+Preview 7 installation wizard and working Start FluJado checkbox, optional
+shortcuts, custom installation location, faster startup checks, branded repair
+and uninstall windows, and a clear completion page.
+
+Settings, saved workflows, artwork and licence are kept during updates.
+The Start menu uninstaller offers keep-data (default) or explicit delete-all,
+including the local licence. Deleting local data does not release an online
+activation. Simulator software is not installed, stopped or removed by FluJado.
+
+Existing beta.18 EXE clients are offered a one-time MSI transition starter by
+the same update feed. It embeds this exact MSI and creates a verified private
+backup in the existing Hub folder's parent before migration. Do not share or
+upload this backup. MSI installations download MSI updates directly.
+
+The Hub checks for updates around 15 seconds after opening and every six hours.
+The update notice appears inside the Hub when no flow is active and Presentation
+mode is off. Updating remains your choice; simulator software stays open.
+Beta.17 or older may not parse dotted repair versions: install the current MSI
+manually into the existing Hub folder after creating a backup.
+
+Native MSI version 0.9.1801 upgrades the preview MSIs (0.9.18). The next beta
+repair uses 0.9.1802; beta.19 maps to 0.9.1900. No hardware compatibility claims
+have changed. VTrack hardware feedback and additional Uneekor information are
+still pending. The new MSI and legacy transition starter are unsigned.
