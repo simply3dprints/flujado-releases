@@ -1,7 +1,15 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/7b69f6a1fe5c46f01ebccf3615f9bf9492086045/downloads/GolfSimHub-0.9.0-beta.18.exe",
-  "sha256": "26bdf92fcac33995e807720d92612e5a4630b88fab67246eb66d60f866179f56",
-  "signingStatus": "unsigned-beta"
+  "version": "0.9.0-beta.18.1",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/b307e607e773999b257f6b1e766cfbb6f277c216/downloads/FluJado-MSI-Transition-0.9.0-beta.18.1.exe",
+  "sha256": "09a6c256362e36604c894f198c7c99c9054c8b8a5dcb6260bfed6b80fa76aeef",
+  "signingStatus": "unsigned-beta",
+  "installerType": "msi",
+  "legacyInstallerPurpose": "one-time-msi-transition",
+  "msi": {
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/b307e607e773999b257f6b1e766cfbb6f277c216/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.1.msi",
+    "sha256": "cfed20703ff863404b90214e7da810d3d199e4731ee404712497bb9bf8c02774",
+    "productVersion": "0.9.1801"
+  },
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/b307e607e773999b257f6b1e766cfbb6f277c216/docs/beta.18.1/RELEASE-NOTES.txt"
 }
