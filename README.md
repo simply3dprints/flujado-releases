@@ -1,13 +1,17 @@
-# FluJado Golf Sim Hub — beta.18.1
+# FluJado Golf Sim Hub — beta.18.2
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.1.msi) · [Getting started](docs/beta.18.1/GETTING-STARTED.txt) · [Checksums](docs/beta.18.1/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.2.msi) · [Getting started](docs/beta.18.2/GETTING-STARTED.txt) · [Checksums](docs/beta.18.2/SHA256SUMS.txt)
 
-## New in beta.18.1
+## New in beta.18.2
 
-- MSI is now the standard installer, with the externally confirmed Preview 7 wizard, custom location, optional shortcuts and working **Start FluJado** checkbox on Finish.
-- Faster startup checks, FluJado window icons and improved Repair/Uninstall windows with a clear completion screen.
-- Updates retain settings, workflows, artwork and licence. The Start menu uninstaller defaults to keeping data; explicit delete-all also removes the local licence. Simulator software stays untouched.
-- MSI update recovery and one-time EXE-to-MSI migration have isolated installation, cancellation, interruption and data-preservation tests.
+- Drills support with ProTee VX and Square Omni via rela: real shots confirmed on both, with guarded startup, receiver checks and ProTee startup recovery.
+- Fifteen additional Drills routes are available as **assisted, not hardware tested**. See the compatibility table for exact devices and limitations.
+- Simulator windows inherit the selected projector screen. Drills leaves you in control of game selection; the Hub does not select Open Range.
+- ShotForge connection/readiness improvements and early checks for conflicting rela plugins.
+- MSI upgrade recovery corrected for added application files; isolated installation, repair, upgrade, cancellation and four rollback/retry interruption points passed.
+- Updated Dutch/English user guides and connector guide. Settings, saved workflows and licence are retained on update. To adopt a changed preset, back up and explicitly select replacement in Guided setup.
+
+ProTee VX switching Drills → GSPro → Drills was confirmed. Omni return to Drills was confirmed; a GSPro/Omni shot was not validated in that switching session. Additional profiles are not a hardware compatibility guarantee.
 
 ## Existing beta users
 
@@ -25,10 +29,10 @@ The Hub checks for a newer version about 15 seconds after opening and every six 
 
 Install and activate simulator software and connectors first; verify a real shot outside the Hub. Vendor binaries and licences are not included. Keep private migration backups local and never send licence keys or passwords.
 
-[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.1/RELEASE-NOTES.txt)
+[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.2/RELEASE-NOTES.txt)
 
-Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.1/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.1/VTRACK-BETA-TEST-NL.txt).
+Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.2/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.2/VTRACK-BETA-TEST-NL.txt).
 
-Illustrated beta.18.1 guides, updated for MSI installation, updates, repair and uninstall: [English](docs/beta.18.1/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.1/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.1/FluJado-Connector-Setup-Guide-EN.pdf).
+Illustrated beta.18.2 guides, updated for Drills, ShotForge, screens and MSI installation/recovery: [English](docs/beta.18.2/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.2/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.2/FluJado-Connector-Setup-Guide-EN.pdf).
 
 Previous downloads remain available.

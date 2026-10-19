@@ -1,0 +1,31 @@
+FluJado beta.18.2 — VTrack-testinstructie
+
+Status: experimentele automatische knopbediening. Nog NIET met echte VTrack-hardware getest. De begeleide VTrack-route blijft als alternatief beschikbaar.
+
+Vooraf (eenmalig)
+1. Installeer/activeer Infinite Tees en controleer de software zonder de Hub. Houd de volledige map van de door Infinite Tees verstrekte VTrack Bridge v8 bij elkaar.
+2. Installeer beta.17. Open Settings > Guided setup, kies Infinite Tees en het profiel "LAON VTrack — automatic buttons, hardware untested" / "VTrack Bridge v8 — experimental OCR". Kies de echte IT_Golf_Launcher.exe en je gebruikelijke scherm. Een update vervangt bestaande aangepaste flows niet automatisch; kies dit profiel bewust.
+3. Zet VTrack aan en sluit VTrack Toolkit af. Gebruik in de Hub het echte Toolkit-pad wanneer dit is ingesteld: afsluiten werkt alleen voor de geconfigureerde programma-identiteit. Andere launch-monitorconnectors mogen geen verbinding met Infinite Tees bezet houden.
+4. Handel eventuele Windows-netwerk- of beveiligingsmeldingen zelf af. Instellingen voor netwerkbeveiliging worden niet door de Hub gewijzigd. Automatisering is alleen toegestaan voor de gecontroleerde v8-build; bij een andere build kies je de begeleide route. Windows English OCR moet beschikbaar zijn.
+
+Dagelijkse test
+Klik eenmaal op de Infinite Tees/VTrack-tegel. De Hub opent de software, zoekt het VTrack Devices-tabblad, klikt Connect en daarna Start VTrack bridge. Open zelf een range of ronde wanneer de Hub daarom vraagt; de Hub navigeert niet door het spelmenu. Houd de launcher geopend en niet geminimaliseerd. Bij onduidelijke tekst of een blokkerend venster stopt de flow in plaats van te gokken.
+
+Plaats en scherm
+De Hub leest alleen het venster van de ingestelde launcher, niet vaste bureaubladcoördinaten. Een andere vensterplek of monitor is voorzien. Als het venster tussen herkenning en klik verschuift, stopt de klik. Schaalberekeningen zijn met fixtures getest; verschillende monitors/DPI moeten nog in de praktijk worden bevestigd. Afwijkende kleuren, venstergrootte of een nieuwe launcher-versie kunnen herkenning blokkeren.
+
+Laatste bevestiging
+"Connected" plus "Bridge running" bewijzen alleen de verbinding met het spel en het draaiende bridgeproces. Ze bewijzen NIET dat VTrack gereed is. Controleer of het echte apparaat gevonden is, Auto-send shots aan staat en Club/Hand goed staan. Sla één echte bal. Druk alleen op Continue als die correct in Infinite Tees verschijnt. Bij -3001, geen apparaat, geen slag of andere fout: Cancel. Zonder VTrack kan alleen de bediening worden beoordeeld.
+
+Graag terugmelden
+- Launcher-build en Windows-/beeldschermschaal (geen licentiesleutels).
+- Werden VTrack Devices, Connect en Start bridge vanzelf bediend?
+- Werd de gameverbinding zichtbaar, werd het echte apparaat gevonden en kwam de slag goed aan?
+- Test nogmaals na volledig afsluiten, wissel naar je bestaande GSPro-route en terug, en controleer Close all apps. Bewaar eerst je ronde.
+- Bij falen: exacte melding en geanonimiseerde screenshot van alleen de connector. De Hub kan een privacybeperkt diagnostiekrapport exporteren. Geen wachtwoorden, licentiesleutels of persoonlijke configuratie meesturen.
+
+Updatewaarschuwing
+Vanaf beta.17 controleert de Hub op de achtergrond bij openen (na circa 15 seconden) en iedere zes uur. Een nieuwe versie krijgt een zichtbare melding; actieve flows en presentatiemodus worden niet onderbroken. Klik op de melding om de update te bekijken. Installeren gebeurt pas na jouw keuze; de download wordt op SHA256 gecontroleerd. Beta-installaties krijgen nieuwere beta's of een reguliere opvolger; reguliere installaties krijgen geen beta aangeboden. Offline blijft de Hub werken. Beta.17 en ouder herkennen beta.18.2-revisies mogelijk niet. Maak een privéback-up en installeer de huidige MSI in de bestaande Hub-map. Beta.18 EXE krijgt een eenmalige MSI-overstapstarter; MSI-gebruikers krijgen MSI-updates. Verwijder de Hub of gegevens niet vooraf.
+
+Wat is getest?
+Echte Windows-OCR op opgeslagen launcherafbeeldingen (beide tabbladen), productieherkenning, controller met nagebootste klikken, volgorde en dubbele klikbeveiliging, venster-/versie-/ouderdomscontroles, schaalgeometrie, configuratie, installer, upgrade en herstel. De volledige live keten en echte VTrack-slagaansluiting zijn nog niet getest.

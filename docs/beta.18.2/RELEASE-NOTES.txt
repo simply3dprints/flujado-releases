@@ -1,0 +1,13 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.2 - 19 October 2026
+
+- Drills profiles for ProTee VX and Square Omni via rela, with guarded launcher start, receiver checks and bounded ProTee startup recovery.
+- Confirmed real Drills shots for both devices; ProTee VX switching Drills > GSPro > Drills confirmed. Omni return to Drills confirmed; a GSPro/Omni shot was not validated in that switching session.
+- Fifteen additional Drills profiles are assisted and explicitly NOT hardware tested. Some documented bridge combinations remain candidates. Native VTrack uses the Drills launcher mode, without Toolkit or the Infinite Tees bridge. LPi requires its matching Foresight plugin.
+- Simulator windows inherit the configured simulator/projector screen. Drills leaves game selection to the player; Open Range is not selected automatically.
+- ShotForge readiness and connector checks improved. Conflicting rela Other plugins are reported before launch. Workflow logging tolerates a concurrent log reader.
+- MSI upgrade ordering corrected for releases that add runtime files. Isolated install, repair, upgrade, downgrade rejection, cancellation and four transactional interruption points passed with separate product, registry and component identities. These tests do not simulate a power failure.
+- Dutch and English user guides and English connector guide updated, with current MSI download links and compatibility status. Existing unchanged interface images retain their capture-version labels.
+
+Updates preserve settings, saved workflows and licence state; they do not silently replace custom workflows with new presets. To adopt a changed preset, use Guided setup and explicitly choose replacement after making a backup.
+Install and activate simulator software and connectors first and confirm a shot outside the Hub. No vendor binaries, accounts or licences are supplied.
+Existing VTrack Bridge and Uneekor research limitations remain; additional tester information is still required. Unsigned beta MSI; do not disable antivirus protection.

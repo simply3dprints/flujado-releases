@@ -1,0 +1,8 @@
+/docs/beta.18.2/** text eol=lf
+*.pdf binary
+*.msi binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

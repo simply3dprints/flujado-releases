@@ -1,0 +1,38 @@
+FluJado beta.18.2 - getting started
+
+1. First install and activate your simulator software and required connectors.
+   Check that a real shot works without the Hub. FluJado does not supply these.
+2. Close the Hub and download FluJado-Golf-Sim-Hub-0.9.0-beta.18.2.msi from the
+   repository's main Download link. Check SHA256SUMS.txt if desired.
+3. Follow the FluJado wizard. You may choose another drive or location; keep
+   GolfSimHub as the final folder name. Choose desktop and Start menu shortcuts.
+4. On the last page, Start FluJado is checked by default. Select Finish to open
+   the Hub, or uncheck it to finish without opening it.
+5. On a new installation, use Guided setup to select your installed software,
+   connectors and hardware. Existing settings and licence stay in place on an
+   update. Verify that the correct launch monitor profile is selected.
+
+Already using beta.18 EXE? Use the update notice in the Hub. The downloaded
+transition starter accepts the existing installation path and opens this same
+MSI wizard after making a verified private backup. Keep that backup until the
+updated installation is confirmed. It may contain settings and licence data;
+never send it to another person. If another MSI installation already exists,
+update that MSI directly instead of using the EXE transition starter.
+
+Older beta.17 or earlier: create a private backup and install the MSI manually
+into your existing GolfSimHub folder. Do not uninstall first or delete data.
+
+Repair: Start menu > FluJado > Repair FluJado.
+Remove: Start menu > FluJado > Uninstall FluJado (data options). Keeping data and
+licence is the default. Delete-all permanently erases Hub data and local licence
+storage shared by Hub installations on the Windows account. It does not release
+an online activation; deactivate in the Hub first if moving to another PC.
+Windows Apps/native MSI removal keeps data by default.
+
+If installation is blocked or fails, keep the exact error message and stop.
+Do not disable antivirus protection or send passwords, licence keys or private
+backups. The illustrated Dutch/English user guides and connector companion in this
+folder are updated for beta.18.2, including the MSI wizard and maintenance.
+See README.md in this folder for PDF and text links.
+
+Drills: choose the exact monitor profile. ProTee VX and Square Omni real shots were tested; fifteen other routes are assisted and not hardware tested. Open Range is never selected automatically. Saved workflows are retained on update; explicitly replace a preset in Guided setup only after backing up.

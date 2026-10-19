@@ -1,0 +1,359 @@
+# Welcome to FluJado
+
+Beta user guide | 0.9.0-beta.18.2 | 19 October 2026
+
+Your simulator. Simplified.
+Less setup. More golf.
+
+What does the Hub do?
+
+FluJado Golf Sim Hub brings your golf simulator apps and their startup steps together in one Windows dashboard. Each tile runs a saved workflow: for example, opening a connector, waiting for a connection, then starting the simulator.
+
+Inside this guide
+
+Installation and automatic updates
+Guided software/connector discovery and screens
+Starting, switching and stopping
+Settings, custom tiles and workflows
+Movies & TV
+Trial and licensing
+Saved setups, Pro features and backups
+Troubleshooting, downloads and support
+
+Before you begin
+
+Use your own Windows account. Install your simulator software and the connector required for your launch monitor first. Check that this combination works outside the Hub, including delivery of a real shot. The Hub does not include simulator software, firmware, connector plugins or their licenses.
+
+About this closed beta
+
+Use only the installer and test license supplied by FluJado. This beta installer is not digitally signed. The presence of a workflow profile does not guarantee compatibility with your hardware. Do not purchase a license just to test this beta. Questions and feedback: info@flujado.com | https://flujado.com/
+
+New in beta.18.2
+
+This release adds Drills flows, simulator-screen inheritance and startup recovery. MSI remains the standard installer, with a location and shortcut wizard, working Start FluJado option, branded maintenance and managed update recovery. Earlier GSPro tile and required connector checks are retained. Settings and license state are preserved. Drills ProTee VX and Square Omni real shots have been tested locally; 15 additional assisted Drills routes are marked not tested.
+
+# 1. Installation, updates and maintenance
+
+Current download
+
+https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.2.msi
+Release notes: https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.2/RELEASE-NOTES.txt
+Compatibility and test status: https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Prepare first
+
+Install and activate your simulator software and the required connectors before FluJado. Verify a real shot outside the Hub. The Hub finds supported installed software; it does not install simulators, pair devices or supply their licenses.
+
+First installation with MSI
+
+1. Download FluJado-Golf-Sim-Hub-0.9.0-beta.18.2.msi and open it in your Windows account.
+2. Select Next on Welcome. Choose your installation location; another drive is allowed. Keep GolfSimHub as the final folder name, for example C:\Golf\GolfSimHub.
+3. Choose Add or Skip for the desktop shortcut and Start menu shortcuts. The Start menu also contains repair and uninstall options.
+4. Review the path and select Install.
+5. Start FluJado is checked by default on the final page. Select Finish to open it, or uncheck the box to finish without starting.
+6. Use Guided setup to choose your software, connector route and screens.
+
+Automatic update notices
+
+The open Hub checks about 15 seconds after startup, then every six hours. A newer-version notice appears when no workflow is active and Presentation mode is off. Click the notice to review the update, or use Updates > Check for updates. You choose when to install; there is no forced installation and no notice while the Hub is closed. SHA-256 is checked before the update is opened. Offline use remains available.
+
+Existing beta.18 EXE installation
+
+Use the update notice in the Hub. A one-time MSI transition starter contains the same official MSI, verifies it, waits for the Hub to close, creates and checks a private backup, then opens the MSI wizard on your existing folder. Keep that folder selected. This EXE is only a bridge for older clients; new users download MSI. If another FluJado MSI installation already exists, update it directly.
+
+Earlier betas and MSI previews
+
+Beta.17 and earlier may not understand revision numbers such as beta.18.2. Make a private backup, close the Hub and install the current MSI into your existing GolfSimHub folder. Do not uninstall first or delete data. Existing MSI preview users can install the current MSI directly. Keep settings, license state and your original installation path.
+
+What an update preserves
+
+Settings, saved configurations, workflows, custom artwork and existing local license state are retained. Updating does not restart or extend a trial and does not automatically replace saved workflows with newer presets. Back up before migration and keep backups private; they may contain license information and local paths.
+
+Repair and interrupted updates
+
+Use Start menu > FluJado > Repair FluJado. Repair restores the current application version; it is not a downgrade or a settings reset. MSI updates use a separate worker and a verified recovery MSI. If an update fails or is cancelled, keep the error and private backup, allow recovery to finish and check the installed version before retrying. Do not manually delete installer caches or recovery packages. If recovery reports incomplete, stop and contact support.
+
+Uninstall and data choice
+
+Close the Hub and use Start menu > FluJado > Uninstall FluJado (data options). Keep my data and licence is selected by default. The explicit Remove all Hub data and the local licence option also erases shared local Hub license storage for this Windows account. It does not release an online activation; use License > Deactivate this PC first if moving your license. Windows Installed apps/native MSI removal keeps personal data by default. Read the final completion message before closing. Simulator software is left untouched. If Start menu shortcuts were skipped, Windows Installed apps remains available for repair/removal with the default data retention.
+
+If Windows blocks the download
+
+The MSI and transition starter are currently unsigned. A reputation notice and an antivirus detection are different reports. Use the official link and keep the exact message. If antivirus blocks or quarantines a file, stop and contact support. Keep protection enabled; do not add exclusions or restore quarantined files to continue. Never send license keys, passwords or full private backups.
+
+# 2. Guided setup: software, routes and screens
+
+Before you begin
+
+The welcome page repeats the required order: install and test the simulator and connectors first, then set up FluJado. If those programs are not ready, finish their installation before scanning.
+
+Open the guided setup
+
+Open Settings > Overview > Open guided setup, or use Setup wizard... at the top. Save editor changes first: the wizard reads the last saved configuration. On a new PC the initial setup takes you here. No simulator is launched during setup.
+
+1. Welcome / 2. Software discovery
+
+Click Find my software. Select supported simulators and review found program locations. The Hub also looks for supported connector apps needed by your selected routes. Scan this PC again repeats discovery. A found executable is not proof of a working device connection. Missing or unusual installations can be located manually.
+
+3. Hardware routes and program locations
+
+Choose the correct launch-monitor and connector preset for each selected simulator. Use Locate selected program... and Check locations for missing paths. Existing active workflows and paths are kept unless Replace selected existing golf workflows with the chosen presets is explicitly selected. Skip golf setup for now supports an entertainment-only setup. Add a standalone empty tile is optional; configure its program later in Settings. Selecting a built-in simulator also enables its previously disabled tile. Required missing program or connector paths are reported here, before Screens and Movies & TV. Existing active workflows are preserved unless you explicitly choose replacement.
+
+4. Screens
+
+Choose Simulator screen and Hub controls and launcher updates; the same display may do both. Use Identify screens and Refresh screens when needed. Keep all my existing screen settings preserves current routing. Monitor identity is saved; resolutions and driver settings remain under your control in Windows and the simulator.
+
+5. Movies & TV / 6. Review and save
+
+Optionally choose streaming shortcuts, then review the summary. Back returns to earlier steps. Save applies the choices and backs up the previous configuration; Cancel leaves the saved setup unchanged. Verify a real shot manually after adding a new hardware route.
+
+# 3. Starting, switching and stopping
+
+Start a workflow
+
+1. Turn on your launch monitor and make sure its required cable or network connection is available.
+2. Click the desired tile once.
+3. Follow the status at the bottom of the dashboard. The Hub runs the steps in order.
+4. Wait for the workflow to finish, then test a real shot in the simulator.
+
+Waiting for a connection or update
+
+A wait often checks whether an app is ready, rather than simply pausing for a fixed time. The supported rēlā workflow checks its connection and opens rēlā minimized. Other workflows may need a manual step. Click Continue only after completing the instruction shown.
+If ProTee or another app requests an update, perform it in that app. Supported workflows wait for readiness to return. If the workflow reports an error or keeps waiting, use the troubleshooting steps in Troubleshooting; do not simply bypass the check.
+
+Switch to another simulator or route
+
+Wait for the current workflow to finish, then click the other tile. Switching between the built-in ShotForge routes performs a clean start: the involved apps and connectors are closed and reopened. Finish your session first. Custom workflows perform only the steps saved in them.
+
+Dashboard controls
+
+Retry retries a failed step when available. Cancel stops the active workflow; apps already opened may remain running. Close all apps closes the apps listed in Settings > Startup & shutdown. Review that list before using the button. Full screen or F11 toggles the Hub's full-screen view; Esc goes back.
+
+A practical startup test
+
+Start the same tile three times, switch to another app or route if available, then restart the PC. Check window placement and actual shot delivery. Record your launch monitor, firmware, simulator version and connector version. Successful startup alone is not proof of a working golf connection.
+
+# 4. Custom tiles and workflows
+
+A clearer settings overview
+
+Start on Overview. Use the sidebar to choose a section. Save changes stores editor changes; Close without saving discards them. Windows startup and administrator-code actions apply immediately. Expand technical readiness rules and workflow steps only when needed.
+
+Configure the optional Your app tile
+
+Click Your app to open Settings. Add its executable in Apps & connectors. Select the draft under Tiles & screens, give it a name, add the intended steps under Advanced workflow steps, enable it and Save changes. The empty tile launches no demo software.
+
+Add an app
+
+Open Settings > Apps & connectors. Click Add app, give the app a recognizable name, then use Choose .exe... to select its executable. Use Arguments only if the app needs them. Additional process paths identifies an extra process opened by a launcher; change this only when you know which process belongs to the app.
+
+Create a tile
+
+Open Tiles & screens > Add tile. Enter Name and Subtitle, choose the destination under Open on display, and enable the tile. A tile contains steps that refer to your configured apps. The setup starter tile disappears once a real enabled tile exists. Use Move up and Move down to reorder tiles or selected steps.
+
+Add workflow steps
+
+Expand Advanced workflow steps first. Select a tile and click Add step. Choose Action and App.
+ensureStarted: makes sure the app is running.
+waitReady: waits for the app's configured readiness check.
+launch: launches the selected app as part of the workflow.
+close: closes the selected app.
+restart: closes and starts the app again.
+waitUser: asks for manual confirmation.
+invokeButton and connectAwesomeGolf are specialized steps; use the supplied profiles for these whenever possible.
+
+A simple example
+
+For an app without a connector, add the app, create a tile and add an ensureStarted step for that app. Click Save and test the tile. For a simulator with a connector, start with the Setup wizard instead. A readiness step requires the correct readiness rules for that app. Do not copy status words from a different launch monitor.
+
+Save and share
+
+Click Save to keep your edits; Close without saving discards ordinary editor changes. Use Share workflows to export a tile or import a shared workflow. Imports are reviewed first and added as disabled tiles. Configure all local app paths and any additional process paths, review the steps, enable the tile and click Save changes. A community workflow is not a compatibility guarantee. Do not share a full backup when you only want to share a workflow.
+
+# Movies & TV
+
+Choose your services
+
+In Guided setup, open Movies & TV and select only the services you use. The list includes 22 services with local logos. All services, US and Europe filter the list without clearing hidden selections. Leave every service unchecked to omit the folder. Availability and subscription requirements vary by country.
+
+Open a service and return to golf
+
+Click the cinema-style Movies & TV tile on Home. Its service tiles open inside the same dashboard. Choose a service to open its official website in your default browser; use your own account and subscription. Back to golf or Escape returns to the previous golf-tile page. No streaming passwords are stored by FluJado.
+
+Change your selection later
+
+Save any settings edits, reopen Guided setup and change the Movies & TV choices. Leave replacement of existing golf workflows off to retain those routes. Review and save. Voice commands are not included in beta.18.2.
+
+# 5. Trial and license activation
+
+An automatic 14-day Pro trial
+
+The full Pro trial begins when you first open the Hub. No key or payment details are needed. Updating or reopening does not renew the trial. After 14 days, all Hub functions are locked except the license screen and exiting. Your settings, workflows and images are retained. A valid Home or Pro activation restores access to your existing setup.
+
+Activate a test license
+
+1. Connect to the internet and check your Windows date and time.
+2. Click License at the top, or Activate Home or Pro after the trial ends.
+3. Check Licensing channel: this beta uses the test channel. Use the Home or Pro test key supplied by FluJado.
+4. Paste it into License key and click Activate.
+5. Wait for License activated successfully. Check that the correct edition is shown, then close the window.
+6. Test your existing tile again. Activation does not require replacing your setup.
+
+Home and Pro
+
+Home includes the dashboard, app launching and management, custom workflows, workflow import/export and saved configurations. There is no limit based on the number of launch monitors you add. Pro adds custom branding, text, logos and backgrounds, Presentation mode and local Backup & Restore. The trial provides Pro. One license is intended for one active simulator PC.
+
+Offline use and moving to another PC
+
+Initial activation, Check online and Deactivate this PC require internet access. A locally activated license can then be used offline; include this in your beta test. To move: on the old PC, open License > Deactivate this PC and wait for confirmation, then activate on the new PC. Do not copy a local license file.
+
+Clock warnings or activation errors
+
+Do not turn the PC clock back to extend the trial. The Hub checks for clock rollback and remembers trial expiry. If a clock warning appears, restore the correct Windows date, time and time zone. Contact support if it persists. If activation was interrupted, try Activate again with the same key. Test keys are not proof of purchase. The website button opens FluJado.com; a live checkout is not yet guaranteed.
+
+# 6. Configurations and Pro features
+
+Saved configurations - Home and Pro
+
+Save Settings first. Open Configurations on the dashboard, enter a recognizable name and click Save changes current configuration. Later, select a saved item and click Use selected configuration. This changes Hub settings; running apps stay open. The Hub automatically saves the previous configuration before switching. A configuration is a saved setup, not a license for a second PC.
+
+Customize the appearance - Pro
+
+Use Settings > Appearance (Pro) for your logo, tagline, welcome text and colors. Set the background under Startup & shutdown. Adjust individual tile images under Tiles & screens. A transparent PNG is recommended for logos. Click Save. Home uses the default appearance.
+
+Presentation mode - Pro
+
+In Settings > Presentation (Pro), use Set / reset administrator code... and enter the code twice. This change applies immediately, without Save. Open Presentation on the dashboard for the guest view. Use the code to return to normal controls. Forgotten the code? Close and reopen the Hub, go to normal Settings and set a new code. Presentation mode is not a secure Windows kiosk.
+
+Create a local backup - Pro
+
+Save Settings first. Open Backup & restore > Create backup... and store the file somewhere safe. The export includes your current saved configuration, workflows, paths, screen choices, appearance and configured images. It does not include simulator installations, their data or licenses, the Hub license or Windows startup registration. Named Configurations and their images are included too. Beta.6 backups require beta.6 or later; beta.5 backups remain readable.
+
+Restore a backup - Pro
+
+Choose Restore backup..., review the proposed changes and confirm only the restore you want. Restore replaces the current saved configuration and discards unsaved editor changes. Named configurations are added as new copies; existing saved configurations are retained. A recovery backup of the current configuration and named library is created automatically first. On another PC, app paths and screens may be unavailable. Fix these before re-enabling disabled tiles. A full backup contains local paths and settings; share it only deliberately.
+
+# 7. Troubleshooting and feedback
+
+No tile or an app will not start
+
+If you see Set up your first app, no real tile is enabled yet. Use the wizard or add and enable a tile, then click Save changes. For a startup error, check executable paths under Apps, the selected route and whether the app opens on its own. If the trial has expired, activate a valid license first.
+
+A workflow keeps waiting
+
+Read the exact status. Check the relevant app for an update, error or missing connection. Use Retry after fixing the cause. If it still fails, cancel the workflow and save the message and log. Mention whether you quickly entered Range or another mode. The built-in ShotForge workflow recognizes several modes, but software updates may require new readiness checks.
+
+Wrong screen or resolution
+
+Use the wizard to select Simulator screen and Controls and updates screen again. Confirm them with Identify screens and save. Set game resolution in the simulator or Windows rather than choosing an unrelated screen profile. If the problem returns, report your display, cable routing and resolution.
+
+Installation or removal fails
+
+Check that the selected folder is the actual existing GolfSimHub installation. Let any workflow finish, close the Hub and retry. Use the MSI repair route described in chapter 1. Do not use the old EXE Restore previous Golf Sim Hub shortcut on an MSI installation or delete unknown folders to bypass an error. MSI update recovery requires its verified recovery package. Keep the exact message and private backup; contact support if recovery is incomplete.
+
+Send a useful issue report
+
+Click Export Diagnostic Report on the dashboard and review the file before sharing it. Email info@flujado.com with the Hub version, Windows version, hardware and firmware, simulator and connector versions, selected workflow, reproduction steps, expected result and actual result. Add a screenshot and the reviewed report if helpful. Hide license keys, passwords and personal information. Reports are not sent automatically.
+
+Quick beta checklist
+
+Mark each item passed, failed, unavailable or not tested.
+Installation and first setup / correct screens / three startups / real shot / switching / PC restart / activation and offline launch / custom workflow / Pro appearance / Presentation mode / backup and restore / update preserving personal data.
+Thank you for testing. Your specific findings help FluJado prepare for a reliable release.
+
+# Downloads and support
+
+Latest beta and updates
+
+https://github.com/simply3dprints/flujado-releases
+https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.2.msi
+
+Companion guides
+
+https://github.com/simply3dprints/flujado-releases/tree/main/docs/beta.18.2
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Support
+
+info@flujado.com | https://flujado.com/
+
+Privacy
+
+Review screenshots and diagnostic reports before sharing. Never include license keys, passwords or tester records.
+
+# Infinite Tees in beta.18.2
+
+Prepare the software
+
+Install and activate Infinite Tees and the correct connector first. In Guided setup select Infinite Tees and the exact launch-monitor route. Check the executable locations and any required plugin. FluJado does not install connectors, pair devices or enter license keys.
+
+Connection order
+
+ProTee VX through rela and Square Omni through rela connect automatically without Continue after one-time connector setup. The Hub uses Device Search first and simulator Connect only after the device connects. For ProTee VX the plugin starts Labs. Select Practice or a round yourself. Other Infinite Tees presets remain assisted.
+
+Practical tests and limits
+
+The beta.14 real-shot tests passed locally for ProTee VX via rela/plugin and Square Omni via rela Bluetooth in Infinite Tees Flat Range on 17 October 2026. The beta.15 follow-up verified automatic startup and switching to the existing GSPro/ProTee VX route and back without Continue. No new real-shot test, GSPro/Square Omni test or full fresh-PC/reboot certification is claimed. Other Infinite Tees routes still need hardware testing.
+
+Current compatibility table
+
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+# rela / ProTee - beta.18.2
+
+Correct startup order
+
+For ShotForge and Infinite Tees with rela and ProTee VX, let the Hub open rela first. The configured ProTee VX Socket Relay plugin starts ProTee Labs. Do not launch Labs manually beforehand. FluJado checks the device and simulator connections, waits for Labs readiness and rechecks the connection. These routes no longer require Continue.
+
+Prepare once
+
+Install and activate the simulator, rela and Labs first. Put the matching ProTeeVXPlugin.dll beside rela.exe and configure its Socket Relay paths. Keep only the intended Other plugin active. Confirm one real shot outside FluJado before relying on automatic startup. FluJado does not install plugins, pair hardware or enter keys.
+
+Existing settings and test scope
+
+Upgrades preserve your existing workflows, paths, screen choices and license. To replace an older route, use Guided setup and explicitly select it. Infinite Tees ProTee VX and Square Omni passed local automatic startup and switching to the existing GSPro/ProTee VX route and back. Earlier real-shot evidence belongs to beta.14; no new shot test or full hardware certification is implied.
+
+# VTrack and compatibility
+
+Experimental VTrack route
+
+For Infinite Tees, choose the exact LAON VTrack automatic-buttons preset only when you intend to test the reviewed VTrack Bridge v8 build. Configure the real IT_Golf_Launcher.exe. Windows English OCR and the recognised executable hash are required. Keep the launcher visible and still. Recognition is relative to the launcher window, so another screen/location is supported by design; moving/resizing during recognition rejects the click. Other builds or unavailable OCR require the assisted route.
+
+What still needs testing
+
+Automatic Connect and Start VTrack bridge control remains untested with VTrack hardware. Connected/Bridge running describes the interface, not proven device readiness. Confirm device discovery, Auto-send shots, Club/Hand and a real shot in Infinite Tees. Stop on errors. Uneekor additional information is pending; MuniGolfSim and Drills Golf Sim routes are still research items. See the current compatibility table for each route; no new hardware testing was performed for these manuals.
+
+Detailed instructions
+
+https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.2/VTRACK-BETA-TEST-EN.txt
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+# New in beta.18.2: Drills, screens and recovery
+
+Drills setup and game choice
+
+Install and sign in to Drills and configure your connector first. In FluJado open Settings > Overview > Open guided setup, enable Drills, and choose your exact launch monitor and route. Existing active flows stay unchanged unless you explicitly select replacement. To apply an updated preset to an existing route, back up first and explicitly replace that selected workflow.
+
+Screens and startup
+
+Keep your existing screen selection. New simulator profiles inherit the configured simulator screen, including older installations with one shared per-tile screen choice. The physical monitor identity is used, not its changing Windows display number. Drills opens on that screen and leaves game selection to you: Open Range is never chosen by FluJado.
+
+ProTee VX and Square Omni
+
+These two Drills routes connected and delivered real shots in local tests. ProTee VX switching with GSPro also passed. A GSPro/Omni shot was not verified in that switching session because the installed GSPro connector offered only ProTee. A controlled one-time ProTee startup recovery is available; its recovery branch was tested with isolated fixtures.
+
+Other launch monitors
+
+15 additional Drills profiles show Not tested (assisted). They require one manual connection confirmation and are not automatic proof of device readiness. Square HE, Garmin R10, SkyTrak OG/+/Max, Bushnell LPi and native VTrack have device-specific Discord guidance. The remaining rela combinations are candidates based on documented connector inputs and the Drills output. Check the compatibility table for each exact profile.
+
+VTrack and LPi
+
+The native VTrack route uses VTrack in the Drills launcher, not Other, with VTrack Toolkit and the Infinite Tees bridge closed. LPi uses the compatible OtherForesightPlugin.dll beside rela.exe; conflicting ProTee/Other plugins are rejected. Plugins are not bundled.
+
+Off-center hitting mat
+
+During a drill, press Esc and inspect its camera settings. Adjust the view for your own mat and verify the result visually. No universal numeric offset is documented here. FluJado updates preserve Drills settings and do not set the camera offset.
+
+ShotForge and MSI update
+
+ShotForge startup/readiness and supported connector checks have been improved. The MSI upgrade order now handles newly added application files before finishing the upgrade; rollback and cancellation were tested in an isolated product family. The update does not replace saved workflows automatically.
