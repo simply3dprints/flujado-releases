@@ -27,8 +27,8 @@ Install and activate simulator software and connectors first; verify a real shot
 
 [Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.1/RELEASE-NOTES.txt)
 
-Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.17/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.17/VTRACK-BETA-TEST-NL.txt).
+Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.1/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.1/VTRACK-BETA-TEST-NL.txt).
 
-General illustrated guides (beta.15; use the release notes above for the wizard changes): [English](docs/beta.15/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.15/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.15/FluJado-Connector-Setup-Guide-EN.pdf).
+Illustrated beta.18.1 guides, updated for MSI installation, updates, repair and uninstall: [English](docs/beta.18.1/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.1/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.1/FluJado-Connector-Setup-Guide-EN.pdf).
 
 Previous downloads remain available.

@@ -31,5 +31,6 @@ Windows Apps/native MSI removal keeps data by default.
 
 If installation is blocked or fails, keep the exact error message and stop.
 Do not disable antivirus protection or send passwords, licence keys or private
-backups. The older illustrated PDFs show earlier UI; use these current MSI
-instructions and release notes for installation/update/removal steps.
+backups. The illustrated Dutch/English user guides and connector companion in this
+folder are updated for beta.18.1, including the MSI wizard and maintenance.
+See README.md in this folder for PDF and text links.

@@ -1,0 +1,17 @@
+FluJado beta.18.1 — VTrack tester checklist
+
+Experimental automatic button control; NOT YET TESTED WITH VTRACK HARDWARE. The assisted VTrack profile remains available.
+
+Install/activate Infinite Tees first and keep the entire developer-supplied VTrack Bridge v8 folder together. In Settings > Guided setup select Infinite Tees, then "LAON VTrack — automatic buttons, hardware untested" / "VTrack Bridge v8 — experimental OCR". Browse to the real IT_Golf_Launcher.exe and choose your normal display. Existing saved workflows are preserved by upgrades: deliberately select this new profile to try it. Close VTrack Toolkit and other competing connectors; configure their actual paths in the Hub if applicable. Only configured executable identities are closed. Handle Windows network/security prompts yourself. The reviewed v8 executable hash and Windows English OCR are required; use the assisted profile for another build or unavailable OCR.
+
+Start the Infinite Tees/VTrack tile once. The Hub opens the programs, recognizes VTrack Devices, clicks Connect, and then Start VTrack bridge. Load a range or round yourself when prompted; the Hub does not navigate game menus. Keep the launcher visible and not minimized. Unreadable or ambiguous controls stop the flow safely.
+
+Recognition is relative to the configured launcher window, not fixed desktop coordinates. Another monitor/location is supported by design. Moving/resizing during recognition rejects the click. Coordinate scaling has fixture coverage; actual mixed-DPI/monitor behavior still needs testing. Different appearance or a new launcher build may require the assisted route.
+
+Connected + Bridge running prove only game/bridge UI state, NOT device readiness. Verify VTrack is discovered, Auto-send shots is enabled and Club/Hand are correct. Hit one real ball. Continue only if the shot arrives correctly in Infinite Tees. Cancel on -3001, no device, no shot or any error. Without VTrack hardware only the controls can be assessed.
+
+Please report: launcher build and Windows/display scaling; whether tab/Connect/Start were automatic; actual device detection and shot delivery; repeated cold starts; switching to your existing GSPro route and back; Close all apps. Save your round before switching. Send the exact error and a redacted connector-only screenshot or Hub diagnostic export. Do not send passwords, licence keys or personal configuration files.
+
+Starting with beta.17, the Hub checks for updates in the background approximately 15 seconds after opening and every six hours. Notices are deferred during workflows/presentation. Click the notice to review; downloading/installing remains your choice and the installer SHA256 is checked. Beta installations may advance to beta or stable; stable installations are not offered beta builds. Offline use stays available. Beta.17 or earlier may not parse beta.18.1 revisions. Make a private backup and install the current MSI into the existing Hub folder. Beta.18 EXE users receive a one-time MSI transition starter; MSI users receive MSI updates. Do not uninstall or delete data first.
+
+Test scope: actual Windows OCR on two saved launcher screenshots; production recognition; mocked controller clicks and ordering; duplicate/stale/ambiguous rejection; executable/window guards; scale geometry; configuration, fresh installation, upgrade and rollback. Live end-to-end VTrack connection/real shots are NOT validated yet.

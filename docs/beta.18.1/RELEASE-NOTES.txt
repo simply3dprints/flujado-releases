@@ -25,3 +25,9 @@ Native MSI version 0.9.1801 upgrades the preview MSIs (0.9.18). The next beta
 repair uses 0.9.1802; beta.19 maps to 0.9.1900. No hardware compatibility claims
 have changed. VTrack hardware feedback and additional Uneekor information are
 still pending. The new MSI and legacy transition starter are unsigned.
+
+Documentation refreshed on 19 October 2026: illustrated NL/EN user guides and
+connector companion now cover beta.18.1 MSI, actual wizard screenshots, data
+retention, repair, interrupted-update recovery, current download links and all
+99 catalog routes with separate physical-test status. No installer or update
+feed change and no new hardware validation in this documentation refresh.
