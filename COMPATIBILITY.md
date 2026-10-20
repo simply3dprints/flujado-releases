@@ -139,8 +139,12 @@
 
 ## Muni and Drills limitations
 
-one initial VX startup in Muni stalled before ProTee Labs became available; later automatic restarts and the GSPro return passed. Putting, clean-PC installation with hardware, reboot and untested monitor combinations remain unverified. Native Muni VTrack and Uneekor routes are not added without specific evidence.
+an earlier VX startup in Muni was delayed before Labs became available. Beta.18.4 adds guarded missing-Labs recovery; three cold starts passed in 58–61 seconds, while the new branch was tested with production-worker fixtures rather than forced on hardware. Putting, clean-PC installation with hardware, reboot and untested monitor combinations remain unverified. Native Muni VTrack and Uneekor routes are not added without specific evidence.
 
 Muni uses rela and local port 9210. ProTee VX and Square Omni shots passed; only ProTee switching with GSPro is in the completed Muni test scope. Fourteen other Muni routes and fifteen other Drills routes are assisted and not hardware tested. Choose the activity in the game. No automatic range selection.
 
 Existing VTrack and Uneekor research remains pending tester information.
+
+## beta.18.4 startup maintenance
+
+An earlier VX startup in Muni was delayed before Labs became available. Beta.18.4 adds guarded missing-Labs recovery; three cold starts passed in 58–61 seconds, while the new branch was tested with production-worker fixtures rather than forced on hardware. No additional shot, putting, reboot or clean-PC hardware validation. Fourteen additional Muni and fifteen Drills routes remain hardware-untested.

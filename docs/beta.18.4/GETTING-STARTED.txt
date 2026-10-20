@@ -1,0 +1,11 @@
+FluJado beta.18.4
+
+Download Windows MSI:
+https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.4.msi
+
+Install and activate your simulator and connector first. Updates preserve settings, licence and custom flows. Do not uninstall and delete data before updating.
+
+This maintenance release adds guarded Muni/ProTee startup recovery. Illustrated beta.18.3 guides remain applicable; use the download above for the latest release:
+https://github.com/simply3dprints/flujado-releases/tree/main/docs/beta.18.3
+
+See RELEASE-NOTES.txt and COMPATIBILITY.md for the precise test scope.

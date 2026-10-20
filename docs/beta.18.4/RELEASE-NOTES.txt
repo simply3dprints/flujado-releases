@@ -1,0 +1,11 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.4 - 20 October 2026
+
+Muni Golf Sim / ProTee VX startup recovery
+- The rela plugin remains responsible for starting ProTee Labs first. If the exact Muni/Other ProTee connection is still waiting and Labs is genuinely absent for 45 seconds, the Hub starts the configured Labs once. A loading, updating, already running or unreadable Labs process is left alone. No duplicate restart loop; Muni stays open.
+- Transient process metadata during plugin startup is treated as unknown, never as proof that Labs is absent. The final connection and Labs readiness checks still apply. Other simulator and Square routes are unchanged.
+
+Validation: the previous workflow eventually recovered after 238 seconds. Three cold starts with the final code passed automatically in 61.3, 60.6 and 57.7 seconds. The new missing-Labs branch was exercised with production-worker fixtures, including duplicate-start and unreadable-process guards; it was not needed or forced against hardware in these three successful repetitions. No new shots, putting, clean-PC or Windows reboot test was performed.
+
+Existing beta.18.3 evidence remains: Muni real shots passed with ProTee VX and Square Omni; Muni > GSPro > Muni with ProTee VX passed. Square/GSPro switching remains outside this test scope. Fourteen additional Muni and fifteen Drills profiles remain hardware-untested (assisted); no new Verified claim.
+
+MSI updates retain settings, licence and existing custom workflows. Back up first; install and activate simulators/connectors before using the Hub. The illustrated beta.18.3 guides remain applicable to installation and connector setup; this maintenance release adds the startup fix described here. See GETTING-STARTED.txt for the current download link.
