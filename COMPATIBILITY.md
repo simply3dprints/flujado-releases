@@ -1,30 +1,30 @@
 # FluJado compatibility and test status
 
-116 routes. Tested means a confirmed practical test of that exact route. Assisted / Needs Testing is not hardware verification. No route gains Verified status from code tests.
+132 routes. Tested = local practical evidence for the exact route. Not tested = preparation only. No new Verified hardware claim.
 
 | Launch monitor | Simulator | Connector / plugin | Status | Physical test | Verified | Profile |
 |---|---|---|---|---|---|---|
 | ProTee VX | GSPro | Native | Tested | Yes | No | gspro-default |
 | ProTee VX | Shot Forge | VGPConnect, VX Connector | Tested | Yes | No | shotforge-default |
-| ProTee VX (rēlā Socket Relay) | Shot Forge | rēlā, ProTeeVXPlugin.dll | Needs Testing | No | No | shotforge-protee-rela |
+| ProTee VX (rÃ„â€œlÃ„Â Socket Relay) | Shot Forge | rÃ„â€œlÃ„Â, ProTeeVXPlugin.dll | Needs Testing | No | No | shotforge-protee-rela |
 | Square Omni | Awesome Golf | Native | Tested | Yes | No | awesomegolf-default |
 | ProTee VX | ProTee | Native | Tested | Yes | No | protee-default |
 | Square Omni | GSPro | Native | Tested | Yes | No | gspro-square-omni |
-| Square Omni | Shot Forge | rēlā | Tested | Yes | No | shotforge-square-omni |
-| Square Home Edition | Shot Forge | rēlā | Needs Testing | No | No | shotforge-square-home |
-| FlightScope Mevo+ | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-mevo-plus |
-| Garmin R10 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-garmin-r10 |
-| Foresight GC2 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-foresight-gc2 |
-| GolfJoy Spica 3 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-golfjoy-spica3 |
-| SkyTrak OG | Shot Forge | rēlā | Needs Testing | No | No | shotforge-skytrak-og |
-| SkyTrak+ | Shot Forge | rēlā | Needs Testing | No | No | shotforge-skytrak-plus |
-| FlightScope Gen2 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-gen2 |
-| FlightScope Xi | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-xi |
-| FlightScope X2 | Shot Forge | rēlā | Needs Testing | No | No | shotforge-flightscope-x2 |
-| Full Swing KIT | Shot Forge | rēlā | Needs Testing | No | No | shotforge-full-swing-kit |
-| Uneekor (community plugin) | Shot Forge | rēlā, OtherUneekorPlugin.dll | Needs Testing | No | No | shotforge-uneekor-plugin |
-| Rapsodo MLM2PRO | Shot Forge | rēlā, MLM2ProPlugin.dll | Needs Testing | No | No | shotforge-rapsodo-mlm2pro |
-| LAON VTrack (assisted bridge) | Shot Forge | VTrackToolKit (LPGAgent), VTrack â†’ ShotForge bridge | Needs Testing | No | No | shotforge-vtrack-bridge |
+| Square Omni | Shot Forge | rÃ„â€œlÃ„Â | Tested | Yes | No | shotforge-square-omni |
+| Square Home Edition | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-square-home |
+| FlightScope Mevo+ | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-flightscope-mevo-plus |
+| Garmin R10 | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-garmin-r10 |
+| Foresight GC2 | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-foresight-gc2 |
+| GolfJoy Spica 3 | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-golfjoy-spica3 |
+| SkyTrak OG | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-skytrak-og |
+| SkyTrak+ | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-skytrak-plus |
+| FlightScope Gen2 | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-flightscope-gen2 |
+| FlightScope Xi | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-flightscope-xi |
+| FlightScope X2 | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-flightscope-x2 |
+| Full Swing KIT | Shot Forge | rÃ„â€œlÃ„Â | Needs Testing | No | No | shotforge-full-swing-kit |
+| Uneekor (community plugin) | Shot Forge | rÃ„â€œlÃ„Â, OtherUneekorPlugin.dll | Needs Testing | No | No | shotforge-uneekor-plugin |
+| Rapsodo MLM2PRO | Shot Forge | rÃ„â€œlÃ„Â, MLM2ProPlugin.dll | Needs Testing | No | No | shotforge-rapsodo-mlm2pro |
+| LAON VTrack (assisted bridge) | Shot Forge | VTrackToolKit (LPGAgent), VTrack Ã¢â€ â€™ ShotForge bridge | Needs Testing | No | No | shotforge-vtrack-bridge |
 | Garmin Approach R50 | GSPro | Native | Needs Testing | No | No | gspro-garmin-r50 |
 | Rapsodo MLM2PRO | GSPro | Native | Needs Testing | No | No | gspro-rapsodo-mlm2pro |
 | Garmin Approach R10 | GSPro | Native | Needs Testing | No | No | gspro-garmin-r10 |
@@ -88,21 +88,21 @@
 | Bushnell Launch Pro (assisted) | Awesome Golf | Native | Needs Testing | No | No | awesomegolf-bushnell-lp |
 | Bushnell Launch Pro Indoor (LPi) (assisted) | Awesome Golf | Native | Needs Testing | No | No | awesomegolf-bushnell-lpi |
 | Uneekor EYE MINI (assisted) | Awesome Golf | Native | Needs Testing | No | No | awesomegolf-uneekor-eye-mini |
-| ProTee VX â€” assisted beta | Infinite Tees | Infinite Tees, VX Connector for Infinite Tees | Needs Testing | No | No | infinite-tees-protee-vx |
-| Square HE â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-square-he-rela |
-| Square Omni â€” automatic beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Tested | Yes | No | infinite-tees-square-omni-rela |
-| Garmin R10 â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-garmin-r10-rela |
-| SkyTrak â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-skytrak-rela |
-| SkyTrak+ â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-skytrak-plus-rela |
-| FlightScope Mevo+ / Gen2 â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-mevo-rela |
-| FlightScope Xi / X2 â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-flightscope-xi-x2-rela |
-| Full Swing KIT â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-full-swing-kit-rela |
-| Foresight GC2 â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-foresight-gc2-rela |
-| Nova by Open Launch â€” assisted beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees | Needs Testing | No | No | infinite-tees-nova-rela |
-| ProTee VX (plugin) â€” automatic beta | Infinite Tees | Infinite Tees, rēlā for Infinite Tees, ProTeeVXPlugin.dll | Tested | Yes | No | infinite-tees-protee-rela |
-| Rapsodo MLM2PRO â€” assisted beta | Infinite Tees | Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees | Needs Testing | No | No | infinite-tees-mlm2pro-bluetooth |
-| LAON VTrack â€” assisted, hardware untested | Infinite Tees | Infinite Tees, Infinite Tees VTrack Bridge (untested) | Needs Testing | No | No | infinite-tees-vtrack-bridge |
-| LAON VTrack â€” automatic buttons, hardware untested | Infinite Tees | Infinite Tees, Infinite Tees VTrack Bridge (untested) | Needs Testing | No | No | infinite-tees-vtrack-auto |
+| ProTee VX Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, VX Connector for Infinite Tees | Needs Testing | No | No | infinite-tees-protee-vx |
+| Square HE Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-square-he-rela |
+| Square Omni Ã¢â‚¬â€ automatic beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Tested | Yes | No | infinite-tees-square-omni-rela |
+| Garmin R10 Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-garmin-r10-rela |
+| SkyTrak Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-skytrak-rela |
+| SkyTrak+ Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-skytrak-plus-rela |
+| FlightScope Mevo+ / Gen2 Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-mevo-rela |
+| FlightScope Xi / X2 Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-flightscope-xi-x2-rela |
+| Full Swing KIT Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-full-swing-kit-rela |
+| Foresight GC2 Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-foresight-gc2-rela |
+| Nova by Open Launch Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees | Needs Testing | No | No | infinite-tees-nova-rela |
+| ProTee VX (plugin) Ã¢â‚¬â€ automatic beta | Infinite Tees | Infinite Tees, rÃ„â€œlÃ„Â for Infinite Tees, ProTeeVXPlugin.dll | Tested | Yes | No | infinite-tees-protee-rela |
+| Rapsodo MLM2PRO Ã¢â‚¬â€ assisted beta | Infinite Tees | Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees | Needs Testing | No | No | infinite-tees-mlm2pro-bluetooth |
+| LAON VTrack Ã¢â‚¬â€ assisted, hardware untested | Infinite Tees | Infinite Tees, Infinite Tees VTrack Bridge (untested) | Needs Testing | No | No | infinite-tees-vtrack-bridge |
+| LAON VTrack Ã¢â‚¬â€ automatic buttons, hardware untested | Infinite Tees | Infinite Tees, Infinite Tees VTrack Bridge (untested) | Needs Testing | No | No | infinite-tees-vtrack-auto |
 | ProTee VX (rela) | Drills | rela, ProTeeVXPlugin.dll | Tested | Yes | No | drills-protee-rela |
 | Square Omni (rela) | Drills | rela | Tested | Yes | No | drills-square-omni-rela |
 | Square Home Edition | Drills | rela | Needs Testing | No | No | drills-square-he-rela |
@@ -120,9 +120,27 @@
 | Full Swing KIT | Drills | rela | Needs Testing | No | No | drills-full-swing-kit-rela |
 | Bushnell LPi | Drills | rela, OtherForesightPlugin.dll | Needs Testing | No | No | drills-bushnell-lpi-rela |
 | VTrack | Drills | Native Drills | Needs Testing | No | No | drills-vtrack-native |
+| ProTee VX (rela) | Muni Golf Sim | rela, ProTeeVXPlugin.dll | Tested | Yes | No | muni-protee-rela |
+| Square Omni (rela) | Muni Golf Sim | rela | Tested | Yes | No | muni-square-omni-rela |
+| Square Home Edition | Muni Golf Sim | rela | Not tested | No | No | muni-square-he-rela |
+| Garmin R10 | Muni Golf Sim | rela | Not tested | No | No | muni-garmin-r10-rela |
+| SkyTrak OG | Muni Golf Sim | rela | Not tested | No | No | muni-skytrak-og-rela |
+| SkyTrak+ | Muni Golf Sim | rela | Not tested | No | No | muni-skytrak-plus-rela |
+| SkyTrak Max | Muni Golf Sim | rela | Not tested | No | No | muni-skytrak-max-rela |
+| OpenLaunch NOVA | Muni Golf Sim | rela | Not tested | No | No | muni-nova-rela |
+| FlightScope Mevo+ | Muni Golf Sim | rela | Not tested | No | No | muni-mevo-plus-rela |
+| FlightScope Gen2 | Muni Golf Sim | rela | Not tested | No | No | muni-flightscope-gen2-rela |
+| FlightScope Xi | Muni Golf Sim | rela | Not tested | No | No | muni-flightscope-xi-rela |
+| FlightScope X2 | Muni Golf Sim | rela | Not tested | No | No | muni-flightscope-x2-rela |
+| Foresight GC2 | Muni Golf Sim | rela | Not tested | No | No | muni-foresight-gc2-rela |
+| GolfJoy | Muni Golf Sim | rela | Not tested | No | No | muni-golfjoy-rela |
+| Full Swing KIT | Muni Golf Sim | rela | Not tested | No | No | muni-full-swing-kit-rela |
+| Bushnell LPi | Muni Golf Sim | rela, OtherForesightPlugin.dll | Not tested | No | No | muni-bushnell-lpi-rela |
 
-## Drills limitations
+## Muni and Drills limitations
 
-Choose your own game; FluJado never selects Open Range automatically. Fifteen additional routes are assisted and not hardware tested. Documented bridge combinations are candidates; native VTrack uses its own launcher mode, without Toolkit or the Infinite Tees bridge. The LPi profile requires the matching Foresight plugin. See profiles/compatibility.json for per-route sources and limitations.
+one initial VX startup in Muni stalled before ProTee Labs became available; later automatic restarts and the GSPro return passed. Putting, clean-PC installation with hardware, reboot and untested monitor combinations remain unverified. Native Muni VTrack and Uneekor routes are not added without specific evidence.
 
-ProTee VX and Square Omni Drills real shots were confirmed. ProTee VX switching with GSPro was confirmed. A GSPro/Omni shot was not validated in that switching session. Clean-install and reboot checklist still pending; no new Verified claim.
+Muni uses rela and local port 9210. ProTee VX and Square Omni shots passed; only ProTee switching with GSPro is in the completed Muni test scope. Fourteen other Muni routes and fifteen other Drills routes are assisted and not hardware tested. Choose the activity in the game. No automatic range selection.
+
+Existing VTrack and Uneekor research remains pending tester information.

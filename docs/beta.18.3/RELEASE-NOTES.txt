@@ -1,0 +1,11 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.3 - 20 October 2026
+
+- Muni Golf Sim via rela on local port 9210. ProTee VX and Square Omni delivered real shots locally; automatic startup completed for both. The bundled Muni connector is closed to avoid parallel adapters. The Hub leaves activity selection to the player.
+- ProTee VX: Muni > GSPro > Muni switching passed with real shots in both games. Square Omni switching with GSPro was deliberately excluded from the completed test scope; no claim is made for it.
+- Fourteen additional Muni routes are Not tested (assisted): Square Home Edition, Garmin R10, SkyTrak OG/+/Max, OpenLaunch NOVA, FlightScope Mevo+/Gen2/Xi/X2, Foresight GC2, GolfJoy, Full Swing KIT and Bushnell LPi. These are inferred rela adapter combinations, not confirmed Muni hardware compatibility. One manual connection confirmation remains. Required vendor setup and plugins must already be installed.
+- Official Drills, Infinite Tees and Muni tile artwork; removed the PLAY text and corrupted arrow text from simulator tiles.
+- Drills ProTee VX and Square Omni real-shot tests repeated successfully. ProTee switching with GSPro passed; Omni return to Drills passed.
+- Updated Dutch/English user guides, connector guide and compatibility table.
+
+Known limitations: one initial VX startup in Muni stalled before ProTee Labs became available; later automatic restarts and the GSPro return passed. Putting, clean-PC installation with hardware, reboot and untested monitor combinations remain unverified. Native Muni VTrack and Uneekor routes are not added without specific evidence.
+Updates preserve settings, licence and custom workflows. New Muni profiles are available in Guided setup; existing custom routes are not silently replaced. Back up before explicitly replacing a chosen workflow. Install and activate simulators and connectors first and confirm they work outside the Hub. No vendor binaries, tester data or keys are included.

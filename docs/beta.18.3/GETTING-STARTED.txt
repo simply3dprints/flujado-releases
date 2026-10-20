@@ -1,0 +1,7 @@
+FluJado beta.18.3
+
+Install and activate your simulator and launch monitor connector first. Confirm a real shot outside FluJado.
+Download: https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.3.msi
+
+Use Guided setup to select the exact device. Updates preserve existing workflows; explicitly replace only the selected route after backup to adopt a revised preset. Muni ProTee VX and Square Omni real shots passed. Fourteen other Muni profiles remain Not tested (assisted).
+See COMPATIBILITY.md and the illustrated guides for precise test scope.

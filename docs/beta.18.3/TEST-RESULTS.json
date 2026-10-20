@@ -1,0 +1,184 @@
+{
+  "version": "0.9.0-beta.18.3",
+  "softwareSuites": [
+    {
+      "suite": "Test-Muni.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-MuniMonitors.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-TileArtwork.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-Appearance.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-DrillsMonitors.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-DrillsPluginGuard.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-Drills.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-ProTeeStartupRecovery.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-WorkflowLog.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-Compatibility.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-SimulatorScreenInheritance.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-GuidedSetup.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-ShotForgeModern.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-DrillsConnectionWorker.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-DrillsReceiverWorker.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-RelaControl.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-RelaConnection.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-Setup.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-WorkflowSharing.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-PreflightRecovery.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-Updates.ps1",
+      "passed": true
+    },
+    {
+      "suite": "Test-UpdateNotification.ps1",
+      "passed": true
+    }
+  ],
+  "firstInstallation": {
+    "liveInstallationTouched": false,
+    "cases": [
+      {
+        "repairRememberedLocation": true,
+        "shortcutsRemoved": true,
+        "case": "first-install-and-shortcuts",
+        "runtimeHashes": 133,
+        "customLocation": true
+      },
+      {
+        "case": "shortcuts-optional",
+        "passed": true
+      },
+      {
+        "case": "keep",
+        "unrelatedFilePreserved": true,
+        "licenceChoiceCorrect": true,
+        "settingsAndFlowsCorrect": true
+      },
+      {
+        "case": "delete",
+        "unrelatedFilePreserved": true,
+        "licenceChoiceCorrect": true,
+        "settingsAndFlowsCorrect": true
+      }
+    ],
+    "published": false,
+    "simulatorsTouched": false
+  },
+  "upgrade": {
+    "changedRuntimeFileVerified": true,
+    "majorUpgradePassed": true,
+    "filesVerified": 133,
+    "oldProductRemoved": true,
+    "published": false,
+    "settingsRetained": true,
+    "downgradeBlocked": true
+  },
+  "interruption": {
+    "actualProcessKilled": false,
+    "liveInstallationTouched": false,
+    "powerLossSimulated": false,
+    "retryPassed": true,
+    "points": [
+      {
+        "personalFilesRetained": 3,
+        "failureExit": 1603,
+        "newProductAbsent": true,
+        "sequence": 1540,
+        "oldProductRestored": true,
+        "runtimeHashes": 121
+      },
+      {
+        "personalFilesRetained": 3,
+        "failureExit": 1603,
+        "newProductAbsent": true,
+        "sequence": 6540,
+        "oldProductRestored": true,
+        "runtimeHashes": 121
+      },
+      {
+        "personalFilesRetained": 3,
+        "failureExit": 1603,
+        "newProductAbsent": true,
+        "sequence": 6560,
+        "oldProductRestored": true,
+        "runtimeHashes": 121
+      }
+    ],
+    "injection": "fixture-only MSI error action; production packages unchanged",
+    "published": false
+  },
+  "hardware": {
+    "proteeMuni": "real shots and Muni-GSPro-Muni passed",
+    "squareOmniMuni": "four shots and automatic startup passed",
+    "omniGsproSwitch": "excluded by user, not claimed"
+  },
+  "additionalMuniProfiles": "14 assisted, not tested",
+  "verifiedHardware": false,
+  "localUpdate": {
+    "updated": true,
+    "settingsUnchanged": true,
+    "registeredMsiVersion": "0.9.1803",
+    "version": "0.9.0-beta.18.3",
+    "licenceHashesUnchanged": true,
+    "recoverySourceVerified": true,
+    "runtimeFilesVerified": 133,
+    "simulatorsStartedOrStopped": false,
+    "simulatorSettingsUnchanged": true
+  }
+}

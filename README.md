@@ -1,17 +1,16 @@
-# FluJado Golf Sim Hub — beta.18.2
+# FluJado Golf Sim Hub — beta.18.3
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.2.msi) · [Getting started](docs/beta.18.2/GETTING-STARTED.txt) · [Checksums](docs/beta.18.2/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.3.msi) · [Getting started](docs/beta.18.3/GETTING-STARTED.txt) · [Checksums](docs/beta.18.3/SHA256SUMS.txt)
 
-## New in beta.18.2
+## New in beta.18.3
 
-- Drills support with ProTee VX and Square Omni via rela: real shots confirmed on both, with guarded startup, receiver checks and ProTee startup recovery.
-- Fifteen additional Drills routes are available as **assisted, not hardware tested**. See the compatibility table for exact devices and limitations.
-- Simulator windows inherit the selected projector screen. Drills leaves you in control of game selection; the Hub does not select Open Range.
-- ShotForge connection/readiness improvements and early checks for conflicting rela plugins.
-- MSI upgrade recovery corrected for added application files; isolated installation, repair, upgrade, cancellation and four rollback/retry interruption points passed.
-- Updated Dutch/English user guides and connector guide. Settings, saved workflows and licence are retained on update. To adopt a changed preset, back up and explicitly select replacement in Guided setup.
+- Muni Golf Sim with ProTee VX and Square Omni via rela, with local port 9210, guarded startup and projector routing. Real shots passed for both.
+- Muni to GSPro and back with ProTee VX passed with real shots. Square Omni switching with GSPro is excluded from this test scope.
+- Fourteen other Muni profiles are **Not tested (assisted)**. These are inferred connector combinations; check the exact model and requirements in the compatibility table.
+- Official Drills, Infinite Tees and Muni tile artwork; removed the PLAY label and corrupted arrow text.
+- Updated Dutch/English guides, connector guide and test table. Settings, licence and custom workflows are retained.
 
-ProTee VX switching Drills → GSPro → Drills was confirmed. Omni return to Drills was confirmed; a GSPro/Omni shot was not validated in that switching session. Additional profiles are not a hardware compatibility guarantee.
+One earlier VX startup stalled before Labs appeared; subsequent automatic starts passed. Putting, reboot and clean-PC hardware tests remain pending. No new Verified hardware claim.
 
 ## Existing beta users
 
@@ -29,10 +28,10 @@ The Hub checks for a newer version about 15 seconds after opening and every six 
 
 Install and activate simulator software and connectors first; verify a real shot outside the Hub. Vendor binaries and licences are not included. Keep private migration backups local and never send licence keys or passwords.
 
-[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.2/RELEASE-NOTES.txt)
+[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.3/RELEASE-NOTES.txt)
 
-Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.2/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.2/VTRACK-BETA-TEST-NL.txt).
+Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.3/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.3/VTRACK-BETA-TEST-NL.txt).
 
-Illustrated beta.18.2 guides, updated for Drills, ShotForge, screens and MSI installation/recovery: [English](docs/beta.18.2/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.2/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.2/FluJado-Connector-Setup-Guide-EN.pdf).
+Illustrated beta.18.3 guides, updated for Drills, ShotForge, screens and MSI installation/recovery: [English](docs/beta.18.3/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.3/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.3/FluJado-Connector-Setup-Guide-EN.pdf).
 
 Previous downloads remain available.

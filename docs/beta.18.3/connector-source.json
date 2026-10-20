@@ -1,0 +1,1509 @@
+[
+  [
+    "Connector setup guide",
+    [
+      [
+        "For beta testers | 20 October 2026",
+        "Windows / FluJado beta.18.3. Install and test simulator and connector software before handing startup to the Hub."
+      ],
+      [
+        "FluJado beta.18.3 setup and updates",
+        "MSI is the standard installer. Use the installation guide included in this document, then Settings > Overview > Open guided setup to find supported software and connectors. Choose the exact model and route. Missing required program paths are reported before screens and Movies & TV. Selecting a built-in simulator enables its disabled tile; existing active workflows remain unless replacement is explicitly selected. A discovered executable is not a verified device connection."
+      ],
+      [
+        "Start with these three choices",
+        "Write down your launch monitor model, simulator and connection route. A ProTee-to-ShotForge route through rela uses different software from its VX Connector route. A Square setup must not inherit ProTee settings."
+      ],
+      [
+        "What a connector does",
+        "A connector forwards launch-monitor data to the simulator. FluJado starts configured applications and checks workflow readiness; it does not replace the connector, install vendor software or turn a listed profile into a verified hardware integration."
+      ],
+      [
+        "Read only the route you need",
+        "Section 1: downloads. Section 2: ShotForge with rela. Section 3: ProTee alternatives. Section 4: GSPro direct routes. Section 5: GSPro vendor/community routes. Section 6: Awesome Golf. Section 7: troubleshooting. The model index covers all 132 presets in beta.18.3."
+      ],
+      [
+        "Status and scope",
+        "This is a setup companion, not a universal compatibility guarantee. Presets are a mixture of locally exercised, vendor-documented and community-assisted routes. Most need independent hardware testing. Keep the software maker's current model guide alongside this document."
+      ],
+      [
+        "Before installing anything",
+        "Finish your current simulator session. Note existing connector settings and versions. Download from the maker or the linked author page. Keep required vendor/simulator licenses active. If a file source or exact model is unclear, ask before replacing anything. Connector binaries are not included in the FluJado package."
+      ]
+    ]
+  ],
+  [
+    "FluJado installation and maintenance - beta.18.3",
+    [
+      [
+        "Current download",
+        "https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.3.msi\nRelease notes: https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.3/RELEASE-NOTES.txt\nCompatibility and test status: https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Prepare first",
+        "Install and activate your simulator software and the required connectors before FluJado. Verify a real shot outside the Hub. The Hub finds supported installed software; it does not install simulators, pair devices or supply their licenses."
+      ],
+      [
+        "First installation with MSI",
+        "1. Download FluJado-Golf-Sim-Hub-0.9.0-beta.18.3.msi and open it in your Windows account.\n2. Select Next on Welcome. Choose your installation location; another drive is allowed. Keep GolfSimHub as the final folder name, for example C:\\Golf\\GolfSimHub.\n3. Choose Add or Skip for the desktop shortcut and Start menu shortcuts. The Start menu also contains repair and uninstall options.\n4. Review the path and select Install.\n5. Start FluJado is checked by default on the final page. Select Finish to open it, or uncheck the box to finish without starting.\n6. Use Guided setup to choose your software, connector route and screens."
+      ],
+      [
+        "Automatic update notices",
+        "The open Hub checks about 15 seconds after startup, then every six hours. A newer-version notice appears when no workflow is active and Presentation mode is off. Click the notice to review the update, or use Updates > Check for updates. You choose when to install; there is no forced installation and no notice while the Hub is closed. SHA-256 is checked before the update is opened. Offline use remains available."
+      ],
+      [
+        "Existing beta.18 EXE installation",
+        "Use the update notice in the Hub. A one-time MSI transition starter contains the same official MSI, verifies it, waits for the Hub to close, creates and checks a private backup, then opens the MSI wizard on your existing folder. Keep that folder selected. This EXE is only a bridge for older clients; new users download MSI. If another FluJado MSI installation already exists, update it directly."
+      ],
+      [
+        "Earlier betas and MSI previews",
+        "Beta.17 and earlier may not understand revision numbers such as beta.18.3. Make a private backup, close the Hub and install the current MSI into your existing GolfSimHub folder. Do not uninstall first or delete data. Existing MSI preview users can install the current MSI directly. Keep settings, license state and your original installation path."
+      ],
+      [
+        "What an update preserves",
+        "Settings, saved configurations, workflows, custom artwork and existing local license state are retained. Updating does not restart or extend a trial and does not automatically replace saved workflows with newer presets. Back up before migration and keep backups private; they may contain license information and local paths."
+      ],
+      [
+        "Repair and interrupted updates",
+        "Use Start menu > FluJado > Repair FluJado. Repair restores the current application version; it is not a downgrade or a settings reset. MSI updates use a separate worker and a verified recovery MSI. If an update fails or is cancelled, keep the error and private backup, allow recovery to finish and check the installed version before retrying. Do not manually delete installer caches or recovery packages. If recovery reports incomplete, stop and contact support."
+      ],
+      [
+        "Uninstall and data choice",
+        "Close the Hub and use Start menu > FluJado > Uninstall FluJado (data options). Keep my data and licence is selected by default. The explicit Remove all Hub data and the local licence option also erases shared local Hub license storage for this Windows account. It does not release an online activation; use License > Deactivate this PC first if moving your license. Windows Installed apps/native MSI removal keeps personal data by default. Read the final completion message before closing. Simulator software is left untouched. If Start menu shortcuts were skipped, Windows Installed apps remains available for repair/removal with the default data retention."
+      ],
+      [
+        "If Windows blocks the download",
+        "The MSI and transition starter are currently unsigned. A reputation notice and an antivirus detection are different reports. Use the official link and keep the exact message. If antivirus blocks or quarantines a file, stop and contact support. Keep protection enabled; do not add exclusions or restore quarantined files to continue. Never send license keys, passwords or full private backups."
+      ]
+    ]
+  ],
+  [
+    "Muni Golf Sim - beta.18.3",
+    [
+      [
+        "Muni: install and choose your route",
+        "Install Muni and sign in normally. Install and configure rela and any required launch monitor plugin first. Confirm a shot outside FluJado. In Settings > Overview > Open guided setup, enable Muni Golf Sim and select your exact launch monitor. New profiles inherit your simulator screen. Existing custom workflows remain unchanged unless you explicitly replace the selected route."
+      ],
+      [
+        "ProTee VX and Square Omni",
+        "Muni real shots and automatic startup passed locally for both. Muni > GSPro > Muni with ProTee VX passed with real shots in both games. Square Omni switching with GSPro is outside this test scope. One earlier VX startup stalled before Labs appeared; later restarts and the GSPro return passed. Putting and reboot tests remain pending."
+      ],
+      [
+        "Automatic startup",
+        "FluJado starts Muni, verifies its local receiver on port 9210, closes the bundled native connector and launches rela. For VX the plugin starts ProTee Labs. Choose your activity in Muni; the Hub does not automatically load a range. Keep a ball in the hitting area for the Omni readiness check."
+      ],
+      [
+        "Other Muni monitors: not tested",
+        "Fourteen additional assisted profiles cover Square HE, Garmin R10, SkyTrak OG/+/Max, NOVA, Mevo+/Gen2/Xi/X2, GC2, GolfJoy, Full Swing KIT and Bushnell LPi. They are inferred rela adapter combinations, not hardware compatibility confirmations. Select the exact device and Muni Golf Sim in rela, set its Muni game port to 9210, connect the device first and confirm both connections. Normal vendor setup and any specified plugin are required."
+      ],
+      [
+        "Updated tile artwork",
+        "Drills, Infinite Tees and Muni use their official logos and updated artwork. The PLAY label and broken arrow text have been removed from simulator tiles. Your own tile artwork and settings are retained."
+      ]
+    ]
+  ],
+  [
+    "1. Downloads and source links",
+    [
+      [
+        "GSPro",
+        "<a href=\"https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install\" color=\"#197D5A\"><u>Official installation guide</u></a> | <a href=\"https://dvzg6a325ik1w.cloudfront.net/GSProInstaller.zip\" color=\"#197D5A\"><u>GSProInstaller.zip (linked by GSPro)</u></a>. Extract the ZIP and use the included installer. Keep your GSPro license available. <a href=\"https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation\" color=\"#197D5A\"><u>Model connection guides</u></a>."
+      ],
+      [
+        "rela",
+        "<a href=\"https://docs.rela.golf/rela/installation/\" color=\"#197D5A\"><u>Maker installation instructions</u></a> | <a href=\"https://docs.rela.golf/rela/user-guide/\" color=\"#197D5A\"><u>User guide</u></a> | <a href=\"https://downloads.rela.golf/get/rela/windows-x64/beta\" color=\"#197D5A\"><u>Windows x64 beta download endpoint</u></a>. The download endpoint was recorded from the developer's Discord announcement; its current file could not be retrieved in this session. Confirm the current installer in ShotForge Discord before using it."
+      ],
+      [
+        "ShotForge",
+        "<a href=\"https://www.shotforgegolf.com/\" color=\"#197D5A\"><u>Official website</u></a> | <a href=\"https://discord.gg/RThChHHX2T\" color=\"#197D5A\"><u>Launch-monitor support Discord linked by ShotForge</u></a>. Open the <a href=\"https://discord.com/channels/1497254301511323728/1497256286918541332/1504241274394378302\" color=\"#197D5A\"><u>ShotForge Quick Start post</u></a> for the shared PDF (Discord membership required). Use ShotForge Launcher to obtain game updates. A current installer binary was not retrieved here."
+      ],
+      [
+        "ProTee Labs and VX Connector",
+        "<a href=\"https://csc.protee-united.com/hc/en-us\" color=\"#197D5A\"><u>ProTee support centre</u></a> for Labs installation and activation. Download VX Connector through its <a href=\"https://github.com/zonkey-acoustic/vx-connector\" color=\"#197D5A\"><u>author repository and Releases link</u></a>. Choose VxConnectorSetup.exe. Community software; exact current release and binary were not retrieved. Do not substitute an unrelated package named vx."
+      ],
+      [
+        "Other software",
+        "<a href=\"https://squaregolf.com/pages/support\" color=\"#197D5A\"><u>Square software, firmware and connector downloads</u></a> | <a href=\"https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator\" color=\"#197D5A\"><u>Uneekor third-party setup</u></a> | <a href=\"https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list\" color=\"#197D5A\"><u>Awesome Golf model guides</u></a> | <a href=\"https://awesome-golf.com/connect/\" color=\"#197D5A\"><u>Awesome Golf Connect/download landing page</u></a>. Use the model guide to reach the appropriate Windows installer; the Connect landing page was not retrieved here."
+      ],
+      [
+        "Community routes",
+        "<a href=\"https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1\" color=\"#197D5A\"><u>VTrack-to-ShotForge author release</u></a> | <a href=\"https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html\" color=\"#197D5A\"><u>OpenSkyPlus2 author quick start</u></a>. These are independent projects, not official manufacturer endorsements. The <a href=\"https://gofile.io/d/wHAyzoy3\" color=\"#197D5A\"><u>community plugin collection shared by eKsiSLe in Discord</u></a> may supply device plugins; current contents/version were not downloaded or verified. <a href=\"https://github.com/eKsiSLe/rela-OtherLM\" color=\"#197D5A\"><u>rela Other API</u></a> is developer documentation."
+      ],
+      [
+        "Link checking",
+        "Core documentation and the VTrack release page were read on 17 October 2026. A documentation link is not proof that an installer was downloaded, scanned or hardware-tested. Binary downloads were not installed or redistributed. Appendix model links are catalog references, not individually rechecked links."
+      ]
+    ]
+  ],
+  [
+    "2. ShotForge with rela",
+    [
+      [
+        "Install once",
+        "Install your required manufacturer software and ShotForge first. Run normal vendor activation and updates. Install rela, select only your owned devices and the simulator output you use, and review the setup results. Resolve red setup results before continuing. Source: <a href=\"https://docs.rela.golf/rela/installation/\" color=\"#197D5A\"><u>rela installation guide</u></a>."
+      ],
+      [
+        "Manufacturer prerequisites",
+        "SkyTrak, GolfJoy and FlightScope Xi/X2 need the appropriate installed vendor app for rela's local checks. Install rela on the same disk when its setup requires compatibility linking. GC2 USB may need its driver. Square, Mevo+/Gen2, R10 and KIT do not require installer-managed vendor component links according to rela's FAQ; normal pairing and entitlement requirements still apply. Source: <a href=\"https://docs.rela.golf/rela/faq/\" color=\"#197D5A\"><u>Device requirements</u></a>."
+      ],
+      [
+        "First connection",
+        "Turn on the monitor, open ShotForge, then open rela. Select the correct Device and connection type, use Search, and check the Simulator selection. Wait for both sides to connect and verify one real shot. Auto Connect and Discover can automate subsequent device search. Source: <a href=\"https://docs.rela.golf/rela/user-guide/\" color=\"#197D5A\"><u>First connection and settings</u></a>."
+      ],
+      [
+        "In FluJado",
+        "Choose the ShotForge preset for your model and the rela route. Browse to the actual ShotForge launcher, game executable and rela.exe. Use your own folders. The built-in flow opens ShotForge before rela. Do not add VX Connector, VGPConnect or ProTee Labs to a Square route."
+      ],
+      [
+        "Several launch monitors",
+        "A saved rela default is not an automatic device switch for every setup. Confirm Device, connection type, simulator and plugin for the monitor you are about to use. The Hub has no Home/Pro hardware-count restriction."
+      ],
+      [
+        "Pass this test before automating",
+        "Device connected; simulator connected; real shots arrive. Repeat after restarting the PC. A green installation result or a running process alone is insufficient. Record exact versions and the chosen route."
+      ]
+    ]
+  ],
+  [
+    "3. ProTee VX to ShotForge",
+    [
+      [
+        "Route A - rela with a ProTee plugin",
+        "This is a community plugin route. The <a href=\"https://gofile.io/d/wHAyzoy3\" color=\"#197D5A\"><u>community plugin collection</u></a> was reposted by eKsiSLe in the ProTee channel on 8 October. Confirm the ProTee DLL and version with the author before installing: the collection contents were not downloaded or validated here."
+      ],
+      [
+        "Plugin placement",
+        "After closing rela, put only the selected Other-device plugin next to rela.exe, not inside the FluJado folder. The developer API discovers plugins from the application directory. Avoid multiple competing Other plugins. Source: <a href=\"https://github.com/eKsiSLe/rela-OtherLM\" color=\"#197D5A\"><u>rela Other plugin discovery</u></a>."
+      ],
+      [
+        "ProTee-specific configuration",
+        "The route recorded for this beta uses Device = Other and the ProTee plugin's Socket Relay settings. Follow the plugin author's Find/Save/restart instructions for your version. This is not the Square connection setting. Start ShotForge before rela. The plugin may manage the Labs restart; finish updates before testing. Verify shots manually before enabling the Hub flow."
+      ],
+      [
+        "Route B - VGPConnect / VX Connector",
+        "The existing Hub preset starts ProTee Labs, waits for it, opens VGPConnect and VX Connector, opens ShotForge, then restarts VGPConnect after ShotForge becomes ready. Use the supplied executable paths from your working installation. Get VX Connector from the <a href=\"https://github.com/zonkey-acoustic/vx-connector\" color=\"#197D5A\"><u>author repository</u></a>. Its author documents tray selection Switch to Drills; the ShotForge community route uses that target. ProTee Labs 1.12.9.0 or later requires VX Connector 1.4.0 or later. The repository documents InfiniteTees/Drills; ShotForge use is community guidance, not manufacturer certification."
+      ],
+      [
+        "Choose one route",
+        "Select the matching connector-labelled preset in the Hub wizard. When switching between these ShotForge routes, end the session first: the Hub closes and restarts the configured apps/connectors. Entering Range quickly was checked locally, but other PCs still need testing."
+      ],
+      [
+        "If a required file is missing",
+        "Stop and obtain the correct file from the author. Do not remove the Hub preflight requirement to force a launch. Ask the tester to provide the pinned author post, version and successful manual connection result."
+      ]
+    ]
+  ],
+  [
+    "4. GSPro - direct/native routes",
+    [
+      [
+        "Common installation",
+        "Use <a href=\"https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install\" color=\"#197D5A\"><u>GSPro&#x27;s installer guide</u></a> and the exact model connection page from <a href=\"https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation\" color=\"#197D5A\"><u>GSPro setup documentation</u></a>. Activate GSPro for the intended device and perform the initial connection in GSPro Connect. Configure GSPLauncher.exe in FluJado; selecting a Hub profile does not change your GSPro license type."
+      ],
+      [
+        "ProTee VX",
+        "Install and activate ProTee Labs and enable its GSPro connection through the vendor procedure. Keep the required GSPro/API connection available and configure Labs Game Options. Then select the ProTee VX GSPro preset in FluJado. Source: <a href=\"https://csc.protee-united.com/hc/en-us/articles/20293278989084-How-do-I-activate-the-GSPro-connection\" color=\"#197D5A\"><u>ProTee GSPro activation</u></a>."
+      ],
+      [
+        "Garmin R10 and R50",
+        "Use the separate R10 or R50 guide. Do not assume the pairing/network steps are the same. The Hub's native presets launch GSPro; they do not run rela. Configure the monitor connection, firmware and simulator settings manually first. Open the matching guide from the model index."
+      ],
+      [
+        "Rapsodo MLM2PRO",
+        "Use the GSPro MLM2PRO guide for required authentication, entitlement and connection steps. The current Hub preset includes a manual preparation confirmation before launch. That preset is separate from the ShotForge Other-plugin route. Do not treat the presence of a plugin DLL as successful authentication."
+      ],
+      [
+        "FlightScope, Foresight/Bushnell and GolfJoy",
+        "Use the official model guide and current simulator entitlement. Native presets launch GSPro after conflict cleanup. Connection and license conversion must already be completed outside the Hub. Do not copy rēlā vendor-link instructions into a native GSPro setup."
+      ],
+      [
+        "Square",
+        "The local Omni GSPro setup used the native GSPro Connect route with a Square-enabled GSPro license. The separate <a href=\"https://squaregolf.com/pages/support\" color=\"#197D5A\"><u>Square GSPro Connector download</u></a> is an alternative documented by Square; do not install it on top of a working direct route without choosing that route deliberately. Home Edition and Omni are distinct models."
+      ]
+    ]
+  ],
+  [
+    "5. GSPro - vendor/community routes",
+    [
+      [
+        "Uneekor Launcher / Third-party Connector",
+        "In Uneekor Launcher, check the license includes Third-party Connector. Configure the GSPro executable in the third-party software section and complete the initial Start Now launch from Uneekor Launcher. Use the vendor's current instructions for VIEW and automatic launch choices. Point the Hub at your real Launcher and Connector executables. Source: <a href=\"https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator\" color=\"#197D5A\"><u>Uneekor setup instructions</u></a>."
+      ],
+      [
+        "SkyTrak OG / + / MAX",
+        "The catalog includes assisted community GSPro routes. <a href=\"https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html\" color=\"#197D5A\"><u>OpenSkyPlus2&#x27;s guide</u></a> documents its plugin environment and OpenConnect settings. It lists tested SkyTrak versions separately from newer versions with uncertain results. Check your exact SkyTrak app/plugin versions with the author; do not assume a current vendor update is compatible. MAX testing is distinct from OG/+."
+      ],
+      [
+        "VTrack to ShotForge - separate bridge",
+        "The <a href=\"https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1\" color=\"#197D5A\"><u>author release</u></a> instructs extracting its entire ZIP and selecting the bridge GSPLauncher.exe in VTrackToolKit's GSPro simulator settings. That is the bridge executable, not your real GSPro launcher. Follow the included QUICKSTART.txt. Keep a separate configuration for genuine GSPro; the Hub does not automatically rewrite Toolkit targets. This is a community beta."
+      ],
+      [
+        "NVisage, OpenLaunch, Blue Tees and other models",
+        "Use the model links in the index and the manufacturer's actual connector if required. Required Hub app entries describe what the preset launches, not every prerequisite that must be installed. When a guide is missing or the download cannot be verified, leave the route unconfigured and ask for a model-specific setup check."
+      ],
+      [
+        "A route to avoid guessing",
+        "Do not send Foresight users a generic GameChanger or Automat download merely because it appears in a Discord discussion. Current provenance, model support, licensing and installation instructions need confirmation before that can become a tester-ready route."
+      ]
+    ]
+  ],
+  [
+    "6. Awesome Golf",
+    [
+      [
+        "Download and choose your exact model",
+        "<a href=\"https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list\" color=\"#197D5A\"><u>Awesome Golf&#x27;s official compatibility list</u></a> links individual connection guides. It currently includes models from Garmin, FlightScope, Foresight/Bushnell, Rapsodo, Square and Uneekor EYE MINI. Treat each model individually; EYE MINI documentation does not establish support for every Uneekor device."
+      ],
+      [
+        "Prepare the connection",
+        "Install the Windows simulator through the vendor's current download flow. Follow the model guide for network/USB/Bluetooth, sign-in and simulator entitlement. Connect in Awesome Golf and verify an actual shot before configuring FluJado."
+      ],
+      [
+        "Direct versus assistant presets",
+        "The catalog contains both direct and assistant routes for some monitors, notably R10 and MLM2PRO. Select the route matching the vendor instructions and your working installation. Do not start an extra connector solely because another launch monitor needs one."
+      ],
+      [
+        "In the Hub",
+        "Select the matching Awesome Golf preset. Most assisted routes open Awesome Golf and wait for you to confirm the manual connection. The existing Square Omni route has model-specific automatic selection. A running Awesome Golf process is not proof of a live device connection."
+      ],
+      [
+        "Your acceptance check",
+        "Confirm the right monitor name in the simulator, hit one real shot, restart and repeat. If manual confirmation appears, confirm only after connection is ready. Report app startup, monitor connection and shot delivery separately."
+      ]
+    ]
+  ],
+  [
+    "7. Troubleshooting and handover",
+    [
+      [
+        "App opens, but no shots",
+        "Check the monitor connection first, then the simulator output and selected route. Ensure another connector is not already holding the device. For rela, confirm the Device and Simulator rows rather than repeatedly clicking Simulator Connect first. Source: <a href=\"https://docs.rela.golf/rela/user-guide/\" color=\"#197D5A\"><u>rela connection troubleshooting</u></a>."
+      ],
+      [
+        "Plugin not found or wrong monitor appears",
+        "Check the DLL is next to the correct rela.exe, matches the intended model and is the only competing Other plugin. Obtain the current release instructions from its author. Leave built-in dependencies alone."
+      ],
+      [
+        "Vendor update just installed",
+        "Finish activation/update prompts outside the Hub, then recheck the manual connection. Record old and new app, firmware and connector versions. Rela's red setup results may require rerunning its installer after vendor changes; see <a href=\"https://docs.rela.golf/rela/installation/\" color=\"#197D5A\"><u>setup repair guidance</u></a>."
+      ],
+      [
+        "What to send with feedback",
+        "Launch monitor model and firmware; simulator and connector versions; chosen Hub preset; connection type; exact order followed; expected result; actual result; whether a real shot arrived; a reviewed diagnostic report. Remove keys, passwords and private details. Send to info@flujado.com."
+      ],
+      [
+        "What remains to be verified",
+        "Current installer/plugin versions and binary contents; binary signatures/checksums; exact plugin/model version compatibility; fresh-PC and hardware tests for community routes. Documentation availability and physical compatibility are recorded separately."
+      ],
+      [
+        "Model index on the next pages",
+        "Each row refers to an existing beta.18.3 preset. Required app names come from the shipped catalog, not a promise that no other setup is needed. Sources marked catalog reference were not individually re-read in this session. No preset in this index should be read as a blanket Verified badge."
+      ]
+    ]
+  ],
+  [
+    "8. Infinite Tees - beta.18.3 automatic and assisted routes",
+    [
+      [
+        "Install and prepare",
+        "Install and activate Infinite Tees and the correct connector first. FluJado does not ship vendor binaries, pair devices or provide simulator licenses. Select Infinite Tees in Guided setup, then choose the exact hardware preset and check program locations."
+      ],
+      [
+        "rela: correct connection order",
+        "Open Practice or a round in Infinite Tees and wait for the range/course to load. In rela select Simulator: Infinite Tees and the intended Device. Close other connector sessions. Use Device Search first; allow the device to connect and then the simulator. Simulator Connect is a recovery action after the device has connected. Confirm both show Connected and Ready, then check a real shot. The ProTee VX/plugin and Square Omni profiles now run Device Search and simulator recovery automatically, without Continue. For ProTee VX, rela starts Labs through its plugin; do not start Labs first."
+      ],
+      [
+        "ProTee VX through rela - practically tested",
+        "Use Other with the matching ProTeeVXPlugin.dll next to rela.exe. Use the configured Socket Relay and ProTee Labs. Keep only the intended Other plugin active. On 17 October 2026 the assisted beta.14 workflow, Connected/Ready status and a real shot in Infinite Tees Flat Range passed locally using an isolated connector copy."
+      ],
+      [
+        "Square Omni through rela Bluetooth - practically tested",
+        "Use the built-in Square Omni device and Bluetooth option. On 17 October 2026 the assisted beta.14 workflow, Connected/Ready status and a real shot in Infinite Tees Flat Range passed locally using an isolated connector copy."
+      ],
+      [
+        "Other presets and limits",
+        "The alternative ProTee VX Connector route and the other 10 Infinite Tees presets remain available but have not passed these hardware tests. A successful test for one connector does not transfer to another connector or monitor. Clean-install/reboot certification is still pending for the two tested routes."
+      ],
+      [
+        "Switching simulators and recovery",
+        "For these automatic profiles FluJado selects the expected Device and Simulator only while rela is closed, backing up its settings and retaining other values. Review the selection when using other assisted profiles. If no shots arrive, check Device first, then simulator output, plugin identity and other running connector sessions. Do not reset existing routes or license storage."
+      ],
+      [
+        "Current public status",
+        "See https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md for the complete 132-route table and practical evidence. Unlisted combinations are not covered by a FluJado preset and are not automatically unsupported by their maker."
+      ]
+    ]
+  ],
+  [
+    "9. beta.18.3 - rela / ProTee startup order",
+    [
+      [
+        "Applies to both profiles",
+        "ShotForge / ProTee VX via rela and Infinite Tees / ProTee VX via rela now let the plugin own Labs startup. Install and configure ProTeeVXPlugin.dll and Socket Relay first. The Hub closes the conflicting sessions, starts the simulator and rela, searches for the device and lets the plugin start Labs. Do not add a preliminary Labs launch. The native GSPro and VX Connector routes retain their own order."
+      ],
+      [
+        "Automatic status checks",
+        "The Hub requires both device and simulator Connected and Ready, then checks Labs readiness and checks the connector again. Device Search precedes simulator Connect. Connection retries and timeouts are bounded; failure stops the route with diagnostics. Select a range or course yourself. First-use pairing, activation, plugin configuration and real-shot verification remain your responsibility."
+      ],
+      [
+        "Existing settings and practical evidence",
+        "Upgrades preserve saved user workflows and licenses. To use a newer preset in an existing setup, explicitly replace that route through Guided setup. Infinite Tees ProTee VX and Square Omni automatic startup/switching passed locally against the existing GSPro/ProTee VX tile and back. beta.14 real-shot evidence is historical; no new shot or GSPro/Square Omni hardware test is claimed. ShotForge startup order is covered by isolated tests in this release, not a new live hardware test."
+      ]
+    ]
+  ],
+  [
+    "10. VTrack Bridge and unresolved routes",
+    [
+      [
+        "Experimental VTrack route",
+        "For Infinite Tees, choose the exact LAON VTrack automatic-buttons preset only when you intend to test the reviewed VTrack Bridge v8 build. Configure the real IT_Golf_Launcher.exe. Windows English OCR and the recognised executable hash are required. Keep the launcher visible and still. Recognition is relative to the launcher window, so another screen/location is supported by design; moving/resizing during recognition rejects the click. Other builds or unavailable OCR require the assisted route."
+      ],
+      [
+        "What still needs testing",
+        "Automatic Connect and Start VTrack bridge control remains untested with VTrack hardware. Connected/Bridge running describes the interface, not proven device readiness. Confirm device discovery, Auto-send shots, Club/Hand and a real shot in Infinite Tees. Stop on errors. Uneekor additional information is pending; MuniGolfSim and Drills Golf Sim routes are still research items. See the current compatibility table for each route; no new hardware testing was performed for these manuals."
+      ],
+      [
+        "Detailed instructions",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.3/VTRACK-BETA-TEST-EN.txt\nhttps://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ]
+    ]
+  ],
+  [
+    "Model index - gspro",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "ProTee VX\ngspro-default",
+        "ProTee Labs, GSPro",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Omni\ngspro-square-omni",
+        "GSPro",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Garmin Approach R50\ngspro-garmin-r50",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/garmin-approach-r50-connection-guide"
+      ],
+      [
+        "Rapsodo MLM2PRO\ngspro-rapsodo-mlm2pro",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/rapsodo-mlm2pro-connection-guide"
+      ],
+      [
+        "Garmin Approach R10\ngspro-garmin-r10",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/garmin-approach-r10-connection-guide"
+      ],
+      [
+        "Full Swing KIT\ngspro-full-swing-kit",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "Uneekor QED (assisted)\ngspro-uneekor-qed",
+        "GSPro, Uneekor Launcher, Uneekor Third-party Connector",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "Uneekor EYE XO (assisted)\ngspro-uneekor-eye-xo",
+        "GSPro, Uneekor Launcher, Uneekor Third-party Connector",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ]
+    ]
+  ],
+  [
+    "Model index - gspro",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "Uneekor EYE XO2 (assisted)\ngspro-uneekor-eye-xo2",
+        "GSPro, Uneekor Launcher, Uneekor Third-party Connector",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "Uneekor EYE MINI (assisted)\ngspro-uneekor-eye-mini",
+        "GSPro, Uneekor Launcher, Uneekor Third-party Connector",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "Uneekor EYE MINI LITE (assisted)\ngspro-uneekor-eye-mini-lite",
+        "GSPro, Uneekor Launcher, Uneekor Third-party Connector",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "Uneekor EYE XR (assisted)\ngspro-uneekor-eye-xr",
+        "GSPro, Uneekor Launcher, Uneekor Third-party Connector",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "Foresight GC3\ngspro-foresight-gc3",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/foresight-bushnell.html"
+      ],
+      [
+        "Foresight GCQuad\ngspro-foresight-gcquad",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/foresight-bushnell.html"
+      ],
+      [
+        "Foresight QuadMAX\ngspro-foresight-quadmax",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/foresight-bushnell.html"
+      ],
+      [
+        "Foresight GCHawk\ngspro-foresight-gchawk",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/foresight-bushnell.html"
+      ]
+    ]
+  ],
+  [
+    "Model index - gspro",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "Foresight Falcon\ngspro-foresight-falcon",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/foresight-bushnell.html"
+      ],
+      [
+        "Bushnell Launch Pro\ngspro-foresight-launch-pro",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/foresight-bushnell.html"
+      ],
+      [
+        "FlightScope Mevo+\ngspro-flightscope-mevo-plus",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "FlightScope Mevo Gen2\ngspro-flightscope-mevo-gen2",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "FlightScope Xi\ngspro-flightscope-xi",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "FlightScope X2\ngspro-flightscope-x2",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "FlightScope X3\ngspro-flightscope-x3",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "GolfJoy Spica 3\ngspro-golfjoy-spica3",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/"
+      ]
+    ]
+  ],
+  [
+    "Model index - gspro",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "GolfJoy GDS Pro\ngspro-golfjoy-gds-pro",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/"
+      ],
+      [
+        "GolfJoy GR2\ngspro-golfjoy-gr2",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/"
+      ],
+      [
+        "GolfJoy GR3\ngspro-golfjoy-gr3",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/"
+      ],
+      [
+        "GolfJoy GR3 Pro\ngspro-golfjoy-gr3-pro",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/"
+      ],
+      [
+        "Square Home Edition\ngspro-square-home",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://gsprogolf.com/home/"
+      ],
+      [
+        "GolfTrak (iPhone)\ngspro-golftrak",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://help.golftrak.app/en-US/how-to-connect-to-gspro-5364306"
+      ],
+      [
+        "Blue Tees Rainmaker (assisted)\ngspro-bluetees-rainmaker",
+        "GSPro",
+        "Needs Testing / physical test: No",
+        "https://blueteesgolf.gorgias.help/en-US/is-the-rainmaker-launch-monitor-compatible-with-golf-simulator-software-like-gspro-or-e6-5086127"
+      ],
+      [
+        "NVisage N1 (assisted)\ngspro-nvisage-n1",
+        "GSPro, NVisage N-Connect",
+        "Needs Testing / physical test: No",
+        "https://nvisagetech.com/n1-launch-monitor-guide"
+      ]
+    ]
+  ],
+  [
+    "Model index - gspro",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "LAON VTrack (assisted)\ngspro-vtrack",
+        "GSPro, VTrackToolKit (LPGAgent)",
+        "Needs Testing / physical test: No",
+        "https://swingcraft.golf/vtrack-setup/"
+      ],
+      [
+        "OpenLaunch NOVA (assisted)\ngspro-openlaunch-nova",
+        "GSPro, OpenLaunch NOVA Windows app",
+        "Needs Testing / physical test: No",
+        "https://openlaunch.io/pages/troubleshooting"
+      ],
+      [
+        "SkyTrak OG (OSP2 assisted)\ngspro-skytrak-og",
+        "GSPro, SkyTrak with OpenSkyPlus2",
+        "Needs Testing / physical test: No",
+        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html"
+      ],
+      [
+        "SkyTrak + (OSP2 assisted)\ngspro-skytrak-plus",
+        "GSPro, SkyTrak with OpenSkyPlus2",
+        "Needs Testing / physical test: No",
+        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html"
+      ],
+      [
+        "SkyTrak MAX (OSP2 assisted)\ngspro-skytrak-max",
+        "GSPro, SkyTrak with OpenSkyPlus2",
+        "Needs Testing / physical test: No",
+        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html"
+      ]
+    ]
+  ],
+  [
+    "Model index - shotforge",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "ProTee VX\nshotforge-default",
+        "ProTee Labs, VGPConnect, VX Connector, Shot Forge Launcher, ShotForge",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "ProTee VX (rÄ“lÄ Socket Relay)\nshotforge-protee-rela",
+        "ProTee Labs, Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Square Omni\nshotforge-square-omni",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Home Edition\nshotforge-square-home",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Mevo+\nshotforge-flightscope-mevo-plus",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Garmin R10\nshotforge-garmin-r10",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Foresight GC2\nshotforge-foresight-gc2",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "GolfJoy Spica 3\nshotforge-golfjoy-spica3",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ]
+    ]
+  ],
+  [
+    "Model index - shotforge",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "SkyTrak OG\nshotforge-skytrak-og",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak+\nshotforge-skytrak-plus",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Gen2\nshotforge-flightscope-gen2",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Xi\nshotforge-flightscope-xi",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope X2\nshotforge-flightscope-x2",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Full Swing KIT\nshotforge-full-swing-kit",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Uneekor (community plugin)\nshotforge-uneekor-plugin",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Rapsodo MLM2PRO\nshotforge-rapsodo-mlm2pro",
+        "Shot Forge Launcher, ShotForge, rēlā",
+        "Needs Testing / physical test: No",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ]
+    ]
+  ],
+  [
+    "Model index - shotforge",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "LAON VTrack (assisted bridge)\nshotforge-vtrack-bridge",
+        "Shot Forge Launcher, ShotForge, VTrackToolKit (LPGAgent), VTrack → ShotForge bridge",
+        "Needs Testing / physical test: No",
+        "https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1"
+      ]
+    ]
+  ],
+  [
+    "Model index - awesomegolf",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "Square Omni\nawesomegolf-default",
+        "Awesome Golf",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Home Edition (assisted)\nawesomegolf-square-home",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Garmin Approach R10 (assisted)\nawesomegolf-garmin-r10",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Garmin Approach R10 via Assistant (assisted)\nawesomegolf-garmin-r10-assistant",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Garmin Approach R50 (assisted)\nawesomegolf-garmin-r50",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Rapsodo MLM2PRO (assisted)\nawesomegolf-rapsodo-mlm2pro",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Rapsodo MLM2PRO via Assistant (assisted)\nawesomegolf-rapsodo-mlm2pro-assistant",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Mevo Gen2 (assisted)\nawesomegolf-flightscope-mevo-gen2",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ]
+    ]
+  ],
+  [
+    "Model index - awesomegolf",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "FlightScope Mevo+ (assisted)\nawesomegolf-flightscope-mevo-plus",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Mevo Range (assisted)\nawesomegolf-flightscope-mevo-range",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope X3C (assisted)\nawesomegolf-flightscope-x3c",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope X3 (assisted)\nawesomegolf-flightscope-x3",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Xi Tour (assisted)\nawesomegolf-flightscope-xi-tour",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Xi+ (assisted)\nawesomegolf-flightscope-xi-plus",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Xi (assisted)\nawesomegolf-flightscope-xi",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope X2 Elite (assisted)\nawesomegolf-flightscope-x2-elite",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ]
+    ]
+  ],
+  [
+    "Model index - awesomegolf",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "FlightScope X2 (assisted)\nawesomegolf-flightscope-x2",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Range Gen2 (assisted)\nawesomegolf-flightscope-range-gen2",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Range (assisted)\nawesomegolf-flightscope-range",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "FlightScope Xi Range (assisted)\nawesomegolf-flightscope-xi-range",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Foresight GC3 (assisted)\nawesomegolf-foresight-gc3",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Foresight GC3S (assisted)\nawesomegolf-foresight-gc3s",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Foresight GCQuad (assisted)\nawesomegolf-foresight-gcquad",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Foresight QuadMAX (assisted)\nawesomegolf-foresight-quadmax",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ]
+    ]
+  ],
+  [
+    "Model index - awesomegolf",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "Foresight Falcon (assisted)\nawesomegolf-foresight-falcon",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Foresight GCHawk (assisted)\nawesomegolf-foresight-gchawk",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Bushnell Launch Pro (assisted)\nawesomegolf-bushnell-lp",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Bushnell Launch Pro Indoor (LPi) (assisted)\nawesomegolf-bushnell-lpi",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "Uneekor EYE MINI (assisted)\nawesomegolf-uneekor-eye-mini",
+        "Awesome Golf",
+        "Needs Testing / physical test: No",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ]
+    ]
+  ],
+  [
+    "Model index - protee",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "ProTee VX\nprotee-default",
+        "ProTee Labs",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ]
+    ]
+  ],
+  [
+    "Model index - infiniteTees",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "ProTee VX â€” assisted beta\ninfinite-tees-protee-vx",
+        "Infinite Tees, VX Connector for Infinite Tees, ProTee Labs",
+        "Needs Testing / physical test: No",
+        "https://github.com/zonkey-acoustic/vx-connector"
+      ],
+      [
+        "Square HE â€” assisted beta\ninfinite-tees-square-he-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Square Omni â€” automatic beta\ninfinite-tees-square-omni-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Tested / physical test: Yes",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Garmin R10 â€” assisted beta\ninfinite-tees-garmin-r10-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak â€” assisted beta\ninfinite-tees-skytrak-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak+ â€” assisted beta\ninfinite-tees-skytrak-plus-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Mevo+ / Gen2 â€” assisted beta\ninfinite-tees-mevo-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Xi / X2 â€” assisted beta\ninfinite-tees-flightscope-xi-x2-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ]
+    ]
+  ],
+  [
+    "Model index - infiniteTees",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "Full Swing KIT â€” assisted beta\ninfinite-tees-full-swing-kit-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Foresight GC2 â€” assisted beta\ninfinite-tees-foresight-gc2-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Nova by Open Launch â€” assisted beta\ninfinite-tees-nova-rela",
+        "Infinite Tees, rēlā for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "ProTee VX (plugin) â€” automatic beta\ninfinite-tees-protee-rela",
+        "Infinite Tees, rēlā for Infinite Tees, ProTee Labs",
+        "Tested / physical test: Yes",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Rapsodo MLM2PRO â€” assisted beta\ninfinite-tees-mlm2pro-bluetooth",
+        "Infinite Tees, MLM2PRO Bluetooth connector for Infinite Tees",
+        "Needs Testing / physical test: No",
+        "https://github.com/Duwaynef/MLM2PRO-BT-APP"
+      ],
+      [
+        "LAON VTrack â€” assisted, hardware untested\ninfinite-tees-vtrack-bridge",
+        "Infinite Tees, Infinite Tees VTrack Bridge (untested)",
+        "Needs Testing / physical test: No",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "LAON VTrack â€” automatic buttons, hardware untested\ninfinite-tees-vtrack-auto",
+        "Infinite Tees, Infinite Tees VTrack Bridge (untested)",
+        "Needs Testing / physical test: No",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ]
+    ]
+  ],
+  [
+    "Model index - drills",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "ProTee VX (rela)\ndrills-protee-rela",
+        "Drills Launcher, Drills, rēlā, ProTee Labs",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Omni (rela)\ndrills-square-omni-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Home Edition\ndrills-square-he-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Garmin R10\ndrills-garmin-r10-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak OG\ndrills-skytrak-og-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak+\ndrills-skytrak-plus-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak Max\ndrills-skytrak-max-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "OpenLaunch NOVA\ndrills-nova-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ]
+    ]
+  ],
+  [
+    "Model index - drills",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "FlightScope Mevo+\ndrills-mevo-plus-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Gen2\ndrills-flightscope-gen2-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Xi\ndrills-flightscope-xi-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope X2\ndrills-flightscope-x2-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Foresight GC2\ndrills-foresight-gc2-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "GolfJoy\ndrills-golfjoy-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Full Swing KIT\ndrills-full-swing-kit-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Bushnell LPi\ndrills-bushnell-lpi-rela",
+        "Drills Launcher, Drills, rēlā",
+        "Needs Testing / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ]
+    ]
+  ],
+  [
+    "Model index - drills",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "VTrack\ndrills-vtrack-native",
+        "Drills Launcher, Drills",
+        "Needs Testing / physical test: No",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ]
+    ]
+  ],
+  [
+    "Model index - muni",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "ProTee VX (rela)\nmuni-protee-rela",
+        "Muni Golf, rēlā, ProTee Labs",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Omni (rela)\nmuni-square-omni-rela",
+        "Muni Golf, rēlā",
+        "Tested / physical test: Yes",
+        "https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md"
+      ],
+      [
+        "Square Home Edition\nmuni-square-he-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Garmin R10\nmuni-garmin-r10-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak OG\nmuni-skytrak-og-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak+\nmuni-skytrak-plus-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "SkyTrak Max\nmuni-skytrak-max-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "OpenLaunch NOVA\nmuni-nova-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ]
+    ]
+  ],
+  [
+    "Model index - muni",
+    [
+      [
+        "Scope",
+        "Catalog references and status from the current public compatibility table. Physical test evidence applies only to that exact route. Listing a preset is not hardware verification; none is automatically Verified by code tests."
+      ]
+    ],
+    [
+      [
+        "FlightScope Mevo+\nmuni-mevo-plus-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Gen2\nmuni-flightscope-gen2-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope Xi\nmuni-flightscope-xi-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "FlightScope X2\nmuni-flightscope-x2-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Foresight GC2\nmuni-foresight-gc2-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "GolfJoy\nmuni-golfjoy-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Full Swing KIT\nmuni-full-swing-kit-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "Bushnell LPi\nmuni-bushnell-lpi-rela",
+        "Muni Golf, rēlā",
+        "Not tested / physical test: No",
+        "https://docs.rela.golf/rela/user-guide/"
+      ]
+    ]
+  ],
+  [
+    "Link directory and evidence dates",
+    [
+      [
+        "rela-install",
+        "https://docs.rela.golf/rela/installation/"
+      ],
+      [
+        "rela-user",
+        "https://docs.rela.golf/rela/user-guide/"
+      ],
+      [
+        "rela-faq",
+        "https://docs.rela.golf/rela/faq/"
+      ],
+      [
+        "rela-download",
+        "https://downloads.rela.golf/get/rela/windows-x64/beta"
+      ],
+      [
+        "other-api",
+        "https://github.com/eKsiSLe/rela-OtherLM"
+      ],
+      [
+        "shotforge",
+        "https://www.shotforgegolf.com/"
+      ],
+      [
+        "shotforge-discord",
+        "https://discord.gg/RThChHHX2T"
+      ],
+      [
+        "shotforge-quickstart",
+        "https://discord.com/channels/1497254301511323728/1497256286918541332/1504241274394378302"
+      ],
+      [
+        "vx-author",
+        "https://github.com/zonkey-acoustic/vx-connector"
+      ],
+      [
+        "protee-plugins",
+        "https://gofile.io/d/wHAyzoy3"
+      ],
+      [
+        "gspro-install",
+        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install"
+      ],
+      [
+        "gspro-download",
+        "https://dvzg6a325ik1w.cloudfront.net/GSProInstaller.zip"
+      ],
+      [
+        "gspro-guides",
+        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation"
+      ],
+      [
+        "protee-support",
+        "https://csc.protee-united.com/hc/en-us"
+      ],
+      [
+        "protee-gspro",
+        "https://csc.protee-united.com/hc/en-us/articles/20293278989084-How-do-I-activate-the-GSPro-connection"
+      ],
+      [
+        "square",
+        "https://squaregolf.com/pages/support"
+      ],
+      [
+        "uneekor",
+        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
+      ],
+      [
+        "awesome-models",
+        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list"
+      ],
+      [
+        "awesome-download",
+        "https://awesome-golf.com/connect/"
+      ],
+      [
+        "vtrack",
+        "https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1"
+      ],
+      [
+        "skytrak",
+        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html"
+      ],
+      [
+        "Review scope",
+        "Hub/MSI documentation checked on 20 October 2026. Existing vendor reference prose originates from the 16-17 October review. Link availability is checked separately; a reachable download does not verify binary safety or exact hardware compatibility. No connector binaries or license data are included."
+      ]
+    ]
+  ],
+  [
+    "Drills - beta.18.3 connector routes",
+    [
+      [
+        "Drills setup and game choice",
+        "Install and sign in to Drills and configure your connector first. In FluJado open Settings > Overview > Open guided setup, enable Drills, and choose your exact launch monitor and route. Existing active flows stay unchanged unless you explicitly select replacement. To apply an updated preset to an existing route, back up first and explicitly replace that selected workflow."
+      ],
+      [
+        "Screens and startup",
+        "Keep your existing screen selection. New simulator profiles inherit the configured simulator screen, including older installations with one shared per-tile screen choice. The physical monitor identity is used, not its changing Windows display number. Drills opens on that screen and leaves game selection to you: Open Range is never chosen by FluJado."
+      ],
+      [
+        "ProTee VX and Square Omni",
+        "These two Drills routes connected and delivered real shots in local tests. ProTee VX switching with GSPro also passed. A GSPro/Omni shot was not verified in that switching session because the installed GSPro connector offered only ProTee. A controlled one-time ProTee startup recovery is available; its recovery branch was tested with isolated fixtures."
+      ],
+      [
+        "Other launch monitors",
+        "15 additional Drills profiles show Not tested (assisted). They require one manual connection confirmation and are not automatic proof of device readiness. Square HE, Garmin R10, SkyTrak OG/+/Max, Bushnell LPi and native VTrack have device-specific Discord guidance. The remaining rela combinations are candidates based on documented connector inputs and the Drills output. Check the compatibility table for each exact profile."
+      ],
+      [
+        "VTrack and LPi",
+        "The native VTrack route uses VTrack in the Drills launcher, not Other, with VTrack Toolkit and the Infinite Tees bridge closed. LPi uses the compatible OtherForesightPlugin.dll beside rela.exe; conflicting ProTee/Other plugins are rejected. Plugins are not bundled."
+      ],
+      [
+        "Off-center hitting mat",
+        "During a drill, press Esc and inspect its camera settings. Adjust the view for your own mat and verify the result visually. No universal numeric offset is documented here. FluJado updates preserve Drills settings and do not set the camera offset."
+      ],
+      [
+        "ShotForge and MSI update",
+        "ShotForge startup/readiness and supported connector checks have been improved. The MSI upgrade order now handles newly added application files before finishing the upgrade; rollback and cancellation were tested in an isolated product family. The update does not replace saved workflows automatically."
+      ]
+    ]
+  ]
+]
