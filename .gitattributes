@@ -6,3 +6,4 @@
 *.jpg binary
 *.jpeg binary
 *.zip binary
+/docs/beta.18.3/** text eol=lf
