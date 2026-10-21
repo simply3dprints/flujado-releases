@@ -1,0 +1,6 @@
+FluJado beta.18.5 - installatie en onderhoud
+Download MSI: https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.5.msi
+Installeer en activeer eerst simulatorsoftware en connectors en controleer een echte slag buiten de Hub. Doorloop Guided setup: software, apparaatroute, beamer/bedieningsscherm en optioneel Movies & TV; daarna Save. Gevonden software bewijst geen werkende hardwareverbinding.
+Bestaande gebruikers: update via de Hub of installeer deze MSI op dezelfde locatie. Instellingen, licentie en eigen flows blijven behouden. Verwijder niet eerst de Hub om te updaten.
+Verwijderen: Keep my data and licence is standaard. Remove all Hub data and the local licence wist instellingen, flows, beelden en de bekende lokale licentieopslagen voor dit Windows-account. Dit geeft een online activatie niet vrij; deactiveer eerst wanneer je naar een andere pc verhuist. Beta.18.5 ruimt ook de tweede opslag op en meldt wanneer wissen niet volledig lukt. Bewaar priveback-ups lokaal.
+De geillustreerde beta.18.3-handleidingen blijven van toepassing op de ongewijzigde schermen. Gebruik deze beta.18.5-aanvulling voor de actuele download en verwijderopties.

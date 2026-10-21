@@ -148,3 +148,7 @@ Existing VTrack and Uneekor research remains pending tester information.
 ## beta.18.4 startup maintenance
 
 An earlier VX startup in Muni was delayed before Labs became available. Beta.18.4 adds guarded missing-Labs recovery; three cold starts passed in 58–61 seconds, while the new branch was tested with production-worker fixtures rather than forced on hardware. No additional shot, putting, reboot or clean-PC hardware validation. Fourteen additional Muni and fifteen Drills routes remain hardware-untested.
+
+## 21 October 2026 validation / beta.18.5
+
+Post-reboot Muni ProTee VX real shots, Muni → GSPro → Muni with real VX shots, Muni Square Omni real shots and Omni restart readiness passed. No Continue clicks or startupRecovery events were required. Fresh FluJado install on existing Windows passed MSI/Guided setup with settings/licence restored afterwards. No new putting, clean-Windows-PC, Omni/GSPro or other hardware claims. Beta.18.5 changes licence cleanup only; fourteen Muni/fifteen Drills assisted routes remain untested.

@@ -1,8 +1,15 @@
-# FluJado Golf Sim Hub — beta.18.4
+# FluJado Golf Sim Hub — beta.18.5
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.4.msi) · [Getting started](docs/beta.18.4/GETTING-STARTED.txt) · [Checksums](docs/beta.18.4/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.5.msi) · [Getting started](docs/beta.18.5/GETTING-STARTED.txt) · [Checksums](docs/beta.18.5/SHA256SUMS.txt)
 
-## New in beta.18.4
+## New in beta.18.5
+
+- Full removal now checks both known Windows licence stores. Invalid/linked paths are rejected; remaining or locked files cannot be reported as successfully removed. Keep-data remains the default; normal updates retain settings and licence.
+- Isolated two-store removal, MSI first install/repair/upgrade and injected rollback tests passed.
+- Post-reboot practice on 21 October passed: Muni ProTee VX, VX Muni/GSPro roundtrip, Muni Square Omni shots and Omni restart readiness. Fresh Hub installation on the existing PC passed; original settings and licence restored. No clean-Windows-PC or putting claim.
+- [Current English instructions](docs/beta.18.5/GETTING-STARTED.txt) · [Nederlandse aanvulling](docs/beta.18.5/HANDLEIDING-AANVULLING-NL.txt) · [Connector update](docs/beta.18.5/CONNECTOR-GUIDE-UPDATE-EN.txt).
+
+## Retained from beta.18.4
 
 - Guarded Muni / ProTee VX recovery: if the rela plugin has not started Labs after 45 seconds of a matching stalled connection, start the configured Labs once. Existing, loading, updating or unreadable Labs processes are left alone.
 - Three cold starts passed automatically in 58–61 seconds. The missing-Labs branch was tested with production-worker fixtures, including duplicate-start and transient-process guards; it was not needed or forced during these three starts.
@@ -16,7 +23,7 @@
 - Official Drills, Infinite Tees and Muni tile artwork; removed the PLAY label and corrupted arrow text.
 - Updated Dutch/English guides, connector guide and test table. Settings, licence and custom workflows are retained.
 
-One earlier VX startup was delayed before Labs appeared; beta.18.4 adds the guarded recovery described above. Subsequent automatic starts passed. Putting, reboot and clean-PC hardware tests remain pending. No new Verified hardware claim.
+One earlier VX startup was delayed before Labs appeared; beta.18.4 adds the guarded recovery described above. Subsequent automatic starts passed. The post-reboot Muni tests above now passed; putting and a clean-Windows-PC hardware test remain pending. No new Verified hardware claim.
 
 ## Existing beta users
 
@@ -34,7 +41,7 @@ The Hub checks for a newer version about 15 seconds after opening and every six 
 
 Install and activate simulator software and connectors first; verify a real shot outside the Hub. Vendor binaries and licences are not included. Keep private migration backups local and never send licence keys or passwords.
 
-[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.4/RELEASE-NOTES.txt)
+[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.5/RELEASE-NOTES.txt)
 
 Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.3/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.3/VTRACK-BETA-TEST-NL.txt).
 

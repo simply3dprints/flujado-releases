@@ -1,0 +1,5 @@
+Beta.18.5 connector guide update
+
+Connector flows and requirements are unchanged. Use the current MSI and maintenance instructions in GETTING-STARTED.txt. The illustrated beta.18.3 connector guide remains applicable.
+
+21 October evidence: after Windows reboot, Muni VX real shots and Muni > GSPro > Muni with real VX shots passed. Muni Omni real shots and restart readiness passed. No Omni/GSPro switching or putting test. Fourteen Muni and fifteen Drills assisted routes remain hardware-untested.

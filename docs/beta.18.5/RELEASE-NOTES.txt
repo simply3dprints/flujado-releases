@@ -1,0 +1,12 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.5 - 21 October 2026
+
+Complete MSI removal: local licence cleanup
+- Choosing Remove all Hub data and the local licence now checks both the ordinary Windows account licence store and the known package-context store. No scanning of other Windows accounts or packages.
+- All licence paths are validated before removal and checked again afterwards. A locked or remaining licence file is reported as incomplete; removal cannot falsely report success.
+- Keep my data and licence remains the default. Normal MSI updates retain your settings, licence, artwork and custom flows. Do not uninstall and delete data to update.
+
+Validation: isolated two-store reproduction, 12 new removal checks, existing removal/licensing regressions, and isolated MSI first-install, upgrade and rollback checks. Test fixtures use dummy licence data; no tester data or keys included.
+
+Additional evidence recorded on 21 October: after Windows restart, Muni with ProTee VX, Muni > GSPro > Muni with real VX shots, Muni with Square Omni shots, and Omni restart readiness passed. No Continue clicks or startupRecovery events were needed. A fresh FluJado installation on the existing PC passed the MSI wizard, automatic launch, discovery, screen selection and Movies & TV setup; original settings/licence restored. This is not a clean-Windows-PC or putting test. Other hardware routes retain their existing untested status.
+
+Illustrated beta.18.3 NL/EN and connector guides remain applicable. Read beta.18.5 getting-started and maintenance instructions for current downloads and full-removal details. Install and activate simulator software and required connectors first, then configure FluJado.
