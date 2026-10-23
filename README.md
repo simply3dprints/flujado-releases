@@ -1,8 +1,16 @@
-# FluJado Golf Sim Hub — beta.18.5
+# FluJado Golf Sim Hub — beta.18.6
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.5.msi) · [Getting started](docs/beta.18.5/GETTING-STARTED.txt) · [Checksums](docs/beta.18.5/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.6.msi) · [Getting started](docs/beta.18.6/GETTING-STARTED.txt) · [Checksums](docs/beta.18.6/SHA256SUMS.txt)
 
-## New in beta.18.5
+## New in beta.18.6
+
+- ChatGPT flow setup for all 132 existing profiles: privacy-limited export, supported JSON import, clear proposal, automatic configuration backup and restore.
+- No scripts or support approval are needed for supported routes. After your own successful real test, optionally export the flow for the FluJado Discord community. No automatic upload or posting.
+- Fixed legacy profile labels in Settings and stable ShotForge/VTrack toolkit cleanup for sharing/reimport.
+- 30 software suites passed, 132 profile choices checked, and isolated MSI install/repair/upgrade/interruption checks passed. This does not certify untested hardware.
+- [Updated NL/EN user manuals, connector guide and screenshots](docs/beta.18.6/README.md).
+
+## Retained from beta.18.5
 
 - Full removal now checks both known Windows licence stores. Invalid/linked paths are rejected; remaining or locked files cannot be reported as successfully removed. Keep-data remains the default; normal updates retain settings and licence.
 - Isolated two-store removal, MSI first install/repair/upgrade and injected rollback tests passed.
@@ -23,7 +31,7 @@
 - Official Drills, Infinite Tees and Muni tile artwork; removed the PLAY label and corrupted arrow text.
 - Updated Dutch/English guides, connector guide and test table. Settings, licence and custom workflows are retained.
 
-One earlier VX startup was delayed before Labs appeared; beta.18.4 adds the guarded recovery described above. Subsequent automatic starts passed. The post-reboot Muni tests above now passed; putting and a clean-Windows-PC hardware test remain pending. No new Verified hardware claim.
+One earlier VX startup was delayed before Labs appeared; beta.18.4 adds the guarded recovery described above. Subsequent automatic starts passed. The post-reboot Muni tests above now passed; Muni putting was subsequently confirmed with VX and Omni; Drills only received putts in Open Range. A clean-Windows-PC hardware test remains pending. No new Verified hardware claim.
 
 ## Existing beta users
 

@@ -1,0 +1,1 @@
+Beta.18.6: read FluJado-Connector-Setup-Guide-EN.pdf. All 132 existing profile requests passed software validation. Hardware-untested routes remain untested. Vendor software, pairing, plugins and simulator licenses are still required. Assisted routes retain manual confirmations.

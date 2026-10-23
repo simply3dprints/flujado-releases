@@ -1,0 +1,9 @@
+FluJado beta.18.6
+
+Download MSI: https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.6.msi
+
+Install simulators and connectors first. Update over your existing Hub location, without uninstalling. Settings and license are preserved.
+
+Settings > ChatGPT flow: export overview, copy prompt, ask ChatGPT for a listed profile, import JSON, review, apply with backup, and test locally. Restore using Review last flow backup. After a successful real test, export the configured profile for Discord. No automatic posting or script execution.
+
+Read the current English/Dutch user guides and connector guide in this folder.

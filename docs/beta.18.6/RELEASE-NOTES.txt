@@ -1,0 +1,13 @@
+﻿FluJado Golf Sim Hub 0.9.0-beta.18.6 - 23 October 2026
+
+ChatGPT flow setup for all 132 existing profiles
+- Settings > ChatGPT flow exports a privacy-limited software overview and a universal prompt.
+- Import a supported profile request, review its steps and manual confirmations, then apply with an automatic configuration backup. Existing app settings, tile position, appearance and screen choices are retained. No arbitrary scripts are imported or executed.
+- Review last flow backup restores the earlier configuration. Restoration replaces later configuration edits too; it does not reset the license or simulator settings.
+- After your own successful startup, real shot and shutdown test, optionally export the selected profile for the FluJado Discord community. No automatic upload or posting. Recipient imports remain subject to local review and testing.
+- If setup fails, export diagnostics from the Hub, contact FluJado on Discord and describe the simulator, launch monitor, chosen route, expected result, actual result and error. Share only the setup overview/request and the diagnostic export privately when requested; never license keys, raw logs or config.json.
+- Fixed legacy profile labels that could prevent Settings from opening. Stabilized ShotForge/VTrack toolkit cleanup so its unchanged standard route can be shared and reimported.
+
+Validation: software validation for all 132 profile requests; privacy, back-up and restore tests; real Settings apply/restore tests. The Muni VX export/import/apply/restore route was also completed on the developer installation and its original configuration was restored. These are configuration/software tests, not new hardware certifications. Previously untested hardware routes remain untested and assisted routes retain manual confirmations.
+
+Update via the Hub or install the MSI over the existing installation. Do not uninstall first. Settings, local licensing state and custom workflows are retained. Install simulator software/connectors first and verify they work without the Hub. No simulator binaries, tester information or license keys are included.

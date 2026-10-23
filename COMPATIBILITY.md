@@ -1,3 +1,7 @@
+## ChatGPT setup - beta.18.6
+
+All 132 existing profile choices support the new export/import/review/backup/restore path. This is software validation, not a change to any hardware test status below. Assisted profiles retain manual confirmation steps. See [current guides](docs/beta.18.6/README.md).
+
 # FluJado compatibility and test status
 
 132 routes. Tested = local practical evidence for the exact route. Not tested = preparation only. No new Verified hardware claim.

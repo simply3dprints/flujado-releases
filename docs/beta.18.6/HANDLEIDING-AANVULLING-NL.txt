@@ -1,0 +1,3 @@
+FluJado beta.18.6
+
+De volledige Nederlandstalige handleiding staat in FluJado-Beta-Handleiding-NL.pdf. Settings > ChatGPT flow ondersteunt de 132 bestaande profielen. Exporteer overzicht en prompt, importeer een ondersteund verzoek, controleer en pas toe met back-up. Test zelf en deel desgewenst via Discord. Herstellen vervangt latere configuratiewijzigingen ook. Geen vrije scripts of automatische verzending.
