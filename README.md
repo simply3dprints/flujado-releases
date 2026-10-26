@@ -69,3 +69,8 @@ Existing VTrack Bridge automatic recognition remains experimental and untested w
 Current illustrated beta.18.8 guides, updated for VTrack and ChatGPT setup: [English](docs/beta.18.8/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.8/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.8/FluJado-Connector-Setup-Guide-EN.pdf).
 
 Previous downloads remain available.
+
+
+## Compatibility status — 26 October 2026
+
+The [compatibility table](COMPATIBILITY.md) is sorted by launch monitor and separates prepared flows, software checks, practical tests and Verified. Corrected UTF-8 text and confirmed ProTee VX / rēlā / ShotForge practical status are included. This is a documentation update for the 132 released beta.18.8 profiles; the installer and update feed are unchanged.
