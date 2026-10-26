@@ -1,0 +1,129 @@
+{
+  "version": "0.9.0-beta.18.8",
+  "msiVersion": "0.9.1808",
+  "softwareSuites": [
+    {
+      "passed": true,
+      "suite": "Test-MsixDiscovery.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-VTrackDisplay.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-GuidedSetup.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-VTrackSetup.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-VTrackControl.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-RemainingGsproSetup.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-SetupScreens.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-SimulatorScreenInheritance.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-Updates.ps1"
+    },
+    {
+      "passed": true,
+      "suite": "Test-AssistantProfiles.ps1 (gspro-vtrack)"
+    }
+  ],
+  "runtimeFiles": 136,
+  "msixDiscoveryChecks": 31,
+  "vtrackDisplayChecks": 10,
+  "chatgptExampleActualApplyRestorePassed": true,
+  "isolatedMsiTests": {
+    "UPGRADE": {
+      "changedRuntimeFileVerified": true,
+      "majorUpgradePassed": true,
+      "filesVerified": 136,
+      "oldProductRemoved": true,
+      "published": false,
+      "settingsRetained": true,
+      "nextRevisionIsSyntheticFixture": true,
+      "downgradeBlocked": true
+    },
+    "FIRST-INSTALL": {
+      "liveInstallationTouched": false,
+      "cases": [
+        {
+          "repairRememberedLocation": true,
+          "shortcutsRemoved": true,
+          "case": "first-install-and-shortcuts",
+          "runtimeHashes": 136,
+          "customLocation": true
+        },
+        {
+          "case": "shortcuts-optional",
+          "passed": true
+        },
+        {
+          "case": "keep",
+          "unrelatedFilePreserved": true,
+          "licenceChoiceCorrect": true,
+          "settingsAndFlowsCorrect": true
+        },
+        {
+          "case": "delete",
+          "unrelatedFilePreserved": true,
+          "licenceChoiceCorrect": true,
+          "settingsAndFlowsCorrect": true
+        }
+      ],
+      "published": false,
+      "simulatorsTouched": false
+    },
+    "INTERRUPTION": {
+      "actualProcessKilled": false,
+      "liveInstallationTouched": false,
+      "powerLossSimulated": false,
+      "retryPassed": true,
+      "points": [
+        {
+          "personalFilesRetained": 3,
+          "failureExit": 1603,
+          "newProductAbsent": true,
+          "sequence": 1540,
+          "oldProductRestored": true,
+          "runtimeHashes": 136
+        },
+        {
+          "personalFilesRetained": 3,
+          "failureExit": 1603,
+          "newProductAbsent": true,
+          "sequence": 6540,
+          "oldProductRestored": true,
+          "runtimeHashes": 136
+        },
+        {
+          "personalFilesRetained": 3,
+          "failureExit": 1603,
+          "newProductAbsent": true,
+          "sequence": 6560,
+          "oldProductRestored": true,
+          "runtimeHashes": 136
+        }
+      ],
+      "injection": "fixture-only MSI error action; production packages unchanged",
+      "published": false
+    }
+  },
+  "newHardwareTests": false,
+  "existingInstallationChanged": false,
+  "personalDataIncluded": false
+}

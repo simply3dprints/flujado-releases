@@ -1,0 +1,9 @@
+FluJado beta.18.8 - 26 October 2026
+
+- Corrects VTrack Toolkit discovery for GUID-named MSIX packages, including the reported Toolkit 2.4.3 registration. Detection uses the current-user registered LaonPeople publisher and matching manifest identity, then the manifest-declared LPGAgent.exe under the installation root. The package name no longer has to contain LaonPeople or VTrack. No GUID or versioned WindowsApps path is hardcoded.
+- Preserves valid saved executable locations and manual selection for ambiguous packages. Unrelated publishers, missing/mismatched manifest identities and invalid executable paths are rejected. No WindowsApps permission changes, directory scanning or package activation mechanism.
+- Retains beta.18.7 GSPro/VTrack automatic screen targeting and the illustrated ChatGPT workflow example. Existing assisted connection steps and explicit screen/app choices are unchanged.
+
+Validation: 31 targeted GUID/publisher/manifest checks plus relevant software regression suites and isolated MSI install/upgrade/rollback tests. These are software tests, not confirmation of real VTrack hardware or shot delivery. Please test automatic detection, laptop/projector placement, connection and a real shot separately.
+
+Update over the existing installation; do not uninstall first. Settings, local licence and custom workflows are retained. A future Toolkit version update does not silently migrate stored runtime paths; reopen Guided setup to inspect rediscovery. Real Toolkit verification remains pending.

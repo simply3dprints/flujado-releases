@@ -1,0 +1,5 @@
+FluJado beta.18.8
+
+Install and activate simulators and connectors first and verify a real shot without the Hub. Download the MSI from https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.8.msi
+
+Update over the same installation; do not uninstall first. Settings and local licence are retained. Read the NL/EN user guides and connector guide here. VTrack remains assisted and hardware verification is pending; see VTRACK-TEST-INSTRUCTIONS-EN.txt. For ChatGPT export/import/apply/restore download FluJado-ChatGPT-Flow-Example-EN.zip, extract it and open index.html.

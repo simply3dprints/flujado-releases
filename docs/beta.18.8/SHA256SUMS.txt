@@ -1,0 +1,2 @@
+1dfd123d269980ffe005b6e11c034fc9e6bc4ee7e740881fb62613246fce2186  FluJado-Golf-Sim-Hub-0.9.0-beta.18.8.msi
+a463f504406d3b6b99a2e5e47d417f966b04565a3c03a47c14d4b40d5525e83c  FluJado-MSI-Transition-0.9.0-beta.18.8.exe

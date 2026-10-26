@@ -1,0 +1,7 @@
+I want to configure a FluJado flow for [SIMULATOR] with [LAUNCH MONITOR] using [CONNECTOR, IF KNOWN].
+
+I have attached the setup overview exported from my own Hub. Please follow the copied FluJado prompt. Explain which listed route matches my setup, what is missing and which steps remain manual. If no supported route matches, say so.
+
+Return only the matching supported request as a downloadable .json file. Do not invent profiles, paths, commands or scripts. Do not assume that a listed profile is hardware-tested.
+
+For the worked example only, the choices are GSPro, VTrack and VTrackToolKit. Use that example only if it matches my actual setup and appears in my own export.

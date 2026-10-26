@@ -1,3 +1,7 @@
+## VTrack software improvements - beta.18.8
+
+Registered MSIX executable discovery and automatic GSPro-only display targeting added; explicit app choices preserved. Software/isolated MSI tests passed; VTrack hardware status is unchanged. [Current guides and test instructions](docs/beta.18.8/README.md).
+
 ## VTrack software improvements - beta.18.7
 
 Registered MSIX executable discovery and automatic GSPro-only display targeting added; explicit app choices preserved. Software/isolated MSI tests passed; VTrack hardware status is unchanged. [Current guides and test instructions](docs/beta.18.7/README.md).

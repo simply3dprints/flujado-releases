@@ -1,0 +1,12 @@
+FluJado beta.18.8 — GUID-named VTrack Toolkit test
+
+Update through the Hub or install the MSI over the same location; do not uninstall first. Keep a configuration backup. Existing settings and licence are retained.
+
+The beta.18.7 filter missed GUID-named packages. Beta.18.8 checks the registered LaonPeople publisher, matching package/manifest identity and the manifest-declared LPGAgent.exe. No package GUID or version path is hardcoded. No WindowsApps permission change is needed.
+
+1. In Guided setup inspect VTrack Toolkit detection. A valid existing manually selected path deliberately takes priority; that result alone does NOT prove the new discovery branch ran. Do not delete or reset your working path just to force this test. If necessary, report this and request a safe isolated test configuration.
+2. If the saved location is absent/invalid, registered Toolkit discovery should locate the current executable. Multiple valid candidates ask for manual choice. Cancel the wizard after inspection if you do not want to change your flow.
+3. Start the existing GSPro/VTrack flow. Check Toolkit on laptop, GSPro on chosen projector, device/simulator connection, actual shot arrival and shutdown separately. Follow the existing assisted Toolkit/Game/Launch steps. Explicit display-app choices are retained.
+4. Send Hub/Toolkit versions, detection source (Saved location versus Registered MSIX package), screen result, connection, real shot result and exact error if any in bug-reports. Share reviewed diagnostics privately when requested; no keys, raw logs or config.json.
+
+The clearer ChatGPT example and three full guides are in this folder. Existing custom flows are not automatically replaced. Future Toolkit updates do not silently migrate stored runtime paths: reopen Guided setup for rediscovery if needed. Software tests do not certify real hardware.
