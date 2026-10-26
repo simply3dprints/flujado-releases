@@ -1,8 +1,15 @@
-# FluJado Golf Sim Hub — beta.18.6
+# FluJado Golf Sim Hub — beta.18.7
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.6.msi) · [Getting started](docs/beta.18.6/GETTING-STARTED.txt) · [Checksums](docs/beta.18.6/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.7.msi) · [Getting started](docs/beta.18.7/GETTING-STARTED.txt) · [Checksums](docs/beta.18.7/SHA256SUMS.txt)
 
-## New in beta.18.6
+## New in beta.18.7
+
+- Discover a manifest-declared LPGAgent.exe in registered current-user LaonPeople/VTrack MSIX packages. Valid saved paths take priority; multiple candidates require manual choice. No WindowsApps permission changes or package activation mechanism.
+- Automatic GSPro/VTrack display routing targets the externally launched game rather than the Toolkit. Explicit app choices remain authoritative.
+- [Clear illustrated ChatGPT workflow example, updated NL/EN guides and VTrack test instructions](docs/beta.18.7/README.md).
+- 10 software suites plus isolated MSI first-install/repair/upgrade/injected rollback tests passed. Real VTrack connections, screen placement and shots need tester confirmation. No new hardware certification.
+
+## Retained from beta.18.6
 
 - ChatGPT flow setup for all 132 existing profiles: privacy-limited export, supported JSON import, clear proposal, automatic configuration backup and restore.
 - No scripts or support approval are needed for supported routes. After your own successful real test, optionally export the flow for the FluJado Discord community. No automatic upload or posting.
@@ -49,10 +56,10 @@ The Hub checks for a newer version about 15 seconds after opening and every six 
 
 Install and activate simulator software and connectors first; verify a real shot outside the Hub. Vendor binaries and licences are not included. Keep private migration backups local and never send licence keys or passwords.
 
-[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.5/RELEASE-NOTES.txt)
+[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.7/RELEASE-NOTES.txt)
 
-Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. MSIX Toolkit support is not included in this release. [VTrack instructions (English)](docs/beta.18.3/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.3/VTRACK-BETA-TEST-NL.txt).
+Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. Registered MSIX Toolkit executable discovery is included from beta.18.7; package activation and automatic saved-path migration after future Toolkit updates are not implemented. [VTrack instructions (English)](docs/beta.18.3/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.3/VTRACK-BETA-TEST-NL.txt).
 
-Illustrated beta.18.3 guides, updated for Drills, ShotForge, screens and MSI installation/recovery: [English](docs/beta.18.3/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.3/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.3/FluJado-Connector-Setup-Guide-EN.pdf).
+Current illustrated beta.18.7 guides, updated for VTrack and ChatGPT setup: [English](docs/beta.18.7/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.7/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.7/FluJado-Connector-Setup-Guide-EN.pdf).
 
 Previous downloads remain available.

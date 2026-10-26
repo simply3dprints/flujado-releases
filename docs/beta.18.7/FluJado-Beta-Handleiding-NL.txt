@@ -1,0 +1,402 @@
+Actuele versie en download
+
+https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.7.msi
+Release notes: https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.7/RELEASE-NOTES.txt
+Compatibiliteit: https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Veilig bijwerken
+
+Installeer de MSI over je bestaande GolfSimHub-map of gebruik Updates in de Hub. Verwijder de Hub niet eerst. Instellingen, lokale licentiestatus en eigen flows blijven behouden. Een update verlengt geen proefperiode en activeert geen licentie. Nieuwe gebruikers kunnen een map en snelkoppelingen kiezen. Installeer en activeer eerst je simulator en connectors en controleer een echte slag buiten de Hub.
+
+Nieuw in beta.18.7
+
+VTrack Toolkit wordt ook gevonden via manifesten van geregistreerde MSIX-pakketten. Geldige opgeslagen paden houden voorrang; meerdere kandidaten vragen om handmatige keuze. De automatische GSPro/VTrack-schermroute plaatst nu het spel in plaats van de Toolkit. Expliciete appkeuzes blijven behouden. Geïsoleerde software- en MSI-tests geslaagd; hardwarebevestiging door testers blijft nodig. Geen WindowsApps-rechtenwijzigingen of nieuw pakketactivatiemechanisme.
+
+Actuele teststatus
+
+Muni en Drills zijn eerder met echte slagen getest met ProTee VX en Square Omni. VX-wissels met GSPro zijn bevestigd. Muni-putten is met beide apparaten geslaagd. Drills ontving putts in Open Range; de aparte puttingoefening was niet beschikbaar. Extra apparaatprofielen blijven niet met hardware getest. Beta.18.6 voegt software- en configuratietests toe.
+
+Verwijderen en herstel
+
+Normale updates en reparaties bewaren je gegevens. Keep my data and licence blijft de standaard bij verwijderen. Expliciet alles verwijderen wist ook de bekende lokale licentieopslagen; een online activatie wordt niet vrijgegeven. Deactiveer eerst bij verhuizen naar een andere pc. De MSI bevat de reparatie van het wissen van beide opslagen uit beta.18.5.
+
+Concreet ChatGPT-voorbeeld
+
+https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.7/chatgpt-flow-example/index.html
+Download het complete voorbeeld-ZIP uit deze documentatiemap en open de geillustreerde HTML lokaal. Inclusief screenshots, voorbeeldvraag, profielspecifiek verzoek, herstel en hulp. De begeleide Toolkit/Game/Launch-stappen blijven nodig; starten bewijst geen slagdoorgifte.
+
+1. Exporteren en ChatGPT vragen
+
+Open Settings > ChatGPT flow. Kies Export setup overview en Copy ChatGPT prompt. Voeg het JSON-bestand zelf toe in ChatGPT en beschrijf je simulator, launch monitor en connector. Kies alleen een profiel uit availableProfiles / supportedRequests. De export bevat vaste app-ID's, aanwezigheid en versies, geen lokale paden, licentiegegevens of ruwe logs.
+
+2. Importeren en controleren
+
+Sla het JSON-verzoek van ChatGPT op en kies Import ChatGPT request. Controleer simulator, apparaatroute, concrete stappen, schermkeuze en handmatige bevestigingen. Ontbrekende software of plugins moet je eerst lokaal instellen. Importeren start niets en slaat geen instellingen op.
+
+3. Toepassen met back-up
+
+Apply proposal and save settings bewaart het voorstel en huidige instellingenwijzigingen met een automatische configuratieback-up. De Hub keert terug naar het dashboard. Is de configuratie intussen veranderd, importeer dan opnieuw. Een gewone update vervangt geen opgeslagen flows; toepassen vervangt bewust de geselecteerde simulatortegel.
+
+4. Je eigen setup testen
+
+Start de flow, controleer verbinding en apparaat, sla een echte bal en controleer afsluiten. Alleen jij kunt de hardwarewerking bevestigen. Gevonden software of een communitymelding bewijst niet dat jouw setup klaar is.
+
+5. Herstellen als het nodig is
+
+Open Settings > ChatGPT flow > Review last flow backup. Lees de waarschuwing en kies Restore reviewed configuration. Dit herstelt de configuratie van voor de laatste assistantwijziging en maakt een back-up van de huidige opgeslagen configuratie. Latere instellingenwijzigingen worden ook vervangen. Licentie en simulatorinstellingen blijven ongemoeid.
+
+6. Delen of hulp vragen
+
+Kies na een geslaagde start, echte slag en afsluiting het ingestelde profiel, vink de testbevestiging aan en kies Export for Discord. Deel het bestand en je bevindingen zelf op de FluJado Discord-server. Lukt het niet, keer dan terug naar de Hub en kies Export Diagnostic Report. Meld je gekozen route, verwacht/werkelijk resultaat en exacte fout op Discord. Deel het overzicht/verzoek en stuur diagnostiek privé wanneer daarom wordt gevraagd. Stuur nooit licentiesleutels, wachtwoorden, ruwe logs, config.json of een volledige privé-back-up.
+
+Beta-handleiding | 0.9.0-beta.18.7 | 19 oktober 2026
+
+Your simulator. Simplified.
+Less setup. More golf.
+
+Wat doet de Hub?
+
+FluJado Golf Sim Hub brengt je simulatorapps en hun opstartstappen samen in één Windows-dashboard. Een tegel voert een opgeslagen flow uit: bijvoorbeeld een connector openen, wachten op verbinding en daarna de simulator starten.
+
+Leesroute
+
+Installeren en automatisch bijwerken
+Begeleide software-/connectorherkenning en schermen
+Starten, wisselen en stoppen
+Instellingen, eigen tegels en workflows
+Movies & TV
+Proefperiode en licentie
+Opgeslagen setups, Pro-functies en backups
+Problemen oplossen, downloads en hulp
+
+Voor je begint
+
+Gebruik je eigen Windows-account. Installeer eerst de simulatorsoftware en de connector die bij jouw launch monitor hoort. Controleer of die combinatie buiten de Hub werkt, inclusief een echte slag. De Hub levert geen simulatorsoftware, firmware, connectorplugins of bijbehorende licenties.
+
+Deze gesloten bèta
+
+Gebruik alleen de installer en testlicentie die je van FluJado ontvangt. De installer is nog niet digitaal ondertekend. Een beschikbaar profiel is geen garantie dat jouw hardwarecombinatie werkt. Koop geen licentie alleen om deze bèta te testen. Vragen en feedback: info@flujado.com | https://flujado.com/
+
+Eerdere verbeteringen
+
+Deze versie voegt Drills-flows, overname van de beamerkeuze en opstartherstel toe. MSI blijft de standaardinstaller, met locatie- en snelkoppelingenwizard, werkende Start FluJado-optie, vormgegeven onderhoud en beheerd updateherstel. De eerdere GSPro-tegelfix en vroege connectorcontrole blijven aanwezig. Instellingen en licentiestatus blijven behouden. Drills is lokaal met echte ProTee VX- en Square Omni-slagen getest; 15 extra begeleide Drills-routes staan als ongetest vermeld.
+
+Actuele download
+
+https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.7.msi
+Release notes: https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.7/RELEASE-NOTES.txt
+Compatibiliteit en teststatus: https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Eerst voorbereiden
+
+Installeer en activeer eerst je simulatorsoftware en de benodigde connectors. Controleer buiten de Hub of een echte slag aankomt. De Hub zoekt ondersteunde bestaande software; hij installeert geen simulators, koppelt geen apparaten en levert hun licenties niet.
+
+Eerste installatie met MSI
+
+1. Download FluJado-Golf-Sim-Hub-0.9.0-beta.18.7.msi en open het bestand in je eigen Windows-account.
+2. Klik Next op Welcome. Kies de installatielocatie; een andere schijf mag. Houd GolfSimHub als laatste mapnaam, bijvoorbeeld C:\Golf\GolfSimHub.
+3. Kies Add of Skip voor de bureaublad- en Startmenu-snelkoppelingen. Het Startmenu bevat ook reparatie en verwijderen.
+4. Controleer de map en klik Install.
+5. Op het eindscherm staat Start FluJado standaard aangevinkt. Klik Finish om te starten, of vink de optie uit om alleen af te ronden.
+6. Kies in Guided setup je software, connectorroute en schermen.
+
+Automatische updatemelding
+
+De geopende Hub controleert ongeveer 15 seconden na het starten en daarna iedere zes uur. Een melding voor een nieuwere versie verschijnt wanneer geen flow actief is en Presentation mode uit staat. Klik de melding om de update te bekijken, of gebruik Updates > Check for updates. Je kiest zelf wanneer je installeert. Er is geen gedwongen installatie of melding wanneer de Hub gesloten is. De SHA-256 wordt gecontroleerd voordat de update opent. Offline gebruik blijft mogelijk.
+
+Bestaande beta.18 EXE-installatie
+
+Gebruik de updatemelding in de Hub. Een eenmalige MSI-overstapstarter bevat dezelfde officiële MSI, controleert deze, wacht tot de Hub sluit, maakt een gecontroleerde privéback-up en opent de MSI-wizard op je bestaande map. Behoud die map. Deze EXE is alleen voor oude updateclients; nieuwe gebruikers downloaden MSI. Bestaat er al een andere FluJado MSI-installatie, werk die dan rechtstreeks bij.
+
+Oudere betas en MSI-previews
+
+Beta.17 en ouder herkennen revisies zoals beta.18.7 mogelijk niet. Maak een privéback-up, sluit de Hub en installeer de huidige MSI in je bestaande GolfSimHub-map. Verwijder de Hub of gegevens niet vooraf. Gebruikers van een MSI-preview kunnen de huidige MSI rechtstreeks installeren. Behoud de bestaande instellingen, licentieopslag en installatiemap.
+
+Wat de update bewaart
+
+Instellingen, opgeslagen configuraties, workflows, eigen afbeeldingen en bestaande lokale licentiestatus blijven behouden. Een update vernieuwt de proefperiode niet en vervangt opgeslagen workflows niet automatisch door nieuwe presets. Maak vóór migratie een back-up en bewaar deze privé: er kunnen licentiegegevens en lokale paden in staan.
+
+Reparatie en onderbroken updates
+
+Gebruik Startmenu > FluJado > Repair FluJado. Reparatie herstelt de huidige programmaversie; het is geen downgrade of instellingenreset. MSI-updates gebruiken een aparte updater en een gecontroleerde herstel-MSI. Mislukt of annuleer je een update, bewaar dan de foutmelding en privéback-up, laat herstel afronden en controleer de geïnstalleerde versie voordat je opnieuw probeert. Verwijder installercaches of herstelpakketten niet handmatig. Meldt herstel dat het onvolledig is, stop dan en neem contact op.
+
+Verwijderen en gegevenskeuze
+
+Sluit de Hub en gebruik Startmenu > FluJado > Uninstall FluJado (data options). Keep my data and licence is standaard geselecteerd. De expliciete optie Remove all Hub data and the local licence wist ook de gedeelde lokale Hub-licentieopslag van dit Windows-account. Een online activatie komt daardoor niet vrij; gebruik eerst License > Deactivate this PC als je de licentie verhuist. Verwijderen via Windows Geïnstalleerde apps/native MSI bewaart persoonlijke gegevens standaard. Lees de voltooiingsmelding voordat je het venster sluit. Simulatorsoftware blijft ongemoeid. Heb je Startmenu-snelkoppelingen overgeslagen, gebruik dan Windows Geïnstalleerde apps voor reparatie/verwijderen met standaard gegevensbehoud.
+
+Als Windows de download blokkeert
+
+De MSI en overstapstarter zijn nog niet digitaal ondertekend. Een reputatiemelding is iets anders dan een antivirusdetectie. Gebruik de officiële link en bewaar de exacte melding. Blokkeert of isoleert antivirus een bestand, stop dan en neem contact op. Houd bescherming ingeschakeld; maak geen uitzonderingen en herstel geen quarantainebestand om door te gaan. Deel nooit licentiesleutels, wachtwoorden of volledige privéback-ups.
+
+Voordat je begint
+
+Op het welkomstscherm staat dezelfde volgorde: installeer en test eerst je simulator en connectors, stel daarna FluJado in. Zijn die programma’s nog niet gereed, rond hun installatie dan eerst af.
+
+De begeleide setup openen
+
+Open Settings > Overview > Open guided setup, of gebruik bovenaan Setup wizard... . Sla editorwijzigingen eerst op: de wizard gebruikt de laatst opgeslagen configuratie. Bij een nieuwe installatie begin je hier. Tijdens de setup start geen simulator.
+
+1. Welkom / 2. Softwareherkenning
+
+Klik Find my software. Selecteer ondersteunde simulators en bekijk de gevonden locaties. De Hub zoekt ook ondersteunde connectorapps die bij je gekozen routes horen. Scan this PC again herhaalt de herkenning. Een gevonden programma bewijst geen werkende apparaatverbinding. Ontbrekende of afwijkende installaties kun je handmatig aanwijzen.
+
+3. Hardwareroutes en programmalocaties
+
+Kies per simulator het juiste launchmonitor- en connectorprofiel. Gebruik Locate selected program... en Check locations bij ontbrekende paden. Bestaande actieve workflows en paden blijven behouden, tenzij je expliciet Replace selected existing golf workflows with the chosen presets aanvinkt. Skip golf setup for now maakt een setup zonder golf mogelijk. Add a standalone empty tile is optioneel; stel het programma later in via Settings. Een gekozen ingebouwde simulator schakelt ook zijn eerder uitgeschakelde tegel in. Ontbrekende vereiste programma- of connectorpaden worden hier gemeld, vóór Screens en Movies & TV. Bestaande actieve workflows blijven behouden tenzij je bewust vervanging kiest.
+
+4. Schermen
+
+Kies Simulator screen en Hub controls and launcher updates; hetzelfde scherm mag beide taken doen. Gebruik Identify screens en Refresh screens waar nodig. Keep all my existing screen settings bewaart de huidige verdeling. De Hub onthoudt de monitoridentiteit; resolutie en driverinstellingen beheer je in Windows en de simulator.
+
+5. Movies & TV / 6. Controleren en opslaan
+
+Kies eventueel streamingsnelkoppelingen en bekijk daarna het overzicht. Back gaat terug naar vorige stappen. Save past je keuzes toe en maakt een backup van de vorige configuratie; Cancel laat de opgeslagen setup ongewijzigd. Controleer na toevoegen van een hardwareroute zelf een echte slag.
+
+Een flow starten
+
+1. Zet je launch monitor aan en zorg dat benodigde kabels of netwerkverbindingen beschikbaar zijn.
+2. Klik één keer op de gewenste tegel.
+3. Volg de status onderaan het dashboard. De Hub voert de stappen in volgorde uit.
+4. Wacht tot de flow klaar is en test vervolgens een echte slag in de simulator.
+
+Wachten op verbinding of een update
+
+Wachten is vaak een controle op gereedheid, niet alleen een vaste pauze. Bij de ondersteunde rēlā-flow wordt de verbinding gecontroleerd en opent rēlā geminimaliseerd. Andere flows kunnen een handmatige stap nodig hebben. Klik Continue alleen wanneer de getoonde instructie daadwerkelijk is uitgevoerd.
+Vraagt ProTee of een andere app om een update? Voer die uit in het betreffende programma. Ondersteunde flows wachten op de teruggekeerde gereedheidsstatus. Als de flow een fout meldt of blijft wachten, gebruik de probleemstappen bij Hulp en betafeedback; sla de controle niet zomaar over.
+
+Naar een andere simulator of route
+
+Wacht tot de huidige flow klaar is en klik de andere tegel. Tussen de ingebouwde ShotForge-routes wordt een schone start uitgevoerd: betrokken apps en connectors worden afgesloten en opnieuw geopend. Rond je sessie daarom eerst af. Eigen flows doen uitsluitend wat hun opgeslagen stappen voorschrijven.
+
+Bediening op het dashboard
+
+Retry probeert een mislukte stap opnieuw wanneer de knop beschikbaar is. Cancel stopt de lopende flow; al geopende apps kunnen open blijven. Close all apps sluit de apps die in Settings > Startup & shutdown zijn opgenomen. Controleer die lijst voordat je de knop gebruikt. Full screen of F11 schakelt de schermvullende Hub-weergave; Esc gaat terug.
+
+Praktische acceptatietest
+
+Start dezelfde tegel drie keer, wissel indien mogelijk naar een andere app of route en herstart daarna de pc. Controleer zowel vensterplaatsing als daadwerkelijke slagontvangst. Noteer je launch monitor, firmware, simulatorversie en connectorversie. Alleen succesvol starten is geen bewijs van een werkende golfverbinding.
+
+Een overzichtelijk instellingenmenu
+
+Begin op Overview en kies links een onderdeel. Save changes bewaart editorwijzigingen; Close without saving verwerpt ze. Windows-opstarten en beheerderscodeacties gelden direct. Klap technische gereedheidsregels en workflowstappen alleen open wanneer je die nodig hebt.
+
+De optionele Your app-tegel instellen
+
+Klik op Your app om Settings te openen. Voeg het programma toe in Apps & connectors. Kies de lege tegel onder Tiles & screens, geef hem een naam, voeg stappen toe onder Advanced workflow steps, schakel hem in en klik Save changes. De lege tegel start geen demosoftware.
+
+Een app toevoegen
+
+Open Settings > Apps & connectors. Klik Add app, geef de app een herkenbare naam en kies met Choose .exe... het uitvoerbare bestand. Gebruik Arguments alleen als de app die nodig heeft. Additional process paths is bedoeld voor een extra proces dat een launcher opent; wijzig dit alleen als je weet welk proces bij die app hoort.
+
+Een tegel maken
+
+Open Tiles & screens > Add tile. Vul Name en Subtitle in, kies het doelscherm bij Open on display en schakel de tegel in. Een tegel verwijst naar stappen met bestaande appkeuzes. De setup-starttegel verdwijnt zodra er een ingeschakelde echte tegel is. Met Move up en Move down wijzig je de volgorde van tegels of geselecteerde stappen.
+
+Stappen toevoegen
+
+Klap eerst Advanced workflow steps open. Kies de tegel en klik Add step. Selecteer Action en App.
+ensureStarted: zorgt dat de app draait.
+waitReady: wacht op de ingestelde gereedheidscontrole.
+launch: start de gekozen app volgens de flow.
+close: sluit de gekozen app.
+restart: sluit en start de app opnieuw.
+waitUser: vraagt een handmatige bevestiging.
+invokeButton en connectAwesomeGolf zijn gespecialiseerde stappen; gebruik hiervoor bij voorkeur de meegeleverde profielen.
+
+Eenvoudig voorbeeld
+
+Voor een app zonder connector: voeg de app toe, maak een tegel en voeg ensureStarted voor die app toe. Klik Save changes en test de tegel. Voor een simulator met connector gebruik je liever eerst de Setup wizard. Een wachtstap werkt alleen als de juiste gereedheidsregels voor die app zijn ingesteld. Kopieer geen statuswoorden van een andere launch monitor.
+
+Bewaren en delen
+
+Klik Save changes om je wijzigingen te bewaren; Close without saving verwerpt gewone editorwijzigingen. Via Share workflows kun je een tegel exporteren of een gedeelde flow importeren. Imports worden eerst beoordeeld en als uitgeschakelde tegels toegevoegd. Stel alle lokale apppaden en eventuele extra procespaden in, controleer de stappen, schakel de tegel in en klik Save changes. Een communityflow is geen compatibiliteitsgarantie. Deel geen volledige backup als je alleen een flow wilt delen.
+
+Je diensten kiezen
+
+Open in Guided setup Movies & TV en vink alleen de diensten aan die je gebruikt. De lijst bevat 22 diensten met lokale logo's. All services, US en Europe filteren de lijst zonder verborgen keuzes uit te schakelen. Laat alles uitgevinkt om de map weg te laten. Beschikbaarheid en abonnementen verschillen per land.
+
+Een dienst openen en terug naar golf
+
+Klik op Home op de bioscooptegel Movies & TV. De diensttegels verschijnen in hetzelfde dashboard. Een dienst opent zijn officiÃ«le website in je standaardbrowser; gebruik je eigen account en abonnement. Back to golf of Escape brengt je terug naar de vorige pagina met golftegels. FluJado bewaart geen streamingwachtwoorden.
+
+Je selectie later wijzigen
+
+Sla eventuele instellingenwijzigingen op, open Guided setup opnieuw en pas Movies & TV aan. Laat het vervangen van bestaande golfflows uit om die routes te bewaren. Controleer en sla op. Spraakcommando's zijn niet opgenomen in beta.18.7.
+
+Automatisch 14 dagen Pro
+
+De volledige Pro-proefperiode begint zodra je de Hub voor het eerst opent. Je hebt geen sleutel of betaalgegevens nodig. Bijwerken of opnieuw openen vernieuwt de proefperiode niet. Na 14 dagen worden alle Hub-functies vergrendeld behalve het licentiescherm en afsluiten. Je instellingen, flows en beelden blijven bewaard. Een geldige Home- of Pro-activatie geeft weer toegang tot je bestaande setup.
+
+Een testlicentie activeren
+
+1. Zorg voor internetverbinding en een correcte Windows-datum en -tijd.
+2. Klik bovenaan License, of na afloop van de trial op Activate Home or Pro.
+3. Controleer Licensing channel: deze bèta gebruikt het testkanaal. Gebruik de Home- of Pro-testsleutel die je van FluJado hebt ontvangen.
+4. Plak de sleutel bij License key en klik Activate.
+5. Wacht op License activated successfully. Controleer dat de juiste editie wordt getoond en sluit het venster.
+6. Test je bestaande tegel opnieuw. Activatie hoeft je setup niet te vervangen.
+
+Home of Pro
+
+Home bevat het dashboard, starten en beheren van apps, eigen flows, workflow import/export en opgeslagen configuraties. Er is geen beperking op basis van het aantal toegevoegde launch monitors. Pro voegt aanpasbare branding, teksten, logo’s en achtergronden, Presentation mode en lokale Backup & Restore toe. De proefperiode biedt Pro. Eén licentie is bedoeld voor één actieve simulator-pc.
+
+Offline en een andere pc
+
+De eerste activatie, Check online en Deactivate this PC vereisen internet. Een lokaal geactiveerde licentie kan daarna offline gebruikt worden; controleer dit ook in je bètatest. Voor verhuizing: open op de oude pc License > Deactivate this PC, wacht op bevestiging en activeer vervolgens op de nieuwe pc. Kopieer geen lokaal licentiebestand.
+
+Tijdmelding of activatiefout
+
+Zet de pc-datum niet terug om de trial te verlengen. De Hub controleert teruggezette tijd en bewaart dat de trial verlopen is. Herstel bij een tijdmelding de juiste Windows-datum, tijd en tijdzone. Blijft de fout bestaan, neem contact op. Bij een onderbroken activatie kun je met dezelfde sleutel opnieuw Activate proberen. Testsleutels zijn niet bedoeld als aankoopbewijs; de websiteknop opent FluJado.com, nog geen gegarandeerde live checkout.
+
+Opgeslagen configuraties - Home en Pro
+
+Sla eerst Settings op. Open Configurations op het dashboard, vul een herkenbare naam in en klik Save changes current configuration. Kies later een opgeslagen item en klik Use selected configuration. Dit wisselt de Hub-instellingen; actieve apps blijven open. De Hub bewaart automatisch de vorige configuratie voordat hij wisselt. Een configuratie is een opgeslagen setup, geen tweede pc-licentie.
+
+Uitstraling aanpassen - Pro
+
+Gebruik Settings > Appearance (Pro) voor logo, tagline, welkomtekst en kleuren. De achtergrond vind je onder Startup & shutdown. Per tegel kun je beelden aanpassen onder Tiles & screens. Kies bij voorkeur een transparante PNG voor een logo en klik Save changes. Home gebruikt de standaarduitstraling.
+
+Presentation mode - Pro
+
+Stel in Settings > Presentation (Pro) via Set / reset administrator code... een code in en voer die tweemaal in. De codewijziging geldt direct, zonder Save. Open daarna Presentation op het dashboard voor de gastenweergave. Om terug te gaan naar normale bediening heb je de code nodig. Code vergeten? Sluit en heropen de Hub, ga naar normale Settings en stel een nieuwe code in. Presentation mode is geen beveiligde Windows-kiosk.
+
+Lokale backup - Pro
+
+Sla Settings eerst op. Ga naar Backup & restore > Create backup... en bewaar het bestand op een veilige locatie. De export bevat je huidige opgeslagen configuratie, workflows, paden, schermkeuzes, uitstraling en ingestelde beelden. Simulatorinstallaties, hun gegevens en licenties, de Hub-licentie en Windows-opstartregistratie worden niet meegenomen. Ook benoemde configuraties en hun afbeeldingen zitten in de export. Herstel bewaart bestaande configuraties en voegt kopieën toe. Beta.6-backups vereisen beta.6 of nieuwer; beta.5-backups blijven leesbaar.
+
+Een backup terugzetten - Pro
+
+Kies Restore backup..., bekijk het voorstel en bevestig alleen de gewenste herstelactie. Herstel vervangt de huidige opgeslagen configuratie en verwerpt niet-opgeslagen editorwijzigingen; vooraf wordt automatisch een herstelkopie van de huidige configuratie gemaakt. Op een andere pc kunnen apppaden en schermen ontbreken. Pas die eerst aan voordat je uitgeschakelde tegels weer inschakelt. Een volledige backup bevat lokale paden en instellingen: deel hem alleen bewust.
+
+Geen tegel of geen appstart
+
+Zie je Set up your first app? Er is nog geen ingeschakelde echte tegel. Gebruik de wizard of voeg een tegel toe en klik Save changes. Controleer bij een startfout de .exe-paden onder Apps, de geselecteerde route en of de app zelfstandig opent. Bij een verlopen trial activeer je eerst een geldige licentie.
+
+Flow blijft wachten
+
+Lees de exacte status. Controleer het betreffende appvenster op update, foutmelding of ontbrekende verbinding. Gebruik Retry nadat de oorzaak is opgelost. Werkt het nog niet, annuleer de flow en bewaar de melding en het log. Geef ook aan of je snel naar Range of een andere modus ging. De ingebouwde ShotForge-flow herkent meerdere modi; gewijzigde softwareversies kunnen nieuwe controlepunten nodig hebben.
+
+Venster op verkeerd scherm of verkeerde resolutie
+
+Gebruik de wizard om Simulator screen en Controls and updates screen opnieuw te kiezen. Controleer met Identify screens en sla op. Wijzig de spelresolutie in de simulator of Windows, niet via een willekeurig ander schermprofiel. Meld welk scherm, kabelroute en resolutie je gebruikt wanneer het probleem terugkomt.
+
+Installatie of verwijderen lukt niet
+
+Controleer dat de gekozen map de echte bestaande GolfSimHub-installatie is. Laat een flow afronden, sluit de Hub en probeer opnieuw. Gebruik de MSI-reparatieroute uit hoofdstuk 1. Gebruik de oude EXE-snelkoppeling Restore previous Golf Sim Hub niet op een MSI-installatie en verwijder geen onbekende mappen om een fout te omzeilen. MSI-updateherstel vereist het gecontroleerde herstelpakket. Bewaar de exacte melding en privéback-up; neem contact op bij onvolledig herstel.
+
+Een bruikbare foutmelding sturen
+
+Klik Export Diagnostic Report op het dashboard en bekijk het bestand voordat je het deelt. Stuur naar info@flujado.com: Hub-versie, Windows-versie, hardware en firmware, simulator- en connectorversies, gekozen flow, stappen om het probleem te herhalen, verwachte uitkomst en feitelijke uitkomst. Voeg zo nodig een screenshot en het gecontroleerde rapport toe. Verberg sleutels, wachtwoorden en persoonlijke gegevens. Een rapport wordt niet automatisch verstuurd.
+
+Korte testlijst
+
+Noteer per onderdeel: geslaagd, mislukt, niet beschikbaar of niet getest.
+Installatie en eerste setup / juiste schermen / drie keer starten / echte slag / wisselen / pc herstarten / licentie en offline start / eigen flow / Pro-uitstraling / Presentation mode / backup en herstel / update met behoud van gegevens.
+Dank je voor het testen. Jouw concrete bevindingen helpen FluJado klaar te maken voor een betrouwbare release.
+
+Nieuwste beta en updates
+
+https://github.com/simply3dprints/flujado-releases
+https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.7.msi
+
+Bijbehorende gidsen
+
+https://github.com/simply3dprints/flujado-releases/tree/main/docs/beta.18.7
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Support
+
+info@flujado.com | https://flujado.com/
+
+Privacy
+
+Controleer screenshots en diagnostische rapporten voordat je ze deelt. Voeg nooit licentiesleutels, wachtwoorden of testersoverzichten toe.
+
+Software voorbereiden
+
+Installeer en activeer eerst Infinite Tees en de juiste connector. Kies in Guided setup Infinite Tees en de exacte launchmonitorroute. Controleer programmalocaties en de benodigde plugin. FluJado installeert geen connectors, koppelt geen apparaten en vult geen licentiesleutels in.
+
+Verbindingsvolgorde
+
+ProTee VX via rela en Square Omni via rela verbinden na eenmalige connectorinstelling automatisch, zonder Continue. De Hub gebruikt eerst Device Search en pas daarna zo nodig simulator Connect. Bij ProTee VX start de plugin Labs. Kies zelf Practice of een ronde. Andere Infinite Tees-profielen blijven begeleid.
+
+Praktijktests en grenzen
+
+De echte slagtests in beta.14 slaagden lokaal op Infinite Tees Flat Range met ProTee VX via rela/plugin en Square Omni via rela Bluetooth op 17 oktober 2026. De vervolgtest voor beta.15 controleerde automatisch starten en wisselen naar de bestaande GSPro/ProTee VX-route en terug zonder Continue. Er is geen nieuwe slagtest, GSPro/Square Omni-test of volledige verse-pc-/herstartcertificering geclaimd. Andere Infinite Tees-routes moeten nog met hardware worden getest.
+
+Actuele compatibiliteitstabel
+
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Juiste startvolgorde
+
+Laat bij ShotForge en Infinite Tees met rela en ProTee VX de Hub eerst rela openen. De ingestelde ProTee VX Socket Relay-plugin start daarna ProTee Labs. Open Labs niet vooraf handmatig. FluJado controleert apparaat en simulator, wacht op Labs en controleert de verbinding opnieuw. Bij deze routes hoef je niet op Continue te klikken.
+
+Eenmalig voorbereiden
+
+Installeer en activeer eerst simulator, rela en Labs. Plaats de passende ProTeeVXPlugin.dll naast rela.exe en stel de Socket Relay-paden in. Gebruik alleen de bedoelde Other-plugin. Controleer eerst buiten FluJado een echte slag. FluJado installeert geen plugins, koppelt geen hardware en vult geen sleutels in.
+
+Bestaande instellingen en testbereik
+
+Bijwerken behoudt bestaande workflows, paden, schermkeuzes en licentie. Vervang een oudere route alleen door deze bewust in Guided setup te selecteren. Infinite Tees met ProTee VX en Square Omni doorliep lokaal automatisch starten en wisselen naar de bestaande GSPro/ProTee VX-route en terug. Eerdere echte slagtests horen bij beta.14; er is geen nieuwe slagtest of volledige hardwarecertificering geclaimd.
+
+Experimentele VTrack-route
+
+Kies voor Infinite Tees alleen bewust de LAON VTrack-preset met automatische knoppen als je de onderzochte VTrack Bridge v8 wilt testen. Wijs de echte IT_Golf_Launcher.exe aan. Windows English OCR en de herkende bestandshash zijn vereist. Houd het venster zichtbaar en stil. Herkenning is relatief aan het launchervenster, dus een andere locatie of scherm wordt door het ontwerp ondersteund; bewegen of schalen tijdens herkenning blokkeert de klik. Gebruik bij een andere build of ontbrekende OCR de begeleide route.
+
+Wat nog moet worden getest
+
+Automatische bediening van Connect en Start VTrack bridge is nog niet met VTrack-hardware getest. Connected/Bridge running is een schermstatus en bewijst geen gereed apparaat. Controleer apparaatdetectie, Auto-send shots, Club/Hand en een echte slag in Infinite Tees. Stop bij fouten. Voor Uneekor wachten we op extra informatie; Muni en Drills hebben uitgebrachte profielen; raadpleeg de compatibiliteitstabel voor de geteste en niet-geteste combinaties. Raadpleeg de actuele compatibiliteitstabel per route. Voor deze gidsen zijn geen nieuwe hardwaretests uitgevoerd.
+
+Uitgebreide instructies
+
+https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.7/VTRACK-BETA-TEST-NL.txt
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Drills kiezen en je eigen spel starten
+
+Installeer Drills en de connector eerst en log zelf in. Open in FluJado Settings > Overview > Open guided setup, vink Drills aan en kies het precieze apparaat en de route. Bestaande actieve flows blijven behouden tenzij je bewust vervanging kiest. Wil je voor een bestaande route een vernieuwd preset toepassen, maak dan eerst een back-up en vervang expliciet die gekozen workflow.
+
+Beamer en opstarten
+
+Behoud je bestaande schermkeuze. Nieuwe simulatorprofielen nemen het ingestelde simulatorscherm over, ook bij oudere installaties met dezelfde schermkeuze op alle simtegels. De fysieke monitoridentiteit is leidend, niet het veranderlijke Windows-schermnummer. Drills opent op dat scherm; je kiest zelf je spel. FluJado kiest nooit automatisch Open Range.
+
+ProTee VX en Square Omni
+
+Deze twee Drills-routes zijn lokaal met echte slagen getest. Wisselen met GSPro is voor ProTee VX ook geslaagd. Een GSPro/Omni-slag is in die wisseltest niet bevestigd, omdat de aanwezige GSPro-connector alleen ProTee aanbood. Het eenmalige ProTee-opstartherstel is afzonderlijk met geïsoleerde tests gecontroleerd.
+
+Andere launch monitors
+
+15 extra Drills-profielen tonen Not tested (assisted). Ze vragen eenmaal een handmatige verbindingsbevestiging; dit is geen automatische gereedcontrole. Square HE, Garmin R10, SkyTrak OG/+/Max, Bushnell LPi en native VTrack hebben apparaatspecifieke Discord-uitleg. De overige rela-combinaties zijn kandidaten op basis van gedocumenteerde apparaatinvoer en Drills-uitvoer. Controleer de exacte route in de compatibiliteitstabel.
+
+VTrack en LPi
+
+Native VTrack gebruikt de keuze VTrack in de Drills-launcher, niet Other. Toolkit en de Infinite Tees-bridge blijven dicht. LPi gebruikt de passende OtherForesightPlugin.dll naast rela.exe; conflicterende ProTee/Other-plugins worden geblokkeerd. Plugins worden niet meegeleverd.
+
+Slagmat naast het midden
+
+Druk tijdens een oefening op Esc en bekijk de camera-instellingen. Pas het beeld aan op je eigen slagmat en controleer de uitlijning visueel. Er staat hier geen universele numerieke offset. FluJado-updates bewaren de Drills-instellingen en stellen deze camerawaarde niet in.
+
+ShotForge en MSI-update
+
+De opstart- en gereedcontrole van ShotForge en connectorcontroles zijn verbeterd. De MSI-upgradevolgorde verwerkt nu ook nieuwe programmabestanden correct. Herstel na onderbrekingen en annuleren is in een afzonderlijke testinstallatie gecontroleerd. Een update vervangt opgeslagen workflows niet automatisch.
+
+Muni installeren en kiezen
+
+Installeer Muni en log zelf in. Installeer en configureer rela en de eventuele LM-plugin eerst. Controleer een slag buiten FluJado. Open Settings > Overview > Open guided setup, schakel Muni Golf Sim in en kies het precieze apparaat. Nieuwe profielen nemen je simulatorscherm over. Eigen flows blijven behouden tenzij je de gekozen route expliciet vervangt.
+
+ProTee VX en Square Omni
+
+Muni is lokaal met echte slagen en automatisch opstarten getest voor beide apparaten. Muni > GSPro > Muni met ProTee VX is met slagen in beide spellen geslaagd. De Omni-wissel met GSPro valt buiten deze test. Een eerdere VX-start bleef hangen voordat Labs verscheen; latere starts en terugwisselen slaagden. Putten en testen na een herstart staan nog open.
+
+Automatisch opstarten
+
+FluJado opent Muni, controleert de lokale ontvangstpoort 9210, sluit de meegeleverde connector en start rela. Bij VX start de plugin ProTee Labs. Kies zelf de activiteit in Muni; de Hub opent niet automatisch een range. Leg voor de Omni-gereedcontrole een bal in het slaggebied.
+
+Andere Muni-apparaten: nog niet getest
+
+Er zijn 14 begeleide profielen voor Square HE, Garmin R10, SkyTrak OG/+/Max, NOVA, Mevo+/Gen2/Xi/X2, GC2, GolfJoy, Full Swing KIT en Bushnell LPi. Dit zijn afgeleide rela-routes, geen bevestigde hardwarecompatibiliteit. Kies het exacte apparaat en Muni Golf Sim in rela, stel de Muni-poort in op 9210, verbind het apparaat eerst en controleer beide verbindingen. Normale fabrikantinstellingen en de aangegeven plugin blijven nodig.
+
+Nieuwe tegels
+
+Drills, Infinite Tees en Muni hebben hun officiele logo en nieuwe vormgeving. De PLAY-tekst en kapotte pijl zijn van simulator­tegels verwijderd. Eigen tegelafbeeldingen en instellingen blijven behouden.

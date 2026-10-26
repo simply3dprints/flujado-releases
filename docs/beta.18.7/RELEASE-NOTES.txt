@@ -1,0 +1,9 @@
+FluJado beta.18.7 — 26 October 2026
+
+- Guided setup can discover a manifest-declared LPGAgent.exe in registered current-user LaonPeople/VTrack MSIX packages. Valid saved locations take priority; multiple package candidates require manual selection. No WindowsApps permission changes or recursive scanning.
+- For GSPro/VTrack with automatic display-app selection, route the externally launched GSPro game instead of moving the Toolkit to the projector. Explicit display-app choices remain unchanged.
+- New illustrated English ChatGPT-flow worked example, with GSPro/VTrack request JSON, example question, proposal/apply/restore instructions and privacy/help guidance.
+
+Limits: no real VTrack hardware test is claimed. Direct executable discovery does not implement package activation or silently repair saved runtime paths after a future MSIX update. Existing assisted connection steps remain. Ask the tester to verify startup, correct laptop/projector placement and a real shot separately. Other hardware test statuses are unchanged.
+
+Update over the existing installation; do not uninstall first. Preserve settings, licence and custom workflows. Beta.18.7 is the MSI release for these VTrack and documentation improvements.

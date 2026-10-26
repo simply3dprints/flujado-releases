@@ -1,0 +1,29 @@
+FluJado beta.18.7 — VTrack test
+
+Before testing
+- Finish your simulator session. Back up your current Hub configuration using your usual backup method. Note your current Hub and Toolkit versions.
+- Keep simulator and connector installations unchanged. This candidate does not install VTrack or GSPro.
+- Install the MSI over the same FluJado location. Do not uninstall first or choose Remove all data. Check that the Hub reports beta.18.7 and your tiles, settings and licence remain present.
+
+1. Toolkit discovery (FB-007)
+Open Settings > Setup wizard and inspect the discovered VTrack Toolkit location. With Toolkit 2.4.3 installed as a current-user LaonPeople/VTrack MSIX package, the manifest-declared LPGAgent.exe should be found instead of the Configure placeholder. An existing valid manually selected location is kept. Multiple valid package candidates deliberately require manual selection. You can cancel the wizard after checking; do not replace a working flow just to inspect discovery.
+If the installed location is still missing or incorrect, stop and report the exact message and Toolkit version. Do not change WindowsApps permissions, reinstall the Toolkit, disable security or run everything as administrator for this test.
+
+2. Screen placement (FB-008)
+Use your existing GSPro/VTrack flow. With automatic display-app selection, the Hub should leave the Toolkit on its own screen and place GSPro on the chosen simulator/projector screen, including when GSPro appears later. Follow the existing Toolkit Game/Launch and Hub confirmation steps. Explicit custom display-app selections are intentionally retained; report them rather than changing them blindly.
+Check startup and screen placement separately from shot delivery. After connection, hit one real shot and confirm it appears with data in GSPro. Then check normal shutdown and a second start if practical.
+If the connector still moves to the projector, send Your screens and the workflow screen-selection screenshots. We need to distinguish automatic routing from an explicit app selection.
+
+3. ChatGPT walkthrough
+Open docs/chatgpt-flow-example/index.html. Follow export > prompt > matching request > import > review. Use your own export. Apply only if the proposed GSPro/VTrack profile is what you want; it saves all current Settings edits and can replace custom steps on that tile. To test recovery, review the last flow backup and restore only after reading that later configuration edits will also be replaced. The configuration backup does not contain the licence.
+The included sample request is for gspro-vtrack only. Other setups must use the matching supported request from their own export. No new connector or arbitrary script is generated.
+
+What to report in FluJado bug-reports
+- Hub version and Toolkit version.
+- Discovery: found automatically, kept saved location, manual choice required, or error.
+- Toolkit screen and GSPro screen, outside the Hub versus via the Hub.
+- App start, device/simulator connection, actual shot delivery and shutdown as separate results.
+- Whether the example explains what to export/import, apply and restore; any confusing step.
+- Exact error and relevant screenshots. Send a reviewed diagnostic export privately when requested, not raw logs, config.json or licence keys.
+
+The candidate has software/isolated MSI test evidence only. A successful app start is not a hardware verification. Public MSI and updatefeed use beta.18.7.

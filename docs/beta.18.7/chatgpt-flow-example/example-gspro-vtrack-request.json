@@ -1,0 +1,6 @@
+{
+  "format": "FluJado.AssistantRequest",
+  "version": 1,
+  "profile": "gspro-vtrack",
+  "screen": "keepSimulatorScreen"
+}

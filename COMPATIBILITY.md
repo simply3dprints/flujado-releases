@@ -1,3 +1,7 @@
+## VTrack software improvements - beta.18.7
+
+Registered MSIX executable discovery and automatic GSPro-only display targeting added; explicit app choices preserved. Software/isolated MSI tests passed; VTrack hardware status is unchanged. [Current guides and test instructions](docs/beta.18.7/README.md).
+
 ## ChatGPT setup - beta.18.6
 
 All 132 existing profile choices support the new export/import/review/backup/restore path. This is software validation, not a change to any hardware test status below. Assisted profiles retain manual confirmation steps. See [current guides](docs/beta.18.6/README.md).
