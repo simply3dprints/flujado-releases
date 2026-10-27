@@ -1,0 +1,5 @@
+FluJado beta.18.9
+
+https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi
+
+Install and test your simulators/connectors first. Update over the same installation; do not uninstall first. Settings, licence and custom flows are retained. After the first update from beta.18.8 you may need to reopen FluJado manually once; subsequent updates use the new automatic reopen. Existing flows are not silently replaced. See the guides and TEST-INSTRUCTIONS-EN.txt.

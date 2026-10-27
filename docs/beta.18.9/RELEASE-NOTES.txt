@@ -1,0 +1,13 @@
+FluJado beta.18.9 - 27 October 2026
+
+- Clearer update banner and a short change list. The new update worker reopens the Hub after successful updates. The first update initiated by beta.18.8 still uses the old worker and may need one manual reopen.
+- ChatGPT flow now gives immediate guidance when known software has no configured executable, and preselects a single configured community route. Import, review, apply, backup and restore remain explicit.
+- FB-009: clicking the recognized standard GSPro/VTrack tile while GSPro is running closes GSPro and VTrack Toolkit together, with no Continue or relaunch. Custom startup workflows remain unchanged. Isolated tests passed; tester confirmation remains open.
+- Automatic VTrack/MSIX discovery rechecked with 31 discovery and 29 wizard checks: fresh setup and a changed GUID/version resolve without manual path selection. This capability was already present in beta.18.8. FB-005/FB-007 still await confirmation on actual tester installations.
+- Four opt-in standalone SimAdmin UneekorConnect 1.2.22 profiles: GSPro, ShotForge, Muni and Infinite Tees. Sensor-first connection, explicit simulator/host/port checks, bounded attempts and early prerequisites. Install .NET 10 Desktop Runtime x64 and configure the connector's model first. Existing model choice is preserved; AutoConnectOnStart is disabled with a backup for this route. GSPro uses its app-side Uneekor receiver on 59002; keep that receiver running. GSPro and Infinite Tees retain game-ready confirmation. No connector binary or restricted download link is bundled.
+
+Validation: isolated Windows Installer upgrade from beta.18.8, rollback at three injected failure points and subsequent automatic reopen; settings/licence/custom-flow fixtures retained. Automated source and profile suites are software tests, not physical hardware certification. Uneekor switch tests used the real isolated connector against local TCP receivers, not real simulators/devices.
+
+Open: real Uneekor device connection, shots and actual simulator switching; tester confirmation for VTrack discovery and shutdown. No new hardware verification awarded.
+
+Update over the existing installation; do not uninstall first. Your local settings, licence and custom workflows are retained. Existing saved simulator profiles are not silently replaced. Choose the new opt-in profile through Guided setup or ChatGPT flow if required.

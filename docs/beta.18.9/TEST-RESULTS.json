@@ -1,0 +1,222 @@
+{
+  "version": "0.9.0-beta.18.9",
+  "msiVersion": "0.9.1809",
+  "softwareSuites": [
+    {
+      "exitCode": 0,
+      "name": "Test-Updates",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-UpdateNotification",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-UpdatePreview",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-UpdateCompletion",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-MsixDiscovery",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-MsixGuidedSetup",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-VTrackTileClose",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-VTrackSetup",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-VTrackDisplay",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-ProcessControl",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-UneekorControl",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-UneekorStandalone",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-UneekorGsproSetup",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-AssistantFlow",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-AssistantMenu",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-AssistantImport",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-AssistantProfiles",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-Setup",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-GuidedSetup",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-WorkflowSharing",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-Compatibility",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-PreflightRecovery",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-ProTeeStartupRecovery",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-MuniMonitors",
+      "passed": true
+    },
+    {
+      "exitCode": 0,
+      "name": "Test-RelaProteeSetup",
+      "passed": true
+    }
+  ],
+  "assistantProfiles": {
+    "profiles": 136,
+    "passed": 136,
+    "simulatorsStarted": false,
+    "failed": 0,
+    "hardwareTestsPerformed": false,
+    "checks": 4627
+  },
+  "runtimeFiles": 139,
+  "msixDiscoveryChecks": 31,
+  "msixGuidedChecks": 29,
+  "isolatedMsiTransition": {
+    "actualPowerLossSimulated": false,
+    "scenarios": [
+      {
+        "scenario": "rollback-1540",
+        "runtimeFiles": 136,
+        "personalFiles": 4,
+        "passed": true
+      },
+      {
+        "scenario": "rollback-6540",
+        "runtimeFiles": 136,
+        "personalFiles": 4,
+        "passed": true
+      },
+      {
+        "scenario": "rollback-6560",
+        "runtimeFiles": 136,
+        "personalFiles": 4,
+        "passed": true
+      },
+      {
+        "scenario": "beta.18.8-worker-to-candidate",
+        "manualReopenRequired": true,
+        "automaticReopen": false,
+        "passed": true
+      },
+      {
+        "scenario": "new-worker-next-update",
+        "recoverySourceVerified": true,
+        "automaticReopen": true,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "published": false,
+    "realWindowsInstallerTransactions": true,
+    "liveInstallationChanged": false,
+    "runtimeExecutable": "harmless fixture",
+    "uniqueTestProductFamily": true
+  },
+  "firstInstall": {
+    "liveInstallationTouched": false,
+    "cases": [
+      {
+        "repairRememberedLocation": true,
+        "shortcutsRemoved": true,
+        "case": "first-install-and-shortcuts",
+        "runtimeHashes": 139,
+        "customLocation": true
+      },
+      {
+        "case": "shortcuts-optional",
+        "passed": true
+      },
+      {
+        "case": "keep",
+        "unrelatedFilePreserved": true,
+        "licenceChoiceCorrect": true,
+        "settingsAndFlowsCorrect": true
+      },
+      {
+        "case": "delete",
+        "unrelatedFilePreserved": true,
+        "licenceChoiceCorrect": true,
+        "settingsAndFlowsCorrect": true
+      }
+    ],
+    "published": false,
+    "simulatorsTouched": false
+  },
+  "hardwareTestsPerformed": false,
+  "testerRetestsPending": [
+    "FB-005",
+    "FB-007",
+    "FB-009",
+    "Uneekor real device, shots and real simulator switches"
+  ],
+  "existingInstallationChanged": false,
+  "personalDataIncluded": false
+}

@@ -1,0 +1,13 @@
+FluJado beta.18.9 test points
+
+Update through the Hub or install the MSI over the existing location. Do not uninstall first. Keep your configuration backup. The first update from beta.18.8 may require reopening manually once.
+
+VTrack: inspect automatic Toolkit recognition in Guided setup without browsing for a file. Existing valid saved paths deliberately win; do not erase a working path simply to force detection. Report discovery separately from a real GSPro shot. With the standard GSPro/VTrack route and GSPro running, click the GSPro tile: both GSPro and Toolkit should close. Report custom workflows separately. Check GSPro to Drills switching and real Drills shot delivery separately. FB-005, FB-007 and FB-009 await your confirmation.
+
+Uneekor standalone: opt-in profiles for GSPro, ShotForge, Muni and Infinite Tees use the author's UneekorConnect 1.2.22. Install .NET 10 Desktop Runtime x64 and configure your model first. Acquire it from the author server; do not redistribute the binary or restricted link. Follow the Hub's prerequisites. GSPro uses its simulator-side Uneekor receiver on 59002; keep it running. GSPro and Infinite Tees retain game-ready confirmation. Real Uneekor sensor connection, shots and simulator switching are NOT confirmed by our local receiver tests. Stop and export diagnostics if the connector does not show the expected state.
+
+Updates: after beta.18.9 is installed, check the prominent notification and short change list when a later release becomes available. Do not expect the old beta.18.8 UI to change before updating.
+
+ChatGPT flow: check missing-software guidance, export/import/review/apply/restore and the community profile selection. Import changes nothing until Apply. Share your successful flow only after testing your own startup, shot and shutdown.
+
+Send version, Windows version, LM/simulator/connector versions, chosen profile, expected/actual behavior and sanitized Diagnostic Report privately when requested. Never send licence keys, passwords, raw config or a private backup.

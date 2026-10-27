@@ -1,4 +1,4 @@
-{
+﻿{
   "asOf": "2026-10-26",
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
@@ -3408,6 +3408,94 @@
       "softwareTestDate": "2026-10-26"
     },
     {
+      "profileId": "gspro-simadmin-uneekor",
+      "launchMonitor": "Uneekor",
+      "simulator": "GSPro",
+      "connectors": [
+        "Uneekor standalone connector (SimAdmin; select your installed EXE)",
+        "Uneekor Third-party Connector"
+      ],
+      "plugins": [],
+      "implementationStatus": "Implemented",
+      "status": "Not tested",
+      "practicallyTested": false,
+      "verified": false,
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "prepared-automatic-hardware-pending",
+      "sources": [
+        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
+        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
+      ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "infinite-tees-simadmin-uneekor",
+      "launchMonitor": "Uneekor",
+      "simulator": "Infinite Tees",
+      "connectors": [
+        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
+      ],
+      "plugins": [],
+      "implementationStatus": "Implemented",
+      "status": "Not tested",
+      "practicallyTested": false,
+      "verified": false,
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "prepared-automatic-hardware-pending",
+      "sources": [
+        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
+        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
+      ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "muni-simadmin-uneekor",
+      "launchMonitor": "Uneekor",
+      "simulator": "Muni Golf Sim",
+      "connectors": [
+        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
+      ],
+      "plugins": [],
+      "implementationStatus": "Implemented",
+      "status": "Not tested",
+      "practicallyTested": false,
+      "verified": false,
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "prepared-automatic-hardware-pending",
+      "sources": [
+        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
+        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
+      ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
       "profileId": "shotforge-uneekor-plugin",
       "launchMonitor": "Uneekor",
       "simulator": "ShotForge",
@@ -3434,6 +3522,35 @@
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "shotforge-simadmin-uneekor",
+      "launchMonitor": "Uneekor",
+      "simulator": "ShotForge",
+      "connectors": [
+        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
+      ],
+      "plugins": [],
+      "implementationStatus": "Implemented",
+      "status": "Not tested",
+      "practicallyTested": false,
+      "verified": false,
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "prepared-automatic-hardware-pending",
+      "sources": [
+        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
+        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
+      ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
       ],
       "softwareTestDate": "2026-10-26"
     },

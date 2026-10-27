@@ -1,0 +1,514 @@
+Current release and download
+
+https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi
+Release notes: https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.9/RELEASE-NOTES.txt
+Compatibility: https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Update safely
+
+Install the MSI over your existing GolfSimHub location or use Updates in the Hub. Do not uninstall first. Settings, local license state and custom flows are retained. An update does not extend a trial or activate a license. The installer lets first-time users choose a location and shortcuts. Install and activate your simulator software and connectors first, then confirm a real shot outside the Hub.
+
+New in beta.18.9
+
+Clearer update notice with a short change list; the new update worker reopens the Hub after a successful update. The first update from beta.18.8 uses the old worker and may require one manual reopen. ChatGPT flow handles missing configured software more clearly and selects a single configured community route. The standard GSPro/VTrack tile now closes GSPro and Toolkit together when the game is running. Custom startup flows are preserved.
+
+Current test scope
+
+Muni and Drills ProTee VX and Square Omni shots were previously confirmed; VX roundtrips with GSPro were confirmed. Muni putting passed with VX and Omni. Drills received putts in Open Range, but its dedicated putting activity was not available. Additional monitor profiles remain hardware-untested. The beta.18.9 release adds software validation and configuration tests, with no new hardware claim.
+
+Removal and recovery
+
+Normal updates and repairs preserve your data. Keep my data and licence remains the default uninstall option. Explicit full removal removes the known local license stores as well as Hub data, without releasing an online activation; deactivate first when moving your license. The current MSI retains the two-store cleanup fix introduced in beta.18.5.
+
+Worked ChatGPT example
+
+https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.9/chatgpt-flow-example/index.html
+Download the complete example ZIP from this documentation folder to open the illustrated HTML guide locally. It includes screenshots, a sample question, a profile-specific request, backup/restore and help instructions. Existing assisted Toolkit/Game/Launch steps remain; a successful app start does not prove shot delivery.
+
+Optional standalone Uneekor routes
+
+Four optional SimAdmin UneekorConnect 1.2.22 routes are prepared for GSPro, ShotForge, Muni and Infinite Tees. Install Microsoft .NET 10 Desktop Runtime x64, obtain the connector from its author server and configure your model once. Do not redistribute the connector or its restricted download link. These routes automate separate sensor and simulator buttons, validate the output and use bounded retries. Existing model choice is preserved; AutoConnectOnStart is disabled with a backup for this opt-in route. GSPro uses its simulator-side Uneekor receiver on 59002; keep it running. GSPro and Infinite Tees still ask for game-ready confirmation. No real Uneekor device or shot was tested: these four profiles remain hardware-untested.
+
+VTrack tests still requested
+
+Confirm automatic Toolkit detection without manual path selection, then test GSPro startup and a shot. With GSPro running, click its standard VTrack tile: both GSPro and Toolkit should close. Confirm GSPro to Drills switching separately. Fixture tests passed; customer confirmation of FB-005, FB-007 and FB-009 remains pending. Existing valid saved paths retain priority; reopen Guided setup to inspect rediscovery after a Toolkit update.
+
+1. Export and ask ChatGPT
+
+Open Settings > ChatGPT flow. Choose Export setup overview, then Copy ChatGPT prompt. Attach the JSON yourself in ChatGPT and describe your simulator, launch monitor and connector. Choose only a profile listed in availableProfiles / supportedRequests. The export contains fixed app IDs, software presence and versions, not local paths, license data or raw logs.
+
+2. Import and review
+
+Save ChatGPT's request JSON and choose Import ChatGPT request. Read the simulator, hardware route, concrete steps, screen choice and manual confirmations. Missing software or plugins must be configured locally first. Import does not start an app or save settings.
+
+3. Apply with backup
+
+Apply proposal and save settings writes the proposal and current Settings edits with an automatic configuration backup. The Hub returns to its dashboard. If the configuration changed since preview, import again. Existing saved flows are not silently replaced by a normal update; applying explicitly replaces the selected simulator tile.
+
+4. Test your setup
+
+Start the flow, check the connector/device connection, hit a real ball and check shutdown. Only you can confirm hardware success. Software presence or a community report does not prove your setup is ready.
+
+5. Restore if needed
+
+Open Settings > ChatGPT flow > Review last flow backup. Read the replacement warning, then Restore reviewed configuration. This restores the configuration from before the most recent assistant change and creates a backup of the current saved configuration. It replaces later configuration edits too. It does not change your license or simulator settings.
+
+6. Share or request help
+
+After a successful startup, real shot and shutdown test, choose the configured profile in the community selector, check the confirmation and Export for Discord. Share that file and your findings manually on the FluJado Discord server. If it fails, return to the Hub and Export Diagnostic Report. Contact FluJado on Discord with the chosen route, expected/actual result and exact error. Share the setup overview/request and send diagnostics privately when requested. Never send license keys, passwords, raw logs, config.json or a private full backup.
+
+For beta testers | 27 October 2026
+
+Windows / FluJado beta.18.9. Install and test simulator and connector software before handing startup to the Hub.
+
+FluJado beta.18.9 setup and updates
+
+MSI is the standard installer. Use the installation guide included in this document, then Settings > Overview > Open guided setup to find supported software and connectors. Choose the exact model and route. Missing required program paths are reported before screens and Movies & TV. Selecting a built-in simulator enables its disabled tile; existing active workflows remain unless replacement is explicitly selected. A discovered executable is not a verified device connection.
+
+Start with these three choices
+
+Write down your launch monitor model, simulator and connection route. A ProTee-to-ShotForge route through rela uses different software from its VX Connector route. A Square setup must not inherit ProTee settings.
+
+What a connector does
+
+A connector forwards launch-monitor data to the simulator. FluJado starts configured applications and checks workflow readiness; it does not replace the connector, install vendor software or turn a listed profile into a verified hardware integration.
+
+Read only the route you need
+
+Section 1: downloads. Section 2: ShotForge with rela. Section 3: ProTee alternatives. Section 4: GSPro direct routes. Section 5: GSPro vendor/community routes. Section 6: Awesome Golf. Section 7: troubleshooting. The model index covers all 136 presets in beta.18.9.
+
+Status and scope
+
+This is a setup companion, not a universal compatibility guarantee. Presets are a mixture of locally exercised, vendor-documented and community-assisted routes. Most need independent hardware testing. Keep the software maker's current model guide alongside this document.
+
+Before installing anything
+
+Finish your current simulator session. Note existing connector settings and versions. Download from the maker or the linked author page. Keep required vendor/simulator licenses active. If a file source or exact model is unclear, ask before replacing anything. Connector binaries are not included in the FluJado package.
+
+Current download
+
+https://raw.githubusercontent.com/simply3dprints/flujado-releases/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi
+Release notes: https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.9/RELEASE-NOTES.txt
+Compatibility and test status: https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Prepare first
+
+Install and activate your simulator software and the required connectors before FluJado. Verify a real shot outside the Hub. The Hub finds supported installed software; it does not install simulators, pair devices or supply their licenses.
+
+First installation with MSI
+
+1. Download FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi and open it in your Windows account.
+2. Select Next on Welcome. Choose your installation location; another drive is allowed. Keep GolfSimHub as the final folder name, for example C:\Golf\GolfSimHub.
+3. Choose Add or Skip for the desktop shortcut and Start menu shortcuts. The Start menu also contains repair and uninstall options.
+4. Review the path and select Install.
+5. Start FluJado is checked by default on the final page. Select Finish to open it, or uncheck the box to finish without starting.
+6. Use Guided setup to choose your software, connector route and screens.
+
+Automatic update notices
+
+The open Hub checks about 15 seconds after startup, then every six hours. A newer-version notice appears when no workflow is active and Presentation mode is off. Click the notice to review the update, or use Updates > Check for updates. You choose when to install; there is no forced installation and no notice while the Hub is closed. SHA-256 is checked before the update is opened. Offline use remains available.
+
+Existing beta.18 EXE installation
+
+Use the update notice in the Hub. A one-time MSI transition starter contains the same official MSI, verifies it, waits for the Hub to close, creates and checks a private backup, then opens the MSI wizard on your existing folder. Keep that folder selected. This EXE is only a bridge for older clients; new users download MSI. If another FluJado MSI installation already exists, update it directly.
+
+Earlier betas and MSI previews
+
+Beta.17 and earlier may not understand revision numbers such as beta.18.9. Make a private backup, close the Hub and install the current MSI into your existing GolfSimHub folder. Do not uninstall first or delete data. Existing MSI preview users can install the current MSI directly. Keep settings, license state and your original installation path.
+
+What an update preserves
+
+Settings, saved configurations, workflows, custom artwork and existing local license state are retained. Updating does not restart or extend a trial and does not automatically replace saved workflows with newer presets. Back up before migration and keep backups private; they may contain license information and local paths.
+
+Repair and interrupted updates
+
+Use Start menu > FluJado > Repair FluJado. Repair restores the current application version; it is not a downgrade or a settings reset. MSI updates use a separate worker and a verified recovery MSI. If an update fails or is cancelled, keep the error and private backup, allow recovery to finish and check the installed version before retrying. Do not manually delete installer caches or recovery packages. If recovery reports incomplete, stop and contact support.
+
+Uninstall and data choice
+
+Close the Hub and use Start menu > FluJado > Uninstall FluJado (data options). Keep my data and licence is selected by default. The explicit Remove all Hub data and the local licence option also erases shared local Hub license storage for this Windows account. It does not release an online activation; use License > Deactivate this PC first if moving your license. Windows Installed apps/native MSI removal keeps personal data by default. Read the final completion message before closing. Simulator software is left untouched. If Start menu shortcuts were skipped, Windows Installed apps remains available for repair/removal with the default data retention.
+
+If Windows blocks the download
+
+The MSI and transition starter are currently unsigned. A reputation notice and an antivirus detection are different reports. Use the official link and keep the exact message. If antivirus blocks or quarantines a file, stop and contact support. Keep protection enabled; do not add exclusions or restore quarantined files to continue. Never send license keys, passwords or full private backups.
+
+Muni: install and choose your route
+
+Install Muni and sign in normally. Install and configure rela and any required launch monitor plugin first. Confirm a shot outside FluJado. In Settings > Overview > Open guided setup, enable Muni Golf Sim and select your exact launch monitor. New profiles inherit your simulator screen. Existing custom workflows remain unchanged unless you explicitly replace the selected route.
+
+ProTee VX and Square Omni
+
+Muni real shots and automatic startup passed locally for both. Muni > GSPro > Muni with ProTee VX passed with real shots in both games. Square Omni switching with GSPro is outside this test scope. One earlier VX startup stalled before Labs appeared; later restarts and the GSPro return passed. Putting and reboot tests remain pending.
+
+Automatic startup
+
+FluJado starts Muni, verifies its local receiver on port 9210, closes the bundled native connector and launches rela. For VX the plugin starts ProTee Labs. Choose your activity in Muni; the Hub does not automatically load a range. Keep a ball in the hitting area for the Omni readiness check.
+
+Other Muni monitors: not tested
+
+Fourteen additional assisted profiles cover Square HE, Garmin R10, SkyTrak OG/+/Max, NOVA, Mevo+/Gen2/Xi/X2, GC2, GolfJoy, Full Swing KIT and Bushnell LPi. They are inferred rela adapter combinations, not hardware compatibility confirmations. Select the exact device and Muni Golf Sim in rela, set its Muni game port to 9210, connect the device first and confirm both connections. Normal vendor setup and any specified plugin are required.
+
+Updated tile artwork
+
+Drills, Infinite Tees and Muni use their official logos and updated artwork. The PLAY label and broken arrow text have been removed from simulator tiles. Your own tile artwork and settings are retained.
+
+GSPro
+
+<a href="https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install" color="#197D5A"><u>Official installation guide</u></a> | <a href="https://dvzg6a325ik1w.cloudfront.net/GSProInstaller.zip" color="#197D5A"><u>GSProInstaller.zip (linked by GSPro)</u></a>. Extract the ZIP and use the included installer. Keep your GSPro license available. <a href="https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation" color="#197D5A"><u>Model connection guides</u></a>.
+
+rela
+
+<a href="https://docs.rela.golf/rela/installation/" color="#197D5A"><u>Maker installation instructions</u></a> | <a href="https://docs.rela.golf/rela/user-guide/" color="#197D5A"><u>User guide</u></a> | <a href="https://downloads.rela.golf/get/rela/windows-x64/beta" color="#197D5A"><u>Windows x64 beta download endpoint</u></a>. The download endpoint was recorded from the developer's Discord announcement; its current file could not be retrieved in this session. Confirm the current installer in ShotForge Discord before using it.
+
+ShotForge
+
+<a href="https://www.shotforgegolf.com/" color="#197D5A"><u>Official website</u></a> | <a href="https://discord.gg/RThChHHX2T" color="#197D5A"><u>Launch-monitor support Discord linked by ShotForge</u></a>. Open the <a href="https://discord.com/channels/1497254301511363728/1497256286918541332/1504241274394378302" color="#197D5A"><u>ShotForge Quick Start post</u></a> for the shared PDF (Discord membership required). Use ShotForge Launcher to obtain game updates. A current installer binary was not retrieved here.
+
+ProTee Labs and VX Connector
+
+<a href="https://csc.protee-united.com/hc/en-us" color="#197D5A"><u>ProTee support centre</u></a> for Labs installation and activation. Download VX Connector through its <a href="https://github.com/zonkey-acoustic/vx-connector" color="#197D5A"><u>author repository and Releases link</u></a>. Choose VxConnectorSetup.exe. Community software; exact current release and binary were not retrieved. Do not substitute an unrelated package named vx.
+
+Other software
+
+<a href="https://squaregolf.com/pages/support" color="#197D5A"><u>Square software, firmware and connector downloads</u></a> | <a href="https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator" color="#197D5A"><u>Uneekor third-party setup</u></a> | <a href="https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list" color="#197D5A"><u>Awesome Golf model guides</u></a> | <a href="https://awesome-golf.com/connect/" color="#197D5A"><u>Awesome Golf Connect/download landing page</u></a>. Use the model guide to reach the appropriate Windows installer; the Connect landing page was not retrieved here.
+
+Community routes
+
+<a href="https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1" color="#197D5A"><u>VTrack-to-ShotForge author release</u></a> | <a href="https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html" color="#197D5A"><u>OpenSkyPlus2 author quick start</u></a>. These are independent projects, not official manufacturer endorsements. The <a href="https://gofile.io/d/wHAyzoy3" color="#197D5A"><u>community plugin collection shared by eKsiSLe in Discord</u></a> may supply device plugins; current contents/version were not downloaded or verified. <a href="https://github.com/eKsiSLe/rela-OtherLM" color="#197D5A"><u>rela Other API</u></a> is developer documentation.
+
+Link checking
+
+Core documentation and the VTrack release page were read on 17 October 2026. A documentation link is not proof that an installer was downloaded, scanned or hardware-tested. Binary downloads were not installed or redistributed. Appendix model links are catalog references, not individually rechecked links.
+
+Install once
+
+Install your required manufacturer software and ShotForge first. Run normal vendor activation and updates. Install rela, select only your owned devices and the simulator output you use, and review the setup results. Resolve red setup results before continuing. Source: <a href="https://docs.rela.golf/rela/installation/" color="#197D5A"><u>rela installation guide</u></a>.
+
+Manufacturer prerequisites
+
+SkyTrak, GolfJoy and FlightScope Xi/X2 need the appropriate installed vendor app for rela's local checks. Install rela on the same disk when its setup requires compatibility linking. GC2 USB may need its driver. Square, Mevo+/Gen2, R10 and KIT do not require installer-managed vendor component links according to rela's FAQ; normal pairing and entitlement requirements still apply. Source: <a href="https://docs.rela.golf/rela/faq/" color="#197D5A"><u>Device requirements</u></a>.
+
+First connection
+
+Turn on the monitor, open ShotForge, then open rela. Select the correct Device and connection type, use Search, and check the Simulator selection. Wait for both sides to connect and verify one real shot. Auto Connect and Discover can automate subsequent device search. Source: <a href="https://docs.rela.golf/rela/user-guide/" color="#197D5A"><u>First connection and settings</u></a>.
+
+In FluJado
+
+Choose the ShotForge preset for your model and the rela route. Browse to the actual ShotForge launcher, game executable and rela.exe. Use your own folders. The built-in flow opens ShotForge before rela. Do not add VX Connector, VGPConnect or ProTee Labs to a Square route.
+
+Several launch monitors
+
+A saved rela default is not an automatic device switch for every setup. Confirm Device, connection type, simulator and plugin for the monitor you are about to use. The Hub has no Home/Pro hardware-count restriction.
+
+Pass this test before automating
+
+Device connected; simulator connected; real shots arrive. Repeat after restarting the PC. A green installation result or a running process alone is insufficient. Record exact versions and the chosen route.
+
+Route A - rela with a ProTee plugin
+
+This is a community plugin route. The <a href="https://gofile.io/d/wHAyzoy3" color="#197D5A"><u>community plugin collection</u></a> was reposted by eKsiSLe in the ProTee channel on 8 October. Confirm the ProTee DLL and version with the author before installing: the collection contents were not downloaded or validated here.
+
+Plugin placement
+
+After closing rela, put only the selected Other-device plugin next to rela.exe, not inside the FluJado folder. The developer API discovers plugins from the application directory. Avoid multiple competing Other plugins. Source: <a href="https://github.com/eKsiSLe/rela-OtherLM" color="#197D5A"><u>rela Other plugin discovery</u></a>.
+
+ProTee-specific configuration
+
+The route recorded for this beta uses Device = Other and the ProTee plugin's Socket Relay settings. Follow the plugin author's Find/Save/restart instructions for your version. This is not the Square connection setting. Start ShotForge before rela. The plugin may manage the Labs restart; finish updates before testing. Verify shots manually before enabling the Hub flow.
+
+Route B - VGPConnect / VX Connector
+
+The existing Hub preset starts ProTee Labs, waits for it, opens VGPConnect and VX Connector, opens ShotForge, then restarts VGPConnect after ShotForge becomes ready. Use the supplied executable paths from your working installation. Get VX Connector from the <a href="https://github.com/zonkey-acoustic/vx-connector" color="#197D5A"><u>author repository</u></a>. Its author documents tray selection Switch to Drills; the ShotForge community route uses that target. ProTee Labs 1.12.9.0 or later requires VX Connector 1.4.0 or later. The repository documents InfiniteTees/Drills; ShotForge use is community guidance, not manufacturer certification.
+
+Choose one route
+
+Select the matching connector-labelled preset in the Hub wizard. When switching between these ShotForge routes, end the session first: the Hub closes and restarts the configured apps/connectors. Entering Range quickly was checked locally, but other PCs still need testing.
+
+If a required file is missing
+
+Stop and obtain the correct file from the author. Do not remove the Hub preflight requirement to force a launch. Ask the tester to provide the pinned author post, version and successful manual connection result.
+
+Common installation
+
+Use <a href="https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install" color="#197D5A"><u>GSPro&#x27;s installer guide</u></a> and the exact model connection page from <a href="https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation" color="#197D5A"><u>GSPro setup documentation</u></a>. Activate GSPro for the intended device and perform the initial connection in GSPro Connect. Configure GSPLauncher.exe in FluJado; selecting a Hub profile does not change your GSPro license type.
+
+ProTee VX
+
+Install and activate ProTee Labs and enable its GSPro connection through the vendor procedure. Keep the required GSPro/API connection available and configure Labs Game Options. Then select the ProTee VX GSPro preset in FluJado. Source: <a href="https://csc.protee-united.com/hc/en-us/articles/20293278989084-How-do-I-activate-the-GSPro-connection" color="#197D5A"><u>ProTee GSPro activation</u></a>.
+
+Garmin R10 and R50
+
+Use the separate R10 or R50 guide. Do not assume the pairing/network steps are the same. The Hub's native presets launch GSPro; they do not run rela. Configure the monitor connection, firmware and simulator settings manually first. Open the matching guide from the model index.
+
+Rapsodo MLM2PRO
+
+Use the GSPro MLM2PRO guide for required authentication, entitlement and connection steps. The current Hub preset includes a manual preparation confirmation before launch. That preset is separate from the ShotForge Other-plugin route. Do not treat the presence of a plugin DLL as successful authentication.
+
+FlightScope, Foresight/Bushnell and GolfJoy
+
+Use the official model guide and current simulator entitlement. Native presets launch GSPro after conflict cleanup. Connection and license conversion must already be completed outside the Hub. Do not copy rēlā vendor-link instructions into a native GSPro setup.
+
+Square
+
+The local Omni GSPro setup used the native GSPro Connect route with a Square-enabled GSPro license. The separate <a href="https://squaregolf.com/pages/support" color="#197D5A"><u>Square GSPro Connector download</u></a> is an alternative documented by Square; do not install it on top of a working direct route without choosing that route deliberately. Home Edition and Omni are distinct models.
+
+Uneekor Launcher / Third-party Connector
+
+In Uneekor Launcher, check the license includes Third-party Connector. Configure the GSPro executable in the third-party software section and complete the initial Start Now launch from Uneekor Launcher. Use the vendor's current instructions for VIEW and automatic launch choices. Point the Hub at your real Launcher and Connector executables. Source: <a href="https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator" color="#197D5A"><u>Uneekor setup instructions</u></a>.
+
+SkyTrak OG / + / MAX
+
+The catalog includes assisted community GSPro routes. <a href="https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html" color="#197D5A"><u>OpenSkyPlus2&#x27;s guide</u></a> documents its plugin environment and OpenConnect settings. It lists tested SkyTrak versions separately from newer versions with uncertain results. Check your exact SkyTrak app/plugin versions with the author; do not assume a current vendor update is compatible. MAX testing is distinct from OG/+.
+
+VTrack to ShotForge - separate bridge
+
+The <a href="https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1" color="#197D5A"><u>author release</u></a> instructs extracting its entire ZIP and selecting the bridge GSPLauncher.exe in VTrackToolKit's GSPro simulator settings. That is the bridge executable, not your real GSPro launcher. Follow the included QUICKSTART.txt. Keep a separate configuration for genuine GSPro; the Hub does not automatically rewrite Toolkit targets. This is a community beta.
+
+NVisage, OpenLaunch, Blue Tees and other models
+
+Use the model links in the index and the manufacturer's actual connector if required. Required Hub app entries describe what the preset launches, not every prerequisite that must be installed. When a guide is missing or the download cannot be verified, leave the route unconfigured and ask for a model-specific setup check.
+
+A route to avoid guessing
+
+Do not send Foresight users a generic GameChanger or Automat download merely because it appears in a Discord discussion. Current provenance, model support, licensing and installation instructions need confirmation before that can become a tester-ready route.
+
+Download and choose your exact model
+
+<a href="https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list" color="#197D5A"><u>Awesome Golf&#x27;s official compatibility list</u></a> links individual connection guides. It currently includes models from Garmin, FlightScope, Foresight/Bushnell, Rapsodo, Square and Uneekor EYE MINI. Treat each model individually; EYE MINI documentation does not establish support for every Uneekor device.
+
+Prepare the connection
+
+Install the Windows simulator through the vendor's current download flow. Follow the model guide for network/USB/Bluetooth, sign-in and simulator entitlement. Connect in Awesome Golf and verify an actual shot before configuring FluJado.
+
+Direct versus assistant presets
+
+The catalog contains both direct and assistant routes for some monitors, notably R10 and MLM2PRO. Select the route matching the vendor instructions and your working installation. Do not start an extra connector solely because another launch monitor needs one.
+
+In the Hub
+
+Select the matching Awesome Golf preset. Most assisted routes open Awesome Golf and wait for you to confirm the manual connection. The existing Square Omni route has model-specific automatic selection. A running Awesome Golf process is not proof of a live device connection.
+
+Your acceptance check
+
+Confirm the right monitor name in the simulator, hit one real shot, restart and repeat. If manual confirmation appears, confirm only after connection is ready. Report app startup, monitor connection and shot delivery separately.
+
+App opens, but no shots
+
+Check the monitor connection first, then the simulator output and selected route. Ensure another connector is not already holding the device. For rela, confirm the Device and Simulator rows rather than repeatedly clicking Simulator Connect first. Source: <a href="https://docs.rela.golf/rela/user-guide/" color="#197D5A"><u>rela connection troubleshooting</u></a>.
+
+Plugin not found or wrong monitor appears
+
+Check the DLL is next to the correct rela.exe, matches the intended model and is the only competing Other plugin. Obtain the current release instructions from its author. Leave built-in dependencies alone.
+
+Vendor update just installed
+
+Finish activation/update prompts outside the Hub, then recheck the manual connection. Record old and new app, firmware and connector versions. Rela's red setup results may require rerunning its installer after vendor changes; see <a href="https://docs.rela.golf/rela/installation/" color="#197D5A"><u>setup repair guidance</u></a>.
+
+What to send with feedback
+
+Launch monitor model and firmware; simulator and connector versions; chosen Hub preset; connection type; exact order followed; expected result; actual result; whether a real shot arrived; a reviewed diagnostic report. Remove keys, passwords and private details. Send to info@flujado.com.
+
+What remains to be verified
+
+Current installer/plugin versions and binary contents; binary signatures/checksums; exact plugin/model version compatibility; fresh-PC and hardware tests for community routes. Documentation availability and physical compatibility are recorded separately.
+
+Model index on the next pages
+
+Each row refers to an existing beta.18.9 preset. Required app names come from the shipped catalog, not a promise that no other setup is needed. Sources marked catalog reference were not individually re-read in this session. No preset in this index should be read as a blanket Verified badge.
+
+Install and prepare
+
+Install and activate Infinite Tees and the correct connector first. FluJado does not ship vendor binaries, pair devices or provide simulator licenses. Select Infinite Tees in Guided setup, then choose the exact hardware preset and check program locations.
+
+rela: correct connection order
+
+Open Practice or a round in Infinite Tees and wait for the range/course to load. In rela select Simulator: Infinite Tees and the intended Device. Close other connector sessions. Use Device Search first; allow the device to connect and then the simulator. Simulator Connect is a recovery action after the device has connected. Confirm both show Connected and Ready, then check a real shot. The ProTee VX/plugin and Square Omni profiles now run Device Search and simulator recovery automatically, without Continue. For ProTee VX, rela starts Labs through its plugin; do not start Labs first.
+
+ProTee VX through rela - practically tested
+
+Use Other with the matching ProTeeVXPlugin.dll next to rela.exe. Use the configured Socket Relay and ProTee Labs. Keep only the intended Other plugin active. On 17 October 2026 the assisted beta.14 workflow, Connected/Ready status and a real shot in Infinite Tees Flat Range passed locally using an isolated connector copy.
+
+Square Omni through rela Bluetooth - practically tested
+
+Use the built-in Square Omni device and Bluetooth option. On 17 October 2026 the assisted beta.14 workflow, Connected/Ready status and a real shot in Infinite Tees Flat Range passed locally using an isolated connector copy.
+
+Other presets and limits
+
+The alternative ProTee VX Connector route and the other 10 Infinite Tees presets remain available but have not passed these hardware tests. A successful test for one connector does not transfer to another connector or monitor. Clean-install/reboot certification is still pending for the two tested routes.
+
+Switching simulators and recovery
+
+For these automatic profiles FluJado selects the expected Device and Simulator only while rela is closed, backing up its settings and retaining other values. Review the selection when using other assisted profiles. If no shots arrive, check Device first, then simulator output, plugin identity and other running connector sessions. Do not reset existing routes or license storage.
+
+Current public status
+
+See https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md for the complete 136-route table and practical evidence. Unlisted combinations are not covered by a FluJado preset and are not automatically unsupported by their maker.
+
+Applies to both profiles
+
+ShotForge / ProTee VX via rela and Infinite Tees / ProTee VX via rela now let the plugin own Labs startup. Install and configure ProTeeVXPlugin.dll and Socket Relay first. The Hub closes the conflicting sessions, starts the simulator and rela, searches for the device and lets the plugin start Labs. Do not add a preliminary Labs launch. The native GSPro and VX Connector routes retain their own order.
+
+Automatic status checks
+
+The Hub requires both device and simulator Connected and Ready, then checks Labs readiness and checks the connector again. Device Search precedes simulator Connect. Connection retries and timeouts are bounded; failure stops the route with diagnostics. Select a range or course yourself. First-use pairing, activation, plugin configuration and real-shot verification remain your responsibility.
+
+Existing settings and practical evidence
+
+Upgrades preserve saved user workflows and licenses. To use a newer preset in an existing setup, explicitly replace that route through Guided setup. Infinite Tees ProTee VX and Square Omni automatic startup/switching passed locally against the existing GSPro/ProTee VX tile and back. beta.14 real-shot evidence is historical; no new shot or GSPro/Square Omni hardware test is claimed. ShotForge startup order is covered by isolated tests in this release, not a new live hardware test.
+
+Experimental VTrack route
+
+For Infinite Tees, choose the exact LAON VTrack automatic-buttons preset only when you intend to test the reviewed VTrack Bridge v8 build. Configure the real IT_Golf_Launcher.exe. Windows English OCR and the recognised executable hash are required. Keep the launcher visible and still. Recognition is relative to the launcher window, so another screen/location is supported by design; moving/resizing during recognition rejects the click. Other builds or unavailable OCR require the assisted route.
+
+What still needs testing
+
+Automatic Connect and Start VTrack bridge control remains untested with VTrack hardware. Connected/Bridge running describes the interface, not proven device readiness. Confirm device discovery, Auto-send shots, Club/Hand and a real shot in Infinite Tees. Stop on errors. Uneekor additional information is pending; Muni and Drills have released profiles; consult the compatibility table for the tested and untested combinations. See the current compatibility table for each route; no new hardware testing was performed for these manuals.
+
+Detailed instructions
+
+https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.9/VTRACK-BETA-TEST-EN.txt
+https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+rela-install
+
+https://docs.rela.golf/rela/installation/
+
+rela-user
+
+https://docs.rela.golf/rela/user-guide/
+
+rela-faq
+
+https://docs.rela.golf/rela/faq/
+
+rela-download
+
+https://downloads.rela.golf/get/rela/windows-x64/beta
+
+other-api
+
+https://github.com/eKsiSLe/rela-OtherLM
+
+shotforge
+
+https://www.shotforgegolf.com/
+
+shotforge-discord
+
+https://discord.gg/RThChHHX2T
+
+shotforge-quickstart
+
+https://discord.com/channels/1497254301511363728/1497256286918541332/1504241274394378302
+
+vx-author
+
+https://github.com/zonkey-acoustic/vx-connector
+
+protee-plugins
+
+https://gofile.io/d/wHAyzoy3
+
+gspro-install
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/how-to-download-and-install
+
+gspro-download
+
+https://dvzg6a325ik1w.cloudfront.net/GSProInstaller.zip
+
+gspro-guides
+
+https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation
+
+protee-support
+
+https://csc.protee-united.com/hc/en-us
+
+protee-gspro
+
+https://csc.protee-united.com/hc/en-us/articles/20293278989084-How-do-I-activate-the-GSPro-connection
+
+square
+
+https://squaregolf.com/pages/support
+
+uneekor
+
+https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator
+
+awesome-models
+
+https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list
+
+awesome-download
+
+https://awesome-golf.com/connect/
+
+vtrack
+
+https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1
+
+skytrak
+
+https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html
+
+Review scope
+
+Hub/MSI documentation checked on 20 October 2026. Existing vendor reference prose originates from the 16-17 October review. Link availability is checked separately; a reachable download does not verify binary safety or exact hardware compatibility. No connector binaries or license data are included.
+
+Drills setup and game choice
+
+Install and sign in to Drills and configure your connector first. In FluJado open Settings > Overview > Open guided setup, enable Drills, and choose your exact launch monitor and route. Existing active flows stay unchanged unless you explicitly select replacement. To apply an updated preset to an existing route, back up first and explicitly replace that selected workflow.
+
+Screens and startup
+
+Keep your existing screen selection. New simulator profiles inherit the configured simulator screen, including older installations with one shared per-tile screen choice. The physical monitor identity is used, not its changing Windows display number. Drills opens on that screen and leaves game selection to you: Open Range is never chosen by FluJado.
+
+ProTee VX and Square Omni
+
+These two Drills routes connected and delivered real shots in local tests. ProTee VX switching with GSPro also passed. A GSPro/Omni shot was not verified in that switching session because the installed GSPro connector offered only ProTee. A controlled one-time ProTee startup recovery is available; its recovery branch was tested with isolated fixtures.
+
+Other launch monitors
+
+15 additional Drills profiles show Not tested (assisted). They require one manual connection confirmation and are not automatic proof of device readiness. Square HE, Garmin R10, SkyTrak OG/+/Max, Bushnell LPi and native VTrack have device-specific Discord guidance. The remaining rela combinations are candidates based on documented connector inputs and the Drills output. Check the compatibility table for each exact profile.
+
+VTrack and LPi
+
+The native VTrack route uses VTrack in the Drills launcher, not Other, with VTrack Toolkit and the Infinite Tees bridge closed. LPi uses the compatible OtherForesightPlugin.dll beside rela.exe; conflicting ProTee/Other plugins are rejected. Plugins are not bundled.
+
+Off-center hitting mat
+
+During a drill, press Esc and inspect its camera settings. Adjust the view for your own mat and verify the result visually. No universal numeric offset is documented here. FluJado updates preserve Drills settings and do not set the camera offset.
+
+ShotForge and MSI update
+
+ShotForge startup/readiness and supported connector checks have been improved. The MSI upgrade order now handles newly added application files before finishing the upgrade; rollback and cancellation were tested in an isolated product family. The update does not replace saved workflows automatically.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.
+
+Scope
+
+Current 136-profile catalogue. Software, practical and Verified evidence are separate. A listed route does not prove hardware operation.

@@ -1,8 +1,17 @@
-# FluJado Golf Sim Hub — beta.18.8
+# FluJado Golf Sim Hub — beta.18.9
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.8.msi) · [Getting started](docs/beta.18.8/GETTING-STARTED.txt) · [Checksums](docs/beta.18.8/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi) · [Getting started](docs/beta.18.9/GETTING-STARTED.txt) · [Checksums](docs/beta.18.9/SHA256SUMS.txt)
 
-## New in beta.18.8
+## New in beta.18.9
+
+- Clearer update notification and short change list; automatic reopen with the new worker. The first update from beta.18.8 may need one manual reopen.
+- Clearer ChatGPT missing-software guidance and community route selection. Fixed general flow-sharing guidance for fixed Muni/Uneekor routes; use ChatGPT flow export for these routes.
+- Standard GSPro/VTrack tile closes GSPro and Toolkit together. Discovery revalidated without manual path selection (60 checks). Tester retests remain open.
+- Four optional standalone Uneekor profiles with guarded automatic connection. Real Uneekor hardware/shots/switches remain untested; no connector binaries included.
+- 25 suites, 136 profile roundtrips / 4627 checks, real isolated MSI transitions and three rollback/recovery cases passed. No new hardware certification.
+- [Updated guides and test instructions](docs/beta.18.9/README.md).
+
+## Retained from beta.18.8
 
 - Corrects VTrack Toolkit discovery for GUID-named MSIX packages. Detection now uses the registered LaonPeople publisher and matching manifest identity plus LPGAgent.exe, without relying on a friendly package name or fixed GUID/version path.
 - 31 focused discovery checks, ten software suites and isolated MSI install/upgrade/rollback tests passed. Real VTrack startup and shot verification remain pending. Valid saved locations, manual ambiguity handling and the beta.18.7 screen fix are retained.

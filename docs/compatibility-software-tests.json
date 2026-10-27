@@ -1,4 +1,4 @@
-{
+﻿{
   "asOf": "2026-10-26",
   "hardwareEmulation": false,
   "profiles": [
@@ -1356,6 +1356,42 @@
       "softwareTestDate": "2026-10-26"
     },
     {
+      "profileId": "gspro-simadmin-uneekor",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "infinite-tees-simadmin-uneekor",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "muni-simadmin-uneekor",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
       "profileId": "shotforge-uneekor-plugin",
       "flowPrepared": true,
       "softwareTested": true,
@@ -1363,6 +1399,18 @@
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "shotforge-simadmin-uneekor",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview/apply and community round-trip",
+        "Connector state-machine and simulator-switch safeguards (software only; hardware not emulated)"
       ],
       "softwareTestDate": "2026-10-26"
     },

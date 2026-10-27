@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-10-26. 132 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-10-26. 136 catalogue routes, sorted by launch monitor, simulator and connector.
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
@@ -131,7 +131,11 @@ A successful connection or software test is not automatically proof of a real sh
 | Square Omni | Muni Golf Sim | rēlā | Yes | Yes | Yes | No | muni-square-omni-rela |
 | Square Omni | ShotForge | rēlā | Yes | Yes | Yes | No | shotforge-square-omni |
 | Square Omni — automatic beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | Yes | No | infinite-tees-square-omni-rela |
+| Uneekor | GSPro | Uneekor standalone connector (SimAdmin; select your installed EXE), Uneekor Third-party Connector | Yes | Yes | No | No | gspro-simadmin-uneekor |
+| Uneekor | Infinite Tees | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | infinite-tees-simadmin-uneekor |
+| Uneekor | Muni Golf Sim | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | muni-simadmin-uneekor |
 | Uneekor | ShotForge | rēlā, OtherUneekorPlugin.dll | Yes | Yes | No | No | shotforge-uneekor-plugin |
+| Uneekor | ShotForge | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | shotforge-simadmin-uneekor |
 | Uneekor EYE MINI | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-uneekor-eye-mini |
 | Uneekor EYE MINI | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-eye-mini |
 | Uneekor EYE MINI LITE | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-eye-mini-lite |
