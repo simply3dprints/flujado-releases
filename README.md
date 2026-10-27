@@ -71,11 +71,11 @@ The Hub checks for a newer version about 15 seconds after opening and every six 
 
 Install and activate simulator software and connectors first; verify a real shot outside the Hub. Vendor binaries and licences are not included. Keep private migration backups local and never send licence keys or passwords.
 
-[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.8/RELEASE-NOTES.txt)
+[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.9/RELEASE-NOTES.txt)
 
 Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. Registered MSIX Toolkit executable discovery is included from beta.18.7; package activation and automatic saved-path migration after future Toolkit updates are not implemented. [VTrack instructions (English)](docs/beta.18.3/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.3/VTRACK-BETA-TEST-NL.txt).
 
-Current illustrated beta.18.8 guides, updated for VTrack and ChatGPT setup: [English](docs/beta.18.8/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.8/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.8/FluJado-Connector-Setup-Guide-EN.pdf).
+Current illustrated beta.18.9 guides, updated for VTrack and ChatGPT setup: [English](docs/beta.18.9/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.9/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.9/FluJado-Connector-Setup-Guide-EN.pdf).
 
 Previous downloads remain available.
 
