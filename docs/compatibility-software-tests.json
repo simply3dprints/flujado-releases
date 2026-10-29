@@ -1,5 +1,5 @@
 ﻿{
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-29",
   "hardwareEmulation": false,
   "profiles": [
     {
@@ -1501,6 +1501,17 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "muni-vtrack-native",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-10-29"
     }
   ]
 }

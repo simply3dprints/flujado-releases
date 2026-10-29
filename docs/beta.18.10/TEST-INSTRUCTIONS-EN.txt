@@ -1,0 +1,12 @@
+FluJado beta.18.10 - please test
+1. Update through your existing Hub. Confirm automatic reopening, version beta.18.10, licence, settings and saved routes. If reopening fails, start once from Start and report it. Do not uninstall first.
+2. Try Classic, Carousel, Cinema, Lounge, Console, Library and Mosaic. Tell us your favourite, resolution, Windows scaling and mouse/keyboard preference. Check selection, animation, artwork corners, green active-app glow and scrolling.
+3. Use Full screen beside Menu; it should hide in fullscreen. The menu action remains. F11 toggles by default, Esc keeps its existing back/window behaviour, Backspace returns when you are not editing text. Configure shortcuts in Settings > Dashboard & appearance. Ctrl+Alt+H brings the Hub forward by default.
+4. Open Menu. More tools & support should already be expanded. Small windows scroll. Check Settings/back and saving an intentional small edit with recovery.
+5. Start an existing known-working simulator route, take a real shot and close via the active card. Check that unrelated/shared apps stay open. Running/App open is process status, not connection readiness. Report unexpected close prompts or apps left open.
+6. Try Flow wizard or ChatGPT flow: export, import, review, apply and restore a supported proposal. Import alone must change nothing. Unknown scripts are not executed. Share a working community flow only after your own real test.
+7. Record flow is optional: close private windows, explicitly select All screens/Screen/Window, save a local AVI, reproduce and stop, then review. Audio off; no automatic upload. Limits: 2 minutes, 128 MB, 1280x720, 8 fps. Screen changes stop all-screen recording; multiple displays reduce text size. This is not a performance benchmark.
+
+Report Hub, Windows, simulator and connector versions, exact launch monitor/route, expected/actual behaviour and steps. Review attachments before sharing. Never post licence keys, passwords, tester lists, raw config or private backups.
+
+Compatibility status is separate from software validation. Real Uneekor hardware and VTrack customer retests remain open. No new hardware certification is implied.

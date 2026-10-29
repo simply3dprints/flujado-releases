@@ -1,8 +1,20 @@
-# FluJado Golf Sim Hub — beta.18.9
+# FluJado Golf Sim Hub — beta.18.10
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi) · [Getting started](docs/beta.18.9/GETTING-STARTED.txt) · [Checksums](docs/beta.18.9/SHA256SUMS.txt)
+[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi) · [Getting started](docs/beta.18.10/GETTING-STARTED.txt) · [Checksums](docs/beta.18.10/SHA256SUMS.txt)
 
-## New in beta.18.9
+## New in beta.18.10 - 29 October 2026
+
+- Seven themes: **Classic, Carousel, Cinema, Lounge, Console, Library and Mosaic**. Keyboard browsing, portrait cards and a clear green active-app glow.
+- Larger centred FluJado Menu. All tools expand by default; smaller screens scroll. Full screen beside Menu hides in fullscreen and stays available in Menu.
+- Guarded Close on active simulator cards, keeping shared/unrelated apps. Process status is separate from connection readiness.
+- Configurable shortcuts in Settings, including bring-Hub-forward (default Ctrl+Alt+H).
+- Flow wizard / ChatGPT flow with review, drafts and recovery; silent local All screens/Screen/Window recording with local replay and no automatic upload.
+- Seven-theme virtual tests, 137 profile roundtrips / 4661 checks, real isolated MSI update from 18.9, three interruption recoveries, repair and automatic reopening passed. No new hardware certification.
+- [Updated NL/EN guides, screenshots and test points](docs/beta.18.10/README.md).
+
+**Which theme do you prefer?** Please tell us your resolution/scaling, mouse or keyboard experience, and any clipping, scrolling or active-card issues in the FluJado Discord.
+
+## Retained from beta.18.9
 
 - Clearer update notification and short change list; automatic reopen with the new worker. The first update from beta.18.8 may need one manual reopen.
 - Clearer ChatGPT missing-software guidance and community route selection. Fixed general flow-sharing guidance for fixed Muni/Uneekor routes; use ChatGPT flow export for these routes.

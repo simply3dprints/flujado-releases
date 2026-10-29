@@ -1,0 +1,105 @@
+Aan de slag met FluJado
+
+
+
+Dit is de handleiding voor beta.18.10. Gebruik de MSI-download of de updatecontrole in je bestaande Hub. De afbeeldingen tonen de afzonderlijke Windows-proefversie met voorbeeldgegevens.
+
+Installeer eerst je simulatorsoftware, launch-monitorsoftware en benodigde connectors. Controleer dat je ermee kunt spelen zonder FluJado. De Hub start en begeleidt je bestaande software; hij vervangt geen connector of simulatorlicentie.
+
+Open de MSI. Kies de installatiemap en de gewenste snelkoppelingen. Laat de startoptie aangevinkt als FluJado na installatie moet openen. Rond daarna de begeleide setup af: kies je apparaat, simulator, aanwezige apps en simulatorscherm.
+
+Controleer gevonden apps en paden. Ontbreekt een app, wijs dan het bestaande programmabestand aan. Kies geen route alleen omdat de apparaatnaam erop lijkt. Openstaande handmatige connectorstappen blijven nodig als er nog geen betrouwbare automatisering bestaat.
+
+Gebruik je eigen FluJado-licentie via License. Deel nooit licentiesleutels of wachtwoorden in een opname, configuratie-export of Discord-bericht.
+
+Download MSI: beta.18.10 https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi
+
+Compatibiliteit en teststatus per route https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Je Hub en de zeven thema’s
+
+
+
+Kies Classic, Carousel, Cinema, Lounge, Console, Library of Mosaic via Menu > Theme. Deze keuze wijzigt de presentatie, niet de verbindingsroute. Gebruik minder beweging als je rustige overgangen wilt.
+
+In Carousel blijft de geselecteerde kaart centraal met kaarten ernaast. Klik op een zijkaart om die te selecteren; klik op de centrale kaart om de flow te starten. In Cinema start de geselecteerde kaart. Er is geen extra Start-knop nodig.
+
+Movies & TV is een optionele map in hetzelfde scherm. Kies een dienst en gebruik Back om naar de simtegels terug te gaan. Je eigen accounts en abonnementen blijven nodig.
+
+Open Menu voor extra bediening. Updates, Settings en Flows & Help staan daar bij elkaar. De melding van een beschikbare update blijft op het hoofdscherm zichtbaar. Een app-open-badge bewijst alleen dat een app draait, niet dat je launch monitor verbonden is.
+
+Kies het thema dat bij je scherm past
+
+
+
+Classic toont vier lange kaarten naast elkaar. Carousel houdt de selectie centraal met buurtegels. Cinema geeft een geselecteerde kaart extra ruimte. Lounge gebruikt kleinere kaarten onderaan met een bijpassende achtergrond. Console zet de kaartselectie onderaan. Library toont maximaal drie kolommen en scrolt naar beneden. Mosaic combineert hoge en brede tegels in een stabiel raster.
+
+Een actieve app heeft een duidelijke groene rand en gloed. Running betekent dat deze Hub-sessie de flow startte; App open betekent dat een proces gevonden is. Dit bewijst geen verbinding of balgereedheid. Close sluit alleen de relevante flow na de vereiste controle.
+
+Gebruik Full screen naast Menu om het scherm te vullen. Deze knop verdwijnt in volledig scherm; de optie in Menu blijft. F11 wisselt standaard, Esc behoudt het bestaande teruggedrag. Backspace gaat een pagina terug wanneer je geen tekst bewerkt.
+
+Pas sneltoetsen aan via Settings > Dashboard & appearance. Standaard haalt Ctrl+Alt+H de Hub naar voren. Bij een conflicterende nieuwe combinatie blijft de vorige werkende sneltoets actief.
+
+Een overzichtelijk menu
+
+
+
+Het menu gebruikt de FluJado-kleuren en staat gecentreerd. Grotere schermen tonen grotere knoppen. More tools & support staat standaard open: licentie, configuraties, presentatie, herladen, logs, diagnostiek en alle apps sluiten zijn direct zichtbaar. Op een kleiner scherm kun je scrollen.
+
+Full screen blijft ook hier beschikbaar. Flows & Help bevat de Flow wizard, ChatGPT flow en Record flow. Ga met Back to the Hub terug.
+
+We horen graag welk thema je voorkeur heeft. Vermeld resolutie, Windows-schaal, muis/toetsenbord en eventuele problemen met tekst, randen, scrollen of de actieve tegel. Deel alleen nagekeken informatie.
+
+Settings en je eigen flow
+
+
+
+Open Menu > Settings. Settings verschijnt als aparte pagina binnen de Hub. Save changes bewaart wijzigingen met een configuratieback-up. Teruggaan zonder opslaan laat de bewaarde configuratie staan. Controleer de aangeboden hersteloptie voordat je een eerdere configuratie terugzet.
+
+Flows & Help biedt Flow wizard, ChatGPT flow en Record flow. De Flow wizard helpt je een eigen route te maken met apps die al op je pc staan.
+
+Geef de flow een naam, voeg apps toe in de juiste startvolgorde en kies welke app op het simulatorscherm moet verschijnen. Selecteer alleen conflicterende apps die vooraf mogen sluiten. Laat de verbindingsbevestiging aan als automatisch gereed herkennen ontbreekt.
+
+Lees het voorstel. Je kunt eerst een concept bewaren of het voorstel in de instellingen verwerken en opslaan. De wizard start apps en gebruikt bestaande gereedcontroles; hij bedenkt geen connectorpoorten of knoppen voor onbekende apparaten. Test een nieuwe route eerst zelf.
+
+Een flow met hulp van ChatGPT
+
+
+
+Open ChatGPT flow. Exporteer het setupoverzicht en kopieer de bijbehorende prompt. Deel deze zelf met ChatGPT. De ingebouwde export laat lokale paden, licenties en ruwe logbestanden weg; controleer ook je eigen aanvullingen op privégegevens.
+
+Vraag om een voorstel voor jouw simulator en launch monitor. Sla het antwoord op als het gevraagde JSON-bestand. Importeer dat bestand en lees het voorstel: importeren alleen verandert niets.
+
+Pas alleen een voorstel toe dat overeenkomt met je bedoeling. Toepassen bewaart ook andere openstaande Settings-wijzigingen en maakt een configuratieback-up. De back-up bevat geen licentie. Gebruik de herstelmogelijkheid om de vorige configuratie terug te zetten.
+
+Werkt de route? Test starten, een echte slag en afsluiten voordat je hem als werkend deelt op Discord. Lukt het niet, stuur de FluJado-versie, simulator, apparaat, verwachte werking en wat er misgaat naar het support- of testerkanaal. Voeg alleen een gecontroleerd overzicht, voorstel of opname toe. Onbekende scripts worden niet automatisch uitgevoerd.
+
+Een flow of probleem opnemen
+
+
+
+Open Record flow. Kies bewust All screens, één Screen of één Window. Er is niets vooraf geselecteerd. All screens neemt alle aangesloten schermen samen op, ook als een connector op een ander scherm opent. De onderlinge plaatsing blijft behouden; lege ruimtes zijn zwart.
+
+Bij veel schermen worden tekst en details kleiner. Kies één scherm voor beter leesbare details. Sluit privévensters op alle schermen voordat je All screens gebruikt. Een vensteropname bevat alleen dat venster; voor games of een zwart resultaat kies je het betreffende scherm.
+
+Klik Start recording, kies een nieuwe AVI-bestandsnaam en doorloop de flow. De rode indicator toont dat de opname loopt. Zet het opnamevenster op een hulpscherm en breng de simulator naar voren, zodat de bediening je spelbeeld niet bedekt. Stop recording rondt het bestand af. Review saved video opent de lokale speler; kijk alles na voordat je iets deelt.
+
+Audio is uit. De opname blijft op je pc en wordt nooit automatisch verstuurd. Limieten: maximaal 2 minuten, 128 MB, 1280 x 720 en 8 beelden per seconde. Dit is een uitlegvideo, geen vloeiende prestatiemeting.
+
+Bij een gewijzigde schermindeling of losgekoppeld scherm stopt All screens met een melding. Vernieuw de lijst en kies opnieuw. Een gesloten, geminimaliseerd of niet ondersteund venster kan de vensteropname stoppen.
+
+Updates, herstel en hulp
+
+
+
+Gebruik Menu > Check for updates om handmatig te controleren. Bekijk de korte wijzigingslijst en download/installatiekeuze. Bij een geslaagde MSI-update hoort de Hub opnieuw te openen. De updatecontrole en installatie zijn in de losse proefversie bewust uitgeschakeld.
+
+Maak een configuratieback-up voordat je een grote wijziging doet. Een configuratieback-up vervangt geen licentieback-up of volledige installatieback-up. Bij een mislukte update kan de herstelroute de vorige runtime en registratie terugzetten; persoonlijke gegevens horen behouden te blijven.
+
+Gebruik bij verwijderen de keuze om je gegevens te behouden als je later opnieuw wilt installeren. Volledig verwijderen is een bewuste keuze: daarbij horen ook de opgeslagen FluJado-licentiegegevens. Dit verwijdert geen simulatorsoftware.
+
+Een voorbereide route is niet automatisch met echte hardware getest. De compatibiliteitslijst onderscheidt softwarecontroles en praktijktests. Muni en Drills zijn eerder met ProTee VX en Square Omni getest; dit bewijst geen werking voor ieder ander apparaat.
+
+De opname is zonder slagen praktisch gecontroleerd met Muni op de beamer en rēlā op een ander scherm. Ook eigen testvensters en gegenereerde schermbeelden zijn getest. Dit bewijst niet dat opnemen bij elke belasting zonder prestatieverlies werkt. Deel bij problemen alleen relevante, nagekeken informatie en nooit sleutels.
+
+Actuele compatibiliteitslijst https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md

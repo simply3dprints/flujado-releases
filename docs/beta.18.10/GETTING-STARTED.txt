@@ -1,0 +1,7 @@
+FluJado beta.18.10 - 29 October 2026
+
+https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi
+
+Install over your current location. Do not uninstall first. Settings, licence and custom flows are kept. Use Menu > Check for updates, review the change list and install. The Hub should reopen. For a first installation, install and verify simulator software, launch-monitor software and connectors before setting up FluJado.
+
+Try the seven themes through Menu > Theme. More tools & support opens by default and smaller screens scroll. Full screen beside Menu hides in fullscreen; the menu option stays. See the updated NL/EN guides and TEST-INSTRUCTIONS-EN.txt.

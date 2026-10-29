@@ -1,0 +1,71 @@
+Connector setup and test status
+
+
+
+FluJado beta.18.10 connector guide. Always use the compatibility table for the current status of a specific simulator and device combination.
+
+Install the official simulator, launch-monitor app and connector first. Verify their connection outside FluJado. Do not replace a working connector version solely because another flow uses a different version.
+
+Select the exact supported profile in guided setup. Confirm detected executables and the simulator display. Connector configuration, simulator choice, ports and any required account login must match the selected route.
+
+Prepared means a route exists. Software-tested means its logic passed isolated checks. Hardware-tested means actual shots were confirmed for that combination. The catalogue has 137 software-checked profiles; this does not mean 137 hardware-tested routes.
+
+Previous practical tests include Muni and Drills with ProTee VX and Square Omni. Uneekor hardware confirmation, VTrack customer detection confirmation and other untested combinations remain separate open items.
+
+Compatibility and tested flows https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Start, switch and close
+
+
+
+Start the simulator through its card. Follow only the remaining prompts shown for your selected profile. Do not start a second connector manually while the route is still starting.
+
+Built-in routes may close conflicting apps, start the connector and launch-monitor software in a required order, check readiness and bring the simulator to its assigned display. Preserve the tested order; for applicable rēlā/ProTee profiles the connector starts before ProTee Labs.
+
+If the route cannot confirm a connection, read its message before continuing. A running process is not the same as Connected or Ready. A missing ball may delay readiness without indicating that the software connection failed.
+
+Use Close on an active card to review and close that simulator flow. Shared and unrelated apps are kept. App open is not proof of a Hub-owned session; untracked apps require review. Confirm shutdown and return start when testing a new route.
+
+Muni’s newer native launch-monitor menu is separate investigation work. Existing tested connector routes remain available; an announcement or community recipe alone does not replace a tested route.
+
+Create or review a custom route
+
+
+
+Use Flows & Help > Flow wizard for installed apps, launch order and conflict shutdown choices. Choose the simulator app and review the resulting plan. Save a draft if you are unsure.
+
+The wizard cannot configure unknown connector buttons or ports. Keep its connection-confirmation step until you can verify the required connection yourself. A custom flow is untested until validated on the intended hardware.
+
+ChatGPT flow exports a sanitised overview and prompt. Import the requested JSON, inspect the proposal and apply only supported actions. Importing does not change settings. Applying saves pending edits and creates a configuration recovery point.
+
+Test startup, real shots, shutdown and any realistic simulator switch. Share a confirmed working flow and its exact tested combination on the community Discord. If it needs new connector support, report the missing action rather than executing an unknown script.
+
+Record and report a connector issue
+
+
+
+Use Record flow and explicitly choose All screens when the connector and simulator open on different displays. Choose a single Screen for readable detail, or a Window for a supported app. Nothing records automatically when this window opens.
+
+All screens retains display positions and puts every connected display into one video. Text becomes smaller with more screens. Close private windows first. If the display layout changes or a screen disconnects, capture stops; refresh and choose again.
+
+Start recording, select a new local AVI filename, move the controls away from the simulator display, reproduce the issue and stop. Review saved video plays the local file. Audio is always off. No automatic upload occurs. Limits are 2 minutes, 128 MB, 1280 x 720 and 8 fps.
+
+For black or unsupported window capture, choose the relevant screen. A no-shot Muni/projector and rēlā/second-display recording was checked. Zero performance impact under all loads is not proven; do not treat this 8 fps support video as a frame-time measurement.
+
+Include Hub version, simulator, connector version, launch monitor, expected action, actual status and reproducible steps. Review all attachments for keys, names and other private data before sharing.
+
+Recover and validate
+
+
+
+Keep a known-working configuration backup. Review restore proposals before applying them. A configuration backup does not include your licence and cannot restore every setting belonging to a third-party simulator.
+
+If an update is interrupted, allow the updater to finish recovery before starting another installation. The candidate has isolated MSI update, registration, repair and rollback checks. Real client confirmation remains distinct from automated results.
+
+For a route that fails before connection, check the installed executable, correct profile and competing connectors first. For a Connected-but-no-shot problem, check the monitor’s own readiness and ball detection. Keep the simulator’s existing settings intact while gathering evidence.
+
+Button automation is specific to the supported connector and state. Moving a window is different from changing its layout or software version. Do not assume every text-labelled button is safe to click or that all versions have identical controls.
+
+Never post private connector download links from restricted communities, licences or tester lists. Use official distribution channels and send only relevant, reviewed diagnostics.
+
+Current route status and limitations https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md

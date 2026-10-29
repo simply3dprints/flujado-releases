@@ -1,0 +1,15 @@
+FluJado beta.18.10 - 29 October 2026
+
+- Seven dashboard themes: Classic, Carousel, Cinema, Lounge, Console, Library and Mosaic. Choose a theme without changing your saved simulator routes. Portrait cards, stronger active-app glow and keyboard browsing.
+- Cleaner home and larger centred FluJado Menu. All tools are visible by default; smaller screens scroll. Full screen beside Menu appears in window mode only; the menu action stays available. F11 / Esc retain their existing behaviour.
+- Active simulator cards offer a guarded Close action. Running means this Hub session started the flow; App open means an app is detected. Neither is proof of connection/shot readiness. Shared or unrelated apps are retained and untracked close actions require review.
+- Configurable keyboard shortcuts in Settings > Dashboard & appearance, including a deliberate bring-Hub-forward shortcut (default Ctrl+Alt+H). Conflicting global shortcuts retain the previous working binding. Backspace returns through dashboard pages when not editing text.
+- Flows & Help brings together Flow wizard, ChatGPT flow and Record flow. Build from installed apps; review proposals, save drafts and restore configurations. Unknown connector actions or scripts are not invented or executed.
+- Silent local screen recording: All screens, Screen or Window. Explicit start/stop and local replay; audio off, no automatic upload. Review before sharing. Limits: 1280x720, 8 fps, 2 minutes, 128 MB. A screen-layout change stops all-screen capture. This is a support video, not a performance benchmark.
+- Native Settings integrity/recovery fixes and automatic VTrack/MSIX detection and guided setup improvements. Muni VTrack option and recent connector-route preparation are reflected in the compatibility table; real hardware/customer retests remain separate.
+
+Validation includes all seven native themes at three sizes, fullscreen/restore, keyboard, Movies/back, embedded Settings, safe close and local recording checks. Isolated real Windows Installer update from beta.18.9, interrupted-update recoveries, repair and automatic reopening are verified for this package before publication. No new hardware certification is implied.
+
+Update over your existing installation; do not uninstall first. Settings, licence and custom flows are retained. Install and test simulator/launch-monitor software and connectors before a first FluJado setup. Simulator licences remain separate.
+
+Please share your favourite theme, screen resolution/scaling, mouse or keyboard experience, and any clipped text, artwork corners, scrolling or active-card problems on Discord. Review reports/recordings before sharing. Never post licence keys, passwords, tester lists, raw config or private backups.

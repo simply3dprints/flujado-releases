@@ -1,5 +1,5 @@
 ﻿{
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-29",
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
     {
@@ -3779,6 +3779,32 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-10-26"
+    },
+    {
+      "profileId": "muni-vtrack-native",
+      "launchMonitor": "VTrack",
+      "simulator": "Muni Golf Sim",
+      "connectors": [],
+      "plugins": [],
+      "implementationStatus": "Assisted preparation",
+      "status": "Not tested",
+      "practicallyTested": false,
+      "verified": false,
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "prepared-assisted",
+      "sources": [
+        "https://discord.com/channels/1472004230112870610/1475386375619743817/1564824509905895516",
+        "https://discord.com/channels/1472004230112870610/1561086650355028040"
+      ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-10-29"
     }
   ]
 }

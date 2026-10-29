@@ -1,0 +1,41 @@
+{
+  "version": "0.9.0-beta.18.10",
+  "date": "2026-10-29",
+  "themes": [
+    "Classic",
+    "Carousel",
+    "Cinema",
+    "Lounge",
+    "Console",
+    "Library",
+    "Mosaic"
+  ],
+  "themeSizes": 3,
+  "nativeActivityChecks": 217,
+  "nativeMediaChecks": 1417,
+  "nativeSettingsChecks": 180,
+  "nativeJourneyFullscreenChecks": 275,
+  "keyboardShortcutChecks": 21,
+  "mosaicMenuChecks": 265,
+  "themeNavigationChecks": 56,
+  "existingMenuChecks": 53,
+  "expandedMenuDefault": true,
+  "screenshotsGeneratedFromSampleData": true,
+  "assistantProfiles": 137,
+  "assistantChecks": 4661,
+  "realIsolatedWindowsInstaller": true,
+  "baseline": "0.9.0-beta.18.9",
+  "interruptionRecoveries": 3,
+  "repair": true,
+  "automaticReopening": true,
+  "legacyUpdateWorkerReopening": true,
+  "personalFixturesRetained": 5,
+  "runtimeFilesVerified": 144,
+  "liveInstallationChanged": false,
+  "newHardwareCertification": false,
+  "customerRetestsOpen": [
+    "VTrack detection and shutdown confirmation",
+    "Uneekor hardware connection/shots/switches"
+  ],
+  "personalDataIncluded": false
+}

@@ -1,0 +1,105 @@
+Getting started with FluJado
+
+
+
+This guide covers beta.18.10. Use the MSI download or check for updates in your existing Hub. Screenshots show the separate Windows preview with sample data.
+
+Install your simulator, launch-monitor software and required connectors first. Confirm that you can play without FluJado. The Hub starts and guides your existing software; it does not replace a connector or a simulator licence.
+
+Open the MSI. Choose your installation folder and shortcuts. Leave the launch option selected to open FluJado after installation. Complete the guided setup: choose your device, simulator, installed apps and simulator display.
+
+Check detected apps and locations. Locate the existing executable if an app is missing. Choose the correct supported route rather than a similar device name. Manual connector steps remain necessary where reliable automation is unavailable.
+
+Use your own FluJado licence through License. Never include keys or passwords in a video, export or Discord message.
+
+Download MSI: beta.18.10 https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi
+
+Compatibility and test status by route https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Your Hub and seven themes
+
+
+
+Choose Classic, Carousel, Cinema, Lounge, Console, Library or Mosaic through Menu > Theme. This changes presentation, not connection order. Enable reduced motion for calmer transitions.
+
+Carousel keeps the selected card in the centre with neighbouring cards. Select a side card to bring it to the centre; click the centre card to start its flow. In Cinema, click the selected card. No separate Start button is needed.
+
+Movies & TV is an optional folder within the same screen. Choose a service and use Back to return to simulator cards. Your own accounts and subscriptions are still required.
+
+Open Menu for additional controls. Updates, Settings and Flows & Help are grouped there. Available-update notices remain visible on the home screen. An app-open badge only means an app is running; it does not prove your launch monitor is connected.
+
+Choose a theme for your screen
+
+
+
+Classic shows four tall cards. Carousel keeps the selection centred with neighbours. Cinema gives the selected card more space. Lounge puts smaller cards near the bottom against matching artwork. Console aligns its card selection at the bottom. Library scrolls vertically with up to three columns. Mosaic uses a stable mix of tall and wide cards.
+
+An active app has a strong green frame and glow. Running means this Hub session started the flow; App open means a process was detected. Neither proves connection or ball readiness. Close handles the relevant flow after any required review.
+
+Use Full screen beside Menu to fill the display. This button hides in fullscreen; the option remains in Menu. F11 toggles by default; Esc retains the existing back/window behaviour. Backspace goes back a page when you are not editing text.
+
+Change shortcuts in Settings > Dashboard & appearance. Ctrl+Alt+H brings the Hub forward by default. If a new global shortcut conflicts, the previous working binding stays active.
+
+A clearer menu
+
+
+
+The centred menu uses FluJado colours and larger buttons on larger screens. More tools & support opens by default, exposing licence, configurations, presentation, reload, logs, diagnostics and Close all apps. Smaller screens scroll.
+
+Full screen remains available here. Flows & Help contains Flow wizard, ChatGPT flow and Record flow. Use Back to the Hub to return.
+
+Please tell us your favourite theme, resolution, Windows scaling and mouse/keyboard experience. Report clipped text, artwork corners, scrolling or active-card issues. Review information before sharing it.
+
+Settings and your own flow
+
+
+
+Open Menu > Settings. Settings opens as a separate page inside the Hub. Save changes saves your edits with a configuration backup. Going back without saving keeps the stored configuration. Review the recovery proposal before restoring an earlier configuration.
+
+Flows & Help offers Flow wizard, ChatGPT flow and Record flow. The Flow wizard builds a route from apps already installed on your PC.
+
+Name the flow, add apps in their required launch order and choose which app should appear on the simulator display. Select only conflicting apps that may close first. Keep connection confirmation enabled when readiness cannot be checked automatically.
+
+Review the proposal. Save a draft or apply it to Settings and save. The wizard starts apps and uses existing readiness checks; it cannot invent connector ports or button support for an unknown device. Test each new route on your own setup.
+
+Build a flow with ChatGPT
+
+
+
+Open ChatGPT flow. Export the setup overview and copy its prompt. Share them with ChatGPT yourself. The built-in export omits local paths, licences and raw logs; also check any details you add for private information.
+
+Ask for a proposal for your simulator and launch monitor. Save the response as the requested JSON file. Import it and review the proposal. Importing alone changes nothing.
+
+Apply only a proposal that matches your intent. Applying also saves other pending Settings edits and creates a configuration backup. This backup does not contain your licence. Use recovery to restore the previous configuration.
+
+If it works, test startup, a real shot and shutdown before sharing the flow on Discord. If it fails, send the Hub version, simulator, device, expected result and actual behaviour to the support or tester channel. Attach only a reviewed overview, proposal or video. Unknown scripts are not automatically executed.
+
+Record a flow or problem
+
+
+
+Open Record flow. Explicitly choose All screens, one Screen or one Window. Nothing is preselected. All screens combines every connected display, including a connector that opens on another screen. Relative positions are retained; empty gaps are black.
+
+With several displays, text and details become smaller. Choose one screen for readable detail. Close private windows on every screen before using All screens. Window capture only includes that window; for games or a blank result, choose its screen.
+
+Click Start recording, choose a new AVI filename and reproduce the flow. The red indicator shows recording is active. Move the recording controls to another display and bring the simulator forward so the controls do not cover the game. Stop recording finishes the file. Review saved video opens the local player; review the whole clip before sharing it.
+
+Audio is off. The video stays on your PC and is never uploaded automatically. Limits: 2 minutes, 128 MB, 1280 x 720 and 8 frames per second. This is an explanation video, not a smooth performance measurement.
+
+If the display layout changes or a screen disconnects, All screens stops with a message. Refresh and choose again. A closed, minimised or unsupported window may stop window capture.
+
+Updates, recovery and help
+
+
+
+Use Menu > Check for updates to check manually. Review the short change list and download/install choices. The Hub should reopen after a successful MSI update. Update checking and installation are deliberately disabled in the separate development preview.
+
+Back up your configuration before a major change. A configuration backup is not a licence backup or a full installation backup. The failed-update recovery route can restore the previous runtime and registration while retaining personal data.
+
+When uninstalling, keep data if you intend to reinstall later. Removing all data is an explicit choice and includes stored FluJado licence data. It does not uninstall your simulator software.
+
+A prepared route is not automatically hardware-tested. The compatibility list distinguishes software checks from practical tests. Muni and Drills were previously tested with ProTee VX and Square Omni; this is not proof for every other device.
+
+Recording was practically checked without shots with Muni on the projector and rēlā on another display, alongside own test windows and generated screen images. This does not prove zero performance impact under every load. Send only relevant, reviewed information and never keys.
+
+Current compatibility list https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md

@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-10-26. 136 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-10-29. 137 catalogue routes, sorted by launch monitor, simulator and connector.
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
@@ -144,6 +144,7 @@ A successful connection or software test is not automatically proof of a real sh
 | Uneekor EYE XR | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-eye-xr |
 | Uneekor QED | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-qed |
 | VTrack | Drills Golf Sim | Native / simulator only | Yes | Yes | No | No | drills-vtrack-native |
+| VTrack | Muni Golf Sim | Native / simulator only | Yes | Yes | No | No | muni-vtrack-native |
 
 ## Software test coverage
 
