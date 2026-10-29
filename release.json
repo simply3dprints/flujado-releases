@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.9",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/03089154921ae4d4828529c839eaa0e40d074952/downloads/FluJado-MSI-Transition-0.9.0-beta.18.9.exe",
-  "sha256": "2b0c3e54c01ba61d769fa3818cdbc0567f54bfe15bf4c10276e4f1f445e070ca",
+  "version": "0.9.0-beta.18.10",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/2549ffee346dc5a527bc30b9a33c0ff2ced0efb7/downloads/FluJado-MSI-Transition-0.9.0-beta.18.10.exe",
+  "sha256": "048587b7e9e6ca4a6a5a865fbc147f4a7bb9ddeea83279a78d12b09c33b93d09",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/03089154921ae4d4828529c839eaa0e40d074952/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.9.msi",
-    "sha256": "35b0782b5acffcf8edd35ca8ea0171a495d2347567a21b3e11dd594d18e2df26",
-    "productVersion": "0.9.1809"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/2549ffee346dc5a527bc30b9a33c0ff2ced0efb7/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi",
+    "sha256": "92823fca70b158bce1b877243ed4860862afda9e265b59afd25e99bd104c5789",
+    "productVersion": "0.9.1810"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/03089154921ae4d4828529c839eaa0e40d074952/docs/beta.18.9/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/2549ffee346dc5a527bc30b9a33c0ff2ced0efb7/docs/beta.18.10/RELEASE-NOTES.txt",
   "highlights": [
-    "Clearer update alerts and change list; automatic reopening with the new update worker.",
-    "GSPro/VTrack tile closes both apps; automatic Toolkit discovery revalidated.",
-    "Optional Uneekor routes and clearer ChatGPT flow handling; real hardware tests remain open."
+    "Seven themes, clearer active-app controls and a larger centred menu. Please share your favourite theme.",
+    "Custom keyboard shortcuts and Full screen beside Menu; all tools are visible by default.",
+    "Flow wizard, ChatGPT proposals and local multiscreen recording, with tested MSI update recovery and reopening."
   ]
 }
