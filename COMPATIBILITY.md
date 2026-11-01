@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-10-29. 137 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-11-01. 142 catalogue routes, sorted by launch monitor, simulator and connector.
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
@@ -94,7 +94,10 @@ A successful connection or software test is not automatically proof of a real sh
 | OpenLaunch NOVA | GSPro | OpenLaunch NOVA Windows app | Yes | Yes | No | No | gspro-openlaunch-nova |
 | OpenLaunch NOVA | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-nova-rela |
 | ProTee VX | Drills Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | drills-protee-rela |
+| ProTee VX | Drills Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | drills-protee-socket-relay |
+| ProTee VX | Drills Web | Drills Web Bridge, Drills Web browser (separate profile), rēlā, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | drills-web-protee-rela |
 | ProTee VX | GSPro | Native / simulator only | Yes | Yes | Yes | No | gspro-default |
+| ProTee VX | Muni Golf Sim | Native / simulator only | Yes | Yes | No | No | muni-protee-openconnect |
 | ProTee VX | Muni Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | muni-protee-rela |
 | ProTee VX | ProTee Labs | Native / simulator only | Yes | Yes | Yes | No | protee-default |
 | ProTee VX | ShotForge | rēlā, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | shotforge-protee-rela |
@@ -127,7 +130,9 @@ A successful connection or software test is not automatically proof of a real sh
 | Square Home Edition | ShotForge | rēlā | Yes | Yes | No | No | shotforge-square-home |
 | Square Omni | Awesome Golf | Native / simulator only | Yes | Yes | Yes | No | awesomegolf-default |
 | Square Omni | Drills Golf Sim | rēlā | Yes | Yes | Yes | No | drills-square-omni-rela |
+| Square Omni | Drills Web | Drills Web Bridge, Drills Web browser (separate profile), rēlā | Yes | Yes | Yes | No | drills-web-square-omni-rela |
 | Square Omni | GSPro | Native / simulator only | Yes | Yes | Yes | No | gspro-square-omni |
+| Square Omni | Muni Golf Sim | Muni Launch Monitor Connect | Yes | Yes | No | No | muni-square-omni-native |
 | Square Omni | Muni Golf Sim | rēlā | Yes | Yes | Yes | No | muni-square-omni-rela |
 | Square Omni | ShotForge | rēlā | Yes | Yes | Yes | No | shotforge-square-omni |
 | Square Omni — automatic beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | Yes | No | infinite-tees-square-omni-rela |
@@ -155,6 +160,8 @@ For rows marked Yes, configuration validation and the ChatGPT export/import/prev
 ## Practical evidence
 
 - **drills-protee-rela**: 20 October 2026: Drills real shots and Drills > GSPro > Drills shots confirmed.
+- **drills-protee-socket-relay**: 1 November 2026: two desktop VX shots, desktop to Web VX (two shots) and Web to desktop VX (one shot) confirmed with balls and data through the isolated native Hub. Full managed Open Range tile-close passed after the background-exit fix: Drills and owned rela gone, shared Labs retained. Induced live Labs fault recovery and full Verified checklist remain pending.
+- **drills-web-protee-rela**: 1 November 2026: desktop to Web VX two shots and Web to desktop VX one shot confirmed with balls and data. Web opened fullscreen on projector; dedicated browser, bridge and managed connector cleanup tested without shots. Login persisted. No new clean-install/reboot hardware checklist; Verified not granted.
 - **gspro-default**: Operator confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending.
 - **muni-protee-rela**: 20 October 2026: two VX shots in Muni and Muni > GSPro > Muni switching with real shots confirmed. Automatic startup passed after one initial Labs startup miss.
 - **protee-default**: Operator confirmed the standalone ProTee tile and switching worked on the local simulator PC.
@@ -162,7 +169,8 @@ For rows marked Yes, configuration validation and the ChatGPT export/import/prev
 - **shotforge-default**: Operator tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.
 - **infinite-tees-protee-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with ProTee VX, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.
 - **awesomegolf-default**: Project owner confirms Square Omni / Awesome Golf practical testing. Status retained on 26 October 2026; no additional real-shot, reboot or certification claim is inferred from this update.
-- **drills-square-omni-rela**: 20 October 2026: Drills real shots and return from GSPro confirmed; no GSPro Omni shot claim.
+- **drills-square-omni-rela**: 20 October 2026: Drills real shots and return from GSPro confirmed; no GSPro Omni shot claim. 1 November 2026: Web Omni to desktop Omni two shots confirmed with ball and data; this does not add a GSPro Omni shot claim.
+- **drills-web-square-omni-rela**: 1 November 2026: two Web Omni shots and two desktop Omni return shots confirmed with balls and data. Web start/restart, fullscreen projector and own-browser/bridge cleanup tested without shots. Same-device desktop Omni to Web Omni shot direction not repeated. Verified checklist remains pending.
 - **gspro-square-omni**: Operator explicitly confirmed a real Square Omni shot arrived in GSPro through the direct native route.
 - **muni-square-omni-rela**: 20 October 2026: four Omni shots in Muni with data and no interruption confirmed; automatic startup and ball detection passed. GSPro switching excluded by user.
 - **shotforge-square-omni**: Operator confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.

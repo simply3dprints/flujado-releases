@@ -1,0 +1,9 @@
+FluJado 0.9.0-beta.18.11
+
+https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.11.msi
+
+Existing users: Menu > Check for updates, review the changes, install over your current location. Do not uninstall first. First install: install and verify simulator and connector software before FluJado.
+
+Drills Web: obtain the official Drills Web Bridge from the Drills dashboard, extract it to a fixed location and select its executable in setup. Choose the exact VX or Omni profile and keep existing workflows unless deliberately replacing one. Sign in yourself in the dedicated browser. Choose your own game; no range is forced.
+
+See the NL/EN manuals, connector guide and test instructions.

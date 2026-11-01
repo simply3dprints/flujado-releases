@@ -1,97 +1,18 @@
-# FluJado Golf Sim Hub — beta.18.10
+# FluJado Golf Sim Hub — beta.18.11
 
-[Download Windows installer (MSI)](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi) · [Getting started](docs/beta.18.10/GETTING-STARTED.txt) · [Checksums](docs/beta.18.10/SHA256SUMS.txt)
+[Download Windows MSI](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.11.msi) · [Guides and screenshots](docs/beta.18.11/README.md) · [Release notes](docs/beta.18.11/RELEASE-NOTES.txt) · [Compatibility](COMPATIBILITY.md)
 
-## New in beta.18.10 - 29 October 2026
+## New in beta.18.11 — 1 November 2026
 
-- Seven themes: **Classic, Carousel, Cinema, Lounge, Console, Library and Mosaic**. Keyboard browsing, portrait cards and a clear green active-app glow.
-- Larger centred FluJado Menu. All tools expand by default; smaller screens scroll. Full screen beside Menu hides in fullscreen and stays available in Menu.
-- Guarded Close on active simulator cards, keeping shared/unrelated apps. Process status is separate from connection readiness.
-- Configurable shortcuts in Settings, including bring-Hub-forward (default Ctrl+Alt+H).
-- Flow wizard / ChatGPT flow with review, drafts and recovery; silent local All screens/Screen/Window recording with local replay and no automatic upload.
-- Seven-theme virtual tests, 137 profile roundtrips / 4661 checks, real isolated MSI update from 18.9, three interruption recoveries, repair and automatic reopening passed. No new hardware certification.
-- [Updated NL/EN guides, screenshots and test points](docs/beta.18.10/README.md).
+- Optional Drills Web VX/Omni tile with separately installed official Web Bridge, dedicated browser and fullscreen simulator display.
+- Optional modern desktop VX Socket Relay route; existing working routes and defaults retained.
+- Desktop/Web connection and cleanup improvements, including Drills background-exit race handling.
+- Updated NL/EN guides, locally shot-tested labels and honest per-route evidence.
 
-**Which theme do you prefer?** Please tell us your resolution/scaling, mouse or keyboard experience, and any clipping, scrolling or active-card issues in the FluJado Discord.
+**142 software-tested profiles,16 routes with specific practical evidence,0 fully Verified.** Real desktop/Web VX and Web Omni shots passed locally; see the exact scope in the compatibility table. Induced live Labs fault recovery and same-device Omni desktop-to-Web shots remain open. MSI upgrade/recovery tests do not constitute full Hub-GUI acceptance.
 
-## Retained from beta.18.9
+Install over your current location; do not uninstall first. Settings, licence and custom flows are retained. First install: install and verify simulator/connector software first. No connector binaries are bundled.
 
-- Clearer update notification and short change list; automatic reopen with the new worker. The first update from beta.18.8 may need one manual reopen.
-- Clearer ChatGPT missing-software guidance and community route selection. Fixed general flow-sharing guidance for fixed Muni/Uneekor routes; use ChatGPT flow export for these routes.
-- Standard GSPro/VTrack tile closes GSPro and Toolkit together. Discovery revalidated without manual path selection (60 checks). Tester retests remain open.
-- Four optional standalone Uneekor profiles with guarded automatic connection. Real Uneekor hardware/shots/switches remain untested; no connector binaries included.
-- 25 suites, 136 profile roundtrips / 4627 checks, real isolated MSI transitions and three rollback/recovery cases passed. No new hardware certification.
-- [Updated guides and test instructions](docs/beta.18.9/README.md).
+Please test startup after reboot, your own activity choice, balls/data, desktop/Web switching, fullscreen display and per-tile shutdown. [Detailed test points](docs/beta.18.11/TEST-INSTRUCTIONS-EN.txt).
 
-## Retained from beta.18.8
-
-- Corrects VTrack Toolkit discovery for GUID-named MSIX packages. Detection now uses the registered LaonPeople publisher and matching manifest identity plus LPGAgent.exe, without relying on a friendly package name or fixed GUID/version path.
-- 31 focused discovery checks, ten software suites and isolated MSI install/upgrade/rollback tests passed. Real VTrack startup and shot verification remain pending. Valid saved locations, manual ambiguity handling and the beta.18.7 screen fix are retained.
-- [Current guides, clear ChatGPT example and test instructions](docs/beta.18.8/README.md).
-
-## Retained from beta.18.7
-
-- Discover a manifest-declared LPGAgent.exe in registered current-user LaonPeople/VTrack MSIX packages. Valid saved paths take priority; multiple candidates require manual choice. No WindowsApps permission changes or package activation mechanism.
-- Automatic GSPro/VTrack display routing targets the externally launched game rather than the Toolkit. Explicit app choices remain authoritative.
-- [Clear illustrated ChatGPT workflow example, updated NL/EN guides and VTrack test instructions](docs/beta.18.7/README.md).
-- 10 software suites plus isolated MSI first-install/repair/upgrade/injected rollback tests passed. Real VTrack connections, screen placement and shots need tester confirmation. No new hardware certification.
-
-## Retained from beta.18.6
-
-- ChatGPT flow setup for all 132 existing profiles: privacy-limited export, supported JSON import, clear proposal, automatic configuration backup and restore.
-- No scripts or support approval are needed for supported routes. After your own successful real test, optionally export the flow for the FluJado Discord community. No automatic upload or posting.
-- Fixed legacy profile labels in Settings and stable ShotForge/VTrack toolkit cleanup for sharing/reimport.
-- 30 software suites passed, 132 profile choices checked, and isolated MSI install/repair/upgrade/interruption checks passed. This does not certify untested hardware.
-- [Updated NL/EN user manuals, connector guide and screenshots](docs/beta.18.6/README.md).
-
-## Retained from beta.18.5
-
-- Full removal now checks both known Windows licence stores. Invalid/linked paths are rejected; remaining or locked files cannot be reported as successfully removed. Keep-data remains the default; normal updates retain settings and licence.
-- Isolated two-store removal, MSI first install/repair/upgrade and injected rollback tests passed.
-- Post-reboot practice on 21 October passed: Muni ProTee VX, VX Muni/GSPro roundtrip, Muni Square Omni shots and Omni restart readiness. Fresh Hub installation on the existing PC passed; original settings and licence restored. No clean-Windows-PC or putting claim.
-- [Current English instructions](docs/beta.18.5/GETTING-STARTED.txt) · [Nederlandse aanvulling](docs/beta.18.5/HANDLEIDING-AANVULLING-NL.txt) · [Connector update](docs/beta.18.5/CONNECTOR-GUIDE-UPDATE-EN.txt).
-
-## Retained from beta.18.4
-
-- Guarded Muni / ProTee VX recovery: if the rela plugin has not started Labs after 45 seconds of a matching stalled connection, start the configured Labs once. Existing, loading, updating or unreadable Labs processes are left alone.
-- Three cold starts passed automatically in 58–61 seconds. The missing-Labs branch was tested with production-worker fixtures, including duplicate-start and transient-process guards; it was not needed or forced during these three starts.
-- Settings, licence and custom workflows remain preserved. No new shot, putting, reboot or clean-PC hardware claim. Other simulator and Square routes are unchanged.
-
-## Retained from beta.18.3
-
-- Muni Golf Sim with ProTee VX and Square Omni via rela, with local port 9210, guarded startup and projector routing. Real shots passed for both.
-- Muni to GSPro and back with ProTee VX passed with real shots. Square Omni switching with GSPro is excluded from this test scope.
-- Fourteen other Muni profiles are **Not tested (assisted)**. These are inferred connector combinations; check the exact model and requirements in the compatibility table.
-- Official Drills, Infinite Tees and Muni tile artwork; removed the PLAY label and corrupted arrow text.
-- Updated Dutch/English guides, connector guide and test table. Settings, licence and custom workflows are retained.
-
-One earlier VX startup was delayed before Labs appeared; beta.18.4 adds the guarded recovery described above. Subsequent automatic starts passed. The post-reboot Muni tests above now passed; Muni putting was subsequently confirmed with VX and Omni; Drills only received putts in Open Range. A clean-Windows-PC hardware test remains pending. No new Verified hardware claim.
-
-## Existing beta users
-
-**Beta.18 EXE:** use the update notice in the Hub. A one-time MSI transition starter creates a verified private backup and opens this exact MSI on the existing path. After migration, updates use MSI directly. This bootstrapper is only for the legacy updater; new installations should use the MSI download above.
-
-**Already using an MSI preview:** install the new MSI or use the Hub's update notice. **Beta.17 or older:** the old updater may not parse dotted repair versions; create a private backup and install the MSI manually into the existing Hub folder. Do not uninstall first or delete data.
-
-The Hub checks for a newer version about 15 seconds after opening and every six hours. Its update notice appears when no flow is active and Presentation mode is off. You choose when to install; simulator software is not stopped. The installers are currently unsigned.
-
-## Earlier beta.18 fixes retained
-
-- GSPro and other previously disabled built-in tiles are activated when selected in Guided setup. Choose your hardware profile and save; existing active workflows are preserved unless you explicitly select replacement.
-- Missing required connector/program paths are reported on Golf setup, before screens and Movies & TV.
-- Update checks support numeric beta repair revisions.
-
-Install and activate simulator software and connectors first; verify a real shot outside the Hub. Vendor binaries and licences are not included. Keep private migration backups local and never send licence keys or passwords.
-
-[Compatibility and test status](COMPATIBILITY.md) · [Release notes](docs/beta.18.9/RELEASE-NOTES.txt)
-
-Existing VTrack Bridge automatic recognition remains experimental and untested with VTrack hardware. Registered MSIX Toolkit executable discovery is included from beta.18.7; package activation and automatic saved-path migration after future Toolkit updates are not implemented. [VTrack instructions (English)](docs/beta.18.3/VTRACK-BETA-TEST-EN.txt) · [Nederlands](docs/beta.18.3/VTRACK-BETA-TEST-NL.txt).
-
-Current illustrated beta.18.9 guides, updated for VTrack and ChatGPT setup: [English](docs/beta.18.9/FluJado-Beta-User-Guide-EN.pdf) · [Nederlands](docs/beta.18.9/FluJado-Beta-Handleiding-NL.pdf) · [Connector guide](docs/beta.18.9/FluJado-Connector-Setup-Guide-EN.pdf).
-
-Previous downloads remain available.
-
-
-## Compatibility status — 26 October 2026
-
-The [compatibility table](COMPATIBILITY.md) is sorted by launch monitor and separates prepared flows, software checks, practical tests and Verified. Corrected UTF-8 text and confirmed ProTee VX / rēlā / ShotForge practical status are included. This is a documentation update for the 132 released beta.18.8 profiles; the installer and update feed are unchanged.
+Seven existing themes, guarded flow Close, keyboard shortcuts, Flow wizard/ChatGPT and local silent multiscreen recording remain available. [Previous beta.18.10](docs/beta.18.10/README.md).

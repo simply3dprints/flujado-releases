@@ -1,0 +1,10 @@
+FluJado beta.18.11 — please test
+1. Update using your existing Hub. Confirm version, automatic reopening, settings, licence and custom flows. If reopening fails, start once from Start and report it; do not uninstall first.
+2. Drills desktop and Web: choose your exact monitor/connector profile. Keep existing known-working routes. For Web, install the official bridge separately and sign in yourself in the dedicated browser.
+3. Start after reboot. Choose your activity, take real shots and confirm balls AND data. Check fullscreen display and retained sign-in. A running badge or Ready label alone is not shot proof.
+4. Switch desktop to Web and back using the Hub; confirm the conflicting receiver stops and normal browsing stays open. Same-device Square Omni desktop-to-Web with real shots is still an explicit open test.
+5. Close through the active tile. Confirm Drills/own browser/bridge/managed connector exit, while unrelated apps and intentionally shared Labs remain. Report any visible confirmation or background remnant.
+6. Report exact Hub/simulator/bridge/connector/plugin versions, monitor, reproducible steps and actual messages. Review recordings/diagnostics before sharing; no keys, passwords, browser profiles or personal logs.
+
+Induced live Labs fault recovery is not yet accepted. Do not force faults or change a working Labs setup merely to test it. Keep normal update prompts intact.
+142 profiles passed isolated software checks;16 routes have scoped practical evidence;0 are fully Verified. This is not universal hardware certification.

@@ -1,0 +1,13 @@
+FluJado 0.9.0-beta.18.11 — 1 November 2026
+
+- Optional Drills Web tile for ProTee VX and Square Omni: official Web Bridge, dedicated browser profile, fullscreen simulator display and retained sign-in.
+- Optional modern Drills desktop VX Socket Relay route. Both real transport links are checked; recovery is bounded and existing working routes/defaults remain available.
+- Reliable desktop/Web switching and cleanup. Regular browser windows stay separate. Drills tile-close handles exact original windowless game remnants and a natural-exit race; shared Labs may remain open.
+- Clear locally shot-tested labels for the three new Drills profiles; updated NL/EN manuals, connector guide, screenshots and compatibility evidence.
+- Optional native Muni profiles/helpers remain prepared for separate automated-flow validation; working rela defaults are retained.
+
+Evidence: 142 software-tested profiles, 16 routes with specifically scoped practical evidence, 0 fully Verified. Confirmed real balls/data on 1 November: desktop VX; desktop/Web VX roundtrip; Web Omni and return to desktop Omni. Managed desktop range-close passed without shots.
+Final MSI: actual public beta.18.10 baseline, all147 candidate files verified, three intentional failure recoveries, registration restoration, repair, downgrade rejection and updater integration passed. Reopen function used a harmless marker and old-worker launch endpoint was mocked. This is NOT full Hub-GUI acceptance. No real power-loss claim.
+
+Open: induced live Labs fault recovery; same-device Omni desktop-to-Web with real shots; Uneekor hardware and VTrack customer retests. Other prepared routes are not hardware-certified.
+Install over your existing location; do not uninstall first. Settings, licence and custom flows are retained. Your installed simulator software, plugins and licences are still required. No connector binaries are supplied.

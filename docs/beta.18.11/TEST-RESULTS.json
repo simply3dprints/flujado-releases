@@ -1,0 +1,25 @@
+{
+  "version": "0.9.0-beta.18.11",
+  "date": "2026-11-01",
+  "softwareProfiles": 142,
+  "softwareChecks": 5115,
+  "specificallyPracticallyTestedRoutes": 16,
+  "fullyVerified": 0,
+  "finalMsiFilesVerified": 147,
+  "baseline": "Exact published beta.18.10 SHA256 92823fca70b158bce1b877243ed4860862afda9e265b59afd25e99bd104c5789",
+  "realIsolatedWindowsInstaller": true,
+  "threeFailureRecoveries": true,
+  "repairPassed": true,
+  "baselineWorkerIntegrationPassed": true,
+  "reopenProof": "Harmless marker executable / mocked old-worker launch endpoint",
+  "fullHubGuiAcceptance": false,
+  "realPowerLossTested": false,
+  "installedHubUpdated": false,
+  "personalDataIncluded": false,
+  "open": [
+    "Induced live Labs fault recovery",
+    "Same-device Omni desktop-to-Web real shots",
+    "Uneekor hardware tests",
+    "VTrack customer retests"
+  ]
+}
