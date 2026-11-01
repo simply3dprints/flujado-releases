@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.10",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/2549ffee346dc5a527bc30b9a33c0ff2ced0efb7/downloads/FluJado-MSI-Transition-0.9.0-beta.18.10.exe",
-  "sha256": "048587b7e9e6ca4a6a5a865fbc147f4a7bb9ddeea83279a78d12b09c33b93d09",
+  "version": "0.9.0-beta.18.11",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/49f96c3a8d771a0e092504b2405813c81ef595bd/downloads/FluJado-MSI-Transition-0.9.0-beta.18.11.exe",
+  "sha256": "112ed8993484b8692b9d49c0171af4dddd928a57b536e900b176c7130484aa66",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/2549ffee346dc5a527bc30b9a33c0ff2ced0efb7/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.10.msi",
-    "sha256": "92823fca70b158bce1b877243ed4860862afda9e265b59afd25e99bd104c5789",
-    "productVersion": "0.9.1810"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/49f96c3a8d771a0e092504b2405813c81ef595bd/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.11.msi",
+    "sha256": "00fce099b015fd4fb26af3cb359c23390da967d8c660582bf7ec4d9b1a02d9ea",
+    "productVersion": "0.9.1811"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/2549ffee346dc5a527bc30b9a33c0ff2ced0efb7/docs/beta.18.10/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/49f96c3a8d771a0e092504b2405813c81ef595bd/docs/beta.18.11/RELEASE-NOTES.txt",
   "highlights": [
-    "Seven themes, clearer active-app controls and a larger centred menu. Please share your favourite theme.",
-    "Custom keyboard shortcuts and Full screen beside Menu; all tools are visible by default.",
-    "Flow wizard, ChatGPT proposals and local multiscreen recording, with tested MSI update recovery and reopening."
+    "Drills Web for ProTee VX and Square Omni, with an official Web Bridge and dedicated fullscreen browser.",
+    "Optional desktop VX Socket Relay route, desktop/Web switching and more reliable Drills tile shutdown.",
+    "Updated guides and scoped test evidence: 142 software profiles, 16 practical routes, 0 fully Verified."
   ]
 }
