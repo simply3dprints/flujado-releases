@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.12",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d18deebd52d42170dcb5bbabf38f87a2c85d248f/downloads/FluJado-MSI-Transition-0.9.0-beta.18.12.exe",
-  "sha256": "21a23458fdd10c2ba1b17df8196f479accd1d83eacaf8e12a1b6efce68d3df9b",
+  "version": "0.9.0-beta.18.13",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/951e2c57b8832a01add2cdb836587d1149d5fe9c/downloads/FluJado-MSI-Transition-0.9.0-beta.18.13.exe",
+  "sha256": "693e8c30bce2f085379239d9d07911e4a9a30d84d186d7eb436dee3d786602b4",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d18deebd52d42170dcb5bbabf38f87a2c85d248f/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.12.msi",
-    "sha256": "69f0264e05d96aeb56d8db23d071c493b308848252802fa0e18deb019ba4acfe",
-    "productVersion": "0.9.1812"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/951e2c57b8832a01add2cdb836587d1149d5fe9c/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.13.msi",
+    "sha256": "f82f5cdf1276f4e048f8cb5a34f9b16670a39c9822848c159cd534aae4cb8c44",
+    "productVersion": "0.9.1813"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d18deebd52d42170dcb5bbabf38f87a2c85d248f/docs/beta.18.12/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/951e2c57b8832a01add2cdb836587d1149d5fe9c/docs/beta.18.13/RELEASE-NOTES.txt",
   "highlights": [
-    "ShotForge Classic and 2.0.1 detection and tile shutdown.",
-    "Tighter Carousel spacing in smaller windows.",
-    "Long-path recovery improvements for Drills Web and updated guides."
+    "Optional Square Golf with Square Omni, automatic Play and remembered sign-in.",
+    "Full removal clears the Drills Web browser profile, older update backups and both licence locations.",
+    "Updated guides and compatibility information."
   ]
 }
