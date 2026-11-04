@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.11",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/49f96c3a8d771a0e092504b2405813c81ef595bd/downloads/FluJado-MSI-Transition-0.9.0-beta.18.11.exe",
-  "sha256": "112ed8993484b8692b9d49c0171af4dddd928a57b536e900b176c7130484aa66",
+  "version": "0.9.0-beta.18.12",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d18deebd52d42170dcb5bbabf38f87a2c85d248f/downloads/FluJado-MSI-Transition-0.9.0-beta.18.12.exe",
+  "sha256": "21a23458fdd10c2ba1b17df8196f479accd1d83eacaf8e12a1b6efce68d3df9b",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/49f96c3a8d771a0e092504b2405813c81ef595bd/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.11.msi",
-    "sha256": "00fce099b015fd4fb26af3cb359c23390da967d8c660582bf7ec4d9b1a02d9ea",
-    "productVersion": "0.9.1811"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d18deebd52d42170dcb5bbabf38f87a2c85d248f/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.12.msi",
+    "sha256": "69f0264e05d96aeb56d8db23d071c493b308848252802fa0e18deb019ba4acfe",
+    "productVersion": "0.9.1812"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/49f96c3a8d771a0e092504b2405813c81ef595bd/docs/beta.18.11/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d18deebd52d42170dcb5bbabf38f87a2c85d248f/docs/beta.18.12/RELEASE-NOTES.txt",
   "highlights": [
-    "Drills Web for ProTee VX and Square Omni, with an official Web Bridge and dedicated fullscreen browser.",
-    "Optional desktop VX Socket Relay route, desktop/Web switching and more reliable Drills tile shutdown.",
-    "Updated guides and scoped test evidence: 142 software profiles, 16 practical routes, 0 fully Verified."
+    "ShotForge Classic and 2.0.1 detection and tile shutdown.",
+    "Tighter Carousel spacing in smaller windows.",
+    "Long-path recovery improvements for Drills Web and updated guides."
   ]
 }
