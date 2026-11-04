@@ -8,7 +8,7 @@ Install the official simulator, launch-monitor app and connector first. Verify t
 
 Select the exact supported profile in guided setup. Confirm detected executables and the simulator display. Connector configuration, simulator choice, ports and any required account login must match the selected route.
 
-Prepared means a route exists. Software-tested means its logic passed isolated checks. Hardware-tested means actual shots were confirmed for that combination. The catalogue has 142 software-checked profiles; this does not mean 142 hardware-tested routes.
+Prepared means a route exists. Software-tested means its logic passed isolated checks. Hardware-tested means actual shots were confirmed for that combination. The catalogue has 143 software-checked profiles; this does not mean 143 hardware-tested routes.
 
 Previous practical tests include Muni and Drills with ProTee VX and Square Omni. Uneekor hardware confirmation, VTrack customer detection confirmation and other untested combinations remain separate open items.
 
@@ -60,7 +60,7 @@ Recover and validate
 
 Keep a known-working configuration backup. Review restore proposals before applying them. A configuration backup does not include your licence and cannot restore every setting belonging to a third-party simulator.
 
-If an update is interrupted, allow the updater to finish recovery before starting another installation. The candidate has isolated MSI update, registration, repair and rollback checks. Real client confirmation remains distinct from automated results.
+If an update is interrupted, allow the updater to finish recovery before starting another installation. This release passed isolated MSI update, registration, repair and rollback checks. Real client confirmation remains distinct from automated results.
 
 For a route that fails before connection, check the installed executable, correct profile and competing connectors first. For a Connected-but-no-shot problem, check the monitor’s own readiness and ball detection. Keep the simulator’s existing settings intact while gathering evidence.
 
