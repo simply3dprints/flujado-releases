@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-02. 142 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-11-04. 143 catalogue routes, sorted by launch monitor, simulator and connector.
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
@@ -135,6 +135,7 @@ A successful connection or software test is not automatically proof of a real sh
 | Square Omni | Muni Golf Sim | Muni Launch Monitor Connect | Yes | Yes | No | No | muni-square-omni-native |
 | Square Omni | Muni Golf Sim | rēlā | Yes | Yes | Yes | No | muni-square-omni-rela |
 | Square Omni | ShotForge | rēlā | Yes | Yes | Yes | No | shotforge-square-omni |
+| Square Omni | Square Golf | Square Golf Launcher, Square Golf | Yes | Yes | No | No | square-golf-omni |
 | Square Omni — automatic beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | Yes | No | infinite-tees-square-omni-rela |
 | Uneekor | GSPro | Uneekor standalone connector (SimAdmin; select your installed EXE), Uneekor Third-party Connector | Yes | Yes | No | No | gspro-simadmin-uneekor |
 | Uneekor | Infinite Tees | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | infinite-tees-simadmin-uneekor |
@@ -177,5 +178,3 @@ For rows marked Yes, configuration validation and the ChatGPT export/import/prev
 - **infinite-tees-square-omni-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.
 
 Missing combinations remain outside this inventory; vendor support cannot be inferred from absence.
-
-Separate ShotForge ProTee VX tests on 4 November 2026 confirmed ball flight and shot data in Classic and 2.0.1. The installed beta.18.12 Hub also passed the scoped start and tile-close checks. These results do not change the catalogue totals or confer Verified status.

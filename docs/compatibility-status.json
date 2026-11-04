@@ -1,5 +1,5 @@
 ﻿{
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-04",
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
     {
@@ -3553,6 +3553,32 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-11-02"
+    },
+    {
+      "profileId": "square-golf-omni",
+      "launchMonitor": "Square Omni",
+      "simulator": "Square Golf",
+      "connectors": [
+        "Square Golf Launcher",
+        "Square Golf"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Fresh guided configuration and executable discovery",
+        "ChatGPT context and request import, proposal preview and apply",
+        "Scoped Square window and shutdown target checks"
+      ],
+      "softwareTestDate": "2026-11-04",
+      "practicallyTested": false,
+      "verified": false,
+      "status": "Not tested",
+      "implementationStatus": "Implemented",
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "catalog-profile",
+      "sources": []
     },
     {
       "profileId": "infinite-tees-square-omni-rela",

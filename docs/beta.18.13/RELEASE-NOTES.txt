@@ -1,0 +1,24 @@
+# FluJado beta.18.13
+
+Released 4 November 2026.
+
+## Square Golf with Square Omni
+
+Choose Square Golf in the setup wizard. FluJado looks for the launcher and game, starts the launcher and selects PLAY when the launcher is ready. If Square Golf has remembered the password and the game window is in front, FluJado attempts Sign in once. If the password field is empty or the screen is unclear, sign in directly in Square Golf and select Remember me. There is no Continue step in FluJado. Square Golf manages the Omni connection.
+
+The earlier local proof passed automatic launch, remembered sign-in and tile close. The empty-field check was performed on the real login screen without a click. This is scoped startup evidence. Omni shot delivery through Square Golf was not checked. During testing, keep Square Golf visible and report the launcher version and which screen remained open.
+
+## Installer
+
+Full removal now clears the explicitly known Windows package licence folder before checking regular AppData. Update over the current installation folder to keep data and licence. If the old updater fails during backup, keep its recovery folder and use a manual MSI update over the same installation folder.
+
+[Compatibility](../../COMPATIBILITY.md)
+
+Compatibility inventory: 143 software-tested profiles, 16 routes with specific practical evidence, 0 fully Verified. The Square sign-in and close tests are listed separately from shot evidence.
+
+## Local clean-install acceptance
+
+Full removal cleared both licence locations, the previous Hub folder, a 414-character dummy Drills Web browser path and a dummy legacy update backup. The rebuilt MSI installed at the same location without carrying over config, browser data or licence files. The installed setup code passed discovery and the Square Golf profile and ChatGPT request round-trip. The existing tile settings and local licence were then restored and checked against the private snapshot. The simulator programs were outside this test.
+
+The final MSI also passed the isolated upgrade from beta.18.12, three injected interruption recoveries, repair and downgrade protection.
+

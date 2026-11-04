@@ -1,5 +1,5 @@
 ﻿{
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-04",
   "hardwareEmulation": false,
   "profiles": [
     {
@@ -1398,6 +1398,17 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-11-02"
+    },
+    {
+      "profileId": "square-golf-omni",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Fresh guided configuration and executable discovery",
+        "ChatGPT context and request import, proposal preview and apply",
+        "Scoped Square window and shutdown target checks"
+      ],
+      "softwareTestDate": "2026-11-04"
     },
     {
       "profileId": "infinite-tees-square-omni-rela",
