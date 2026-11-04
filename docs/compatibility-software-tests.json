@@ -1,5 +1,5 @@
 ﻿{
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-02",
   "hardwareEmulation": false,
   "profiles": [
     {
@@ -11,7 +11,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-bushnell-lp",
@@ -22,7 +22,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-foresight-launch-pro",
@@ -33,7 +33,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-bushnell-lpi",
@@ -44,7 +44,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-bushnell-lpi-rela",
@@ -55,7 +55,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-bushnell-lpi-rela",
@@ -66,7 +66,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-flightscope-gen2-rela",
@@ -77,7 +77,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-flightscope-gen2-rela",
@@ -88,7 +88,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-flightscope-gen2",
@@ -99,7 +99,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-mevo-gen2",
@@ -110,7 +110,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-flightscope-mevo-gen2",
@@ -121,7 +121,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-mevo-range",
@@ -132,7 +132,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-mevo-plus",
@@ -143,7 +143,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-mevo-plus-rela",
@@ -154,7 +154,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-flightscope-mevo-plus",
@@ -165,7 +165,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-mevo-plus-rela",
@@ -176,7 +176,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-flightscope-mevo-plus",
@@ -187,7 +187,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-mevo-rela",
@@ -198,7 +198,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-range",
@@ -209,7 +209,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-range-gen2",
@@ -220,7 +220,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-x2",
@@ -231,7 +231,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-flightscope-x2-rela",
@@ -242,7 +242,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-flightscope-x2",
@@ -253,7 +253,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-flightscope-x2-rela",
@@ -264,7 +264,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-flightscope-x2",
@@ -275,7 +275,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-x2-elite",
@@ -286,7 +286,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-x3",
@@ -297,7 +297,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-flightscope-x3",
@@ -308,7 +308,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-x3c",
@@ -319,7 +319,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-xi",
@@ -330,7 +330,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-flightscope-xi-rela",
@@ -341,7 +341,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-flightscope-xi",
@@ -352,7 +352,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-flightscope-xi-rela",
@@ -363,7 +363,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-flightscope-xi",
@@ -374,7 +374,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-flightscope-xi-x2-rela",
@@ -385,7 +385,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-xi-range",
@@ -396,7 +396,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-xi-tour",
@@ -407,7 +407,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-flightscope-xi-plus",
@@ -418,7 +418,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-foresight-falcon",
@@ -429,7 +429,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-foresight-falcon",
@@ -440,7 +440,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-foresight-gc2-rela",
@@ -451,7 +451,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-foresight-gc2-rela",
@@ -462,7 +462,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-foresight-gc2",
@@ -473,7 +473,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-foresight-gc2-rela",
@@ -484,7 +484,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-foresight-gc3",
@@ -495,7 +495,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-foresight-gc3",
@@ -506,7 +506,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-foresight-gc3s",
@@ -517,7 +517,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-foresight-gchawk",
@@ -528,7 +528,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-foresight-gchawk",
@@ -539,7 +539,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-foresight-gcquad",
@@ -550,7 +550,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-foresight-gcquad",
@@ -561,7 +561,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-foresight-quadmax",
@@ -572,7 +572,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-foresight-quadmax",
@@ -583,7 +583,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-full-swing-kit-rela",
@@ -594,7 +594,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-full-swing-kit",
@@ -605,7 +605,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-full-swing-kit-rela",
@@ -616,7 +616,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-full-swing-kit",
@@ -627,7 +627,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-full-swing-kit-rela",
@@ -638,7 +638,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-garmin-r10",
@@ -649,7 +649,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-garmin-r10",
@@ -660,7 +660,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-garmin-r10-assistant",
@@ -671,7 +671,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-garmin-r50",
@@ -682,7 +682,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-garmin-r50",
@@ -693,7 +693,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-garmin-r10-rela",
@@ -704,7 +704,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-garmin-r10-rela",
@@ -715,7 +715,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-garmin-r10",
@@ -726,7 +726,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-garmin-r10-rela",
@@ -737,7 +737,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-golfjoy-rela",
@@ -748,7 +748,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-golfjoy-rela",
@@ -759,7 +759,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-golfjoy-gds-pro",
@@ -770,7 +770,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-golfjoy-gr2",
@@ -781,7 +781,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-golfjoy-gr3",
@@ -792,7 +792,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-golfjoy-gr3-pro",
@@ -803,7 +803,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-golfjoy-spica3",
@@ -814,7 +814,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-golfjoy-spica3",
@@ -825,7 +825,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-golftrak",
@@ -836,7 +836,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-vtrack",
@@ -847,7 +847,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-vtrack-bridge",
@@ -858,7 +858,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-vtrack-bridge",
@@ -869,7 +869,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-vtrack-auto",
@@ -880,7 +880,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-nova-rela",
@@ -891,7 +891,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-nvisage-n1",
@@ -902,7 +902,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-nova-rela",
@@ -913,7 +913,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-openlaunch-nova",
@@ -924,7 +924,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-nova-rela",
@@ -935,7 +935,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-protee-rela",
@@ -946,7 +946,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-protee-socket-relay",
@@ -957,7 +957,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-web-protee-rela",
@@ -968,7 +968,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-default",
@@ -979,7 +979,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-protee-openconnect",
@@ -990,7 +990,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-protee-rela",
@@ -1001,7 +1001,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "protee-default",
@@ -1012,7 +1012,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-protee-rela",
@@ -1023,7 +1023,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-default",
@@ -1034,7 +1034,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-protee-vx",
@@ -1045,7 +1045,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-protee-rela",
@@ -1056,7 +1056,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-rapsodo-mlm2pro",
@@ -1067,7 +1067,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-rapsodo-mlm2pro",
@@ -1078,7 +1078,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-rapsodo-mlm2pro",
@@ -1089,7 +1089,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-rapsodo-mlm2pro-assistant",
@@ -1100,7 +1100,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-mlm2pro-bluetooth",
@@ -1111,7 +1111,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-skytrak-plus",
@@ -1122,7 +1122,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-skytrak-max-rela",
@@ -1133,7 +1133,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-skytrak-max",
@@ -1144,7 +1144,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-skytrak-max-rela",
@@ -1155,7 +1155,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-skytrak-og-rela",
@@ -1166,7 +1166,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-skytrak-og",
@@ -1177,7 +1177,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-skytrak-og-rela",
@@ -1188,7 +1188,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-skytrak-og",
@@ -1199,7 +1199,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-skytrak-rela",
@@ -1210,7 +1210,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-skytrak-plus-rela",
@@ -1221,7 +1221,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-skytrak-plus-rela",
@@ -1232,7 +1232,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-skytrak-plus",
@@ -1243,7 +1243,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-skytrak-plus-rela",
@@ -1254,7 +1254,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-square-he-rela",
@@ -1265,7 +1265,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-square-home",
@@ -1276,7 +1276,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-square-he-rela",
@@ -1287,7 +1287,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-square-home",
@@ -1298,7 +1298,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-square-he-rela",
@@ -1309,7 +1309,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-square-home",
@@ -1320,7 +1320,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-default",
@@ -1331,7 +1331,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-square-omni-rela",
@@ -1342,7 +1342,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-web-square-omni-rela",
@@ -1353,7 +1353,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-square-omni",
@@ -1364,7 +1364,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-square-omni-native",
@@ -1375,7 +1375,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-square-omni-rela",
@@ -1386,7 +1386,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-square-omni",
@@ -1397,7 +1397,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-square-omni-rela",
@@ -1408,7 +1408,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-simadmin-uneekor",
@@ -1417,9 +1417,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Exact reviewed Uneekor 1.2.22/1.2.33 version and target policy checks; no hardware emulation"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "infinite-tees-simadmin-uneekor",
@@ -1428,9 +1429,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Exact reviewed Uneekor 1.2.22/1.2.33 version and target policy checks; no hardware emulation"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-simadmin-uneekor",
@@ -1439,9 +1441,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Exact reviewed Uneekor 1.2.22/1.2.33 version and target policy checks; no hardware emulation"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-uneekor-plugin",
@@ -1452,7 +1455,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "shotforge-simadmin-uneekor",
@@ -1461,9 +1464,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Exact reviewed Uneekor 1.2.22/1.2.33 version and target policy checks; no hardware emulation"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "awesomegolf-uneekor-eye-mini",
@@ -1474,7 +1478,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-uneekor-eye-mini",
@@ -1485,7 +1489,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-uneekor-eye-mini-lite",
@@ -1496,7 +1500,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-uneekor-eye-xo",
@@ -1507,7 +1511,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-uneekor-eye-xo2",
@@ -1518,7 +1522,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-uneekor-eye-xr",
@@ -1529,7 +1533,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "gspro-uneekor-qed",
@@ -1540,7 +1544,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "drills-vtrack-native",
@@ -1551,7 +1555,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     },
     {
       "profileId": "muni-vtrack-native",
@@ -1562,7 +1566,7 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-01"
+      "softwareTestDate": "2026-11-02"
     }
   ]
 }

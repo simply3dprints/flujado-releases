@@ -1,0 +1,13 @@
+FluJado 0.9.0-beta.18.12
+
+- ShotForge Classic and 2.0.1 use the same launcher. Choose your edition there. When prompted for 2.0.1, confirm once the main menu appears. The active tile closes the game, including its second screen.
+- Tighter Carousel spacing in smaller windows. Fullscreen spacing is retained.
+- Update recovery supports long Drills Web browser paths.
+- Drills Labs fault recovery with ProTee VX and the Square Omni desktop-to-Web switch were confirmed with real shots.
+- Improved Muni connector discovery and shutdown. Keep the existing working rela route for ProTee VX. Uneekor hardware and VTrack customer retests remain open.
+
+Install simulator software and connectors before setting up a new Hub. For an update, install the MSI over the existing folder. If the old updater fails during backup, keep its recovery folder and use the manual MSI update without uninstalling first.
+
+Please test update reopening and settings retention, both ShotForge editions and tile shutdown, and Carousel spacing in a smaller window. Include exact versions, steps and messages in reports.
+
+Compatibility: 142 software-tested profiles, 16 catalogue routes with specific practical evidence, 0 fully Verified. Separate ProTee VX shots passed in ShotForge Classic and 2.0.1. The MSI transition and three injected failures passed in isolation. Reopen used a harmless marker. A separate installed-Hub GUI test covered ShotForge launch and close.
