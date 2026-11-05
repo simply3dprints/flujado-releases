@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.14",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/6ab798a48e54135197289b905c23b7b06ef54f20/downloads/FluJado-MSI-Transition-0.9.0-beta.18.14.exe",
-  "sha256": "270f3c16940fdcc48705fcee162242420529c11ac5cd4b09974c63ad81686418",
+  "version": "0.9.0-beta.18.15",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ab6188e6628911838bf4be80a2505a6fa353f59a/downloads/FluJado-MSI-Transition-0.9.0-beta.18.15.exe",
+  "sha256": "01102e6786d4b24d4f6d091889dfb204b7cb8076a49445c2f12db1dfe0c4e8e9",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/6ab798a48e54135197289b905c23b7b06ef54f20/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.14.msi",
-    "sha256": "8dec6012140f366baafb249e40bac35e771eefcbc406aae41d7e8cd9a3eb4223",
-    "productVersion": "0.9.1814"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ab6188e6628911838bf4be80a2505a6fa353f59a/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.15.msi",
+    "sha256": "618089a44630d1e603781f4d3d5f128d8a9715a2350a636d37f14e91a4e496d3",
+    "productVersion": "0.9.1815"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/6ab798a48e54135197289b905c23b7b06ef54f20/docs/beta.18.14/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ab6188e6628911838bf4be80a2505a6fa353f59a/docs/beta.18.15/RELEASE-NOTES.txt",
   "highlights": [
-    "Choose ShotForge Classic, 2.x or both as separate setup tiles.",
-    "Movies & TV opens in Chrome, full screen on your simulator display.",
-    "Full Hub version visible; streaming profiles retained during normal updates."
+    "Create tiles step by step: software, launch monitor and matching connector.",
+    "Add completely new app/connector tiles without coding; review before saving.",
+    "Plex selections stay valid after updating; guides and screenshots refreshed."
   ]
 }
