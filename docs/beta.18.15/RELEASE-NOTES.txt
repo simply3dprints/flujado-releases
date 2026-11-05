@@ -1,0 +1,24 @@
+FluJado 0.9.0-beta.18.15 - 5 November 2026
+
+Create a tile, one choice at a time
+Choose your simulator, its edition where relevant, your launch monitor and a matching connector. Only relevant choices are shown. Check the detected programs, review the proposal and add it to your Settings draft. Existing tiles and valid shared app locations are retained. Save uses the existing configuration backup; Close without saving discards the draft. The advanced manual editor remains available separately, with its missing proposal-function callback corrected.
+ShotForge Classic and 2.x can be added separately or together. Both creates two tiles using the same device and connector choice. Existing routes stay in place. New edition profiles still require their own hardware validation.
+
+Completely new software
+Choose My software is not listed - create a completely new tile. Name it, locate the installed Windows program, optionally choose a launch monitor and connector, and select which program opens first. No scripts or commands are required. The connector must already work outside FluJado. Unknown ports, protocols and buttons are not invented or automated. Without a dedicated connection check, the Hub waits for a stable app window; this does not prove sensor connection. Review, save, test and optionally share the working flow with the community. Unknown flows remain untested until the customer checks them.
+
+Plex repair
+Plex is now in the built-in Movies & TV catalogue. Existing Plex selections remain valid after updating instead of producing Unknown Movies & TV service. Its tile currently has a text logo. Dedicated streaming profiles, account sign-ins and normal personal settings are retained by updates.
+
+Documentation and validation
+NL/EN user guides, connector guide, real wizard screenshots, download links and compatibility metadata are updated. 179 software-checked profiles; 16 routes with specifically scoped practical evidence; 0 fully Verified. No new shot or hardware claims are added.
+The final 148-file MSI passed isolated beta.18.14 > beta.18.15 upgrade, three induced failure/recovery points, repair, downgrade rejection and exact payload hashes. Settings, a fake licence and browser fixtures including a 329-character path were retained. Reopening was tested with a harmless marker executable; this does not constitute full Hub GUI acceptance. Separately, the actual compiled preview Hub completed wizard review, Settings save and Hub reload for two tiles. Unknown-app Settings save/discard/restore and actual Worker window success/headless/early-exit cases were tested in isolation. The author's installed Hub was not updated.
+
+Please test
+1. Open Menu > Flow wizard. Choose your simulator, monitor and connector. For ShotForge, try Classic, 2.x or Both and confirm the intended tiles are added without replacing existing ones.
+2. Try creating a tile for another installed app. Check the proposal, Save, start and Close; review Backup & restore before applying a recovery. Include your software/device/connector versions in reports.
+3. If you already use Plex, update over the existing install folder and confirm the Hub and Movies & TV open normally.
+Share reviewed diagnostics only. Never post passwords, licence keys or browser profiles.
+
+Still open
+Customer-specific VTrack/MSIX discovery and idle/shot retests; Uneekor sensor/shot validation and the separate community ShotForge 2.x report; real shots and switching for new edition combinations; protected streaming playback/subscription checks; Square Golf Omni shot delivery. Existing completed Labs fault-recovery and Omni desktop > Web shot tests remain recorded in their own route evidence and are not re-opened or counted again here. The new wizard does not add new connector support.
