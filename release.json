@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.13",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/951e2c57b8832a01add2cdb836587d1149d5fe9c/downloads/FluJado-MSI-Transition-0.9.0-beta.18.13.exe",
-  "sha256": "693e8c30bce2f085379239d9d07911e4a9a30d84d186d7eb436dee3d786602b4",
+  "version": "0.9.0-beta.18.14",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/6ab798a48e54135197289b905c23b7b06ef54f20/downloads/FluJado-MSI-Transition-0.9.0-beta.18.14.exe",
+  "sha256": "270f3c16940fdcc48705fcee162242420529c11ac5cd4b09974c63ad81686418",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/951e2c57b8832a01add2cdb836587d1149d5fe9c/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.13.msi",
-    "sha256": "f82f5cdf1276f4e048f8cb5a34f9b16670a39c9822848c159cd534aae4cb8c44",
-    "productVersion": "0.9.1813"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/6ab798a48e54135197289b905c23b7b06ef54f20/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.14.msi",
+    "sha256": "8dec6012140f366baafb249e40bac35e771eefcbc406aae41d7e8cd9a3eb4223",
+    "productVersion": "0.9.1814"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/951e2c57b8832a01add2cdb836587d1149d5fe9c/docs/beta.18.13/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/6ab798a48e54135197289b905c23b7b06ef54f20/docs/beta.18.14/RELEASE-NOTES.txt",
   "highlights": [
-    "Optional Square Golf with Square Omni, automatic Play and remembered sign-in.",
-    "Full removal clears the Drills Web browser profile, older update backups and both licence locations.",
-    "Updated guides and compatibility information."
+    "Choose ShotForge Classic, 2.x or both as separate setup tiles.",
+    "Movies & TV opens in Chrome, full screen on your simulator display.",
+    "Full Hub version visible; streaming profiles retained during normal updates."
   ]
 }
