@@ -2,6 +2,8 @@
 
 Updated 2026-11-05. 179 catalogue routes, sorted by launch monitor, simulator and connector.
 
+Beta.18.16 automatically detects the native ShotForge 2.x game window and routes Second Screen separately. Existing connector checks remain. This runtime change adds no shot evidence or Verified status. [Release notes](docs/beta.18.16/RELEASE-NOTES.txt).
+
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
 A successful connection or software test is not automatically proof of a real shot, every switch, reboot or every model. Assisted routes retain their manual checks.

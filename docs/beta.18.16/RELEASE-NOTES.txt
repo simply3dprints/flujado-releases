@@ -1,0 +1,23 @@
+FluJado 0.9.0-beta.18.16 - 5 November 2026
+
+ShotForge 2.x: automatic startup
+No more returning to FluJado to choose Continue for the native ShotForge 2.x window. The Hub identifies exactly one enabled, responding, visible game window and waits for a stable identity. Existing connector checks still follow. Recognising an app window is not proof of a rendered menu, sensor readiness or received shots.
+
+Correct display and foreground
+ShotForge creates both ShotForge and ShotForge Second Screen in the same Unreal process. The process's default window can be the companion. The Hub now routes and focuses the exact game HWND: only the game goes full screen on the selected simulator display. Second Screen goes to the selected controls monitor, or another connected non-projector display if no controls display was selected. A disconnected explicit controls choice is not silently substituted. With one screen, the companion is not relocated over the game. Unknown windows are untouched. Existing Classic and connector routes remain available.
+
+Included from beta.18.15
+The simpler software > monitor > connector tile wizard, completely new app/connector tiles, separate ShotForge edition choices, proposal/backup/restore and the Plex catalogue repair remain included. Install over the same folder to retain settings, licence and browser profiles.
+
+Validation scope
+The exact final 148-file MSI passed isolated beta.18.15 > beta.18.16 update, three induced installation failures with rollback, long browser-path preservation, repair, downgrade rejection and payload hashes. Eighteen payload-copy suites passed, including actual Worker two-window fixtures, 28 window/ownership/placement checks, 93 ShotForge route checks, common readiness, classic readiness, wizard/sharing and seven native themes/menus. Dashboard/menu screenshots were re-rendered with sample data; the NL/EN and connector guides now describe automatic startup.
+The same functional code completed the actual independent preview-Hub ShotForge 2.0.1 / ProTee VX / rela route automatically without shots, including projector/control placement. No new hardware evidence is added. The catalogue remains 179 software-tested profiles, 16 routes with specifically scoped practical evidence and 0 fully Verified. Reopening after MSI installation was checked with a harmless marker executable and is not full Hub-GUI acceptance. The author's installed Hub was not updated by these release checks.
+
+Please test
+1. Update normally and check that FluJado reopens with your settings, licence and custom tiles retained.
+2. Start ShotForge 2.x from its tile. It should continue automatically without asking you to confirm the main menu, then connect using your saved connector route.
+3. Check that the actual game is full screen on the chosen projector, Second Screen stays on controls, and the game comes forward at completion. Also check Close and switching with your existing route.
+Report Hub/ShotForge/connector versions, launch monitor, monitor choices, resolution/scaling and the actual message. Review any report or video before sharing; never post keys, passwords or browser profiles.
+
+Still open
+Customer-specific VTrack/MSIX and idle/shot retests; Uneekor sensor/shot validation and exact community ShotForge 2.x diagnostics; per-edition hardware/shot validation; Square Golf Omni shot delivery; protected streaming playback and subscription checks. Existing successful live Labs fault-recovery and Omni desktop-to-Web shot tests remain completed with their recorded scope.

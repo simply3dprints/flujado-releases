@@ -1,4 +1,4 @@
-﻿{
+{
   "asOf": "2026-11-05",
   "hardwareEmulation": false,
   "profiles": [
@@ -1971,5 +1971,8 @@
       ],
       "softwareTestDate": "2026-11-05"
     }
-  ]
+  ],
+  "release": "0.9.0-beta.18.16",
+  "releaseNotesUrl": "https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.16/RELEASE-NOTES.txt",
+  "newHardwareEvidence": false
 }
