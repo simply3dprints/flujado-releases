@@ -1,0 +1,175 @@
+Aan de slag met FluJado
+
+
+
+Handleiding voor beta.18.14. Installeer over je bestaande installatie om instellingen, licentie en eigen flows te behouden.
+
+Installeer eerst je simulatorsoftware, launch-monitorsoftware en benodigde connectors. Controleer dat je ermee kunt spelen zonder FluJado. De Hub start en begeleidt je bestaande software; hij vervangt geen connector of simulatorlicentie.
+
+Open de MSI. Kies de installatiemap en de gewenste snelkoppelingen. Laat de startoptie aangevinkt als FluJado na installatie moet openen. Rond daarna de begeleide setup af: kies je apparaat, simulator, aanwezige apps en simulatorscherm.
+
+Controleer gevonden apps en paden. Ontbreekt een app, wijs dan het bestaande programmabestand aan. Kies geen route alleen omdat de apparaatnaam erop lijkt. Openstaande handmatige connectorstappen blijven nodig als er nog geen betrouwbare automatisering bestaat.
+
+Gebruik je eigen FluJado-licentie via License. Deel nooit licentiesleutels of wachtwoorden in een opname, configuratie-export of Discord-bericht.
+
+Download MSI: beta.18.14 https://github.com/simply3dprints/flujado-releases/raw/main/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.14.msi
+
+Compatibiliteit en teststatus per route https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Je Hub en de thema’s
+
+
+
+Kies Classic, Carousel, Cinema, Lounge, Console, Library of Mosaic met Theme. Deze keuze wijzigt de presentatie, niet de verbindingsroute. Gebruik minder beweging als je rustige overgangen wilt.
+
+In Carousel blijft de geselecteerde kaart centraal met kaarten ernaast. Klik op een zijkaart om die te selecteren; klik op de centrale kaart om de flow te starten. In Cinema start de geselecteerde kaart. Er is geen extra Start-knop nodig.
+
+Movies & TV is een optionele map in hetzelfde scherm. Kies een dienst en gebruik Back om naar de simtegels terug te gaan. Je eigen accounts en abonnementen blijven nodig.
+
+Open Menu voor extra bediening. Updates, Settings en Flows & Help staan daar bij elkaar. De melding van een beschikbare update blijft op het hoofdscherm zichtbaar. Een app-open-badge bewijst alleen dat een app draait, niet dat je launch monitor verbonden is.
+
+In een klein venster staan Carousel-kaarten dichter bij elkaar. In volledig scherm blijft de ruime indeling behouden.
+
+Settings en je eigen flow
+
+
+
+Open Menu > Settings. Settings verschijnt als aparte pagina binnen de Hub. Save changes bewaart wijzigingen met een configuratieback-up. Teruggaan zonder opslaan laat de bewaarde configuratie staan. Controleer de aangeboden hersteloptie voordat je een eerdere configuratie terugzet.
+
+Flows & Help biedt Flow wizard, ChatGPT flow en Record flow. De Flow wizard helpt je een eigen route te maken met apps die al op je pc staan.
+
+Geef de flow een naam, voeg apps toe in de juiste startvolgorde en kies welke app op het simulatorscherm moet verschijnen. Selecteer alleen conflicterende apps die vooraf mogen sluiten. Laat de verbindingsbevestiging aan als automatisch gereed herkennen ontbreekt.
+
+Lees het voorstel. Je kunt eerst een concept bewaren of het voorstel in de instellingen verwerken en opslaan. De wizard start apps en gebruikt bestaande gereedcontroles; hij bedenkt geen connectorpoorten of knoppen voor onbekende apparaten. Test een nieuwe route eerst zelf.
+
+Een flow met hulp van ChatGPT
+
+
+
+Open ChatGPT flow. Exporteer het setupoverzicht en kopieer de bijbehorende prompt. Deel deze zelf met ChatGPT. De ingebouwde export laat lokale paden, licenties en ruwe logbestanden weg; controleer ook je eigen aanvullingen op privégegevens.
+
+Vraag om een voorstel voor jouw simulator en launch monitor. Sla het antwoord op als het gevraagde JSON-bestand. Importeer dat bestand en lees het voorstel: importeren alleen verandert niets.
+
+Pas alleen een voorstel toe dat overeenkomt met je bedoeling. Toepassen bewaart ook andere openstaande Settings-wijzigingen en maakt een configuratieback-up. De back-up bevat geen licentie. Gebruik de herstelmogelijkheid om de vorige configuratie terug te zetten.
+
+Werkt de route? Test starten, een echte slag en afsluiten voordat je hem als werkend deelt op Discord. Lukt het niet, stuur de FluJado-versie, simulator, apparaat, verwachte werking en wat er misgaat naar het support- of testerkanaal. Voeg alleen een gecontroleerd overzicht, voorstel of opname toe. Onbekende scripts worden niet automatisch uitgevoerd.
+
+Een flow of probleem opnemen
+
+
+
+Open Record flow. Kies bewust All screens, één Screen of één Window. Er is niets vooraf geselecteerd. All screens neemt alle aangesloten schermen samen op, ook als een connector op een ander scherm opent. De onderlinge plaatsing blijft behouden; lege ruimtes zijn zwart.
+
+Bij veel schermen worden tekst en details kleiner. Kies één scherm voor beter leesbare details. Sluit privévensters op alle schermen voordat je All screens gebruikt. Een vensteropname bevat alleen dat venster; voor games of een zwart resultaat kies je het betreffende scherm.
+
+Klik Start recording, kies een nieuwe AVI-bestandsnaam en doorloop de flow. De rode indicator toont dat de opname loopt. Zet het opnamevenster op een hulpscherm en breng de simulator naar voren, zodat de bediening je spelbeeld niet bedekt. Stop recording rondt het bestand af. Review saved video opent de lokale speler; kijk alles na voordat je iets deelt.
+
+Audio is uit. De opname blijft op je pc en wordt nooit automatisch verstuurd. Limieten: maximaal 2 minuten, 128 MB, 1280 x 720 en 8 beelden per seconde. Dit is een uitlegvideo, geen vloeiende prestatiemeting.
+
+Bij een gewijzigde schermindeling of losgekoppeld scherm stopt All screens met een melding. Vernieuw de lijst en kies opnieuw. Een gesloten, geminimaliseerd of niet ondersteund venster kan de vensteropname stoppen.
+
+Updates, herstel en hulp
+
+
+
+Gebruik Menu > Check for updates om handmatig te controleren. Bekijk de korte wijzigingslijst en download/installatiekeuze. Bij een geslaagde MSI-update hoort de Hub opnieuw te openen. De updatecontrole en installatie zijn in de losse proefversie bewust uitgeschakeld.
+
+Maak een configuratieback-up voordat je een grote wijziging doet. Een configuratieback-up vervangt geen licentieback-up of volledige installatieback-up. Bij een mislukte update kan de herstelroute de vorige runtime en registratie terugzetten; persoonlijke gegevens horen behouden te blijven.
+
+Gebruik bij verwijderen de keuze om je gegevens te behouden als je later opnieuw wilt installeren. Volledig verwijderen is een bewuste keuze: daarbij horen ook de opgeslagen FluJado-licentiegegevens. Dit verwijdert geen simulatorsoftware.
+
+Een voorbereide route is niet automatisch met echte hardware getest. De compatibiliteitslijst onderscheidt softwarecontroles en praktijktests. Muni en Drills zijn eerder met ProTee VX en Square Omni getest; dit bewijst geen werking voor ieder ander apparaat.
+
+De opname is zonder slagen praktisch gecontroleerd met Muni op de beamer en rēlā op een ander scherm. Ook eigen testvensters en gegenereerde schermbeelden zijn getest. Dit bewijst niet dat opnemen bij elke belasting zonder prestatieverlies werkt. Deel bij problemen alleen relevante, nagekeken informatie en nooit sleutels.
+
+Actuele compatibiliteitslijst https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Drills Web toevoegen
+
+
+
+Installeer eerst rēlā en de bij jouw apparaat passende plugin. Open https://web.drillsgolf.com/ en download de officiële Drills Web Bridge via het Drills-dashboard. Pak de hele download uit in een vaste map en wijs in de Hub DrillsWebBridge.exe aan. Start niet vanuit de zip en verplaats de map daarna niet.
+
+Open Menu > Settings > Setup wizard. Voeg Drills Web toe en kies het profiel dat exact bij je launch monitor past: ProTee VX (Web Bridge + rēlā) of Square Omni (Web Bridge + rēlā). Laat Replace selected existing golf workflows uit om je werkende routes te behouden. Controleer de gevonden browser, Web Bridge, rēlā en eventueel ProTee Labs; wijs een ontbrekend programma aan.
+
+Kies het simulatorscherm of behoud je bestaande schermkeuze. Sla op en open de nieuwe Drills Web-tegel. De Hub opent een eigen Edge- of Chrome-profiel schermvullend op dat scherm. Log indien nodig zelf in op je Drills-account. Je normale browser blijft apart; de Hub neemt geen wachtwoord of cookies over.
+
+Kies zelf een spel of oefening. De Hub kiest geen range automatisch. De schermafbeelding toont de routekeuze. Locally shot-tested betekent dat echte slagen met deze specifieke route zijn bevestigd; het is geen volledig Verified-keurmerk. De compatibiliteitslijst beschrijft de testscope.
+
+Drills Web https://web.drillsgolf.com/
+
+Drills-dashboard / officiële bridge https://dashboard.drillsgolf.com/profile
+
+Verbinden, wisselen en hulp
+
+
+
+Voor de nieuwe VX-route: rond de ProTee-pluginsetup eerst af in Socket Relay-modus, lokale poort 12321, antwoorden ingeschakeld. ProTee Labs GSPro Auto-connect moet werken; laat automatisch starten van het GSPro-spel uit. De Hub verandert die Labs-instellingen niet. Behoud de oude desktoproute als jouw plugin een andere werkwijze vereist.
+
+Bij Square Omni gebruik je de passende rēlā-plugin en Bluetooth-verbinding; houd andere connectors voor hetzelfde apparaat gesloten. De Web Bridge ontvangt van rēlā op TCP 921 en levert lokaal aan de browser op 5921. Die nummers hoef je in een passend Hub-profiel niet handmatig te wijzigen.
+
+Wissel via de Hub-tegels tussen Drills desktop en Drills Web. De Hub ruimt de conflicterende ontvanger op, start de bridge vóór de connector en controleert de echte verbindingen. Een Ready-tekst alleen bewijst geen slagontvangst. Bij afsluiten verdwijnen het eigen Web-browservenster, bridge en beheerde connector; je gewone browser blijft open. ProTee Labs kan als gedeelde app openblijven.
+
+Geen bal zichtbaar? Controleer eerst baldetectie in de launch-monitorsoftware en de exacte route. Bij een bezette poort of ontbrekende plugin volg je de Hub-melding; start niet extra connectors ernaast. Labs kan bij de ondersteunde VX-route maximaal één keer normaal herstellen; een update of onbekende toestand vraagt aandacht.
+
+Meld een probleem met Hub-, Drills-, bridge- en connectorversie, apparaat, verwachte actie, feitelijke melding en stappen. Voeg alleen een nagekeken opname of diagnostiek toe via het FluJado-support/testkanaal of info@flujado.com. Deel geen licenties, browserprofiel, wachtwoorden of ruwe accountgegevens. Een werkende nieuwe flow mag je na echte test delen in de community.
+
+Muni: kies de juiste verbindingsroute
+
+
+
+ProTee VX: gebruik de aanbevolen Muni / rela-route. De directe Labs / Open Connect-proefroute is geen vervanging: automatische start werkte in onze Labs 1.12.15-test niet, ook met Auto-connect aan. Klik niet op Labs Connect om dit te forceren; die knop kan de ingestelde GSPro-launcher en diens eigen updater starten.
+
+Square Omni: de optionele route zonder rela gebruikt de aparte LaunchMonitorConnect van Muni, niet de ingebouwde Bluetooth-route. De Hub kiest Open Connect op 9210, scant en kiest een unieke Square. Houd andere Square-connectors gesloten. Starten en Muni > Drills > Muni zijn zonder nieuwe slagen getest; eerdere connector-slagen gelden alleen voor hun beschreven testscope.
+
+De close-knop ruimt alleen de simulator en zijn eigen, niet gedeelde helpers op. Een eigen vastgelopen Muni LaunchMonitorConnect kan na een normale sluitpoging worden gestopt; het spel zelf krijgt een normale afsluitopdracht. Rond een eventuele opslaan- of afsluitvraag in het spel zelf af.
+
+Een groen verbonden apparaat en een groene simulatorverbinding zijn iets anders dan baldetectie. Muni Ready kan afwijken. Controleer voor een praktijktest ook de bal en slaggegevens; een voorbereide of softwaregeteste flow is geen volledig Verified-route.
+
+Uneekor-versies, updates en herstel
+
+
+
+Installeer de originele Uneekor-drivers en Microsoft .NET 10 Desktop Runtime x64. Kies je eigen model eenmalig in de aparte SimAdmin-connector. Sluit concurrerende Uneekor Launcher/View-vensters. Download de connector via de officiele auteursserver; FluJado levert geen connectorbinary mee.
+
+FluJado herkent alleen de exact gecontroleerde builds 1.2.22 en 1.2.33. Met 1.2.22 gebruikt Muni Open Connect 9210. Met 1.2.33 kiest de Hub Muni Uneekor 59002. Model en overige instellingen blijven behouden; aangepaste auto-connect- en Muni-instellingen krijgen een back-up. Een onbekende versie wordt niet stilzwijgend toegestaan.
+
+De vier bestaande routes zijn softwaregetest. De nieuwe Muni-instelling en poort zijn ook met het echte spel gecontroleerd, maar zonder Uneekor-sensor is geen volledige geslaagde hardwareflow bewezen. Vraag de tester om sensorverbinding, slagen en simulatorwissels te bevestigen. Alleen een groene simulatorverbinding is onvoldoende.
+
+Drills: automatisch Labs-foutherstel met een echte VX-slag en Omni desktop > Web met echte slagen zijn op 2 november bevestigd. Bij Omni kan de flow verbonden zijn terwijl de bal nog wordt gezocht; dit is geen Ready-claim. De nieuwe updatewerker ondersteunt lange browserprofielpaden. Een oudere geinstalleerde updatewerker kan nog voor de installatie vastlopen. Bewaar dan de herstelmap en vraag support om een handmatige MSI-update over dezelfde installatiemap, zonder vooraf te verwijderen. Bewaar bij een mislukte update de herstelmap en gebruik herstel of support; verwijder geen licentiemappen om een update te repareren.
+
+Square Golf en volledig verwijderen
+
+
+
+Kies Square Golf met Square Omni in de setup. FluJado opent de launcher en kiest Play zodra die gereed is. Wanneer het spel vooraan staat en een onthouden wachtwoord herkenbaar is, probeert FluJado één keer Sign in. Bij een leeg of onduidelijk wachtwoordveld meld je je zelf aan in Square Golf. Vink Remember me aan als je dat wilt. Je hoeft niet op Continue in de Hub te drukken.
+
+Square Golf verzorgt de Omni-verbinding. De start, aanmelding en afsluiting zijn apart getest. Slagdoorgifte is nog niet getest.
+
+Volledig verwijderen wist ook het aparte Drills Web-browserprofiel, oude Hub-updateback-ups en de lokale licentie. Kies gegevens behouden of installeer de MSI over je bestaande locatie als je je instellingen wilt houden.
+
+ShotForge: kies Classic, 2.x of beide
+
+
+
+Open Menu > Settings > Setup wizard. Kies ShotForge Classic voor de oorspronkelijke app of ShotForge 2.x voor het nieuwe hoofdmenu. Je kunt beide aanvinken: elke versie krijgt een eigen tegel en een eigen keuze voor launch monitor en connector.
+
+Kies in Golf setup onder elke nieuwe tegel de juiste verbindingsroute. Controleer de gevonden programmabestanden. Classic gebruikt ShotForge.exe; 2.x gebruikt resources/course-play-ue/ShotForgeCoursePlay.exe in dezelfde ShotForge-installatie. De Hub werkt ShotForge zelf niet bij.
+
+Je bestaande ShotForge-tegel blijft behouden als bestaande launcher-keuze. De nieuwe keuzes maken afzonderlijke tegels; het wijzigen van het profiel van een al bestaande tegel maakt geen tweede tegel. Laat Replace selected existing golf workflows uit om je bestaande routes te behouden. Een oude tegel kun je later bewust uitschakelen in Settings.
+
+De nieuwe versie-tegels zijn softwaregetest. Starten, Classic naar 2.x wisselen en tegel-afsluiten zijn met de echte apps zonder slagen gecontroleerd. Bij 2.x kan de Hub vragen het zichtbare hoofdmenu te bevestigen. Dit is geen bewijs van een verbonden sensor of ontvangen slag. Test je eigen connector en slagen voordat je de route deelt.
+
+Het volledige Hub-versienummer, inclusief beta.18.14, staat onderaan Home en in de venstertitel. Geef bij een probleem de Hub-versie, ShotForge-versie en gekozen connectorroute door.
+
+Movies & TV op je beamer
+
+
+
+Kies je dienst in Movies & TV. De Hub gebruikt Chrome als dat is geinstalleerd en opent de dienst schermvullend op het gekozen simulatorscherm. Alleen als Chrome ontbreekt wordt Edge gebruikt. Kies eerst je simulatorscherm in Settings > Tiles & screens.
+
+Streaming gebruikt een apart browserprofiel per dienst. Log daar eenmalig zelf in met je eigen account en abonnement. Bestaande Chrome-tabbladen en browserprofielen worden niet gewijzigd. De Hub vraagt nooit om streamingwachtwoorden.
+
+Nogmaals dezelfde dienst kiezen haalt het bestaande streamingvenster naar de beamer, zonder een extra venster te starten. Instellingen en deze aparte browserprofielen blijven behouden bij een update of Keep data. Volledig verwijderen met alle data verwijdert ook deze profielen.
+
+Test je eigen diensten op je beamer en controleer beeld, geluid en terugkeren naar de Hub met je ingestelde sneltoets. De softwaretest controleerde Chrome, plaatsing en heropenen; afspelen van beveiligde video en abonnementstoegang zijn niet gecertificeerd.

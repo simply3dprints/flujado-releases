@@ -1,0 +1,21 @@
+FluJado 0.9.0-beta.18.14 — 5 November 2026
+
+ShotForge version choices
+The setup wizard now offers ShotForge Classic and ShotForge 2.x as separate optional tiles. Select either or both and choose the correct launch monitor / connector beneath each. Existing launcher-based ShotForge tiles and custom workflows are retained. Changing the profile of an existing tile does not create an additional tile; use the new edition choices to add separate tiles.
+Classic starts the original ShotForge.exe. The 2.x tile starts the installed course-play app directly. FluJado does not update ShotForge itself. Its 2.x main-menu confirmation remains conservative; it does not claim sensor readiness.
+
+Movies & TV
+Streaming services prefer installed Google Chrome and open full screen on the selected simulator display. Edge is used only if Chrome is unavailable. Each service uses a separate streaming browser profile; sign in there once yourself. Existing browser tabs and profiles remain unchanged. Reopening a service reuses its dedicated window. Updates and Keep data retain these profiles; full removal with all data removes them.
+
+Version and documentation
+The full Hub version is visible on Home and in the window title. NL/EN user guides, connector guide, setup screenshot and compatibility metadata are updated.
+
+Validation scope
+179 software-checked profiles; 16 catalogue routes with specifically scoped practical evidence; 0 fully Verified. The 143 earlier hardware profiles remain unchanged. The 36 new edition profiles add no new hardware claim. Real Classic and 2.x startup, Classic > 2.x switching and tile close were checked without shots. Chrome selection, projector placement and same-service reuse passed. Subscription access and protected-video playback were not certified.
+The final MSI passed isolated 18.13 > 18.14 upgrade, three induced installation failures with rollback, repair, downgrade rejection and exact payload verification. Configuration, fake licence and browser fixtures were retained. Reopening was tested with a harmless marker executable; this is not full Hub GUI acceptance. No user's installed Hub was upgraded by these tests.
+
+Please test
+1. Choose Classic, 2.x or both in the wizard. Confirm the intended version opens and each tile closes the intended app. Report your Hub version, ShotForge version, monitor and connector route.
+2. With your own connected hardware, confirm shot data and simulator switching for the newly selected edition. New edition routes remain without new shot proof.
+3. Open your Movies & TV services on the selected projector. Check full screen, sound, reopening and return-to-Hub shortcut.
+Outstanding: the separate community ShotForge 2.0.2 / Uneekor report still needs exact Hub/profile diagnostics. No fix for that specific hardware report is claimed. Square Golf Omni shot delivery and untested monitor combinations retain their previous open status.

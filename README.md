@@ -1,5 +1,7 @@
-# FluJado Golf Sim Hub - beta.18.13
+# FluJado Golf Sim Hub - beta.18.14
 
-[Windows MSI](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.13.msi) · [Guides and screenshots](docs/beta.18.13/README.md) · [Release notes](docs/beta.18.13/RELEASE-NOTES.txt) · [Compatibility](COMPATIBILITY.md)
+[Windows MSI](downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.14.msi) · [Guides and screenshots](docs/beta.18.14/README.md) · [Release notes](docs/beta.18.14/RELEASE-NOTES.txt) · [Compatibility](COMPATIBILITY.md)
 
-Optional Square Golf with Square Omni, automatic Play and remembered sign-in, plus improved full removal. Install over your current folder to keep settings and licence.
+Choose ShotForge Classic, 2.x or both as separate setup tiles. Movies & TV prefers Chrome full screen on your simulator display. The full Hub version is visible on Home. Install over your current folder to retain settings and licence.
+
+179 software-checked profiles, 16 routes with specifically scoped practical evidence, 0 fully Verified. New edition profiles require your own hardware test. Install and verify simulators and connectors before first setting up the Hub.

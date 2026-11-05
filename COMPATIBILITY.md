@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-04. 143 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-11-05. 179 catalogue routes, sorted by launch monitor, simulator and connector.
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
@@ -17,6 +17,8 @@ A successful connection or software test is not automatically proof of a real sh
 | FlightScope Gen2 | Drills Golf Sim | rēlā | Yes | Yes | No | No | drills-flightscope-gen2-rela |
 | FlightScope Gen2 | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-flightscope-gen2-rela |
 | FlightScope Gen2 | ShotForge | rēlā | Yes | Yes | No | No | shotforge-flightscope-gen2 |
+| FlightScope Gen2 | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-flightscope-gen2 |
+| FlightScope Gen2 | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-flightscope-gen2 |
 | FlightScope Mevo Gen2 | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-mevo-gen2 |
 | FlightScope Mevo Gen2 | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-flightscope-mevo-gen2 |
 | FlightScope Mevo Range | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-mevo-range |
@@ -25,6 +27,8 @@ A successful connection or software test is not automatically proof of a real sh
 | FlightScope Mevo+ | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-flightscope-mevo-plus |
 | FlightScope Mevo+ | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-mevo-plus-rela |
 | FlightScope Mevo+ | ShotForge | rēlā | Yes | Yes | No | No | shotforge-flightscope-mevo-plus |
+| FlightScope Mevo+ | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-flightscope-mevo-plus |
+| FlightScope Mevo+ | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-flightscope-mevo-plus |
 | FlightScope Mevo+ / Gen2 — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-mevo-rela |
 | FlightScope Range | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-range |
 | FlightScope Range Gen2 | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-range-gen2 |
@@ -33,6 +37,8 @@ A successful connection or software test is not automatically proof of a real sh
 | FlightScope X2 | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-flightscope-x2 |
 | FlightScope X2 | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-flightscope-x2-rela |
 | FlightScope X2 | ShotForge | rēlā | Yes | Yes | No | No | shotforge-flightscope-x2 |
+| FlightScope X2 | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-flightscope-x2 |
+| FlightScope X2 | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-flightscope-x2 |
 | FlightScope X2 Elite | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-x2-elite |
 | FlightScope X3 | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-x3 |
 | FlightScope X3 | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-flightscope-x3 |
@@ -42,6 +48,8 @@ A successful connection or software test is not automatically proof of a real sh
 | FlightScope Xi | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-flightscope-xi |
 | FlightScope Xi | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-flightscope-xi-rela |
 | FlightScope Xi | ShotForge | rēlā | Yes | Yes | No | No | shotforge-flightscope-xi |
+| FlightScope Xi | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-flightscope-xi |
+| FlightScope Xi | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-flightscope-xi |
 | FlightScope Xi / X2 — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-flightscope-xi-x2-rela |
 | FlightScope Xi Range | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-xi-range |
 | FlightScope Xi Tour | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-flightscope-xi-tour |
@@ -51,6 +59,8 @@ A successful connection or software test is not automatically proof of a real sh
 | Foresight GC2 | Drills Golf Sim | rēlā | Yes | Yes | No | No | drills-foresight-gc2-rela |
 | Foresight GC2 | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-foresight-gc2-rela |
 | Foresight GC2 | ShotForge | rēlā | Yes | Yes | No | No | shotforge-foresight-gc2 |
+| Foresight GC2 | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-foresight-gc2 |
+| Foresight GC2 | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-foresight-gc2 |
 | Foresight GC2 — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-foresight-gc2-rela |
 | Foresight GC3 | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-foresight-gc3 |
 | Foresight GC3 | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-foresight-gc3 |
@@ -65,6 +75,8 @@ A successful connection or software test is not automatically proof of a real sh
 | Full Swing KIT | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-full-swing-kit |
 | Full Swing KIT | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-full-swing-kit-rela |
 | Full Swing KIT | ShotForge | rēlā | Yes | Yes | No | No | shotforge-full-swing-kit |
+| Full Swing KIT | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-full-swing-kit |
+| Full Swing KIT | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-full-swing-kit |
 | Full Swing KIT — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-full-swing-kit-rela |
 | Garmin Approach R10 | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-garmin-r10 |
 | Garmin Approach R10 | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-garmin-r10 |
@@ -74,6 +86,8 @@ A successful connection or software test is not automatically proof of a real sh
 | Garmin R10 | Drills Golf Sim | rēlā | Yes | Yes | No | No | drills-garmin-r10-rela |
 | Garmin R10 | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-garmin-r10-rela |
 | Garmin R10 | ShotForge | rēlā | Yes | Yes | No | No | shotforge-garmin-r10 |
+| Garmin R10 | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-garmin-r10 |
+| Garmin R10 | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-garmin-r10 |
 | Garmin R10 — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-garmin-r10-rela |
 | GolfJoy | Drills Golf Sim | rēlā | Yes | Yes | No | No | drills-golfjoy-rela |
 | GolfJoy | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-golfjoy-rela |
@@ -83,9 +97,13 @@ A successful connection or software test is not automatically proof of a real sh
 | GolfJoy GR3 Pro | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-golfjoy-gr3-pro |
 | GolfJoy Spica 3 | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-golfjoy-spica3 |
 | GolfJoy Spica 3 | ShotForge | rēlā | Yes | Yes | No | No | shotforge-golfjoy-spica3 |
+| GolfJoy Spica 3 | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-golfjoy-spica3 |
+| GolfJoy Spica 3 | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-golfjoy-spica3 |
 | GolfTrak | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-golftrak |
 | LAON VTrack | GSPro | VTrackToolKit (LPGAgent) | Yes | Yes | No | No | gspro-vtrack |
 | LAON VTrack | ShotForge | VTrackToolKit (LPGAgent), VTrack → ShotForge bridge | Yes | Yes | No | No | shotforge-vtrack-bridge |
+| LAON VTrack | ShotForge 2.x | ShotForge 2.x, VTrackToolKit (LPGAgent), VTrack → ShotForge bridge | Yes | Yes | No | No | shotforge2-vtrack-bridge |
+| LAON VTrack | ShotForge Classic | ShotForge Classic, VTrackToolKit (LPGAgent), VTrack → ShotForge bridge | Yes | Yes | No | No | shotforgeClassic-vtrack-bridge |
 | LAON VTrack — assisted, hardware untested | Infinite Tees | Infinite Tees VTrack Bridge (untested) | Yes | Yes | No | No | infinite-tees-vtrack-bridge |
 | LAON VTrack — automatic buttons, hardware untested | Infinite Tees | Infinite Tees VTrack Bridge (untested) | Yes | Yes | No | No | infinite-tees-vtrack-auto |
 | Nova by Open Launch — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-nova-rela |
@@ -102,11 +120,17 @@ A successful connection or software test is not automatically proof of a real sh
 | ProTee VX | ProTee Labs | Native / simulator only | Yes | Yes | Yes | No | protee-default |
 | ProTee VX | ShotForge | rēlā, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | shotforge-protee-rela |
 | ProTee VX | ShotForge | VGPConnect, VX Connector | Yes | Yes | Yes | No | shotforge-default |
+| ProTee VX | ShotForge 2.x | ShotForge 2.x, rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | No | shotforge2-protee-rela |
+| ProTee VX | ShotForge 2.x | VGPConnect, VX Connector, ShotForge 2.x | Yes | Yes | No | No | shotforge2-default |
+| ProTee VX | ShotForge Classic | ShotForge Classic, rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | No | shotforgeClassic-protee-rela |
+| ProTee VX | ShotForge Classic | VGPConnect, VX Connector, ShotForge Classic | Yes | Yes | No | No | shotforgeClassic-default |
 | ProTee VX — assisted beta | Infinite Tees | VX Connector for Infinite Tees | Yes | Yes | No | No | infinite-tees-protee-vx |
 | ProTee VX — automatic beta | Infinite Tees | rēlā for Infinite Tees, ProTeeVXPlugin.dll | Yes | Yes | Yes | No | infinite-tees-protee-rela |
 | Rapsodo MLM2PRO | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-rapsodo-mlm2pro |
 | Rapsodo MLM2PRO | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-rapsodo-mlm2pro |
 | Rapsodo MLM2PRO | ShotForge | rēlā, MLM2ProPlugin.dll | Yes | Yes | No | No | shotforge-rapsodo-mlm2pro |
+| Rapsodo MLM2PRO | ShotForge 2.x | ShotForge 2.x, rēlā, MLM2ProPlugin.dll | Yes | Yes | No | No | shotforge2-rapsodo-mlm2pro |
+| Rapsodo MLM2PRO | ShotForge Classic | ShotForge Classic, rēlā, MLM2ProPlugin.dll | Yes | Yes | No | No | shotforgeClassic-rapsodo-mlm2pro |
 | Rapsodo MLM2PRO via Assistant | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-rapsodo-mlm2pro-assistant |
 | Rapsodo MLM2PRO — assisted beta | Infinite Tees | MLM2PRO Bluetooth connector for Infinite Tees | Yes | Yes | No | No | infinite-tees-mlm2pro-bluetooth |
 | SkyTrak + | GSPro | SkyTrak with OpenSkyPlus2 | Yes | Yes | No | No | gspro-skytrak-plus |
@@ -117,10 +141,14 @@ A successful connection or software test is not automatically proof of a real sh
 | SkyTrak OG | GSPro | SkyTrak with OpenSkyPlus2 | Yes | Yes | No | No | gspro-skytrak-og |
 | SkyTrak OG | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-skytrak-og-rela |
 | SkyTrak OG | ShotForge | rēlā | Yes | Yes | No | No | shotforge-skytrak-og |
+| SkyTrak OG | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-skytrak-og |
+| SkyTrak OG | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-skytrak-og |
 | SkyTrak — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-skytrak-rela |
 | SkyTrak+ | Drills Golf Sim | rēlā | Yes | Yes | No | No | drills-skytrak-plus-rela |
 | SkyTrak+ | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-skytrak-plus-rela |
 | SkyTrak+ | ShotForge | rēlā | Yes | Yes | No | No | shotforge-skytrak-plus |
+| SkyTrak+ | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-skytrak-plus |
+| SkyTrak+ | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-skytrak-plus |
 | SkyTrak+ — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-skytrak-plus-rela |
 | Square HE — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | No | No | infinite-tees-square-he-rela |
 | Square Home Edition | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-square-home |
@@ -128,6 +156,8 @@ A successful connection or software test is not automatically proof of a real sh
 | Square Home Edition | GSPro | Native / simulator only | Yes | Yes | No | No | gspro-square-home |
 | Square Home Edition | Muni Golf Sim | rēlā | Yes | Yes | No | No | muni-square-he-rela |
 | Square Home Edition | ShotForge | rēlā | Yes | Yes | No | No | shotforge-square-home |
+| Square Home Edition | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-square-home |
+| Square Home Edition | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-square-home |
 | Square Omni | Awesome Golf | Native / simulator only | Yes | Yes | Yes | No | awesomegolf-default |
 | Square Omni | Drills Golf Sim | rēlā | Yes | Yes | Yes | No | drills-square-omni-rela |
 | Square Omni | Drills Web | Drills Web Bridge, Drills Web browser (separate profile), rēlā | Yes | Yes | Yes | No | drills-web-square-omni-rela |
@@ -135,6 +165,8 @@ A successful connection or software test is not automatically proof of a real sh
 | Square Omni | Muni Golf Sim | Muni Launch Monitor Connect | Yes | Yes | No | No | muni-square-omni-native |
 | Square Omni | Muni Golf Sim | rēlā | Yes | Yes | Yes | No | muni-square-omni-rela |
 | Square Omni | ShotForge | rēlā | Yes | Yes | Yes | No | shotforge-square-omni |
+| Square Omni | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | Yes | No | No | shotforge2-square-omni |
+| Square Omni | ShotForge Classic | ShotForge Classic, rēlā | Yes | Yes | No | No | shotforgeClassic-square-omni |
 | Square Omni | Square Golf | Square Golf Launcher, Square Golf | Yes | Yes | No | No | square-golf-omni |
 | Square Omni — automatic beta | Infinite Tees | rēlā for Infinite Tees | Yes | Yes | Yes | No | infinite-tees-square-omni-rela |
 | Uneekor | GSPro | Uneekor standalone connector (SimAdmin; select your installed EXE), Uneekor Third-party Connector | Yes | Yes | No | No | gspro-simadmin-uneekor |
@@ -142,6 +174,10 @@ A successful connection or software test is not automatically proof of a real sh
 | Uneekor | Muni Golf Sim | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | muni-simadmin-uneekor |
 | Uneekor | ShotForge | rēlā, OtherUneekorPlugin.dll | Yes | Yes | No | No | shotforge-uneekor-plugin |
 | Uneekor | ShotForge | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | shotforge-simadmin-uneekor |
+| Uneekor | ShotForge 2.x | ShotForge 2.x, rēlā, OtherUneekorPlugin.dll | Yes | Yes | No | No | shotforge2-uneekor-plugin |
+| Uneekor | ShotForge 2.x | ShotForge 2.x, Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | shotforge2-simadmin-uneekor |
+| Uneekor | ShotForge Classic | ShotForge Classic, rēlā, OtherUneekorPlugin.dll | Yes | Yes | No | No | shotforgeClassic-uneekor-plugin |
+| Uneekor | ShotForge Classic | ShotForge Classic, Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | Yes | No | No | shotforgeClassic-simadmin-uneekor |
 | Uneekor EYE MINI | Awesome Golf | Native / simulator only | Yes | Yes | No | No | awesomegolf-uneekor-eye-mini |
 | Uneekor EYE MINI | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-eye-mini |
 | Uneekor EYE MINI LITE | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-eye-mini-lite |
