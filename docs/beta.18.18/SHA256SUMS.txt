@@ -1,0 +1,5 @@
+6737675f064dafb4fc9f0e4e470638d0b81d8953213404bb25e9d2de8726e69e  downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.18.msi
+65d7ace5248948166149659868a46c0cf100aadfa108b9269a51b5a7f65396be  downloads/FluJado-MSI-Transition-0.9.0-beta.18.18.exe
+8ffd74046a205b02200edace7d3917a0efbde77adeb12fab5322b9c33ecffe8b  README.md
+07a99fe07824850265e4bff0f606520137b3416732fdce0e9ddb191fc599aafb  docs/beta.18.18/README.md
+08644b4111e220b7d4ff36d68f4b3fde79fd39e71a6de9182b8c85de24bd88cb  docs/beta.18.18/RELEASE-NOTES.txt

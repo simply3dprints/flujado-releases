@@ -1,0 +1,5 @@
+FluJado beta.18.18
+
+Fixed an error when moving or saving a tile with no subtitle in Settings > Tiles & screens. The workflow attached to the tile is preserved.
+
+The Windows Installer tests covered clean installation, upgrade from beta.18.17 and recovery at three interruption points. The Settings UI test moved a tile up and down, saved it and verified the resulting order and workflow on disk.
