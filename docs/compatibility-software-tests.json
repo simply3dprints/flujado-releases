@@ -1,5 +1,7 @@
 {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-07",
+  "release": "0.9.0-beta.18.17",
+  "newHardwareEvidence": false,
   "hardwareEmulation": false,
   "profiles": [
     {
@@ -1970,9 +1972,17 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-11-05"
+    },
+    {
+      "profileId": "shotforge2-protee-direct",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "Isolated settings preparation / restoration and conflicts",
+        "Exact ShotForge backend receiver and paired Labs TCP ownership"
+      ],
+      "softwareTestDate": "2026-11-06"
     }
-  ],
-  "release": "0.9.0-beta.18.16",
-  "releaseNotesUrl": "https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.16/RELEASE-NOTES.txt",
-  "newHardwareEvidence": false
+  ]
 }

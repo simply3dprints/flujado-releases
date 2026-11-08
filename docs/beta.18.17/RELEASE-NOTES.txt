@@ -1,0 +1,20 @@
+FluJado 0.9.0-beta.18.17 - 8 November 2026
+
+Flow library and Diagnostics
+Find built-in routes by simulator, launch monitor or connector, or review a community JSON file before adding it to a Settings draft. Diagnostics shows recorded startup steps, failed file checks and suggested next actions. Review the last Settings backup before restoring it.
+
+Guided setup and ShotForge
+Square Golf is detected via its launcher. Drills Web shows the Web Bridge status separately. ShotForge Classic, 2.x and Both are visible choices. The optional direct ShotForge 2.x route uses ProTee Labs and requires the official GSPro connector and a GSPro licence. Existing connector routes remain available.
+
+Direct ShotForge shutdown and tile artwork
+Close ShotForge 2.x now closes its ProTee Labs session and the owned VX helper. The direct route closes the Labs Settings panel after Connect. The package includes Square Golf artwork and the Floating Island course artwork with the official PurePlay wordmark for PurePlay tiles. PurePlay connector automation remains in a separate trial build.
+
+Validation
+The 155-file package passed an isolated clean installation and upgrade from beta.18.16. Three induced installer errors restored the previous registration, files, test settings and test licence. Automatic reopening was checked with a marker executable. The installed test payload passed 42 isolated activity checks and loaded the tile artwork. In a separate live test from this MSI, the ShotForge tile closed the game, ProTee Labs and the VX helper. No real shots were taken in these tests.
+The compatibility catalogue has 180 software-tested routes, 16 with specific practical evidence and 0 fully Verified. The optional direct ShotForge route remains conservatively classified in the catalogue. PurePlay testing is tracked separately.
+
+Please test
+1. Upgrade over your existing folder and check that the Hub reopens with your settings and licence.
+2. In Settings > Flow library, try a simulator or launch-monitor search and review a route before adding it.
+3. If a flow fails, check Settings > Diagnostics for the failed step. Review reports before sharing them privately.
+4. If you use the direct ShotForge 2.x route, close it from its tile and check that Labs and the VX helper close too.

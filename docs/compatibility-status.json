@@ -1,5 +1,7 @@
 {
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-07",
+  "release": "0.9.0-beta.18.17",
+  "newHardwareEvidence": false,
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
     {
@@ -5098,9 +5100,34 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-11-05"
+    },
+    {
+      "profileId": "shotforge2-protee-direct",
+      "launchMonitor": "ProTee VX",
+      "simulator": "ShotForge 2.x",
+      "connectors": [
+        "ProTee Labs",
+        "Official GSPro ProTee connector"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "Isolated settings preparation / restoration and conflicts",
+        "Exact ShotForge backend receiver and paired Labs TCP ownership"
+      ],
+      "softwareTestDate": "2026-11-06",
+      "practicallyTested": false,
+      "verified": false,
+      "status": "Software tested; automated Hub hardware acceptance pending",
+      "implementationStatus": "Implemented",
+      "practicalEvidence": "",
+      "verificationEvidence": "",
+      "sourceClassification": "prepared",
+      "sources": [
+        "docs/SHOTFORGE-DIRECT-LABS-2026-11-06.txt"
+      ]
     }
-  ],
-  "release": "0.9.0-beta.18.16",
-  "releaseNotesUrl": "https://github.com/simply3dprints/flujado-releases/blob/main/docs/beta.18.16/RELEASE-NOTES.txt",
-  "newHardwareEvidence": false
+  ]
 }

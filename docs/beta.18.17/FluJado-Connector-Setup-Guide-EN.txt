@@ -1,0 +1,221 @@
+Connector setup and test status
+
+
+
+Guide for beta.18.17. Includes the Flow library, Diagnostics and clearer software selection. Update in your existing installation folder.
+
+Install the official simulator, launch-monitor app and connector first. Verify their connection outside FluJado. Do not replace a working connector version solely because another flow uses a different version.
+
+Select the exact supported profile in guided setup. Confirm detected executables and the simulator display. Connector configuration, simulator choice, ports and any required account login must match the selected route.
+
+Prepared means a route exists. Software-tested means its logic passed isolated checks. Hardware-tested means actual shots were confirmed for that combination. The catalogue has 179 software-checked profiles; this does not mean 143 hardware-tested routes.
+
+Previous practical tests include Muni and Drills with ProTee VX and Square Omni. Uneekor hardware confirmation, VTrack customer detection confirmation and other untested combinations remain separate open items.
+
+Compatibility and tested flows https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Start, switch and close
+
+
+
+Start the simulator through its card. Follow only the remaining prompts shown for your selected profile. Do not start a second connector manually while the route is still starting.
+
+Built-in routes may close conflicting apps, start the connector and launch-monitor software in a required order, check readiness and bring the simulator to its assigned display. Preserve the tested order; for applicable rēlā/ProTee profiles the connector starts before ProTee Labs.
+
+If the route cannot confirm a connection, read its message before continuing. A running process is not the same as Connected or Ready. A missing ball may delay readiness without indicating that the software connection failed.
+
+Use the Hub’s existing stop/switch controls. Shared connectors and custom workflows may need different ownership rules, so a running-app badge is not a universal safe-close button. Confirm both shutdown and a return start when testing a new route.
+
+Muni’s newer native launch-monitor menu is separate investigation work. Existing tested connector routes remain available; an announcement or community recipe alone does not replace a tested route.
+
+Settings and your own tile
+
+
+
+Open Menu > Flow wizard, or Menu > Settings > Create a flow, step by step. Choose the simulator first. The next steps show only launch monitors and connector routes relevant to it. Existing routes stay in place.
+
+For ShotForge, choose Classic, 2.x or Both. Both adds two separate tiles with a connection choice for each. Prefer your existing working connection. Creating a tile does not prove the new combination has been tested with your hardware.
+
+Check the detected apps and locate only missing programs. Review the proposal and choose Add to Settings draft. No simulator starts. Save and return to the Hub saves the draft with a configuration backup; Close without saving discards pending edits.
+
+For unknown software, use My software is not listed - create a completely new tile at the top. The next chapter explains that path. Advanced/manual flow remains available for unusual startup sequences.
+
+Record and report a connector issue
+
+
+
+Use Record flow and explicitly choose All screens when the connector and simulator open on different displays. Choose a single Screen for readable detail, or a Window for a supported app. Nothing records automatically when this window opens.
+
+All screens retains display positions and puts every connected display into one video. Text becomes smaller with more screens. Close private windows first. If the display layout changes or a screen disconnects, capture stops; refresh and choose again.
+
+Start recording, select a new local AVI filename, move the controls away from the simulator display, reproduce the issue and stop. Review saved video plays the local file. Audio is always off. No automatic upload occurs. Limits are 2 minutes, 128 MB, 1280 x 720 and 8 fps.
+
+For black or unsupported window capture, choose the relevant screen. A no-shot Muni/projector and rēlā/second-display recording was checked. Zero performance impact under all loads is not proven; do not treat this 8 fps support video as a frame-time measurement.
+
+Include Hub version, simulator, connector version, launch monitor, expected action, actual status and reproducible steps. Review all attachments for keys, names and other private data before sharing.
+
+Recover and validate
+
+
+
+Keep a known-working configuration backup. Review restore proposals before applying them. A configuration backup does not include your licence and cannot restore every setting belonging to a third-party simulator.
+
+If an update is interrupted, allow the updater to finish recovery before starting another installation. This release passed isolated MSI update, registration, repair and rollback checks. Real client confirmation remains distinct from automated results.
+
+For a route that fails before connection, check the installed executable, correct profile and competing connectors first. For a Connected-but-no-shot problem, check the monitor’s own readiness and ball detection. Keep the simulator’s existing settings intact while gathering evidence.
+
+Button automation is specific to the supported connector and state. Moving a window is different from changing its layout or software version. Do not assume every text-labelled button is safe to click or that all versions have identical controls.
+
+Never post private connector download links from restricted communities, licences or tester lists. Use official distribution channels and send only relevant, reviewed diagnostics.
+
+Current route status and limitations https://github.com/simply3dprints/flujado-releases/blob/main/COMPATIBILITY.md
+
+Add Drills Web
+
+
+
+Install rēlā and the correct device plugin first. Open https://web.drillsgolf.com/ and obtain the official Drills Web Bridge through the Drills dashboard. Extract the download to a permanent folder, then locate DrillsWebBridge.exe in the Hub. Do not launch from the zip or move its folder afterwards.
+
+Open Menu > Settings > Setup wizard. Add Drills Web and choose the exact monitor profile: ProTee VX (Web Bridge + rēlā) or Square Omni (Web Bridge + rēlā). Leave Replace selected existing golf workflows off to preserve working routes. Check the detected browser, Web Bridge, rēlā and ProTee Labs where required; locate any missing executable.
+
+Choose your simulator display or retain its saved choice. Save and open the Drills Web tile. The Hub opens its dedicated Edge/Chrome profile fullscreen on that display. Sign in yourself if prompted. Your regular browsing stays separate; the Hub does not copy passwords or cookies.
+
+Choose your own game or practice mode. No range opens automatically. The screenshot shows the route selector. Locally shot-tested means real shots were confirmed for that specific route; it is not full Verified status. The compatibility evidence lists the exact test scope.
+
+Drills Web https://web.drillsgolf.com/
+
+Drills dashboard / official bridge https://dashboard.drillsgolf.com/profile
+
+Connect, switch and troubleshoot
+
+
+
+For the new VX route, complete the ProTee plugin setup in Socket Relay mode, local port 12321, with responses enabled. Labs GSPro Auto-connect must work; keep automatic GSPro game launch disabled. The Hub does not change Labs settings. Retain the existing desktop route if your plugin needs a different mode.
+
+For Square Omni, use the appropriate rēlā plugin and Bluetooth connection. Close competing connectors for that device. The bridge receives from rēlā on TCP 921 and serves the browser locally on 5921. A matching Hub profile does not require you to edit those ports manually.
+
+Switch using the desktop/Web Hub tiles. The Hub removes the conflicting receiver, starts the bridge before the connector and checks the actual connections. A Ready label alone does not prove shot delivery. Closing Web closes its dedicated browser, bridge and managed connector; regular browsing stays open. Shared ProTee Labs may remain open.
+
+No ball appears? Check ball detection in the device software and your exact route first. Follow the Hub message for a busy port or missing plugin; do not start additional connectors alongside it. The supported VX route allows one graceful Labs recovery; an update or unknown state needs attention.
+
+Report the Hub, Drills, bridge and connector versions, monitor, expected action, actual message and reproducible steps through FluJado support/test Discord or info@flujado.com. Attach only reviewed recordings or diagnostics. Never share licences, browser profiles, passwords or raw account data. Share a new working community flow only after a real test.
+
+Muni: choose the correct connection route
+
+
+
+ProTee VX: keep the recommended Muni / rela route. The direct Labs / Open Connect preview is not a replacement: automatic startup failed in our Labs 1.12.15 test even with Auto-connect enabled. Do not force it with Labs Connect; that button can start the configured GSPro launcher and its own updater.
+
+Square Omni: the optional route without rela uses Muni bundled LaunchMonitorConnect, not the in-game native Bluetooth path. The Hub selects Open Connect 9210, scans and selects a unique Square. Close other Square connectors. Startup and Muni > Drills > Muni were tested without new shots; earlier connector shots retain their stated scope.
+
+The tile close action only closes the simulator and its owned, non-shared helpers. An owned hung Muni LaunchMonitorConnect can be stopped after a normal Close attempt; the game itself is asked to close normally. Complete any save/exit prompt in the game yourself.
+
+A connected device and simulator are different from ball detection. Muni Ready can be inaccurate. A practical test must also confirm the ball and shot data. Prepared or software-tested is not fully Verified.
+
+Uneekor versions, updates and recovery
+
+
+
+Install the original Uneekor drivers and Microsoft .NET 10 Desktop Runtime x64. Select your model once in the separate SimAdmin connector. Close competing Uneekor Launcher/View windows. Obtain the connector through the official author server; FluJado does not distribute connector binaries.
+
+Only the exact reviewed 1.2.22 and 1.2.33 builds are recognized. Muni uses Open Connect 9210 with 1.2.22; with 1.2.33 the Hub selects Muni Uneekor 59002. Model and other settings are preserved; changes to saved auto-connect and Muni connection settings have backups. Unknown versions are not silently accepted.
+
+The four existing routes are software-tested. The new Muni mode and port were also checked with the real game, but no complete positive hardware flow was proved without a Uneekor sensor. Ask a tester to confirm sensor connection, real shots and simulator switching. A green simulator connection alone is insufficient.
+
+Drills: automatic Labs fault recovery with a real VX shot, and Omni desktop > Web with real shots, were confirmed on 2 November. Omni can be connected while still searching for a ball; this is not a ball Ready claim. The new updater supports long browser-profile paths. An older installed updater can still fail before installation. Retain its recovery folder and ask support for a manual MSI upgrade over the same installation folder, without uninstalling first. If an update fails, retain its recovery folder and use recovery or support; do not delete licence folders to repair an update.
+
+Square Golf and full removal
+
+
+
+Choose Square Golf with Square Omni in setup. FluJado opens the launcher and chooses Play when it is ready. When the game is in front and a remembered password is recognized, FluJado attempts Sign in once. If the field is empty or unclear, sign in directly in Square Golf and optionally select Remember me. No Hub Continue prompt is required.
+
+Square Golf handles the Omni connection. Startup, sign-in and tile close were checked separately. Shot delivery remains untested.
+
+Full removal also clears the dedicated Drills Web browser profile, older Hub update backups and local licence data. Keep data or install the MSI over your existing location to retain your settings.
+
+ShotForge: choose Classic, 2.x or both
+
+
+
+Open Menu > Settings > Setup wizard. ShotForge shows three visible choices: Classic, 2.x and Both. Both creates two separate tiles. Square Golf is detected via its launcher. Drills Web is a website with separate Web Bridge detection.
+
+In Golf setup, choose the correct connection route beneath each new tile and review the detected programs. Classic uses ShotForge.exe; 2.x uses resources/course-play-ue/ShotForgeCoursePlay.exe inside the same installation. FluJado does not update ShotForge itself.
+
+Your existing ShotForge tile is retained as the existing launcher choice. The new edition choices create separate tiles; changing the profile of an existing tile does not create another tile. Keep Replace selected existing golf workflows off to retain current routes. Disable an old tile deliberately in Settings if no longer needed.
+
+The new edition profiles are software-tested. Real app startup, Classic to 2.x switching and tile close were checked without shots. The 2.x route automatically waits for its stable game window; no Continue is needed. Second Screen stays on the controls display. Connector and sensor checks remain separate. Test your connector and real shots before sharing the route.
+
+The full Hub version appears at the bottom of Home and in its window title. Include Hub version, ShotForge version and the selected connector route in a report.
+
+Movies & TV on your projector
+
+
+
+Select a service in Movies & TV. FluJado prefers installed Chrome and opens it full screen on your selected simulator display. Edge is used only if Chrome is unavailable. Choose your simulator display in Settings > Tiles & screens first.
+
+Each service uses a separate browser profile. Sign in there yourself once with your own account and subscription. Existing Chrome tabs and browser profiles are not changed. FluJado never asks for streaming passwords.
+
+Opening the same service again brings back its existing streaming window without a duplicate. Updates and Keep data retain these profiles; full removal with all data deletes them.
+
+Test your own services on the projector, including picture, sound and returning to the Hub with your configured shortcut. The software test checked Chrome selection, display placement and reopening; protected-video playback and subscription access are not certified.
+
+Add completely new software
+
+
+
+Choose My software is not listed - create a completely new tile. Name the tile and locate its installed Windows executable (.exe). No scripts or commands are required.
+
+Choose No launch monitor for an app-only tile, or choose your device. Enter its name if it is not listed. Then choose whether a separate connector is needed. Select a detected connector or locate its executable, and choose which program opens first.
+
+The connector must already work with your simulator outside FluJado. Its saved settings are retained. FluJado does not invent ports, protocols or unknown button automation. Optional device software and manual confirmation are under Optional device software and checks.
+
+Review the app checklist and proposal. The tile inherits your saved simulator display. Without a dedicated connection check, the Hub waits for a stable app window; this does not prove device connection. After saving, check startup, closing and switching. Share a working flow only after your own practical test.
+
+Need help? Send the Hub version, software, monitor, connector, expected result and actual message through FluJado support or info@flujado.com. Attach only a reviewed export or recording. Never share passwords, licences or browser profiles. Backup & restore lets you review the previous configuration before restoring it.
+
+Plex and updating safely
+
+
+
+Beta.18.15 includes Plex in the Movies & TV catalogue. Existing Plex selections remain valid after updating; the Unknown Movies & TV service error caused by the missing catalogue entry is fixed. Plex currently uses a text logo.
+
+Update through the Hub or download the beta.18.17 MSI. Install over the same folder to retain settings, licence and dedicated browser profiles. A configuration backup does not contain your licence.
+
+This release adds no hardware or shot claims: 180 software-tested profiles, 16 routes with specifically scoped practical evidence and 0 fully Verified. Wizard and installer tests use fixtures and harmless programs.
+
+ShotForge: two windows, automatically
+
+
+
+Use the ShotForge 2.x tile with your existing monitor and connector route. FluJado identifies the real game window and waits for a stable response automatically. You no longer need to return to the Hub to choose Continue. This detects the app window; existing connector checks still run afterwards.
+
+Only the game goes full screen on the simulator display selected in Settings > Tiles & screens. ShotForge Second Screen goes to the selected controls display. Without that selection, FluJado uses another connected display rather than the projector. An explicitly selected but disconnected controls monitor is not silently substituted.
+
+On one screen, the Hub does not relocate Second Screen over the game. At completion it brings the real game window forward. A companion alone, ambiguous duplicate game windows, an unresponsive app or a blocked window is not accepted as a successful startup.
+
+The native preview connected ShotForge 2.0.1 and ProTee VX/rēlā automatically without shots. The final MSI was separately checked for update, induced failure/recovery and payload integrity. This does not make additional hardware profiles Verified. Report your edition, connector route, monitor selections, resolutions and actual Hub message if anything differs; never share keys or private logs.
+
+Find a flow in the library
+
+
+
+Open Menu > Settings > Flow library. Search by simulator, launch monitor or connector. Filter by Built-in or Community. Each search starts at the top of the results.
+
+Choose Review selected flow and check its source, apps and evidence. Add the proposal to your Settings draft and choose Save and return to the Hub. Generic community imports start disabled. Check local app locations and steps before enabling the tile.
+
+Use Add a flow file for a community JSON you obtained yourself. Sender reports do not confer Verified status. Screenshot uses sample data.
+
+Diagnostics and Settings recovery
+
+
+
+Open Settings > Diagnostics and select one of the last ten recorded sessions. The timeline shows completed steps, the check that stopped startup and suggested next actions. A missing executable can appear even when startup was stopped before opening any apps.
+
+If an issue began after a change, choose Review last Settings backup and read the summary before confirming restoration. Review exported diagnostic reports before sharing them privately. Screenshot uses sample data.
+
+Direct ShotForge connection
+
+
+
+The optional direct ShotForge 2.x route uses ProTee Labs and the official GSPro connector and requires a GSPro licence. Choose it only if that setup suits your installation. Existing rēlā and VX Connector options remain available.

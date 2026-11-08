@@ -1,8 +1,8 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-05. 179 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-11-07. 180 catalogue routes, sorted by launch monitor, simulator and connector.
 
-Beta.18.16 automatically detects the native ShotForge 2.x game window and routes Second Screen separately. Existing connector checks remain. This runtime change adds no shot evidence or Verified status. [Release notes](docs/beta.18.16/RELEASE-NOTES.txt).
+Beta.18.17 records 180 software-tested routes, 16 with specifically scoped practical evidence and 0 fully Verified. The optional direct ShotForge 2.x route requires a GSPro licence and the official GSPro connector. PurePlay is outside this release matrix. [Release notes](docs/beta.18.17/RELEASE-NOTES.txt).
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
@@ -189,12 +189,9 @@ A successful connection or software test is not automatically proof of a real sh
 | Uneekor QED | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | Yes | No | No | gspro-uneekor-qed |
 | VTrack | Drills Golf Sim | Native / simulator only | Yes | Yes | No | No | drills-vtrack-native |
 | VTrack | Muni Golf Sim | Native / simulator only | Yes | Yes | No | No | muni-vtrack-native |
+| ProTee VX | ShotForge 2.x | Direct via ProTee Labs, official GSPro connector and GSPro licence | Yes | Yes | No | No | shotforge2-protee-direct |
 
-## Software test coverage
-
-For rows marked Yes, configuration validation and the ChatGPT export/import/preview/apply round-trip passed. This is limited software evidence; connector buttons, protocol behavior, physical readiness and shot delivery require their own tests. A changed workflow loses this label until matching evidence is recorded.
-
-[Machine-readable status and evidence](docs/compatibility-status.json) · [Software test scope](docs/compatibility-software-tests.json)
+[Status and evidence](docs/compatibility-status.json) · [Software test scope](docs/compatibility-software-tests.json)
 
 ## Practical evidence
 
@@ -214,5 +211,3 @@ For rows marked Yes, configuration validation and the ChatGPT export/import/prev
 - **muni-square-omni-rela**: 20 October 2026: four Omni shots in Muni with data and no interruption confirmed; automatic startup and ball detection passed. GSPro switching excluded by user.
 - **shotforge-square-omni**: Operator confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.
 - **infinite-tees-square-omni-rela**: 2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.
-
-Missing combinations remain outside this inventory; vendor support cannot be inferred from absence.
