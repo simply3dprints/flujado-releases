@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.17",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ca26dbbfdfcd2acd40e441100495eb28052d9983/downloads/FluJado-MSI-Transition-0.9.0-beta.18.17.exe",
-  "sha256": "f56374f9dbd7c3e214504fb4351ff185190953b00a8efba63d8320135a0b5b4e",
+  "version": "0.9.0-beta.18.18",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/88c7f81e3989e57c69dea6e7cc7d47c6e2dcf59b/downloads/FluJado-MSI-Transition-0.9.0-beta.18.18.exe",
+  "sha256": "65d7ace5248948166149659868a46c0cf100aadfa108b9269a51b5a7f65396be",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ca26dbbfdfcd2acd40e441100495eb28052d9983/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.17.msi",
-    "sha256": "c6099d936ec6c7c022f1f69f4e5fb0b5429d84a2dcb8f898596c4f53de6bdb1d",
-    "productVersion": "0.9.1817"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/88c7f81e3989e57c69dea6e7cc7d47c6e2dcf59b/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.18.msi",
+    "sha256": "6737675f064dafb4fc9f0e4e470638d0b81d8953213404bb25e9d2de8726e69e",
+    "productVersion": "0.9.1818"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ca26dbbfdfcd2acd40e441100495eb28052d9983/docs/beta.18.17/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/88c7f81e3989e57c69dea6e7cc7d47c6e2dcf59b/docs/beta.18.18/RELEASE-NOTES.txt",
   "highlights": [
-    "Find and review flows in the new Flow library.",
-    "See failed startup steps and recovery advice in Diagnostics.",
-    "Guided setup shows explicit ShotForge edition choices and Drills Web Bridge status."
+    "Fixed moving tiles with no subtitle.",
+    "Tile order is retained after saving.",
+    "Existing tile workflows are preserved."
   ]
 }
