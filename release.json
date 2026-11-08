@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.16",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/de78d87f7fb836f60b9365f81a083a14f2438668/downloads/FluJado-MSI-Transition-0.9.0-beta.18.16.exe",
-  "sha256": "085f5809913bcab3cf6db64e5128ac3181368dd8bd55662fe2b3198db3b55816",
+  "version": "0.9.0-beta.18.17",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ca26dbbfdfcd2acd40e441100495eb28052d9983/downloads/FluJado-MSI-Transition-0.9.0-beta.18.17.exe",
+  "sha256": "f56374f9dbd7c3e214504fb4351ff185190953b00a8efba63d8320135a0b5b4e",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/de78d87f7fb836f60b9365f81a083a14f2438668/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.16.msi",
-    "sha256": "8f056b8408b0446055da9312a6e3889ac0374ce2010f8d0db41f8d7008092320",
-    "productVersion": "0.9.1816"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ca26dbbfdfcd2acd40e441100495eb28052d9983/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.17.msi",
+    "sha256": "c6099d936ec6c7c022f1f69f4e5fb0b5429d84a2dcb8f898596c4f53de6bdb1d",
+    "productVersion": "0.9.1817"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/de78d87f7fb836f60b9365f81a083a14f2438668/docs/beta.18.16/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/ca26dbbfdfcd2acd40e441100495eb28052d9983/docs/beta.18.17/RELEASE-NOTES.txt",
   "highlights": [
-    "ShotForge 2.x starts automatically without a main-menu Continue prompt.",
-    "Only the game goes full screen on the projector; Second Screen stays on controls.",
-    "Existing connector checks retained; guides and display tests updated."
+    "Find and review flows in the new Flow library.",
+    "See failed startup steps and recovery advice in Diagnostics.",
+    "Guided setup shows explicit ShotForge edition choices and Drills Web Bridge status."
   ]
 }
