@@ -1,8 +1,8 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-07. 180 catalogue routes, sorted by launch monitor, simulator and connector.
+Updated 2026-11-09. 180 catalogue routes, sorted by launch monitor, simulator and connector.
 
-Beta.18.17 records 180 software-tested routes, 16 with specifically scoped practical evidence and 0 fully Verified. The optional direct ShotForge 2.x route requires a GSPro licence and the official GSPro connector. PurePlay is outside this release matrix. [Release notes](docs/beta.18.17/RELEASE-NOTES.txt).
+Beta.18.19 retains 180 software-tested routes, 16 with specifically scoped practical evidence and 0 fully Verified. The PurePlay VX and GSPro 4.1.2 switch was exercised without shots in the private test setup. The optional direct ShotForge 2.x route requires a GSPro licence and the official GSPro connector. PurePlay and the R50 prototypes remain outside this matrix. [Release notes](docs/beta.18.19/RELEASE-NOTES.txt).
 
 **Flow prepared** means the route is configured. **Software tested** means the listed configuration/export/import/preview/apply checks passed for that route; it does not mean the device or complete connector was emulated. **Practical test** records confirmed operation with real hardware. **Verified** is a separate, stricter checklist and is never granted by a software test.
 
