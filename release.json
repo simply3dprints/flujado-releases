@@ -1,20 +1,20 @@
 {
-  "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.18",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/88c7f81e3989e57c69dea6e7cc7d47c6e2dcf59b/downloads/FluJado-MSI-Transition-0.9.0-beta.18.18.exe",
-  "sha256": "65d7ace5248948166149659868a46c0cf100aadfa108b9269a51b5a7f65396be",
-  "signingStatus": "unsigned-beta",
-  "installerType": "msi",
-  "legacyInstallerPurpose": "one-time-msi-transition",
-  "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/88c7f81e3989e57c69dea6e7cc7d47c6e2dcf59b/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.18.msi",
-    "sha256": "6737675f064dafb4fc9f0e4e470638d0b81d8953213404bb25e9d2de8726e69e",
-    "productVersion": "0.9.1818"
-  },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/88c7f81e3989e57c69dea6e7cc7d47c6e2dcf59b/docs/beta.18.18/RELEASE-NOTES.txt",
-  "highlights": [
-    "Fixed moving tiles with no subtitle.",
-    "Tile order is retained after saving.",
-    "Existing tile workflows are preserved."
-  ]
+    "product":  "GolfSimHub",
+    "version":  "0.9.0-beta.18.19",
+    "installerUrl":  "https://raw.githubusercontent.com/simply3dprints/flujado-releases/8696dea0b06b45d1caaf6d656289a4c2f760657d/downloads/FluJado-MSI-Transition-0.9.0-beta.18.19.exe",
+    "sha256":  "18fd77373b1d3dca18860756c6120ff65e078eee90764e95b59d5760fa631755",
+    "signingStatus":  "unsigned-beta",
+    "installerType":  "msi",
+    "legacyInstallerPurpose":  "one-time-msi-transition",
+    "msi":  {
+                "installerUrl":  "https://raw.githubusercontent.com/simply3dprints/flujado-releases/8696dea0b06b45d1caaf6d656289a4c2f760657d/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.19.msi",
+                "sha256":  "6adfad7169630283c270f1072d525240b138217d49a3a1208e741489e7ac8c6a",
+                "productVersion":  "0.9.1819"
+            },
+    "releaseNotesUrl":  "https://raw.githubusercontent.com/simply3dprints/flujado-releases/8696dea0b06b45d1caaf6d656289a4c2f760657d/docs/beta.18.19/RELEASE-NOTES.txt",
+    "highlights":  [
+                       "GSPro waits for the game window before reporting ready.",
+                       "PurePlay switching closes both the game and launcher.",
+                       "Update cleanup waits for the Hub dashboard to reopen."
+                   ]
 }
