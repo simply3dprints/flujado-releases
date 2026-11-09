@@ -1,0 +1,10 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.19
+
+- GSPro waits for the game window before reporting startup complete.
+- Switching from PurePlay to GSPro closes the game and its launcher after the normal switch confirmation.
+- Existing PurePlay ProTee VX workflows remain loadable. A pending PurePlay update is reported directly.
+- The new MSI updater cleans eligible stale downloads and completed temporary workers only after a successful install and a rendered Hub dashboard. It keeps recovery copies and artifacts for failed updates.
+
+Evidence: the full PurePlay VX to GSPro 4.1.2 and back switch ran live without shots on the preceding private candidate. The final candidate additionally passed the changed GSPro window check live, the isolated MSI upgrade, three recovery trials and a real dashboard startup with a copied PurePlay configuration.
+
+Compatibility counts are unchanged. R50 hardware routes and Remote Dashboard are outside this beta.
