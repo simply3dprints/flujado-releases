@@ -1,7 +1,5 @@
 {
-  "asOf": "2026-11-07",
-  "release": "0.9.0-beta.18.17",
-  "newHardwareEvidence": false,
+  "asOf": "2026-11-12",
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
     {
@@ -10,16 +8,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://blueteesgolf.gorgias.help/en-US/is-the-rainmaker-launch-monitor-compatible-with-golf-simulator-software-like-gspro-or-e6-5086127"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -27,7 +15,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-bushnell-lp",
@@ -35,18 +26,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/bushnell-lp",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -54,7 +33,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-foresight-launch-pro",
@@ -62,17 +44,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/foresight-bushnell.html",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -80,7 +51,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-bushnell-lpi",
@@ -88,18 +62,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/bushnell-lpi",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -107,7 +69,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-bushnell-lpi-rela",
@@ -119,18 +84,6 @@
       "plugins": [
         "OtherForesightPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -138,7 +91,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-bushnell-lpi-rela",
@@ -150,17 +106,6 @@
       "plugins": [
         "OtherForesightPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -168,7 +113,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-flightscope-gen2-rela",
@@ -178,18 +126,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -197,7 +133,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-flightscope-gen2-rela",
@@ -207,17 +146,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -225,7 +153,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-flightscope-gen2",
@@ -235,19 +166,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -255,7 +173,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-flightscope-gen2",
@@ -275,18 +196,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-flightscope-gen2",
@@ -306,18 +217,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-mevo-gen2",
@@ -325,18 +226,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-mevo-gen2",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -344,7 +233,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-flightscope-mevo-gen2",
@@ -352,17 +244,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -370,7 +251,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-mevo-range",
@@ -378,18 +262,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-mevo-range",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -397,7 +269,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-mevo-plus",
@@ -405,18 +280,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-mevo-plus",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -424,7 +287,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-mevo-plus-rela",
@@ -434,18 +300,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -453,7 +307,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-flightscope-mevo-plus",
@@ -461,17 +318,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -479,7 +325,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-mevo-plus-rela",
@@ -489,17 +338,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -507,7 +345,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-flightscope-mevo-plus",
@@ -517,19 +358,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1554827050991362160",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -537,7 +365,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-flightscope-mevo-plus",
@@ -557,18 +388,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1554827050991362160",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-flightscope-mevo-plus",
@@ -588,18 +409,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1554827050991362160",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-mevo-rela",
@@ -609,19 +420,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409735677903100"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -629,7 +427,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-range",
@@ -637,18 +438,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -656,7 +445,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-range-gen2",
@@ -664,18 +456,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -683,7 +463,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-x2",
@@ -691,18 +474,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x2",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -710,7 +481,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-flightscope-x2-rela",
@@ -720,18 +494,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -739,7 +501,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-flightscope-x2",
@@ -747,17 +512,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -765,7 +519,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-flightscope-x2-rela",
@@ -775,17 +532,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -793,7 +539,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-flightscope-x2",
@@ -803,19 +552,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -823,7 +559,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-flightscope-x2",
@@ -843,18 +582,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-flightscope-x2",
@@ -874,18 +603,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-x2-elite",
@@ -893,18 +612,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x2-elite",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -912,7 +619,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-x3",
@@ -920,18 +630,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -939,7 +637,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-flightscope-x3",
@@ -947,17 +648,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -965,7 +655,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-x3c",
@@ -973,18 +666,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3c",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -992,7 +673,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-xi",
@@ -1000,18 +684,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-xi",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1019,7 +691,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-flightscope-xi-rela",
@@ -1029,18 +704,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1048,7 +711,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-flightscope-xi",
@@ -1056,17 +722,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/flightscope-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1074,7 +729,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-flightscope-xi-rela",
@@ -1084,17 +742,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1102,7 +749,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-flightscope-xi",
@@ -1112,19 +762,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1132,7 +769,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-flightscope-xi",
@@ -1152,18 +792,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-flightscope-xi",
@@ -1183,18 +813,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258837235732610/1553512836943183964",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-flightscope-xi-x2-rela",
@@ -1204,19 +824,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409735677903100"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1224,7 +831,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-xi-range",
@@ -1232,18 +842,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-x3",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1251,7 +849,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-xi-tour",
@@ -1259,18 +860,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-xi-tour",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1278,7 +867,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-flightscope-xi-plus",
@@ -1286,18 +878,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/flightscope-xi-plus",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1305,7 +885,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-foresight-falcon",
@@ -1313,18 +896,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-falcon",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1332,7 +903,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-foresight-falcon",
@@ -1340,17 +914,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/foresight-bushnell.html",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1358,7 +921,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-foresight-gc2-rela",
@@ -1368,18 +934,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1387,7 +941,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-foresight-gc2-rela",
@@ -1397,17 +954,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1415,7 +961,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-foresight-gc2",
@@ -1425,19 +974,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258862301020160/1556979309921574983",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1445,7 +981,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-foresight-gc2",
@@ -1465,18 +1004,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258862301020160/1556979309921574983",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-foresight-gc2",
@@ -1496,18 +1025,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258862301020160/1556979309921574983",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-foresight-gc2-rela",
@@ -1517,18 +1036,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1536,7 +1043,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-foresight-gc3",
@@ -1544,18 +1054,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gc3",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1563,7 +1061,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-foresight-gc3",
@@ -1571,17 +1072,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/foresight-bushnell.html",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1589,7 +1079,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-foresight-gc3s",
@@ -1597,18 +1090,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gc3s",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1616,7 +1097,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-foresight-gchawk",
@@ -1624,18 +1108,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gchawk",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1643,7 +1115,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-foresight-gchawk",
@@ -1651,17 +1126,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/foresight-bushnell.html",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1669,7 +1133,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-foresight-gcquad",
@@ -1677,18 +1144,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-gcquad",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1696,7 +1151,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-foresight-gcquad",
@@ -1704,17 +1162,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/foresight-bushnell.html",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1722,7 +1169,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-foresight-quadmax",
@@ -1730,18 +1180,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/foresight-sports-quadmax",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1749,7 +1187,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-foresight-quadmax",
@@ -1757,17 +1198,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/foresight-bushnell.html",
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/foresight-sports-and-bushnell-launch-pro-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1775,7 +1205,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-full-swing-kit-rela",
@@ -1785,18 +1218,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1804,7 +1225,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-full-swing-kit",
@@ -1812,18 +1236,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://kitsupport.fullswinggolf.com/hc/en-us/sections/1500002193721-Guides",
-        "https://manuals.plus/m/3bcec62dad851016fe1f67ab23634e732d948c27e834823441f1c4525effd787.pdf"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1831,7 +1243,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-full-swing-kit-rela",
@@ -1841,17 +1256,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1859,7 +1263,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-full-swing-kit",
@@ -1869,18 +1276,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1888,7 +1283,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-full-swing-kit",
@@ -1908,17 +1306,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-full-swing-kit",
@@ -1938,17 +1327,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-full-swing-kit-rela",
@@ -1958,19 +1338,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1527504051351195689"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1978,7 +1345,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-garmin-r10",
@@ -1986,18 +1356,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/garmin-approach-r10",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2005,7 +1363,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-garmin-r10",
@@ -2013,16 +1374,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/garmin-approach-r10-connection-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2030,7 +1381,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-garmin-r10-assistant",
@@ -2038,18 +1392,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/garmin-approach-r10",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2057,7 +1399,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-garmin-r50",
@@ -2065,18 +1410,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/garmin-approach-r50",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2084,7 +1417,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-garmin-r50",
@@ -2092,16 +1428,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/garmin-approach-r50-connection-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2109,7 +1435,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-garmin-r10-rela",
@@ -2119,18 +1448,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1427617192249131089",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2138,7 +1455,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-garmin-r10-rela",
@@ -2148,17 +1468,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2166,7 +1475,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-garmin-r10",
@@ -2176,19 +1488,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258909658775666/1555765887515099237",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2196,7 +1495,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-garmin-r10",
@@ -2216,18 +1518,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258909658775666/1555765887515099237",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-garmin-r10",
@@ -2247,18 +1539,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258909658775666/1555765887515099237",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-garmin-r10-rela",
@@ -2268,19 +1550,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409657093296332"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2288,7 +1557,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-golfjoy-rela",
@@ -2298,18 +1570,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1428193048181084352",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2317,7 +1577,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-golfjoy-rela",
@@ -2327,17 +1590,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2345,7 +1597,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-golfjoy-gds-pro",
@@ -2353,18 +1608,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/",
-        "https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors",
-        "https://gsprogolf.com/home/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2372,7 +1615,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-golfjoy-gr2",
@@ -2380,18 +1626,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/",
-        "https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors",
-        "https://gsprogolf.com/home/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2399,7 +1633,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-golfjoy-gr3",
@@ -2407,18 +1644,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/",
-        "https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors",
-        "https://gsprogolf.com/home/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2426,7 +1651,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-golfjoy-gr3-pro",
@@ -2434,18 +1662,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/",
-        "https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors",
-        "https://gsprogolf.com/home/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2453,7 +1669,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-golfjoy-spica3",
@@ -2461,18 +1680,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://golfjoy.eu/golfjoy-launch-monitors-now-work-natively-with-gspro/",
-        "https://golfjoyca.com/pages/gspro-native-support-for-golfjoy-launch-monitors",
-        "https://gsprogolf.com/home/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2480,7 +1687,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-golfjoy-spica3",
@@ -2490,19 +1700,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497259008669650987/1556982034549702677",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2510,7 +1707,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-golfjoy-spica3",
@@ -2530,18 +1730,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497259008669650987/1556982034549702677",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-golfjoy-spica3",
@@ -2561,18 +1751,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497259008669650987/1556982034549702677",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "gspro-golftrak",
@@ -2580,16 +1760,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://help.golftrak.app/en-US/how-to-connect-to-gspro-5364306"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2597,7 +1767,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-vtrack",
@@ -2607,16 +1780,6 @@
         "VTrackToolKit (LPGAgent)"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://swingcraft.golf/vtrack-setup/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2624,7 +1787,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-vtrack-bridge",
@@ -2635,17 +1801,6 @@
         "VTrack → ShotForge bridge"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community-assisted",
-      "sources": [
-        "https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1",
-        "https://github.com/teuluseren/vtrack-shot-tracker/blob/connector-v0.1.0-beta.1/shotforge_vtrack_connector/README.md"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2653,7 +1808,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-vtrack-bridge",
@@ -2674,16 +1832,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1",
-        "https://github.com/teuluseren/vtrack-shot-tracker/blob/connector-v0.1.0-beta.1/shotforge_vtrack_connector/README.md"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-vtrack-bridge",
@@ -2704,16 +1854,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://github.com/teuluseren/vtrack-shot-tracker/releases/tag/connector-v0.1.0-beta.1",
-        "https://github.com/teuluseren/vtrack-shot-tracker/blob/connector-v0.1.0-beta.1/shotforge_vtrack_connector/README.md"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-vtrack-bridge",
@@ -2723,16 +1865,6 @@
         "Infinite Tees VTrack Bridge (untested)"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "ui-inspected-hardware-untested",
-      "sources": [
-        "https://discord.com/channels/1296534249867968522/1497615365541204200"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2740,7 +1872,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "infinite-tees-vtrack-auto",
@@ -2750,16 +1885,6 @@
         "Infinite Tees VTrack Bridge (untested)"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "experimental-ocr-hardware-untested",
-      "sources": [
-        "https://discord.com/channels/1296534249867968522/1497615365541204200"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2767,7 +1892,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "infinite-tees-nova-rela",
@@ -2777,19 +1905,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409271091363972"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2797,7 +1912,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-nvisage-n1",
@@ -2807,16 +1925,6 @@
         "NVisage N-Connect"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://nvisagetech.com/n1-launch-monitor-guide"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2824,7 +1932,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-nova-rela",
@@ -2834,18 +1945,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-bridge-combination",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1449212445158801470",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2853,7 +1952,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-openlaunch-nova",
@@ -2863,17 +1965,6 @@
         "OpenLaunch NOVA Windows app"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://openlaunch.io/pages/troubleshooting",
-        "https://openlaunch.io/pages/faq"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2881,7 +1972,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-nova-rela",
@@ -2891,17 +1985,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2909,7 +1992,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-protee-rela",
@@ -2921,14 +2007,6 @@
       "plugins": [
         "ProTeeVXPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "20 October 2026: Drills real shots and Drills > GSPro > Drills shots confirmed.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2936,15 +2014,15 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "20 October 2026: Drills real shots and Drills > GSPro > Drills shots confirmed.",
+      "verified": false
     },
     {
       "profileId": "drills-protee-socket-relay",
-      "simulator": "Drills Golf Sim",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
       "launchMonitor": "ProTee VX",
+      "simulator": "Drills Golf Sim",
       "connectors": [
         "rēlā"
       ],
@@ -2953,41 +2031,20 @@
       ],
       "flowPrepared": true,
       "softwareTested": true,
-      "softwareTestDate": "2026-11-05",
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "practicalTestDate": "2026-11-01",
-      "practicalTestScope": [
-        {
-          "route": "drills-protee-socket-relay",
-          "startupWorkerSeconds": 23,
-          "shotsConfirmedByUser": 2,
-          "ballsAndDataCorrect": true
-        },
-        {
-          "route": "drills-protee-socket-relay",
-          "transition": "Web VX to desktop VX",
-          "startupWorkerSeconds": 39.8,
-          "shotsConfirmedByUser": 1,
-          "ballsAndDataCorrect": true
-        }
-      ],
-      "implementationStatus": "Implemented",
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
       "practicalEvidence": "1 November 2026: two desktop VX shots, desktop to Web VX (two shots) and Web to desktop VX (one shot) confirmed with balls and data through the isolated native Hub. Full managed Open Range tile-close passed after the background-exit fix: Drills and owned rela gone, shared Labs retained. 2 November 2026: induced live Labs/plugin restart recovery completed automatically and one subsequent real VX shot was confirmed with ball and data. Full Verified checklist remains pending.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "drills-web-protee-rela",
-      "simulator": "Drills Web",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
       "launchMonitor": "ProTee VX",
+      "simulator": "Drills Web",
       "connectors": [
         "Drills Web Bridge",
         "Drills Web browser (separate profile)",
@@ -2998,27 +2055,31 @@
       ],
       "flowPrepared": true,
       "softwareTested": true,
-      "softwareTestDate": "2026-11-05",
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "practicalTestDate": "2026-11-01",
-      "practicalTestScope": [
-        {
-          "route": "drills-web-protee-rela",
-          "transition": "desktop VX to Web VX",
-          "startupWorkerSeconds": 55.6,
-          "shotsConfirmedByUser": 2,
-          "ballsAndDataCorrect": true
-        }
-      ],
-      "implementationStatus": "Implemented",
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
       "practicalEvidence": "1 November 2026: desktop to Web VX two shots and Web to desktop VX one shot confirmed with balls and data. Web opened fullscreen on projector; dedicated browser, bridge and managed connector cleanup tested without shots. Login persisted. No new clean-install/reboot hardware checklist; Verified not granted.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": []
+      "verified": false
+    },
+    {
+      "profileId": "golfcore-protee-labs",
+      "launchMonitor": "ProTee VX",
+      "simulator": "GolfCore",
+      "connectors": [
+        "ProTee Labs native"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
     },
     {
       "profileId": "gspro-default",
@@ -3026,14 +2087,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "Operator confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3041,7 +2094,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "Operator confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending.",
+      "verified": false
     },
     {
       "profileId": "muni-protee-openconnect",
@@ -3049,22 +2105,17 @@
       "simulator": "Muni Golf Sim",
       "connectors": [],
       "plugins": [],
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
       "flowPrepared": true,
       "softwareTested": true,
-      "softwareTestDate": "2026-11-05",
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "implementationStatus": "Implemented",
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "muni-protee-rela",
@@ -3076,14 +2127,6 @@
       "plugins": [
         "ProTeeVXPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "20 October 2026: two VX shots in Muni and Muni > GSPro > Muni switching with real shots confirmed. Automatic startup passed after one initial Labs startup miss.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3091,7 +2134,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "20 October 2026: two VX shots in Muni and Muni > GSPro > Muni switching with real shots confirmed. Automatic startup passed after one initial Labs startup miss.",
+      "verified": false
     },
     {
       "profileId": "protee-default",
@@ -3099,14 +2145,6 @@
       "simulator": "ProTee Labs",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "Operator confirmed the standalone ProTee tile and switching worked on the local simulator PC.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3114,7 +2152,47 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "Operator confirmed the standalone ProTee tile and switching worked on the local simulator PC.",
+      "verified": false
+    },
+    {
+      "profileId": "pureplay-protee-labs",
+      "launchMonitor": "ProTee VX",
+      "simulator": "PurePlay",
+      "connectors": [
+        "ProTee Labs native"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
+    },
+    {
+      "profileId": "shotforge-default",
+      "launchMonitor": "ProTee VX",
+      "simulator": "ShotForge",
+      "connectors": [
+        "VGPConnect",
+        "VX Connector"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "Operator tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.",
+      "verified": false
     },
     {
       "profileId": "shotforge-protee-rela",
@@ -3126,18 +2204,6 @@
       "plugins": [
         "ProTeeVXPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "26 October 2026: project owner confirms practical operation of the exact ProTee VX / rela / ShotForge route. This is not completion of the Verified hardware checklist.",
-      "verificationEvidence": "",
-      "sourceClassification": "community-assisted",
-      "sources": [
-        "ShotForge Discord #protee: eKsiSLe, 10–11 October 2026",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://gofile.io/d/wHAyzoy3"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3145,25 +2211,21 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "26 October 2026: project owner confirms practical operation of the exact ProTee VX / rela / ShotForge route. This is not completion of the Verified hardware checklist.",
+      "verified": false
     },
     {
-      "profileId": "shotforge-default",
+      "profileId": "shotforge2-default",
       "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge",
+      "simulator": "ShotForge 2.x",
       "connectors": [
         "VGPConnect",
-        "VX Connector"
+        "VX Connector",
+        "ShotForge 2.x"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "Operator tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3171,7 +2233,31 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "shotforge2-protee-direct",
+      "launchMonitor": "ProTee VX",
+      "simulator": "ShotForge 2.x",
+      "connectors": [
+        "ProTee Labs",
+        "Official GSPro ProTee connector"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "Isolated settings preparation / restoration and conflicts",
+        "Exact ShotForge backend receiver and paired Labs TCP ownership"
+      ],
+      "softwareTestDate": "2026-11-06",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-protee-rela",
@@ -3193,26 +2279,17 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "ShotForge Discord #protee: eKsiSLe, 10–11 October 2026",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://gofile.io/d/wHAyzoy3"
-      ]
+      "verified": false
     },
     {
-      "profileId": "shotforge2-default",
+      "profileId": "shotforgeClassic-default",
       "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge 2.x",
+      "simulator": "ShotForge Classic",
       "connectors": [
         "VGPConnect",
         "VX Connector",
-        "ShotForge 2.x"
+        "ShotForge Classic"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -3224,13 +2301,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-protee-rela",
@@ -3252,26 +2324,15 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "ShotForge Discord #protee: eKsiSLe, 10–11 October 2026",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://gofile.io/d/wHAyzoy3"
-      ]
+      "verified": false
     },
     {
-      "profileId": "shotforgeClassic-default",
-      "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge Classic",
+      "profileId": "infinite-tees-protee-vx",
+      "launchMonitor": "ProTee VX — assisted beta",
+      "simulator": "Infinite Tees",
       "connectors": [
-        "VGPConnect",
-        "VX Connector",
-        "ShotForge Classic"
+        "VX Connector for Infinite Tees"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -3283,41 +2344,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": []
-    },
-    {
-      "profileId": "infinite-tees-protee-vx",
-      "launchMonitor": "ProTee VX — assisted beta",
-      "simulator": "Infinite Tees",
-      "connectors": [
-        "VX Connector for Infinite Tees"
-      ],
-      "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://github.com/zonkey-acoustic/vx-connector",
-        "https://discord.com/channels/1296534249867968522/1483903554434498764"
-      ],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
+      "verified": false
     },
     {
       "profileId": "infinite-tees-protee-rela",
@@ -3329,18 +2357,6 @@
       "plugins": [
         "ProTeeVXPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "2026-10-17: beta.14 assisted Hub workflow tested locally with ProTee VX, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.",
-      "verificationEvidence": "",
-      "sourceClassification": "practically-tested-local",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://github.com/eKsiSLe/rela-OtherLM",
-        "https://discord.com/channels/1296534249867968522/1483903554434498764"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3348,7 +2364,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "2026-10-17: beta.14 assisted Hub workflow tested locally with ProTee VX, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-rapsodo-mlm2pro",
@@ -3356,18 +2375,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/rapsodo-mlm2pro",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3375,7 +2382,46 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "drills-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "Drills Golf Sim",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
+    },
+    {
+      "profileId": "drillsWeb-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "Drills Web",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
     },
     {
       "profileId": "gspro-rapsodo-mlm2pro",
@@ -3383,17 +2429,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gspro.gitbook.io/gspro-knowledge-base/setup-and-installation/rapsodo-mlm2pro-connection-guide",
-        "https://gsprogolf.com/home/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3401,7 +2436,64 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "infiniteTees-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "Infinite Tees",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
+    },
+    {
+      "profileId": "muni-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "Muni Golf Sim",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
+    },
+    {
+      "profileId": "shotforge-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "ShotForge",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
     },
     {
       "profileId": "shotforge-rapsodo-mlm2pro",
@@ -3413,18 +2505,6 @@
       "plugins": [
         "MLM2ProPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258887810777118/1556980282341593120",
-        "https://discord.com/channels/1497254301511323728/1497258887810777118/1554671342136074403",
-        "https://gofile.io/d/wHAyzoy3"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3432,7 +2512,28 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "shotforge2-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "ShotForge 2.x",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
     },
     {
       "profileId": "shotforge2-rapsodo-mlm2pro",
@@ -3454,17 +2555,26 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258887810777118/1556980282341593120",
-        "https://discord.com/channels/1497254301511323728/1497258887810777118/1554671342136074403",
-        "https://gofile.io/d/wHAyzoy3"
-      ]
+      "verified": false
+    },
+    {
+      "profileId": "shotforgeClassic-mlm2pro-usb-rela",
+      "launchMonitor": "Rapsodo MLM2PRO",
+      "simulator": "ShotForge Classic",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "MLM2ProPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-rapsodo-mlm2pro",
@@ -3486,44 +2596,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258887810777118/1556980282341593120",
-        "https://discord.com/channels/1497254301511323728/1497258887810777118/1554671342136074403",
-        "https://gofile.io/d/wHAyzoy3"
-      ]
-    },
-    {
-      "profileId": "awesomegolf-rapsodo-mlm2pro-assistant",
-      "launchMonitor": "Rapsodo MLM2PRO via Assistant",
-      "simulator": "Awesome Golf",
-      "connectors": [],
-      "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/rapsodo-mlm2pro",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
+      "verified": false
     },
     {
       "profileId": "infinite-tees-mlm2pro-bluetooth",
@@ -3533,18 +2607,6 @@
         "MLM2PRO Bluetooth connector for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://github.com/Duwaynef/MLM2PRO-BT-APP",
-        "https://github.com/Duwaynef/MLM2PRO-BT-APP/releases",
-        "https://discord.com/channels/1296534249867968522/1427409403694284962"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3552,7 +2614,62 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "awesomegolf-rapsodo-mlm2pro-assistant",
+      "launchMonitor": "Rapsodo MLM2PRO via Assistant",
+      "simulator": "Awesome Golf",
+      "connectors": [],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "awesomegolf-rapsodo-mlm2xpro",
+      "launchMonitor": "Rapsodo MLM2XPRO",
+      "simulator": "Awesome Golf",
+      "connectors": [],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": null,
+      "softwareTestDate": null,
+      "practicallyTested": false,
+      "practicalEvidence": null,
+      "verified": false
+    },
+    {
+      "profileId": "infinite-tees-skytrak-rela",
+      "launchMonitor": "SkyTrak — assisted beta",
+      "simulator": "Infinite Tees",
+      "connectors": [
+        "rēlā for Infinite Tees"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-skytrak-plus",
@@ -3562,17 +2679,6 @@
         "SkyTrak with OpenSkyPlus2"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community-assisted",
-      "sources": [
-        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html",
-        "https://openskyplus2.github.io/OpenSkyPlus2/FAQs-OpenSkyPlus2.html"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3580,7 +2686,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-skytrak-max-rela",
@@ -3590,18 +2699,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1436021184700350607",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3609,7 +2706,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-skytrak-max",
@@ -3619,17 +2719,6 @@
         "SkyTrak with OpenSkyPlus2"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community-assisted",
-      "sources": [
-        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html",
-        "https://openskyplus2.github.io/OpenSkyPlus2/FAQs-OpenSkyPlus2.html"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3637,7 +2726,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-skytrak-max-rela",
@@ -3647,17 +2739,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3665,7 +2746,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-skytrak-og-rela",
@@ -3675,18 +2759,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1436021184700350607",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3694,7 +2766,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-skytrak-og",
@@ -3704,17 +2779,6 @@
         "SkyTrak with OpenSkyPlus2"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community-assisted",
-      "sources": [
-        "https://openskyplus2.github.io/OpenSkyPlus2/README-OpenSkyPlus2.html",
-        "https://openskyplus2.github.io/OpenSkyPlus2/FAQs-OpenSkyPlus2.html"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3722,7 +2786,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-skytrak-og-rela",
@@ -3732,17 +2799,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3750,7 +2806,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-skytrak-og",
@@ -3760,19 +2819,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258975014682765/1557221802516811840",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3780,7 +2826,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-skytrak-og",
@@ -3800,18 +2849,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258975014682765/1557221802516811840",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-skytrak-og",
@@ -3831,48 +2870,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258975014682765/1557221802516811840",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
-    },
-    {
-      "profileId": "infinite-tees-skytrak-rela",
-      "launchMonitor": "SkyTrak — assisted beta",
-      "simulator": "Infinite Tees",
-      "connectors": [
-        "rēlā for Infinite Tees"
-      ],
-      "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409977181601925"
-      ],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
+      "verified": false
     },
     {
       "profileId": "drills-skytrak-plus-rela",
@@ -3882,18 +2881,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1436021184700350607",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3901,7 +2888,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-skytrak-plus-rela",
@@ -3911,17 +2901,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3929,7 +2908,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-skytrak-plus",
@@ -3939,19 +2921,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258975014682765/1557221802516811840",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3959,7 +2928,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-skytrak-plus",
@@ -3979,18 +2951,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258975014682765/1557221802516811840",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-skytrak-plus",
@@ -4010,18 +2972,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258975014682765/1557221802516811840",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "infinite-tees-skytrak-plus-rela",
@@ -4031,19 +2983,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409977181601925"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4051,7 +2990,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "infinite-tees-square-he-rela",
@@ -4061,19 +3003,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409792988741753"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4081,7 +3010,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "awesomegolf-square-home",
@@ -4089,18 +3021,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/square-golf-lm",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4108,7 +3028,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-square-he-rela",
@@ -4118,18 +3041,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1433539074764832927",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4137,7 +3048,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-square-home",
@@ -4145,17 +3059,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-unverified",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://squaregolf.com/pages/support"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4163,7 +3066,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-square-he-rela",
@@ -4173,17 +3079,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "rela-adapter-inferred",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4191,7 +3086,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-square-home",
@@ -4201,19 +3099,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258952574898236/1554997371623186593",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4221,7 +3106,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-square-home",
@@ -4241,18 +3129,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258952574898236/1554997371623186593",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-square-home",
@@ -4272,18 +3150,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258952574898236/1554997371623186593",
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/#devices",
-        "https://docs.rela.golf/rela/installation/"
-      ]
+      "verified": false
     },
     {
       "profileId": "awesomegolf-default",
@@ -4291,14 +3159,6 @@
       "simulator": "Awesome Golf",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "Project owner confirms Square Omni / Awesome Golf practical testing. Status retained on 26 October 2026; no additional real-shot, reboot or certification claim is inferred from this update.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4306,7 +3166,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "Project owner confirms Square Omni / Awesome Golf practical testing. Status retained on 26 October 2026; no additional real-shot, reboot or certification claim is inferred from this update.",
+      "verified": false
     },
     {
       "profileId": "drills-square-omni-rela",
@@ -4316,14 +3179,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "20 October 2026: Drills real shots and return from GSPro confirmed; no GSPro Omni shot claim. 1 November 2026: Web Omni to desktop Omni two shots confirmed with ball and data; this does not add a GSPro Omni shot claim.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4332,24 +3187,14 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-11-05",
-      "practicalTestDate": "2026-11-01",
-      "practicalTestScope": [
-        {
-          "route": "drills-square-omni-rela",
-          "transition": "Web Omni to desktop Omni",
-          "startupWorkerSeconds": 31.5,
-          "shotsConfirmedByUser": 2,
-          "ballsAndDataCorrect": true
-        }
-      ]
+      "practicallyTested": true,
+      "practicalEvidence": "20 October 2026: Drills real shots and return from GSPro confirmed; no GSPro Omni shot claim. 1 November 2026: Web Omni to desktop Omni two shots confirmed with ball and data; this does not add a GSPro Omni shot claim.",
+      "verified": false
     },
     {
       "profileId": "drills-web-square-omni-rela",
-      "simulator": "Drills Web",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
       "launchMonitor": "Square Omni",
+      "simulator": "Drills Web",
       "connectors": [
         "Drills Web Bridge",
         "Drills Web browser (separate profile)",
@@ -4358,27 +3203,15 @@
       "plugins": [],
       "flowPrepared": true,
       "softwareTested": true,
-      "softwareTestDate": "2026-11-05",
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "practicalTestDate": "2026-11-01",
-      "practicalTestScope": [
-        {
-          "route": "drills-web-square-omni-rela",
-          "transition": "Desktop VX to Web Omni",
-          "startupWorkerSeconds": 47,
-          "shotsConfirmedByUser": 2,
-          "ballsAndDataCorrect": true
-        }
-      ],
-      "implementationStatus": "Implemented",
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
       "practicalEvidence": "1 November 2026: two Web Omni shots and two desktop Omni return shots confirmed with balls and data. Web start/restart, fullscreen projector and own-browser/bridge cleanup tested without shots. 2 November 2026: desktop Omni shot and subsequent desktop-to-Web Omni switch with two real Web shots confirmed with balls and data. Later no-ball startup used transport connection only, not false ball Ready. Verified checklist remains pending.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "gspro-square-omni",
@@ -4386,14 +3219,6 @@
       "simulator": "GSPro",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "Operator explicitly confirmed a real Square Omni shot arrived in GSPro through the direct native route.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4401,7 +3226,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "Operator explicitly confirmed a real Square Omni shot arrived in GSPro through the direct native route.",
+      "verified": false
     },
     {
       "profileId": "muni-square-omni-native",
@@ -4411,22 +3239,17 @@
         "Muni Launch Monitor Connect"
       ],
       "plugins": [],
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
       "flowPrepared": true,
       "softwareTested": true,
-      "softwareTestDate": "2026-11-05",
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "implementationStatus": "Implemented",
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "muni-square-omni-rela",
@@ -4436,14 +3259,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "20 October 2026: four Omni shots in Muni with data and no interruption confirmed; automatic startup and ball detection passed. GSPro switching excluded by user.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4451,7 +3266,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "20 October 2026: four Omni shots in Muni with data and no interruption confirmed; automatic startup and ball detection passed. GSPro switching excluded by user.",
+      "verified": false
     },
     {
       "profileId": "shotforge-square-omni",
@@ -4461,14 +3279,6 @@
         "rēlā"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "Operator confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4476,7 +3286,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "Operator confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.",
+      "verified": false
     },
     {
       "profileId": "shotforge2-square-omni",
@@ -4496,13 +3309,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-square-omni",
@@ -4522,13 +3330,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "square-golf-omni",
@@ -4548,13 +3351,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "catalog-profile",
-      "sources": []
+      "verified": false
     },
     {
       "profileId": "infinite-tees-square-omni-rela",
@@ -4564,19 +3362,6 @@
         "rēlā for Infinite Tees"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Tested",
-      "practicallyTested": true,
-      "verified": false,
-      "practicalEvidence": "2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.",
-      "verificationEvidence": "",
-      "sourceClassification": "practically-tested-local",
-      "sources": [
-        "https://docs.rela.golf/rela/user-guide/",
-        "https://docs.rela.golf/rela/faq/",
-        "https://downloads.rela.golf/get/rela/windows-x64/beta",
-        "https://discord.com/channels/1296534249867968522/1427409792988741753"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4584,7 +3369,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": true,
+      "practicalEvidence": "2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.",
+      "verified": false
     },
     {
       "profileId": "gspro-simadmin-uneekor",
@@ -4595,17 +3383,6 @@
         "Uneekor Third-party Connector"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared-automatic-hardware-pending",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4613,7 +3390,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "infinite-tees-simadmin-uneekor",
@@ -4623,17 +3403,6 @@
         "Uneekor standalone connector (SimAdmin; select your installed EXE)"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared-automatic-hardware-pending",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4641,7 +3410,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-simadmin-uneekor",
@@ -4651,17 +3423,6 @@
         "Uneekor standalone connector (SimAdmin; select your installed EXE)"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared-automatic-hardware-pending",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4669,7 +3430,30 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "shotforge-simadmin-uneekor",
+      "launchMonitor": "Uneekor",
+      "simulator": "ShotForge",
+      "connectors": [
+        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge-uneekor-plugin",
@@ -4681,17 +3465,6 @@
       "plugins": [
         "OtherUneekorPlugin.dll"
       ],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "community",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1557418453009178772",
-        "https://gofile.io/d/wHAyzoy3"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4699,27 +3472,20 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
-      "profileId": "shotforge-simadmin-uneekor",
+      "profileId": "shotforge2-simadmin-uneekor",
       "launchMonitor": "Uneekor",
-      "simulator": "ShotForge",
+      "simulator": "ShotForge 2.x",
       "connectors": [
+        "ShotForge 2.x",
         "Uneekor standalone connector (SimAdmin; select your installed EXE)"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared-automatic-hardware-pending",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4727,7 +3493,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "shotforge2-uneekor-plugin",
@@ -4749,23 +3518,15 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1557418453009178772",
-        "https://gofile.io/d/wHAyzoy3"
-      ]
+      "verified": false
     },
     {
-      "profileId": "shotforge2-simadmin-uneekor",
+      "profileId": "shotforgeClassic-simadmin-uneekor",
       "launchMonitor": "Uneekor",
-      "simulator": "ShotForge 2.x",
+      "simulator": "ShotForge Classic",
       "connectors": [
-        "ShotForge 2.x",
+        "ShotForge Classic",
         "Uneekor standalone connector (SimAdmin; select your installed EXE)"
       ],
       "plugins": [],
@@ -4778,16 +3539,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
-      ]
+      "verified": false
     },
     {
       "profileId": "shotforgeClassic-uneekor-plugin",
@@ -4809,24 +3562,34 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1557418453009178772",
-        "https://gofile.io/d/wHAyzoy3"
-      ]
+      "verified": false
     },
     {
-      "profileId": "shotforgeClassic-simadmin-uneekor",
-      "launchMonitor": "Uneekor",
-      "simulator": "ShotForge Classic",
+      "profileId": "awesomegolf-uneekor-eye-mini",
+      "launchMonitor": "Uneekor EYE MINI",
+      "simulator": "Awesome Golf",
+      "connectors": [],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "gspro-uneekor-eye-mini",
+      "launchMonitor": "Uneekor EYE MINI",
+      "simulator": "GSPro",
       "connectors": [
-        "ShotForge Classic",
-        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
+        "Uneekor Launcher",
+        "Uneekor Third-party Connector"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -4838,72 +3601,8 @@
       ],
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Not tested",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1483321605345120358/1564281816192520253",
-        "https://discord.com/channels/1497254301511323728/1497258933444673606/1563558407003177042"
-      ]
-    },
-    {
-      "profileId": "awesomegolf-uneekor-eye-mini",
-      "launchMonitor": "Uneekor EYE MINI",
-      "simulator": "Awesome Golf",
-      "connectors": [],
-      "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://insights.awesome-golf.com/docs/reference/compatibility/launch-monitor/list",
-        "https://insights.awesome-golf.com/docs/guides/connection/uneekor-eye-mini",
-        "https://insights.awesome-golf.com/docs/reference/licenses/with-launch-monitor"
-      ],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
-    },
-    {
-      "profileId": "gspro-uneekor-eye-mini",
-      "launchMonitor": "Uneekor EYE MINI",
-      "simulator": "GSPro",
-      "connectors": [
-        "Uneekor Launcher",
-        "Uneekor Third-party Connector"
-      ],
-      "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
-      ],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
+      "verified": false
     },
     {
       "profileId": "gspro-uneekor-eye-mini-lite",
@@ -4914,17 +3613,6 @@
         "Uneekor Third-party Connector"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4932,7 +3620,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-uneekor-eye-xo",
@@ -4943,17 +3634,6 @@
         "Uneekor Third-party Connector"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4961,7 +3641,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-uneekor-eye-xo2",
@@ -4972,17 +3655,6 @@
         "Uneekor Third-party Connector"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -4990,7 +3662,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-uneekor-eye-xr",
@@ -5001,17 +3676,6 @@
         "Uneekor Third-party Connector"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -5019,7 +3683,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "gspro-uneekor-qed",
@@ -5030,17 +3697,6 @@
         "Uneekor Third-party Connector"
       ],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "documented-assisted",
-      "sources": [
-        "https://gsprogolf.com/home/",
-        "https://support.uneekor.com/knowledge/how-do-i-install-and-play-3rd-party-software-on-my-simulator"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -5048,7 +3704,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "drills-vtrack-native",
@@ -5056,16 +3715,6 @@
       "simulator": "Drills Golf Sim",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Implemented",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "discord-confirmed",
-      "sources": [
-        "https://discord.com/channels/1427386457655480332/1478580242489671862"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -5073,7 +3722,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
     },
     {
       "profileId": "muni-vtrack-native",
@@ -5081,17 +3733,6 @@
       "simulator": "Muni Golf Sim",
       "connectors": [],
       "plugins": [],
-      "implementationStatus": "Assisted preparation",
-      "status": "Not tested",
-      "practicallyTested": false,
-      "verified": false,
-      "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared-assisted",
-      "sources": [
-        "https://discord.com/channels/1472004230112870610/1475386375619743817/1564824509905895516",
-        "https://discord.com/channels/1472004230112870610/1561086650355028040"
-      ],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -5099,35 +3740,10 @@
         "ChatGPT context export and request import",
         "Proposal preview and apply round-trip"
       ],
-      "softwareTestDate": "2026-11-05"
-    },
-    {
-      "profileId": "shotforge2-protee-direct",
-      "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge 2.x",
-      "connectors": [
-        "ProTee Labs",
-        "Official GSPro ProTee connector"
-      ],
-      "plugins": [],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "Isolated settings preparation / restoration and conflicts",
-        "Exact ShotForge backend receiver and paired Labs TCP ownership"
-      ],
-      "softwareTestDate": "2026-11-06",
+      "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
-      "verified": false,
-      "status": "Software tested; automated Hub hardware acceptance pending",
-      "implementationStatus": "Implemented",
       "practicalEvidence": "",
-      "verificationEvidence": "",
-      "sourceClassification": "prepared",
-      "sources": [
-        "docs/SHOTFORGE-DIRECT-LABS-2026-11-06.txt"
-      ]
+      "verified": false
     }
   ]
 }

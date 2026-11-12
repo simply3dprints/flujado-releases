@@ -1,0 +1,10 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.21
+
+- GSPro startup now accepts the short Ready status on the recognised ProTee Labs main window.
+- New assisted GolfCore and PurePlay tiles for ProTee VX through ProTee Labs.
+- The PurePlay tile recognises the game window opened by Labs.
+- Adds prepared Rapsodo profiles. These require matching hardware and connector validation.
+
+PurePlay launched and connected in local testing after pressing Connect again. A real shot and closing via the updated tile are still to be tested. GolfCore needs a cold start, shot and close test. Please retest the GSPro Ready issue on the PC that reported it.
+
+See the release guide for the community test points and installation instructions.
