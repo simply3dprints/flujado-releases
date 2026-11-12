@@ -1,20 +1,20 @@
 {
-    "product":  "GolfSimHub",
-    "version":  "0.9.0-beta.18.19",
-    "installerUrl":  "https://raw.githubusercontent.com/simply3dprints/flujado-releases/8696dea0b06b45d1caaf6d656289a4c2f760657d/downloads/FluJado-MSI-Transition-0.9.0-beta.18.19.exe",
-    "sha256":  "18fd77373b1d3dca18860756c6120ff65e078eee90764e95b59d5760fa631755",
-    "signingStatus":  "unsigned-beta",
-    "installerType":  "msi",
-    "legacyInstallerPurpose":  "one-time-msi-transition",
-    "msi":  {
-                "installerUrl":  "https://raw.githubusercontent.com/simply3dprints/flujado-releases/8696dea0b06b45d1caaf6d656289a4c2f760657d/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.19.msi",
-                "sha256":  "6adfad7169630283c270f1072d525240b138217d49a3a1208e741489e7ac8c6a",
-                "productVersion":  "0.9.1819"
-            },
-    "releaseNotesUrl":  "https://raw.githubusercontent.com/simply3dprints/flujado-releases/8696dea0b06b45d1caaf6d656289a4c2f760657d/docs/beta.18.19/RELEASE-NOTES.txt",
-    "highlights":  [
-                       "GSPro waits for the game window before reporting ready.",
-                       "PurePlay switching closes both the game and launcher.",
-                       "Update cleanup waits for the Hub dashboard to reopen."
-                   ]
+  "product": "GolfSimHub",
+  "version": "0.9.0-beta.18.21",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d2045d1904a8d7de8c7b47c8b2ce62f77df728c0/downloads/FluJado-MSI-Transition-0.9.0-beta.18.21.exe",
+  "sha256": "af9371ccc6cefd1252cfa14a1aedcbbdccf0fdea5eb4d990ade812833a19cfef",
+  "signingStatus": "unsigned-beta",
+  "installerType": "msi",
+  "legacyInstallerPurpose": "one-time-msi-transition",
+  "msi": {
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d2045d1904a8d7de8c7b47c8b2ce62f77df728c0/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.21.msi",
+    "sha256": "107b9cd7bf3b915de487679baa77822cba305a2427066bb7749035931ff4ff05",
+    "productVersion": "0.9.1821"
+  },
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/d2045d1904a8d7de8c7b47c8b2ce62f77df728c0/docs/beta.18.21/RELEASE-NOTES.txt",
+  "highlights": [
+    "GSPro recognises the short Ready status in ProTee Labs.",
+    "New assisted ProTee VX tiles for GolfCore and PurePlay.",
+    "Prepared Rapsodo routes for tester validation."
+  ]
 }
