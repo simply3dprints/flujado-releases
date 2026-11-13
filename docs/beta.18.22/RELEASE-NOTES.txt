@@ -1,0 +1,13 @@
+# FluJado 0.9.0-beta.18.22 — releasekandidaat
+
+## Nederlands
+
+- FluJado toont afsluit-, wissel-, import-, herstel- en updatemeldingen in de stijl van de Hub. Kies **Keep open** om FluJado en de simulator te laten draaien.
+- Open **Movies & TV** vanuit de Hub om het geluid van de actieve simulator te dempen. Sluit het filmvenster om het oorspronkelijke simulatorgeluid te herstellen.
+- Testpunt: laat GSPro draaien, speel een film af via Movies & TV en controleer of het GSPro-geluid bij het sluiten terugkomt.
+
+## English
+
+- FluJado now uses its own styling for exit, switch, import, restore and update notices. Choose **Keep open** to leave FluJado and the simulator running.
+- Opening a streaming service from **Movies & TV** mutes the simulator. Close the streaming window to restore the simulator's previous audio state.
+- Please test with GSPro running. Open a film from Movies & TV and check that GSPro audio returns when you close the streaming window.
