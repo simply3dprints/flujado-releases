@@ -1,20 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.22",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3c73612582fd85f5843bfa3f553a7dfee4ca983a/downloads/FluJado-MSI-Transition-0.9.0-beta.18.22.exe",
-  "sha256": "7be7ffea9d96356592be73a772a66af9bf134e567572fd6c052be49a4090f532",
+  "version": "0.9.0-beta.18.23",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3e02f39f18aed08d90a92dd156a3c7202aa4f87b/downloads/FluJado-MSI-Transition-0.9.0-beta.18.23.exe",
+  "sha256": "60326996e9ed2b28aa8086105d8e1ca8b8ab25144349995a3e2625b06639a6dd",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3c73612582fd85f5843bfa3f553a7dfee4ca983a/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.22.msi",
-    "sha256": "4998916cc1babb76ea72b37daa52d200c821b36b142ad59695d19064d6289a77",
-    "productVersion": "0.9.1822"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3e02f39f18aed08d90a92dd156a3c7202aa4f87b/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.23.msi",
+    "sha256": "fc31d7bc241f7baa4bfba2b8adeae28470b8caf80b4a7954f2e44a98e122d10c",
+    "productVersion": "0.9.1823"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3c73612582fd85f5843bfa3f553a7dfee4ca983a/docs/beta.18.22/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3e02f39f18aed08d90a92dd156a3c7202aa4f87b/docs/beta.18.23/RELEASE-NOTES.txt",
   "highlights": [
-    "FluJado styling for confirmations, licence and maintenance windows.",
-    "Movies & TV temporarily mutes supported simulator audio.",
-    "Closing the streaming window restores the previous simulator audio state."
+    "Awesome Golf connects automatically through ProTee Labs for VX users.",
+    "Improved closing and switching for GSPro, PurePlay and GolfCore.",
+    "Four-stage update progress and clearer rēlā plug-in guidance."
   ]
 }
