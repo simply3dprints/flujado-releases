@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-12. 190 prepared routes, 180 software-tested, 16 with specifically scoped practical evidence and 0 fully Verified. [Release notes](beta.18.21/RELEASE-NOTES.txt).
+Updated 2026-11-13. 191 prepared routes, 180 software-tested, 17 with specifically scoped practical evidence and 0 fully Verified. [Release notes](beta.18.21/RELEASE-NOTES.txt).
 
 Software tests cover configuration and workflow checks. Practical evidence is specific to the hardware and operation tested. Both new ProTee Labs routes still need complete live validation.
 
@@ -109,6 +109,7 @@ Software tests cover configuration and workflow checks. Practical evidence is sp
 | OpenLaunch NOVA | Drills Golf Sim | rēlā | Yes | No | No | drills-nova-rela |
 | OpenLaunch NOVA | GSPro | OpenLaunch NOVA Windows app | Yes | No | No | gspro-openlaunch-nova |
 | OpenLaunch NOVA | Muni Golf Sim | rēlā | Yes | No | No | muni-nova-rela |
+| ProTee VX | Awesome Golf | ProTee Labs native (automatic) | See release tests | Yes — connection, ball detection, one shot, switching and close | No | awesomegolf-protee-labs |
 | ProTee VX | Drills Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | drills-protee-rela |
 | ProTee VX | Drills Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | drills-protee-socket-relay |
 | ProTee VX | Drills Web | Drills Web Bridge, Drills Web browser (separate profile), rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | drills-web-protee-rela |
@@ -217,3 +218,5 @@ Software tests cover configuration and workflow checks. Practical evidence is sp
 - **muni-square-omni-rela** — 20 October 2026: four Omni shots in Muni with data and no interruption confirmed; automatic startup and ball detection passed. GSPro switching excluded by user.
 - **shotforge-square-omni** — Operator confirmed the installed rela connection and startup route worked locally. Full clean-install, repeated switching and reboot verification remains pending.
 - **infinite-tees-square-omni-rela** — 2026-10-17: beta.14 assisted Hub workflow tested locally with Square Omni, Infinite Tees Flat Range and a separate rela test installation. Device and simulator both reported Connected and Ready. A real shot appeared correctly in Infinite Tees, confirmed by the operator. Clean-install/reboot checklist not completed; this is practical testing, not universal certification. 2026-10-17 beta.15 local startup/switch follow-up: automatic device/simulator connection without Continue, switching to the existing GSPro/ProTee VX route and back passed. No new real-shot test in this follow-up; no GSPro/Square Omni hardware claim.
+
+**Awesome Golf + ProTee VX.** 12 November: connection, ball detection, one user-confirmed shot and tile close passed. 16 November: the Hub automatically connected Awesome Golf via ProTee Labs and completed GSPro to Awesome Golf to GSPro without shots. Both simulators closed on switching and GSPro detected the ball after returning.

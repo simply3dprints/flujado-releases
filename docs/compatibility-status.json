@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
     {
@@ -3743,6 +3743,22 @@
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
       "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "awesomegolf-protee-labs",
+      "launchMonitor": "ProTee VX",
+      "simulator": "Awesome Golf",
+      "connectors": [
+        "ProTee Labs"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": false,
+      "softwareTestScope": [],
+      "softwareTestDate": "",
+      "practicallyTested": true,
+      "practicalEvidence": "12 November: connection, ball detection, one user-confirmed shot and tile close passed. 16 November: the Hub automatically connected Awesome Golf via ProTee Labs and completed GSPro to Awesome Golf to GSPro without shots. Both simulators closed on switching and GSPro detected the ball after returning.",
       "verified": false
     }
   ]
