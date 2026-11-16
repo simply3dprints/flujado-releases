@@ -1,20 +1,18 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.23",
-  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3e02f39f18aed08d90a92dd156a3c7202aa4f87b/downloads/FluJado-MSI-Transition-0.9.0-beta.18.23.exe",
-  "sha256": "60326996e9ed2b28aa8086105d8e1ca8b8ab25144349995a3e2625b06639a6dd",
+  "version": "0.9.0-beta.18.24",
+  "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/42795512d73fa490564c23c8c84fbc904550ee2f/downloads/FluJado-MSI-Transition-0.9.0-beta.18.24.exe",
+  "sha256": "49c479fe1085f35b86980890e7c47ac29fc848cf7edae7c812b0d292e3e8cc63",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3e02f39f18aed08d90a92dd156a3c7202aa4f87b/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.23.msi",
-    "sha256": "fc31d7bc241f7baa4bfba2b8adeae28470b8caf80b4a7954f2e44a98e122d10c",
-    "productVersion": "0.9.1823"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/42795512d73fa490564c23c8c84fbc904550ee2f/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.24.msi",
+    "sha256": "6e5acac341eb416ed11c626423c04d86a9e9a6a813cb9f966bcc8ab7d7fdce9f",
+    "productVersion": "0.9.1824"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/3e02f39f18aed08d90a92dd156a3c7202aa4f87b/docs/beta.18.23/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/42795512d73fa490564c23c8c84fbc904550ee2f/docs/beta.18.24/RELEASE-NOTES.txt",
   "highlights": [
-    "Awesome Golf connects automatically through ProTee Labs for VX users.",
-    "Improved closing and switching for GSPro, PurePlay and GolfCore.",
-    "Four-stage update progress and clearer rēlā plug-in guidance."
+    "Restores Windows Installer detection for Hub updates and recovery."
   ]
 }
