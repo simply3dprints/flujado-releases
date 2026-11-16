@@ -1,5 +1,7 @@
 # FluJado beta.18.23
 
+**Superseded by [beta.18.24](../beta.18.24/README.md)**, which restores Windows Installer detection.
+
 [Download MSI](../../downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.23.msi) · [SHA-256 checksums](SHA256SUMS.txt) · [Compatibility](../../COMPATIBILITY.md)
 
 - [Nederlandse handleiding](FluJado-Beta-Handleiding-NL.txt)
