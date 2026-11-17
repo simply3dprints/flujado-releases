@@ -1,6 +1,8 @@
 # FluJado beta.18.25
 
-[Download the tested MSI](../../downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.25.msi) · [SHA-256](SHA256SUMS.txt) · [Compatibility](../../COMPATIBILITY.md)
+> **Superseded by beta.18.26.** The beta.18.25 installer is withdrawn because it used a test licence path. [Get beta.18.26](../beta.18.26/README.md).
+
+[Compatibility](../../COMPATIBILITY.md)
 
 - **Nederlands** · [Installatie en gebruik](FluJado-Beta-Handleiding-NL.txt) · [Remote Controls met screenshots](Remote-Controls-NL.md)
 - **English** · [Installation and user guide](FluJado-Beta-User-Guide-EN.txt) · [Illustrated Remote Controls guide](Remote-Controls-EN.md)
