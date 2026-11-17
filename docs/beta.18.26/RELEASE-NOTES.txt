@@ -1,0 +1,7 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.26
+
+Beta.18.26 restores normal FluJado licence lookup. Beta.18.25 inadvertently selected a separate trial file from a test build.
+
+Update from beta.18.24 or beta.18.25 via Menu → Check for updates → Install update. Use the MSI for a new installation. Remote Controls and simulator fixes carry over. Remote starts off.
+
+Clean MSI installation and isolated upgrades from both 18.24 and 18.25 passed, with saved settings preserved and normal licence lookup verified.
