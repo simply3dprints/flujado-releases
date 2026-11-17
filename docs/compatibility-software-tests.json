@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-17",
   "profiles": [
     {
       "profileId": "gspro-bluetees-rainmaker",
@@ -618,6 +618,24 @@
       "softwareTestDate": "2026-11-05"
     },
     {
+      "profileId": "muni-foresight-gc3-rela",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Isolated required plug-in present/absent checks. Field test pending."
+      ],
+      "softwareTestDate": null
+    },
+    {
+      "profileId": "pureplay-foresight-gc3-rela",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Isolated required plug-in present/absent checks. Field test pending."
+      ],
+      "softwareTestDate": null
+    },
+    {
       "profileId": "awesomegolf-foresight-gc3s",
       "flowPrepared": true,
       "softwareTested": true,
@@ -1135,15 +1153,25 @@
       "softwareTestDate": "2026-11-05"
     },
     {
+      "profileId": "awesomegolf-protee-labs",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Clean beta.18.25 MSI live VX workflow. Startup and the return to GSPro passed after the VX restart. The Remote direction retry delivered one tap."
+      ],
+      "softwareTestDate": "2026-11-17"
+    },
+    {
       "profileId": "drills-protee-rela",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. Open Range loaded and the safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-17"
     },
     {
       "profileId": "drills-protee-socket-relay",
@@ -1163,9 +1191,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. The live startup and safe aim input passed. The operator separately reported a real shot in the web range."
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-17"
     },
     {
       "profileId": "golfcore-protee-labs",
@@ -1181,9 +1210,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. Started and returned to GSPro with the VX. Safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-17"
     },
     {
       "profileId": "muni-protee-openconnect",
@@ -1203,9 +1233,10 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. The simulator launched on the projector and the safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-17"
     },
     {
       "profileId": "protee-default",
@@ -1214,16 +1245,30 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. PurePlay to ProTee Labs passed. The video-forward command was delivered."
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-17"
     },
     {
       "profileId": "pureplay-protee-labs",
       "flowPrepared": true,
-      "softwareTested": false,
-      "softwareTestScope": null,
-      "softwareTestDate": null
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Clean beta.18.25 MSI live VX workflow. The automatic VX flow and switch from PurePlay to ProTee Labs passed. Safe aim input was delivered."
+      ],
+      "softwareTestDate": "2026-11-17"
+    },
+    {
+      "profileId": "shotforge-protee-rela",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05"
     },
     {
       "profileId": "shotforge-default",
@@ -1237,7 +1282,19 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "shotforge-protee-rela",
+      "profileId": "shotforge2-protee-direct",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "Isolated settings preparation / restoration and conflicts",
+        "Exact ShotForge backend receiver and paired Labs TCP ownership",
+        "Clean beta.18.25 MSI live VX workflow. Classic to 2.x passed after the VX restart, with safe aim input delivered."
+      ],
+      "softwareTestDate": "2026-11-17"
+    },
+    {
+      "profileId": "shotforge2-protee-rela",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1259,40 +1316,19 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "shotforge2-protee-direct",
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "Isolated settings preparation / restoration and conflicts",
-        "Exact ShotForge backend receiver and paired Labs TCP ownership"
-      ],
-      "softwareTestDate": "2026-11-06"
-    },
-    {
-      "profileId": "shotforge2-protee-rela",
+      "profileId": "shotforgeClassic-protee-rela",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. Classic started after switching. This profile has no Play shortcuts."
       ],
-      "softwareTestDate": "2026-11-05"
+      "softwareTestDate": "2026-11-17"
     },
     {
       "profileId": "shotforgeClassic-default",
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
-    },
-    {
-      "profileId": "shotforgeClassic-protee-rela",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1491,7 +1527,7 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "gspro-skytrak-max",
+      "profileId": "muni-skytrak-max-rela",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1502,7 +1538,7 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "muni-skytrak-max-rela",
+      "profileId": "gspro-skytrak-max",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1799,6 +1835,15 @@
       "softwareTestDate": "2026-11-05"
     },
     {
+      "profileId": "pureplay-square-omni-native",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Independent starts with the Square Omni route and device selection."
+      ],
+      "softwareTestDate": null
+    },
+    {
       "profileId": "shotforge-square-omni",
       "flowPrepared": true,
       "softwareTested": true,
@@ -1887,17 +1932,6 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "shotforge-simadmin-uneekor",
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05"
-    },
-    {
       "profileId": "shotforge-uneekor-plugin",
       "flowPrepared": true,
       "softwareTested": true,
@@ -1909,7 +1943,7 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "shotforge2-simadmin-uneekor",
+      "profileId": "shotforge-simadmin-uneekor",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1931,7 +1965,7 @@
       "softwareTestDate": "2026-11-05"
     },
     {
-      "profileId": "shotforgeClassic-simadmin-uneekor",
+      "profileId": "shotforge2-simadmin-uneekor",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -1943,6 +1977,17 @@
     },
     {
       "profileId": "shotforgeClassic-uneekor-plugin",
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05"
+    },
+    {
+      "profileId": "shotforgeClassic-simadmin-uneekor",
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [

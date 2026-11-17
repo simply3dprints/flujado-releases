@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-17",
   "scope": "Prepared, software tested, practical testing and Verified are separate evidence levels. Software tests do not emulate or certify hardware.",
   "combinations": [
     {
@@ -1085,6 +1085,46 @@
       "verified": false
     },
     {
+      "profileId": "muni-foresight-gc3-rela",
+      "launchMonitor": "Foresight GC3",
+      "simulator": "Muni Golf Sim",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "OtherForesightPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Isolated required plug-in present/absent checks. Field test pending."
+      ],
+      "softwareTestDate": null
+    },
+    {
+      "profileId": "pureplay-foresight-gc3-rela",
+      "launchMonitor": "Foresight GC3",
+      "simulator": "PurePlay",
+      "connectors": [
+        "rēlā"
+      ],
+      "plugins": [
+        "OtherForesightPlugin.dll"
+      ],
+      "flowPrepared": true,
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Isolated required plug-in present/absent checks. Field test pending."
+      ],
+      "softwareTestDate": null
+    },
+    {
       "profileId": "awesomegolf-foresight-gc3s",
       "launchMonitor": "Foresight GC3S",
       "simulator": "Awesome Golf",
@@ -1998,6 +2038,24 @@
       "verified": false
     },
     {
+      "profileId": "awesomegolf-protee-labs",
+      "launchMonitor": "ProTee VX",
+      "simulator": "Awesome Golf",
+      "connectors": [
+        "ProTee Labs"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Clean beta.18.25 MSI live VX workflow. Startup and the return to GSPro passed after the VX restart. The Remote direction retry delivered one tap."
+      ],
+      "softwareTestDate": "2026-11-17",
+      "practicallyTested": true,
+      "practicalEvidence": "12 November: connection, ball detection, one user-confirmed shot and tile close passed. 16 November: the Hub automatically connected Awesome Golf via ProTee Labs and completed GSPro to Awesome Golf to GSPro without shots. Both simulators closed on switching and GSPro detected the ball after returning. 2026-11-17: Startup and the return to GSPro passed after the VX restart. The Remote direction retry delivered one tap. The release acceptance run used no shots.",
+      "verified": false
+    },
+    {
       "profileId": "drills-protee-rela",
       "launchMonitor": "ProTee VX",
       "simulator": "Drills Golf Sim",
@@ -2012,11 +2070,12 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. Open Range loaded and the safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05",
+      "softwareTestDate": "2026-11-17",
       "practicallyTested": true,
-      "practicalEvidence": "20 October 2026: Drills real shots and Drills > GSPro > Drills shots confirmed.",
+      "practicalEvidence": "20 October 2026: Drills real shots and Drills > GSPro > Drills shots confirmed. 2026-11-17: Open Range loaded and the safe aim input was delivered. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2058,11 +2117,12 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. The live startup and safe aim input passed. The operator separately reported a real shot in the web range."
       ],
-      "softwareTestDate": "2026-11-05",
+      "softwareTestDate": "2026-11-17",
       "practicallyTested": true,
-      "practicalEvidence": "1 November 2026: desktop to Web VX two shots and Web to desktop VX one shot confirmed with balls and data. Web opened fullscreen on projector; dedicated browser, bridge and managed connector cleanup tested without shots. Login persisted. No new clean-install/reboot hardware checklist; Verified not granted.",
+      "practicalEvidence": "1 November 2026: desktop to Web VX two shots and Web to desktop VX one shot confirmed with balls and data. Web opened fullscreen on projector; dedicated browser, bridge and managed connector cleanup tested without shots. Login persisted. No new clean-install/reboot hardware checklist; Verified not granted. 2026-11-17: The live startup and safe aim input passed. The operator separately reported a real shot in the web range. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2092,11 +2152,12 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. Started and returned to GSPro with the VX. Safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05",
+      "softwareTestDate": "2026-11-17",
       "practicallyTested": true,
-      "practicalEvidence": "Operator confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending.",
+      "practicalEvidence": "Operator confirmed ProTee VX to GSPro startup and software switching worked. Local development setup; closed-beta clean installation and reboot checklist pending. 2026-11-17: Started and returned to GSPro with the VX. Safe aim input was delivered. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2132,11 +2193,12 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. The simulator launched on the projector and the safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05",
+      "softwareTestDate": "2026-11-17",
       "practicallyTested": true,
-      "practicalEvidence": "20 October 2026: two VX shots in Muni and Muni > GSPro > Muni switching with real shots confirmed. Automatic startup passed after one initial Labs startup miss.",
+      "practicalEvidence": "20 October 2026: two VX shots in Muni and Muni > GSPro > Muni switching with real shots confirmed. Automatic startup passed after one initial Labs startup miss. 2026-11-17: The simulator launched on the projector and the safe aim input was delivered. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2150,11 +2212,12 @@
       "softwareTestScope": [
         "Configuration validation",
         "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. PurePlay to ProTee Labs passed. The video-forward command was delivered."
       ],
-      "softwareTestDate": "2026-11-05",
+      "softwareTestDate": "2026-11-17",
       "practicallyTested": true,
-      "practicalEvidence": "Operator confirmed the standalone ProTee tile and switching worked on the local simulator PC.",
+      "practicalEvidence": "Operator confirmed the standalone ProTee tile and switching worked on the local simulator PC. 2026-11-17: PurePlay to ProTee Labs passed. The video-forward command was delivered. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2166,32 +2229,13 @@
       ],
       "plugins": [],
       "flowPrepared": true,
-      "softwareTested": false,
-      "softwareTestScope": null,
-      "softwareTestDate": null,
-      "practicallyTested": false,
-      "practicalEvidence": null,
-      "verified": false
-    },
-    {
-      "profileId": "shotforge-default",
-      "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge",
-      "connectors": [
-        "VGPConnect",
-        "VX Connector"
-      ],
-      "plugins": [],
-      "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
+        "Clean beta.18.25 MSI live VX workflow. The automatic VX flow and switch from PurePlay to ProTee Labs passed. Safe aim input was delivered."
       ],
-      "softwareTestDate": "2026-11-05",
+      "softwareTestDate": "2026-11-17",
       "practicallyTested": true,
-      "practicalEvidence": "Operator tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.",
+      "practicalEvidence": "2026-11-17: The automatic VX flow and switch from PurePlay to ProTee Labs passed. Safe aim input was delivered. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2217,13 +2261,12 @@
       "verified": false
     },
     {
-      "profileId": "shotforge2-default",
+      "profileId": "shotforge-default",
       "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge 2.x",
+      "simulator": "ShotForge",
       "connectors": [
         "VGPConnect",
-        "VX Connector",
-        "ShotForge 2.x"
+        "VX Connector"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -2234,8 +2277,8 @@
         "Proposal preview and apply round-trip"
       ],
       "softwareTestDate": "2026-11-05",
-      "practicallyTested": false,
-      "practicalEvidence": "",
+      "practicallyTested": true,
+      "practicalEvidence": "Operator tested a real shot and later confirmed ProTee VX switching worked. Readiness and connector restart fixes were tested locally; clean-install beta checklist pending.",
       "verified": false
     },
     {
@@ -2252,11 +2295,12 @@
       "softwareTestScope": [
         "Configuration validation",
         "Isolated settings preparation / restoration and conflicts",
-        "Exact ShotForge backend receiver and paired Labs TCP ownership"
+        "Exact ShotForge backend receiver and paired Labs TCP ownership",
+        "Clean beta.18.25 MSI live VX workflow. Classic to 2.x passed after the VX restart, with safe aim input delivered."
       ],
-      "softwareTestDate": "2026-11-06",
-      "practicallyTested": false,
-      "practicalEvidence": "",
+      "softwareTestDate": "2026-11-17",
+      "practicallyTested": true,
+      "practicalEvidence": "2026-11-17: Classic to 2.x passed after the VX restart, with safe aim input delivered. The release acceptance run used no shots.",
       "verified": false
     },
     {
@@ -2283,13 +2327,13 @@
       "verified": false
     },
     {
-      "profileId": "shotforgeClassic-default",
+      "profileId": "shotforge2-default",
       "launchMonitor": "ProTee VX",
-      "simulator": "ShotForge Classic",
+      "simulator": "ShotForge 2.x",
       "connectors": [
         "VGPConnect",
         "VX Connector",
-        "ShotForge Classic"
+        "ShotForge 2.x"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -2315,6 +2359,29 @@
       "plugins": [
         "ProTeeVXPlugin.dll"
       ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip",
+        "Clean beta.18.25 MSI live VX workflow. Classic started after switching. This profile has no Play shortcuts."
+      ],
+      "softwareTestDate": "2026-11-17",
+      "practicallyTested": true,
+      "practicalEvidence": "2026-11-17: Classic started after switching. This profile has no Play shortcuts. The release acceptance run used no shots.",
+      "verified": false
+    },
+    {
+      "profileId": "shotforgeClassic-default",
+      "launchMonitor": "ProTee VX",
+      "simulator": "ShotForge Classic",
+      "connectors": [
+        "VGPConnect",
+        "VX Connector",
+        "ShotForge Classic"
+      ],
+      "plugins": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -2712,11 +2779,11 @@
       "verified": false
     },
     {
-      "profileId": "gspro-skytrak-max",
-      "launchMonitor": "SkyTrak MAX",
-      "simulator": "GSPro",
+      "profileId": "muni-skytrak-max-rela",
+      "launchMonitor": "SkyTrak Max",
+      "simulator": "Muni Golf Sim",
       "connectors": [
-        "SkyTrak with OpenSkyPlus2"
+        "rēlā"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -2732,11 +2799,11 @@
       "verified": false
     },
     {
-      "profileId": "muni-skytrak-max-rela",
-      "launchMonitor": "SkyTrak Max",
-      "simulator": "Muni Golf Sim",
+      "profileId": "gspro-skytrak-max",
+      "launchMonitor": "SkyTrak MAX",
+      "simulator": "GSPro",
       "connectors": [
-        "rēlā"
+        "SkyTrak with OpenSkyPlus2"
       ],
       "plugins": [],
       "flowPrepared": true,
@@ -3272,6 +3339,24 @@
       "verified": false
     },
     {
+      "profileId": "pureplay-square-omni-native",
+      "launchMonitor": "Square Omni",
+      "simulator": "PurePlay",
+      "connectors": [
+        "Built-in Bluetooth"
+      ],
+      "plugins": [],
+      "flowPrepared": true,
+      "practicallyTested": true,
+      "practicalEvidence": "Operator confirmed a real Omni shot on the PurePlay range after restarting with Omni already on.",
+      "verified": false,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Independent starts with the Square Omni route and device selection."
+      ],
+      "softwareTestDate": null
+    },
+    {
       "profileId": "shotforge-square-omni",
       "launchMonitor": "Square Omni",
       "simulator": "ShotForge",
@@ -3436,26 +3521,6 @@
       "verified": false
     },
     {
-      "profileId": "shotforge-simadmin-uneekor",
-      "launchMonitor": "Uneekor",
-      "simulator": "ShotForge",
-      "connectors": [
-        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
-      ],
-      "plugins": [],
-      "flowPrepared": true,
-      "softwareTested": true,
-      "softwareTestScope": [
-        "Configuration validation",
-        "ChatGPT context export and request import",
-        "Proposal preview and apply round-trip"
-      ],
-      "softwareTestDate": "2026-11-05",
-      "practicallyTested": false,
-      "practicalEvidence": "",
-      "verified": false
-    },
-    {
       "profileId": "shotforge-uneekor-plugin",
       "launchMonitor": "Uneekor",
       "simulator": "ShotForge",
@@ -3478,11 +3543,10 @@
       "verified": false
     },
     {
-      "profileId": "shotforge2-simadmin-uneekor",
+      "profileId": "shotforge-simadmin-uneekor",
       "launchMonitor": "Uneekor",
-      "simulator": "ShotForge 2.x",
+      "simulator": "ShotForge",
       "connectors": [
-        "ShotForge 2.x",
         "Uneekor standalone connector (SimAdmin; select your installed EXE)"
       ],
       "plugins": [],
@@ -3522,11 +3586,11 @@
       "verified": false
     },
     {
-      "profileId": "shotforgeClassic-simadmin-uneekor",
+      "profileId": "shotforge2-simadmin-uneekor",
       "launchMonitor": "Uneekor",
-      "simulator": "ShotForge Classic",
+      "simulator": "ShotForge 2.x",
       "connectors": [
-        "ShotForge Classic",
+        "ShotForge 2.x",
         "Uneekor standalone connector (SimAdmin; select your installed EXE)"
       ],
       "plugins": [],
@@ -3553,6 +3617,27 @@
       "plugins": [
         "OtherUneekorPlugin.dll"
       ],
+      "flowPrepared": true,
+      "softwareTested": true,
+      "softwareTestScope": [
+        "Configuration validation",
+        "ChatGPT context export and request import",
+        "Proposal preview and apply round-trip"
+      ],
+      "softwareTestDate": "2026-11-05",
+      "practicallyTested": false,
+      "practicalEvidence": "",
+      "verified": false
+    },
+    {
+      "profileId": "shotforgeClassic-simadmin-uneekor",
+      "launchMonitor": "Uneekor",
+      "simulator": "ShotForge Classic",
+      "connectors": [
+        "ShotForge Classic",
+        "Uneekor standalone connector (SimAdmin; select your installed EXE)"
+      ],
+      "plugins": [],
       "flowPrepared": true,
       "softwareTested": true,
       "softwareTestScope": [
@@ -3743,22 +3828,6 @@
       "softwareTestDate": "2026-11-05",
       "practicallyTested": false,
       "practicalEvidence": "",
-      "verified": false
-    },
-    {
-      "profileId": "awesomegolf-protee-labs",
-      "launchMonitor": "ProTee VX",
-      "simulator": "Awesome Golf",
-      "connectors": [
-        "ProTee Labs"
-      ],
-      "plugins": [],
-      "flowPrepared": true,
-      "softwareTested": false,
-      "softwareTestScope": [],
-      "softwareTestDate": "",
-      "practicallyTested": true,
-      "practicalEvidence": "12 November: connection, ball detection, one user-confirmed shot and tile close passed. 16 November: the Hub automatically connected Awesome Golf via ProTee Labs and completed GSPro to Awesome Golf to GSPro without shots. Both simulators closed on switching and GSPro detected the ball after returning.",
       "verified": false
     }
   ]

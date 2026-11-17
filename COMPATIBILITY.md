@@ -1,6 +1,6 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-17. 191 prepared routes, 180 software-tested, 17 with specifically scoped practical evidence and 0 fully Verified. [Release notes](docs/beta.18.25/RELEASE-NOTES.txt).
+Updated 2026-11-17. 194 prepared routes, 185 software-tested, 21 with specifically scoped practical evidence and 0 fully Verified. [Release notes](docs/beta.18.25/RELEASE-NOTES.txt).
 
 Software tests cover configuration and workflow checks. Practical evidence is specific to the hardware and operation tested. The beta.18.25 checks below cover ProTee VX on one setup. GolfCore and GC3 still need the respective field tests.
 
@@ -79,6 +79,8 @@ All nine routes below completed their workflow in the clean MSI setup. The test 
 | Foresight GC2 — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | No | No | infinite-tees-foresight-gc2-rela |
 | Foresight GC3 | Awesome Golf | Native / simulator only | Yes | No | No | awesomegolf-foresight-gc3 |
 | Foresight GC3 | GSPro | Native / simulator only | Yes | No | No | gspro-foresight-gc3 |
+| Foresight GC3 | Muni Golf Sim | rēlā, OtherForesightPlugin.dll | Yes | No | No | muni-foresight-gc3-rela |
+| Foresight GC3 | PurePlay | rēlā, OtherForesightPlugin.dll | Yes | No | No | pureplay-foresight-gc3-rela |
 | Foresight GC3S | Awesome Golf | Native / simulator only | Yes | No | No | awesomegolf-foresight-gc3s |
 | Foresight GCHawk | Awesome Golf | Native / simulator only | Yes | No | No | awesomegolf-foresight-gchawk |
 | Foresight GCHawk | GSPro | Native / simulator only | Yes | No | No | gspro-foresight-gchawk |
@@ -126,7 +128,7 @@ All nine routes below completed their workflow in the clean MSI setup. The test 
 | OpenLaunch NOVA | Drills Golf Sim | rēlā | Yes | No | No | drills-nova-rela |
 | OpenLaunch NOVA | GSPro | OpenLaunch NOVA Windows app | Yes | No | No | gspro-openlaunch-nova |
 | OpenLaunch NOVA | Muni Golf Sim | rēlā | Yes | No | No | muni-nova-rela |
-| ProTee VX | Awesome Golf | ProTee Labs native (automatic) | See release tests | Yes — connection, ball detection, one shot, switching and close | No | awesomegolf-protee-labs |
+| ProTee VX | Awesome Golf | ProTee Labs native (automatic) | Yes | Yes — connection, ball detection, one shot, switching and close | No | awesomegolf-protee-labs |
 | ProTee VX | Drills Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | drills-protee-rela |
 | ProTee VX | Drills Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | drills-protee-socket-relay |
 | ProTee VX | Drills Web | Drills Web Bridge, Drills Web browser (separate profile), rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | drills-web-protee-rela |
@@ -135,14 +137,14 @@ All nine routes below completed their workflow in the clean MSI setup. The test 
 | ProTee VX | Muni Golf Sim | Native / simulator only | Yes | No | No | muni-protee-openconnect |
 | ProTee VX | Muni Golf Sim | rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | muni-protee-rela |
 | ProTee VX | ProTee Labs | Native / simulator only | Yes | Yes | No | protee-default |
-| ProTee VX | PurePlay | ProTee Labs native | Not recorded | No | No | pureplay-protee-labs |
-| ProTee VX | ShotForge | VGPConnect, VX Connector | Yes | Yes | No | shotforge-default |
+| ProTee VX | PurePlay | ProTee Labs native | Yes | Yes — live workflow | No | pureplay-protee-labs |
 | ProTee VX | ShotForge | rēlā, ProTeeVXPlugin.dll | Yes | Yes | No | shotforge-protee-rela |
-| ProTee VX | ShotForge 2.x | VGPConnect, VX Connector, ShotForge 2.x | Yes | No | No | shotforge2-default |
-| ProTee VX | ShotForge 2.x | ProTee Labs, Official GSPro ProTee connector | Yes | No | No | shotforge2-protee-direct |
+| ProTee VX | ShotForge | VGPConnect, VX Connector | Yes | Yes | No | shotforge-default |
+| ProTee VX | ShotForge 2.x | ProTee Labs, Official GSPro ProTee connector | Yes | Yes — live workflow | No | shotforge2-protee-direct |
 | ProTee VX | ShotForge 2.x | ShotForge 2.x, rēlā, ProTeeVXPlugin.dll | Yes | No | No | shotforge2-protee-rela |
+| ProTee VX | ShotForge 2.x | VGPConnect, VX Connector, ShotForge 2.x | Yes | No | No | shotforge2-default |
+| ProTee VX | ShotForge Classic | ShotForge Classic, rēlā, ProTeeVXPlugin.dll | Yes | Yes — live workflow | No | shotforgeClassic-protee-rela |
 | ProTee VX | ShotForge Classic | VGPConnect, VX Connector, ShotForge Classic | Yes | No | No | shotforgeClassic-default |
-| ProTee VX | ShotForge Classic | ShotForge Classic, rēlā, ProTeeVXPlugin.dll | Yes | No | No | shotforgeClassic-protee-rela |
 | ProTee VX — assisted beta | Infinite Tees | VX Connector for Infinite Tees | Yes | No | No | infinite-tees-protee-vx |
 | ProTee VX — automatic beta | Infinite Tees | rēlā for Infinite Tees, ProTeeVXPlugin.dll | Yes | Yes | No | infinite-tees-protee-rela |
 | Rapsodo MLM2PRO | Awesome Golf | Native / simulator only | Yes | No | No | awesomegolf-rapsodo-mlm2pro |
@@ -163,8 +165,8 @@ All nine routes below completed their workflow in the clean MSI setup. The test 
 | SkyTrak — assisted beta | Infinite Tees | rēlā for Infinite Tees | Yes | No | No | infinite-tees-skytrak-rela |
 | SkyTrak + | GSPro | SkyTrak with OpenSkyPlus2 | Yes | No | No | gspro-skytrak-plus |
 | SkyTrak Max | Drills Golf Sim | rēlā | Yes | No | No | drills-skytrak-max-rela |
-| SkyTrak MAX | GSPro | SkyTrak with OpenSkyPlus2 | Yes | No | No | gspro-skytrak-max |
 | SkyTrak Max | Muni Golf Sim | rēlā | Yes | No | No | muni-skytrak-max-rela |
+| SkyTrak MAX | GSPro | SkyTrak with OpenSkyPlus2 | Yes | No | No | gspro-skytrak-max |
 | SkyTrak OG | Drills Golf Sim | rēlā | Yes | No | No | drills-skytrak-og-rela |
 | SkyTrak OG | GSPro | SkyTrak with OpenSkyPlus2 | Yes | No | No | gspro-skytrak-og |
 | SkyTrak OG | Muni Golf Sim | rēlā | Yes | No | No | muni-skytrak-og-rela |
@@ -191,6 +193,7 @@ All nine routes below completed their workflow in the clean MSI setup. The test 
 | Square Omni | GSPro | Native / simulator only | Yes | Yes | No | gspro-square-omni |
 | Square Omni | Muni Golf Sim | Muni Launch Monitor Connect | Yes | No | No | muni-square-omni-native |
 | Square Omni | Muni Golf Sim | rēlā | Yes | Yes | No | muni-square-omni-rela |
+| Square Omni | PurePlay | Built-in Bluetooth | Yes | Yes | No | pureplay-square-omni-native |
 | Square Omni | ShotForge | rēlā | Yes | Yes | No | shotforge-square-omni |
 | Square Omni | ShotForge 2.x | ShotForge 2.x, rēlā | Yes | No | No | shotforge2-square-omni |
 | Square Omni | ShotForge Classic | ShotForge Classic, rēlā | Yes | No | No | shotforgeClassic-square-omni |
@@ -199,12 +202,12 @@ All nine routes below completed their workflow in the clean MSI setup. The test 
 | Uneekor | GSPro | Uneekor standalone connector (SimAdmin; select your installed EXE), Uneekor Third-party Connector | Yes | No | No | gspro-simadmin-uneekor |
 | Uneekor | Infinite Tees | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | infinite-tees-simadmin-uneekor |
 | Uneekor | Muni Golf Sim | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | muni-simadmin-uneekor |
-| Uneekor | ShotForge | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | shotforge-simadmin-uneekor |
 | Uneekor | ShotForge | rēlā, OtherUneekorPlugin.dll | Yes | No | No | shotforge-uneekor-plugin |
-| Uneekor | ShotForge 2.x | ShotForge 2.x, Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | shotforge2-simadmin-uneekor |
+| Uneekor | ShotForge | Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | shotforge-simadmin-uneekor |
 | Uneekor | ShotForge 2.x | ShotForge 2.x, rēlā, OtherUneekorPlugin.dll | Yes | No | No | shotforge2-uneekor-plugin |
-| Uneekor | ShotForge Classic | ShotForge Classic, Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | shotforgeClassic-simadmin-uneekor |
+| Uneekor | ShotForge 2.x | ShotForge 2.x, Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | shotforge2-simadmin-uneekor |
 | Uneekor | ShotForge Classic | ShotForge Classic, rēlā, OtherUneekorPlugin.dll | Yes | No | No | shotforgeClassic-uneekor-plugin |
+| Uneekor | ShotForge Classic | ShotForge Classic, Uneekor standalone connector (SimAdmin; select your installed EXE) | Yes | No | No | shotforgeClassic-simadmin-uneekor |
 | Uneekor EYE MINI | Awesome Golf | Native / simulator only | Yes | No | No | awesomegolf-uneekor-eye-mini |
 | Uneekor EYE MINI | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | No | No | gspro-uneekor-eye-mini |
 | Uneekor EYE MINI LITE | GSPro | Uneekor Launcher, Uneekor Third-party Connector | Yes | No | No | gspro-uneekor-eye-mini-lite |
