@@ -1,18 +1,20 @@
 {
   "product": "GolfSimHub",
-  "version": "0.9.0-beta.18.24",
+  "version": "0.9.0-beta.18.25",
   "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/42795512d73fa490564c23c8c84fbc904550ee2f/downloads/FluJado-MSI-Transition-0.9.0-beta.18.24.exe",
   "sha256": "49c479fe1085f35b86980890e7c47ac29fc848cf7edae7c812b0d292e3e8cc63",
   "signingStatus": "unsigned-beta",
   "installerType": "msi",
   "legacyInstallerPurpose": "one-time-msi-transition",
   "msi": {
-    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/42795512d73fa490564c23c8c84fbc904550ee2f/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.24.msi",
-    "sha256": "6e5acac341eb416ed11c626423c04d86a9e9a6a813cb9f966bcc8ab7d7fdce9f",
-    "productVersion": "0.9.1824"
+    "installerUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/04cead8e2fe0b54c3eff28d27678d4052e4af971/downloads/FluJado-Golf-Sim-Hub-0.9.0-beta.18.25.msi",
+    "sha256": "71ef9c9910d2694e25fed8d81cc80801b655279c65766bdc74510a83ad757657",
+    "productVersion": "0.9.2500"
   },
-  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/42795512d73fa490564c23c8c84fbc904550ee2f/docs/beta.18.24/RELEASE-NOTES.txt",
+  "releaseNotesUrl": "https://raw.githubusercontent.com/simply3dprints/flujado-releases/04cead8e2fe0b54c3eff28d27678d4052e4af971/docs/beta.18.25/RELEASE-NOTES.txt",
   "highlights": [
-    "Restores Windows Installer detection for Hub updates and recovery."
+    "Tablet Remote Controls with local QR pairing. Remote is off by default.",
+    "Workflow progress and simulator-specific Play controls.",
+    "Improved simulator switching and VX startup recovery."
   ]
 }
