@@ -1,8 +1,25 @@
 # FluJado compatibility and test status
 
-Updated 2026-11-13. 191 prepared routes, 180 software-tested, 17 with specifically scoped practical evidence and 0 fully Verified. [Release notes](docs/beta.18.21/RELEASE-NOTES.txt).
+Updated 2026-11-17. 191 prepared routes, 180 software-tested, 17 with specifically scoped practical evidence and 0 fully Verified. [Release notes](docs/beta.18.25/RELEASE-NOTES.txt).
 
-Software tests cover configuration and workflow checks. Practical evidence is specific to the hardware and operation tested. Both new ProTee Labs routes still need complete live validation.
+Software tests cover configuration and workflow checks. Practical evidence is specific to the hardware and operation tested. The beta.18.25 checks below cover ProTee VX on one setup. GolfCore and GC3 still need the respective field tests.
+
+### beta.18.25 · ProTee VX live acceptance
+
+All nine routes below completed their workflow in the clean MSI setup. The test switched simulators and confirmed safe tablet inputs where the route has Play controls. No shot was played in this release acceptance run. ShotForge 2.x and Awesome Golf passed after the VX was restarted. The operator separately confirmed a real shot in the Drills Web range.
+
+| Simulator or app | Profile checked |
+|---|---|
+| GSPro | gspro-default |
+| ShotForge Classic | shotforgeClassic-protee-rela |
+| ShotForge 2.x | shotforge2-protee-direct |
+| Awesome Golf | awesomegolf-protee-labs |
+| ProTee Labs | protee-default |
+| Drills | drills-protee-rela |
+| Muni Golf | muni-protee-rela |
+| Drills Web | drills-web-protee-rela |
+| PurePlay | pureplay-protee-labs |
+
 
 | Launch monitor | Simulator | Connector / plugin | Software tested | Practical test | Verified | Profile |
 |---|---|---|---|---|---|---|

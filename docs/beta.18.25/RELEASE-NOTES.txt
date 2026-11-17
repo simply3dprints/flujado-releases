@@ -1,0 +1,17 @@
+FluJado Golf Sim Hub 0.9.0-beta.18.25
+
+Remote Controls
+- Pair a tablet browser with a QR code and approval on the simulator PC. Remote starts off by default.
+- Use Menu to switch between Workflows, simulator-specific Play controls, Trackpad and Devices. Workflows shows progress and supported prompts. Play opens when the supported simulator finishes starting.
+- Directional input supports tap and hold where available. ShotForge Classic has no Play shortcuts. The dashboard retries a rejected Awesome Golf directional tap once if the same Play session is still ready.
+
+Workflows
+- Improves switching and startup recovery for several VX routes, including ShotForge, Drills Web, Muni and PurePlay.
+- Shows the PurePlay launcher update choice when detected. The update paths were tested in isolation. A real vendor update with the tablet is still a field test.
+- Drills Web can recover a lost bridge connection during startup. The startup test ends when the flow completes.
+
+Release tests
+- Clean MSI and upgrade from beta.18.24 passed. Tiles, settings and a valid test licence were kept and the Hub reopened automatically.
+- Nine real ProTee VX workflows completed with no shots. ShotForge 2.x and Awesome Golf passed after the VX was restarted. Chrome tablet emulation confirmed safe input delivery.
+
+Please report the simulator, launch monitor, previous tile, whether you used the tablet or PC, and a Diagnostics export if a switch stalls. In particular, try QR pairing, switching workflows, directional tap/hold/release and the PurePlay update choice if an update appears.
